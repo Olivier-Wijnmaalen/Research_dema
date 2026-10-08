@@ -1,0 +1,296 @@
+{
+  "checks": [
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-01",
+      "check_id": "HOLD-01-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 3.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-01",
+      "check_id": "HOLD-01-02",
+      "rule": "R6",
+      "critical": true,
+      "description": "Does not generalize E0003 beyond one district.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-01",
+      "check_id": "HOLD-01-03",
+      "rule": "R5",
+      "critical": true,
+      "description": "Retains E0004 and its retention limitation.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-01",
+      "check_id": "HOLD-01-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Names institutionalized national-to-local coverage as missing.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-02",
+      "check_id": "HOLD-02-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 2.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-02",
+      "check_id": "HOLD-02-02",
+      "rule": "R2",
+      "critical": true,
+      "description": "Distinguishes recognition and future drafting from adoption.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-02",
+      "check_id": "HOLD-02-03",
+      "rule": "R4",
+      "critical": true,
+      "description": "Does not count E0002 and E0003 as independent strategies or corroboration.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-02",
+      "check_id": "HOLD-02-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Names a formal comprehensive strategy and institutional arrangements as missing.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-03",
+      "check_id": "HOLD-03-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 2.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-03",
+      "check_id": "HOLD-03-02",
+      "rule": "R2",
+      "critical": true,
+      "description": "Distinguishes documented procedure from actual practice.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-03",
+      "check_id": "HOLD-03-03",
+      "rule": "R5",
+      "critical": true,
+      "description": "Explains why E0002 and E0003 outweigh E0001 for implementation.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-03",
+      "check_id": "HOLD-03-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Names routine implementation as the Phase 3 gap.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-04",
+      "check_id": "HOLD-04-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 4.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-04",
+      "check_id": "HOLD-04-02",
+      "rule": "R7",
+      "critical": true,
+      "description": "Combines E0001, E0002, and E0003 with their distinct contributions.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-04",
+      "check_id": "HOLD-04-03",
+      "rule": "R5",
+      "critical": true,
+      "description": "Retains E0004.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-04",
+      "check_id": "HOLD-04-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Names participation of specified diverse groups as the Phase 5 gap.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-05",
+      "check_id": "HOLD-05-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 2.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-05",
+      "check_id": "HOLD-05-02",
+      "rule": "R6",
+      "critical": true,
+      "description": "Uses E0001 by substance despite metadata and excludes E0002 from score support.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-05",
+      "check_id": "HOLD-05-03",
+      "rule": "R3",
+      "critical": true,
+      "description": "Uses documentary-gap rather than factual-absence language for E0003.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-05",
+      "check_id": "HOLD-05-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Names multi-actor broader agreed use as the Phase 3 gap.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-06",
+      "check_id": "HOLD-06-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 3.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-06",
+      "check_id": "HOLD-06-02",
+      "rule": "R6",
+      "critical": true,
+      "description": "Does not generalize E0003 beyond the weather service.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P4_test",
+      "case_id": "HOLD-06",
+      "check_id": "HOLD-06-03",
+      "rule": "R8",
+      "critical": true,
+      "description": "Names interoperability and monitoring as higher-phase gaps.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "HOLD-01",
+      "passed": true,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "phase_returned": 3,
+      "acceptable_phase": [
+        3
+      ]
+    },
+    {
+      "case_id": "HOLD-02",
+      "passed": true,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "phase_returned": 2,
+      "acceptable_phase": [
+        2
+      ]
+    },
+    {
+      "case_id": "HOLD-03",
+      "passed": true,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "phase_returned": 2,
+      "acceptable_phase": [
+        2
+      ]
+    },
+    {
+      "case_id": "HOLD-04",
+      "passed": true,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "phase_returned": 4,
+      "acceptable_phase": [
+        4
+      ]
+    },
+    {
+      "case_id": "HOLD-05",
+      "passed": true,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "phase_returned": 2,
+      "acceptable_phase": [
+        2
+      ]
+    },
+    {
+      "case_id": "HOLD-06",
+      "passed": true,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "phase_returned": 3,
+      "acceptable_phase": [
+        3
+      ]
+    }
+  ]
+}

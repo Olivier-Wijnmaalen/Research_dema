@@ -1,0 +1,45 @@
+{
+  "country": "Bellmare",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "This assessment reviews Bellmare’s disaster data ecosystem for Indicator B.1.3d (Data quality: timeliness). Evidence demonstrates the existence of a defined weekly update schedule for provincial incident records, as documented in the system manual (E0003) and self-reported by the Bellmare Operations Centre (E0001). However, an independent audit (E0002) reveals that actual implementation is inconsistent: most provinces routinely miss the weekly deadline, with a median upload delay of 18 days. This contradiction means that, while timeframes are defined, routine and timely updates are not reliably achieved. The evidence supports Phase 2, as data are collected following events and schedules exist but are not consistently met. There is no proof of routine updates according to established schedules, nor evidence that evolving indicators are captured within a reasonable timeframe. The principal gap for Phase 3 is demonstrated, ecosystem-wide compliance with defined update schedules and timely capture of evolving indicators. The assessment is limited by the absence of timestamped records or evidence of systematic, timely updates.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.1.3d",
+      "indicator_name": "Data quality: timeliness",
+      "phase_score": 2,
+      "matched_phase_requirement": "Data are usually collected following events, but reporting and updates are often delayed and inconsistent. Update schedules are largely driven by specific events, projects, or reporting requirements rather than defined operational needs. Dynamic impacts like displacement or infrastructure recovery are poorly tracked.",
+      "score_reasoning": "The evidence for Bellmare’s disaster data timeliness shows that a weekly update schedule for provincial incident records is formally defined in the system manual (E0003) and is self-reported as being met within 24 hours by the Bellmare Operations Centre (E0001). However, an independent audit (E0002) directly contradicts this claim, finding that in practice, the median upload delay is 18 days and 7 out of 10 provinces missed every weekly deadline during the assessed quarter. This audit is more authoritative and recent than the self-report, and it demonstrates that routine, timely updates are not achieved. The existence of a defined schedule and some reporting after events supports Phase 2, which requires that data are collected following events but reporting and updates are delayed and inconsistent. The evidence exceeds Phase 1, as there are defined schedules and some reporting, but does not reach Phase 3, which requires routine updates according to established schedules and timely capture of evolving indicators. There is no evidence of systematic, timely updates or of evolving indicators (such as displacement or rebuilding) being captured within a reasonable timeframe. The principal strength is the existence of a formal schedule; the main weakness is the lack of demonstrated compliance. The assessment is limited by the absence of timestamped records or evidence of systematic, timely updates.",
+      "evidence_supporting_score": ["E0002", "E0003"],
+      "contrary_or_limiting_evidence": ["E0001"],
+      "contrary_or_limiting_reasoning": "E0001 is a self-reported claim of timely uploads, but E0002 (independent audit) is more authoritative and recent, directly demonstrating routine non-compliance with the schedule. E0003 establishes the existence of a defined schedule but does not prove implementation.",
+      "next_phase_gap": "Documented evidence of routine, timely updates according to established schedules for all provinces, including timestamped records and timely capture of evolving indicators (e.g., displacement, rebuilding, economic recovery).",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Data are usually collected following events.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002", "E0003"],
+          "explanation": "E0003 documents a defined weekly upload schedule for incident data, and E0002 confirms that uploads occur, albeit with delays."
+        },
+        {
+          "requirement": "Reporting and updates are often delayed and inconsistent.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002"],
+          "explanation": "E0002 shows a median upload delay of 18 days and that 7 of 10 provinces missed every weekly deadline, demonstrating inconsistency and delay."
+        },
+        {
+          "requirement": "Update schedules are largely driven by specific events, projects, or reporting requirements rather than defined operational needs.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002", "E0003"],
+          "explanation": "E0003 defines a schedule, but E0002 shows that actual updates are inconsistent and not reliably aligned with operational needs."
+        },
+        {
+          "requirement": "Dynamic impacts like displacement or infrastructure recovery are poorly tracked.",
+          "status": "SUPPORTED",
+          "evidence_ids": [],
+          "explanation": "No evidence was identified in the supplied bank demonstrating systematic tracking of dynamic impacts such as displacement or infrastructure recovery."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

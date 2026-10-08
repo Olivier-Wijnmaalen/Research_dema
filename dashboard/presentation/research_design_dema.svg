@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1273" viewBox="0 0 1800 1273" role="img" aria-labelledby="title desc">
+  <title id="title">Overall research design of the LLM-assisted DEMA documentary pre-assessment</title>
+  <desc id="desc">Six-phase MSc GIMA research design from DEMA framework and fixed documentary corpus to evaluated research outputs.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#596168"/>
+    </marker>
+    <style><![CDATA[
+      * { box-sizing: border-box; }
+      .flow { fill: none; stroke: #596168; stroke-linecap: round; stroke-linejoin: round; }
+      .flow.dashed { stroke-dasharray: 7 6; }
+      .boxtext, .label, .phase-title { font-family: Arial, Helvetica, sans-serif; color: #343a40; }
+      .boxtext { width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; line-height: 1.18; }
+      .boxtitle { font-size: 17.5px; font-weight: 700; margin-bottom: 3px; }
+      .boxbody { font-size: 15px; font-weight: 400; }
+      .compact .boxtitle { font-size: 15.8px; margin-bottom: 1px; }
+      .compact .boxbody { font-size: 13.5px; }
+      .dense .boxtitle { font-size: 16px; margin-bottom: 2px; }
+      .dense .boxbody { font-size: 13.7px; line-height: 1.14; }
+      .strip .boxtext { flex-direction: row; align-items: center; gap: 13px; }
+      .strip .boxtitle { flex: 0 0 auto; margin: 0; }
+      .strip .boxbody { font-size: 14px; }
+      .strip.dense .boxbody { font-size: 12.4px; }
+      .chain .boxtext { align-items: center; text-align: center; }
+      .chain .boxtitle { margin: 0; font-size: 16px; }
+      .phase-title { font-size: 16px; line-height: 1.22; font-weight: 700; }
+      .phase-title span { display: block; font-size: 13px; letter-spacing: 1px; color: #6b7278; margin-bottom: 7px; }
+      .rq { font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 20px; color: #636a70; text-align: right; font-style: italic; }
+      .main-title { font-family: Arial, Helvetica, sans-serif; font-size: 27px; line-height: 40px; font-weight: 700; color: #252a2e; }
+      .section-label { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: .7px; color: #6b7278; }
+      .legend { font-family: Arial, Helvetica, sans-serif; font-size: 12.5px; line-height: 24px; color: #5c646a; text-align: right; white-space: nowrap; }
+      .key { display: inline-block; width: 12px; height: 12px; margin: 0 4px 0 10px; border: 1px solid #9aa0a5; vertical-align: -1px; }
+      .key.yellow { background: #fff4c7; } .key.grey { background: #eceff1; } .key.blue { background: #dceef8; }
+      .key.red { background: #f8dddd; } .key.green { background: #dcefdc; }
+      .feedback { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #6d7378; text-align: center; font-style: italic; }
+      .note { font-style: italic; color: #5c646a; }
+      .centre .boxtext { text-align: center; align-items: center; }
+      .external .boxtitle, .evaluation.compact .boxtitle { font-size: 14.8px; }
+      .external .boxbody, .evaluation.compact .boxbody { font-size: 12.8px; }
+      .final-title { font-family: Arial, Helvetica, sans-serif; font-size: 21px; line-height: 1.18; font-weight: 700; color: #2e5131; }
+      .final-list { font-family: Arial, Helvetica, sans-serif; color: #2d4930; }
+      .final-grid { height: 100%; display: grid; grid-template-columns: 1fr 1fr; column-gap: 34px; row-gap: 3px; align-content: center; font-size: 15.5px; line-height: 1.15; }
+      .final-grid span::before { content: '•'; font-weight: 700; margin-right: 8px; }
+    ]]></style>
+  </defs>
+  <rect width="1800" height="1273" fill="#ffffff"/>
+  <rect x="10" y="182" width="1780" height="140" rx="10" fill="#f3f4f5" stroke="#d5d9dc" stroke-width="1.4"/>
+<rect x="18" y="190" width="166" height="124" rx="7" fill="#ffffff" stroke="#d5d9dc" stroke-width="1.4"/>
+<rect x="10" y="330" width="1780" height="170" rx="10" fill="#f3f4f5" stroke="#d5d9dc" stroke-width="1.4"/>
+<rect x="18" y="338" width="166" height="154" rx="7" fill="#ffffff" stroke="#d5d9dc" stroke-width="1.4"/>
+<rect x="10" y="508" width="1780" height="125" rx="10" fill="#f3f4f5" stroke="#d5d9dc" stroke-width="1.4"/>
+<rect x="18" y="516" width="166" height="109" rx="7" fill="#ffffff" stroke="#d5d9dc" stroke-width="1.4"/>
+<rect x="10" y="641" width="1780" height="168" rx="10" fill="#f3f4f5" stroke="#d5d9dc" stroke-width="1.4"/>
+<rect x="18" y="649" width="166" height="152" rx="7" fill="#ffffff" stroke="#d5d9dc" stroke-width="1.4"/>
+<rect x="10" y="817" width="1780" height="202" rx="10" fill="#f3f4f5" stroke="#d5d9dc" stroke-width="1.4"/>
+<rect x="18" y="825" width="166" height="186" rx="7" fill="#ffffff" stroke="#d5d9dc" stroke-width="1.4"/>
+<rect x="10" y="1027" width="1780" height="135" rx="10" fill="#f3f4f5" stroke="#d5d9dc" stroke-width="1.4"/>
+<rect x="18" y="1035" width="166" height="119" rx="7" fill="#ffffff" stroke="#d5d9dc" stroke-width="1.4"/>
+<rect x="10" y="1170" width="1780" height="90" rx="10" fill="#dcefdc" stroke="#6d9d70" stroke-width="2"/>
+  <path d="M 522 170 L 522 182" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1282 170 L 1282 182" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 557 261 L 580 261" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 965 261 L 988 261" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1338 261 L 1361 261" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 385 394 L 408 394" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 593 394 L 616 394" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 821 394 L 844 394" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1104 394 L 1127 394" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1272 394 L 1295 394" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 974 423 L 974 486 L 718 486 L 718 426" class="flow dashed" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1420 423 L 1420 436" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 497 580 L 527 580" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1231 580 L 1261 580" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 465 702 L 482 702 L 482 702 L 500 702" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 465 767 L 482 767 L 482 702 L 500 702" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 755 702 L 785 702" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 930 702 L 960 702" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1210 702 L 1240 702" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1085 728 L 1085 741" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1210 767 L 1240 767" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 465 922 L 482 922 L 482 922 L 500 922" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 465 922 L 482 922 L 482 900 L 950 900" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1145 956 L 1145 948" class="flow dashed" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1357 945 L 1357 980 L 1364 980" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 425 1083 L 445 1083" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 665 1083 L 685 1083" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 905 1083 L 925 1083" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1145 1083 L 1165 1083" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1385 1083 L 1405 1083" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 1135 1133 L 1165 1133" class="flow" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <foreignObject x="18" y="12" width="1150" height="44"><div xmlns="http://www.w3.org/1999/xhtml" class="label main-title">Overall research design of the LLM-assisted DEMA documentary pre-assessment</div></foreignObject>
+<foreignObject x="1210" y="18" width="565" height="30"><div xmlns="http://www.w3.org/1999/xhtml" class="label legend"><span class="key yellow"></span>Input/framework <span class="key grey"></span>Process <span class="key blue"></span>Intermediate output <span class="key red"></span>Evaluation <span class="key green"></span>Final output</div></foreignObject>
+<foreignObject x="18" y="73" width="166" height="24"><div xmlns="http://www.w3.org/1999/xhtml" class="label section-label">RESEARCH INPUTS</div></foreignObject>
+
+    <g class="node input">
+      <rect x="205" y="66" width="635" height="104" rx="8" fill="#fff4c7" stroke="#c6a947" stroke-width="1.7"/>
+      <foreignObject x="213" y="73" width="619" height="90">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext input">
+          <div class="boxtitle">DEMA framework</div>
+          <div class="boxbody">Dimensions and indicators · descriptive framework<br/>Five maturity phases · indicator-specific maturity criteria</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node input">
+      <rect x="965" y="66" width="635" height="104" rx="8" fill="#fff4c7" stroke="#c6a947" stroke-width="1.7"/>
+      <foreignObject x="973" y="73" width="619" height="90">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext input">
+          <div class="boxtitle">Fixed Togo documentary corpus</div>
+          <div class="boxbody">Compiled by 510 experts<br/>Heterogeneous documentary sources</div>
+        </div>
+      </foreignObject>
+    </g>
+<foreignObject x="31" y="199" width="140" height="106"><div xmlns="http://www.w3.org/1999/xhtml" class="phase-title"><span>PHASE 1</span>DEMA FAMILIARISATION AND WORKFLOW SPECIFICATION</div></foreignObject>
+<foreignObject x="1090" y="191" width="674" height="24"><div xmlns="http://www.w3.org/1999/xhtml" class="rq">RQ1 · Translate the existing DEMA framework into an LLM-assisted documentary workflow</div></foreignObject>
+
+    <g class="node ">
+      <rect x="205" y="217" width="352" height="88" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="213" y="224" width="336" height="74">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext ">
+          <div class="boxtitle">1  Understand DEMA</div>
+          <div class="boxbody">Concepts and indicators · maturity progression<br/>Documentary versus wider expert assessment</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node ">
+      <rect x="580" y="217" width="385" height="88" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="588" y="224" width="369" height="74">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext ">
+          <div class="boxtitle">2  Determine information requirements</div>
+          <div class="boxbody">Stage 1 evidence · Stage 2 reasoning<br/>Provenance, traceability and expert review</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node ">
+      <rect x="988" y="217" width="350" height="88" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="996" y="224" width="334" height="74">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext ">
+          <div class="boxtitle">3  Design workflow outputs</div>
+          <div class="boxbody">Evidence and assessment structures<br/>Linked justification · final visualisation</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node output dense">
+      <rect x="1361" y="217" width="403" height="88" rx="8" fill="#dceef8" stroke="#6f9eb8" stroke-width="1.7"/>
+      <foreignObject x="1369" y="224" width="387" height="74">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext output dense">
+          <div class="boxtitle">Specified two-stage documentary assessment workflow</div>
+          <div class="boxbody">Existing DEMA indicators and maturity criteria remain unchanged</div>
+        </div>
+      </foreignObject>
+    </g>
+<foreignObject x="31" y="347" width="140" height="136"><div xmlns="http://www.w3.org/1999/xhtml" class="phase-title"><span>PHASE 2</span>DOCUMENT PREPARATION AND STAGE 1 DEVELOPMENT</div></foreignObject>
+
+    <g class="node compact">
+      <rect x="205" y="365" width="180" height="58" rx="8" fill="#fff4c7" stroke="#c6a947" stroke-width="1.7"/>
+      <foreignObject x="213" y="372" width="164" height="44">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact">
+          <div class="boxtitle">Fixed corpus</div>
+          <div class="boxbody">No source expansion</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node compact">
+      <rect x="408" y="365" width="185" height="58" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="416" y="372" width="169" height="44">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact">
+          <div class="boxtitle">Document preparation</div>
+          <div class="boxbody">Convert · clean · structure</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node compact dev">
+      <rect x="616" y="365" width="205" height="58" rx="8" fill="#dceef8" stroke="#6f9eb8" stroke-width="1.7"/>
+      <foreignObject x="624" y="372" width="189" height="44">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact dev">
+          <div class="boxtitle">Development subset</div>
+          <div class="boxbody">Calibration material only</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node compact dev">
+      <rect x="844" y="365" width="260" height="58" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="852" y="372" width="244" height="44">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact dev">
+          <div class="boxtitle">Stage 1 prompt calibration</div>
+          <div class="boxbody">Develop and test iteratively</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node compact freeze">
+      <rect x="1127" y="365" width="145" height="58" rx="8" fill="#f8dddd" stroke="#bd7474" stroke-width="1.7"/>
+      <foreignObject x="1135" y="372" width="129" height="44">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact freeze">
+          <div class="boxtitle">Prompt frozen</div>
+          <div class="boxbody">No further tuning</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node compact finalapp">
+      <rect x="1295" y="365" width="250" height="58" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="1303" y="372" width="234" height="44">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact finalapp">
+          <div class="boxtitle">Final Stage 1 application</div>
+          <div class="boxbody">Applied to fixed corpus</div>
+        </div>
+      </foreignObject>
+    </g>
+<foreignObject x="749" y="466" width="210" height="18"><div xmlns="http://www.w3.org/1999/xhtml" class="label feedback">development feedback only</div></foreignObject>
+
+    <g class="node strip">
+      <rect x="408" y="436" width="696" height="49" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="416" y="443" width="680" height="35">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext strip">
+          <div class="boxtitle">Stage 1 purpose</div>
+          <div class="boxbody"><b>Identify</b> → <b>quote</b> → <b>classify</b> → bounded interpretation</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node strip output">
+      <rect x="1127" y="436" width="637" height="49" rx="8" fill="#dceef8" stroke="#6f9eb8" stroke-width="1.7"/>
+      <foreignObject x="1135" y="443" width="621" height="35">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext strip output">
+          <div class="boxtitle">Structured DEMA evidence bank</div>
+          <div class="boxbody">Source · page/location · quotation · indicator · interpretation · scope</div>
+        </div>
+      </foreignObject>
+    </g>
+<foreignObject x="31" y="525" width="140" height="91"><div xmlns="http://www.w3.org/1999/xhtml" class="phase-title"><span>PHASE 3</span>EVIDENCE VALIDATION</div></foreignObject>
+<foreignObject x="1090" y="517" width="674" height="24"><div xmlns="http://www.w3.org/1999/xhtml" class="rq">RQ2 · Traceability and substantive attribution of documentary evidence</div></foreignObject>
+
+    <g class="node output">
+      <rect x="205" y="545" width="292" height="70" rx="8" fill="#dceef8" stroke="#6f9eb8" stroke-width="1.7"/>
+      <foreignObject x="213" y="552" width="276" height="56">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext output">
+          <div class="boxtitle">Structured evidence bank</div>
+          <div class="boxbody">Stage 1 output</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node evaluation dense">
+      <rect x="527" y="545" width="704" height="70" rx="8" fill="#f8dddd" stroke="#bd7474" stroke-width="1.7"/>
+      <foreignObject x="535" y="552" width="688" height="56">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext evaluation dense">
+          <div class="boxtitle">Evaluate evidence records</div>
+          <div class="boxbody">Traceability · substantive support · DEMA classification · institutional/geographic/implementation scope · overgeneralisation</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node output">
+      <rect x="1261" y="545" width="503" height="70" rx="8" fill="#dceef8" stroke="#6f9eb8" stroke-width="1.7"/>
+      <foreignObject x="1269" y="552" width="487" height="56">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext output">
+          <div class="boxtitle">Validated evidence bank</div>
+          <div class="boxbody">+ identified evidence-level errors</div>
+        </div>
+      </foreignObject>
+    </g>
+<foreignObject x="31" y="658" width="140" height="134"><div xmlns="http://www.w3.org/1999/xhtml" class="phase-title"><span>PHASE 4</span>STAGE 2 DEVELOPMENT AND APPLICATION</div></foreignObject>
+
+    <g class="node compact output">
+      <rect x="205" y="676" width="260" height="52" rx="8" fill="#dceef8" stroke="#6f9eb8" stroke-width="1.7"/>
+      <foreignObject x="213" y="683" width="244" height="38">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact output">
+          <div class="boxtitle">Validated evidence bank</div>
+          <div class="boxbody">Evidence input</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node compact input">
+      <rect x="205" y="741" width="260" height="52" rx="8" fill="#fff4c7" stroke="#c6a947" stroke-width="1.7"/>
+      <foreignObject x="213" y="748" width="244" height="38">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact input">
+          <div class="boxtitle">DEMA maturity criteria</div>
+          <div class="boxbody">Indicator-specific</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node compact dev">
+      <rect x="500" y="676" width="255" height="52" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="508" y="683" width="239" height="38">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact dev">
+          <div class="boxtitle">Stage 2 calibration</div>
+          <div class="boxbody">Develop and test prompt</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node compact freeze">
+      <rect x="785" y="676" width="145" height="52" rx="8" fill="#f8dddd" stroke="#bd7474" stroke-width="1.7"/>
+      <foreignObject x="793" y="683" width="129" height="38">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact freeze">
+          <div class="boxtitle">Prompt frozen</div>
+          <div class="boxbody">No further tuning</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node compact finalapp">
+      <rect x="960" y="676" width="250" height="52" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="968" y="683" width="234" height="38">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact finalapp">
+          <div class="boxtitle">Final application</div>
+          <div class="boxbody">Across 31 DEMA indicators</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node strip">
+      <rect x="500" y="741" width="710" height="52" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="508" y="748" width="694" height="38">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext strip">
+          <div class="boxtitle">Stage 2 reasoning</div>
+          <div class="boxbody">Aggregate evidence → compare criteria → weigh supporting and limiting evidence → identify unmet criteria / next-phase gaps</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node output">
+      <rect x="1240" y="676" width="524" height="117" rx="8" fill="#dceef8" stroke="#6f9eb8" stroke-width="1.7"/>
+      <foreignObject x="1248" y="683" width="508" height="103">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext output">
+          <div class="boxtitle">31 provisional indicator assessments</div>
+          <div class="boxbody">Maturity phase · supporting evidence · limiting/contrary evidence<br/>Evidence-linked justification · next-phase gap</div>
+        </div>
+      </foreignObject>
+    </g>
+<foreignObject x="31" y="834" width="140" height="168"><div xmlns="http://www.w3.org/1999/xhtml" class="phase-title"><span>PHASE 5</span>OUTPUT PRESENTATION AND ASSESSMENT EVALUATION</div></foreignObject>
+<foreignObject x="1090" y="826" width="674" height="24"><div xmlns="http://www.w3.org/1999/xhtml" class="rq">RQ3 · Quality, defensibility and practical usefulness of the provisional DEMA assessment</div></foreignObject>
+
+    <g class="node output centre">
+      <rect x="205" y="855" width="260" height="135" rx="8" fill="#dceef8" stroke="#6f9eb8" stroke-width="1.7"/>
+      <foreignObject x="213" y="862" width="244" height="121">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext output centre">
+          <div class="boxtitle">31 provisional assessments</div>
+          <div class="boxbody">Shared input for presentation and evaluation</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node output">
+      <rect x="500" y="855" width="410" height="135" rx="8" fill="#dceef8" stroke="#6f9eb8" stroke-width="1.7"/>
+      <foreignObject x="508" y="862" width="394" height="121">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext output">
+          <div class="boxtitle">PRESENTATION — DEMA ecosystem visualiser</div>
+          <div class="boxbody">31 provisional assessments<br/>Linked documentary evidence<br/>Maturity reasoning and provenance<br/><span class="note">Transparency output; not an analytical stage</span></div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node evaluation dense">
+      <rect x="950" y="855" width="814" height="90" rx="8" fill="#f8dddd" stroke="#bd7474" stroke-width="1.7"/>
+      <foreignObject x="958" y="862" width="798" height="76">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext evaluation dense">
+          <div class="boxtitle">EVALUATION</div>
+          <div class="boxbody"><b>Descriptive comparison:</b> phase correspondence; cautious interpretation of differences<br/><b>Qualitative DEMA expert review:</b> validity · concepts · formal arrangements versus implementation · scope · defensibility · usefulness · missing context</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node compact external">
+      <rect x="950" y="956" width="390" height="48" rx="8" fill="#fff4c7" stroke="#c6a947" stroke-width="1.7"/>
+      <foreignObject x="958" y="963" width="374" height="34">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact external">
+          <div class="boxtitle">Existing expert-led Togo DEMA assessment</div>
+          <div class="boxbody">Evaluation-only reference; not used as model input</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node compact evaluation">
+      <rect x="1364" y="956" width="400" height="48" rx="8" fill="#f8dddd" stroke="#bd7474" stroke-width="1.7"/>
+      <foreignObject x="1372" y="963" width="384" height="34">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext compact evaluation">
+          <div class="boxtitle">Assessment of maturity-output quality</div>
+          <div class="boxbody">Defensibility and practical usefulness</div>
+        </div>
+      </foreignObject>
+    </g>
+<foreignObject x="31" y="1044" width="140" height="101"><div xmlns="http://www.w3.org/1999/xhtml" class="phase-title"><span>PHASE 6</span>CROSS-STAGE UNCERTAINTY AND LIMITATIONS ANALYSIS</div></foreignObject>
+<foreignObject x="1090" y="1036" width="674" height="24"><div xmlns="http://www.w3.org/1999/xhtml" class="rq">RQ4 · Sources of uncertainty in the LLM-assisted documentary assessment</div></foreignObject>
+
+    <g class="node chain compact">
+      <rect x="205" y="1062" width="220" height="42" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="213" y="1069" width="204" height="28">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext chain compact">
+          <div class="boxtitle">Documentary corpus</div>
+          
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node chain compact">
+      <rect x="445" y="1062" width="220" height="42" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="453" y="1069" width="204" height="28">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext chain compact">
+          <div class="boxtitle">Evidence retrieval</div>
+          
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node chain compact">
+      <rect x="685" y="1062" width="220" height="42" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="693" y="1069" width="204" height="28">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext chain compact">
+          <div class="boxtitle">Evidence interpretation</div>
+          
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node chain compact">
+      <rect x="925" y="1062" width="220" height="42" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="933" y="1069" width="204" height="28">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext chain compact">
+          <div class="boxtitle">DEMA classification</div>
+          
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node chain compact">
+      <rect x="1165" y="1062" width="220" height="42" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="1173" y="1069" width="204" height="28">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext chain compact">
+          <div class="boxtitle">Maturity reasoning</div>
+          
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node chain compact">
+      <rect x="1405" y="1062" width="359" height="42" rx="8" fill="#eceff1" stroke="#aab1b7" stroke-width="1.7"/>
+      <foreignObject x="1413" y="1069" width="343" height="28">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext chain compact">
+          <div class="boxtitle">Provisional assessment</div>
+          
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node strip evaluation dense">
+      <rect x="205" y="1110" width="930" height="46" rx="8" fill="#f8dddd" stroke="#bd7474" stroke-width="1.7"/>
+      <foreignObject x="213" y="1117" width="914" height="32">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext strip evaluation dense">
+          <div class="boxtitle">Analyse uncertainty</div>
+          <div class="boxbody">Corpus limits · documentary non-observation · extraction · interpretation/scope · framework ambiguity · maturity reasoning · unavailable context</div>
+        </div>
+      </foreignObject>
+    </g>
+
+    <g class="node strip output dense">
+      <rect x="1165" y="1110" width="599" height="46" rx="8" fill="#dceef8" stroke="#6f9eb8" stroke-width="1.7"/>
+      <foreignObject x="1173" y="1117" width="583" height="32">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="boxtext strip output dense">
+          <div class="boxtitle">Output</div>
+          <div class="boxbody">Sources of uncertainty · methodological limitations · recommendations for expert-supported use</div>
+        </div>
+      </foreignObject>
+    </g>
+<foreignObject x="30" y="1186" width="292" height="52"><div xmlns="http://www.w3.org/1999/xhtml" class="label final-title">FINAL RESEARCH<br/>OUTPUTS</div></foreignObject>
+<foreignObject x="335" y="1181" width="1415" height="65"><div xmlns="http://www.w3.org/1999/xhtml" class="label final-list"><div class="final-grid"><span>Evaluated two-stage LLM-assisted DEMA workflow</span><span>31 provisional DEMA indicator assessments</span><span>Structured and validated documentary evidence bank</span><span>DEMA ecosystem visualiser</span><span>Evaluation of traceability, validity, defensibility and uncertainty</span><span>GIMA internship research report</span></div></div></foreignObject>
+</svg>

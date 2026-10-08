@@ -1,0 +1,18 @@
+{
+  "country": "Norwyn",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "This assessment addresses only Indicator B.2.3: Technical infrastructure and operational readiness for AI-enabled data workflows. The evidence bank for Norwyn demonstrates that data workflows are currently manual and fragmented, with analysts re-entering emailed spreadsheets and no operational AI-enabled platforms. While there is a formal intention to procure an integrated cloud platform in 2027, no evidence supports current digitization, technical integration, or routine AI-enabled workflows. Therefore, the highest fully supported phase is Phase 1, with a clear gap in evidence for higher phases.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.2.3",
+      "indicator_name": "Technical infrastructure and operational readiness for AI-enabled data workflows",
+      "phase_score": 1,
+      "matched_phase_requirement": "Data workflows are largely manual and rely on disconnected files, spreadsheets, or standalone applications. Technical systems are insufficient to support AI-enabled workflows, and digital data are often not available in formats that can be readily used by AI tools. Reliable connectivity, computing resources, or access to AI platforms may be limited.",
+      "score_reasoning": "The strongest evidence for Norwyn’s technical infrastructure and operational readiness for AI-enabled data workflows is found in E0002, which documents that offices transfer spreadsheets by email and analysts manually re-enter records. This directly supports the Phase 1 requirement that data workflows are largely manual and rely on disconnected files, spreadsheets, or standalone applications (E0002). There is no evidence of digitized, integrated, or AI-enabled workflows currently in operation. E0001 establishes that the Cabinet has approved the Norwyn AI Readiness Roadmap, which includes a plan to procure an integrated cloud platform in 2027 (E0001). However, this is a future intention and does not demonstrate current procurement, deployment, or operational use of AI-enabled workflows. No evidence was identified for technical foundations, digitized workflows, reliable access to digital platforms, or routine support for AI tools, as required for Phases 2-5. The evidence exceeds the ad hoc threshold only in that there is a formal intention to improve infrastructure, but this does not satisfy the substantive requirements for higher phases, which require current operational capabilities. The principal diagnostic finding is that Norwyn’s ecosystem remains at the manual, fragmented stage, with no demonstrated technical systems supporting AI-enabled workflows.",
+      "evidence_supporting_score": ["E0002", "E0001"],
+      "contrary_or_limiting_evidence": [],
+      "contrary_or_limiting_reasoning": "No evidence directly contradicts the score. The principal limitation is the absence of documentary proof for digitized workflows, technical integration, or operational AI-enabled platforms. E0001 only demonstrates a future plan, not current implementation.",
+      "next_phase_gap": "To support Phase 2, evidence is required of current technical foundations for AI-enabled workflows, such as operational digital systems, partial digitization, or experimental use of AI tools. No such evidence was identified in the supplied documents."
+    }
+  ]
+}

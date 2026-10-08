@@ -1,0 +1,45 @@
+{
+  "run": "P4_calibration",
+  "checks_passed": 45,
+  "checks_total": 45,
+  "rule_adherence_rate": 1.0,
+  "complete_cases_passed": 12,
+  "cases_total": 12,
+  "complete_case_pass_rate": 1.0,
+  "by_rule": {
+    "R1": {
+      "passed": 13,
+      "total": 13
+    },
+    "R2": {
+      "passed": 4,
+      "total": 4
+    },
+    "R3": {
+      "passed": 3,
+      "total": 3
+    },
+    "R4": {
+      "passed": 1,
+      "total": 1
+    },
+    "R5": {
+      "passed": 8,
+      "total": 8
+    },
+    "R6": {
+      "passed": 4,
+      "total": 4
+    },
+    "R7": {
+      "passed": 1,
+      "total": 1
+    },
+    "R8": {
+      "passed": 11,
+      "total": 11
+    }
+  },
+  "qualitative_finding": "All prespecified checks passed and no unresolved systematic failure was identified. Assigned-phase matrices contained only supported mandatory requirements.",
+  "score_sheet_sha256": "2A1954FB598D842990F5FEADF51D0C0106090DE33C11E7CFFBC71FE43CE7B4D8"
+}

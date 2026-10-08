@@ -1,0 +1,115 @@
+{
+  "study": "DEMA rebuild Stage 1 prompt calibration",
+  "selected_prompt": {
+    "name": "dema-rebuild/evidence-extraction-direct-framework",
+    "version": 6,
+    "sha256": "08e557eca5d79ffc677fcf66302f02fb47bf98e2f3d5f127df6bb39e1fb0447b",
+    "langfuse_labels": [
+      "candidate-v6",
+      "frozen-stage1-rebuild"
+    ],
+    "local_exact_text": "dema_rebuild_calibration\\Frozen_Stage1_Prompt_V6.txt"
+  },
+  "fixed_conditions": {
+    "development_chunks": 30,
+    "country": "Togo",
+    "model": "gpt-4.1-students",
+    "temperature": 0,
+    "max_output_tokens": 32768,
+    "one_generation_per_chunk": true,
+    "automatic_generation_retries": 0,
+    "actual_paginated_chunk_size": "up to 10 pages",
+    "actual_boundary_overlap_pages": 1,
+    "manifest_evidence": "filenames such as pages_001-010 then pages_010-019",
+    "corpus_manifest": "output\\newframework-compact-all-chunks\\chunk-manifest.json",
+    "corpus_manifest_sha256": "9928f3cd64773b6afe64f591c80dd411ce492eabc50a9fa91cb22bd13338eb55",
+    "validator": "dema_rebuild_validator.py using technical_validator.py matching rules"
+  },
+  "selection_rule": {
+    "minimum_yield": "at least 90% of V5 (371 candidates)",
+    "tie_band": "technical-traceability differences below 1 percentage point",
+    "secondary_tie_break": "post-repair exact-match rate, then earlier less-complex prompt",
+    "decision": "V8 was ineligible (367 candidates). V9 was eligible (373; 96.25%) but did not exceed V7 (385; 96.36%). V6, V7 and V9 remained within the traceability and exact-rate tie bands, so the earlier, less-complex, higher-yield V6 remained selected."
+  },
+  "protocol_extension": "V8 and V9 were requested after the originally planned V5-V7 comparison. Their mutations and unchanged decision rules were stated before execution; the formal protocol amendment was added to the audit package afterward.",
+  "calibration_results": [
+    {
+      "prompt_version": 5,
+      "prompt_sha256": "74157e1c1d397231855ecebffc64b579e61abbc032e9f0de52a814420aabedeb",
+      "candidates": 412,
+      "original_exact": 353,
+      "original_normalized": 3,
+      "repair_required": 20,
+      "repaired": 20,
+      "failed": 36,
+      "technical_final_rows": 376,
+      "technical_traceability_percent": 91.26,
+      "selected": false
+    },
+    {
+      "prompt_version": 6,
+      "prompt_sha256": "08e557eca5d79ffc677fcf66302f02fb47bf98e2f3d5f127df6bb39e1fb0447b",
+      "candidates": 422,
+      "original_exact": 386,
+      "original_normalized": 0,
+      "repair_required": 18,
+      "repaired": 18,
+      "failed": 18,
+      "technical_final_rows": 404,
+      "technical_traceability_percent": 95.73,
+      "selected": true
+    },
+    {
+      "prompt_version": 7,
+      "prompt_sha256": "7b16d7de164fccf03f8309c8ec1c09bff8ed4632b4025de5fc9dcfdcfd09a5b9",
+      "candidates": 385,
+      "original_exact": 357,
+      "original_normalized": 2,
+      "repair_required": 12,
+      "repaired": 12,
+      "failed": 14,
+      "technical_final_rows": 371,
+      "technical_traceability_percent": 96.36,
+      "selected": false
+    },
+    {
+      "prompt_version": 8,
+      "prompt_sha256": "83c2e11adcecd0bd4112710fd31658ceee989484b906c3da3f6fdc656981e9bc",
+      "candidates": 367,
+      "original_exact": 318,
+      "original_normalized": 2,
+      "repair_required": 21,
+      "repaired": 21,
+      "failed": 26,
+      "technical_final_rows": 341,
+      "technical_traceability_percent": 92.92,
+      "selected": false
+    },
+    {
+      "prompt_version": 9,
+      "prompt_sha256": "9f5f304f69259f38f5341169c575d7458718220c5f9362fb99d0993f6e2aa4e1",
+      "candidates": 373,
+      "original_exact": 352,
+      "original_normalized": 1,
+      "repair_required": 6,
+      "repaired": 6,
+      "failed": 14,
+      "technical_final_rows": 359,
+      "technical_traceability_percent": 96.25,
+      "selected": false
+    }
+  ],
+  "ais_post_selection": {
+    "rows": 404,
+    "counts": {
+      "PARTIALLY_ATTRIBUTABLE": 144,
+      "FULLY_ATTRIBUTABLE": 254,
+      "NOT_ATTRIBUTABLE": 6
+    },
+    "single_evaluator_retry": "chunk:row 6:45; original observation retained",
+    "influenced_selection": false
+  },
+  "technical_failure_analysis_file": "output/dema-rebuild-v6-all-chunks/technical-failure-analysis.json",
+  "complete_prompt_screenshot": "dema_rebuild_calibration\\Frozen_Stage1_Prompt_V6_complete.png",
+  "thesis_section": "7.1.1_Stage_1_workflow_calibration_DEMA_rebuild.docx"
+}

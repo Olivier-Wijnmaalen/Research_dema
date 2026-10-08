@@ -1,0 +1,21 @@
+{
+  "country": "Orinth",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment of Indicator C.2.2 (Dedicated budget) for Orinth reveals a clear documentary gap regarding the allocation of funds for data ecosystem development, technical staff, and secure data handling. The evidence directly addresses the absence of budget lines for a coordinating unit and database-management training in the reviewed 2026 national budget (E0001), and the explicit lack of training funds for the Emergency Data Directorate in fiscal year 2025, resulting in cancelled secure-data courses (E0002). No evidence was identified to support the existence of sporadic, event-based, or formal budget allocations for ecosystem development, technical staff, or training. Therefore, the highest fully supported phase is Phase 1, reflecting incomplete and ad hoc financial support for data ecosystem activities. The principal weakness is the absence of documentary proof for any positive budget allocation, and the main uncertainty is whether allocations exist in other unreviewed documents or years.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.2.2",
+      "indicator_name": "Dedicated budget",
+      "phase_score": 1,
+      "matched_phase_requirement": "Little to no (financial) incentives in place to stimulate the sharing and exchange of risk and/or impact data. There are insufficient funds available for technical staff and/or trainings on (secure) data handling",
+      "score_reasoning": "The evidence for Orinth demonstrates a lack of dedicated budget for data ecosystem development, technical staff, and secure data handling. The reviewed 2026 budget volume contains no identifiable line for a data coordinating unit or database-management training, directly supporting the absence of financial incentives and technical staff funding (E0001). Additionally, the Auditor-General’s statement that the Emergency Data Directorate had no training funds in fiscal year 2025 and cancelled all planned secure-data courses provides explicit proof of insufficient funds for training (E0002). These findings align precisely with the Phase 1 requirement: 'Little to no (financial) incentives in place to stimulate the sharing and exchange of risk and/or impact data. There are insufficient funds available for technical staff and/or trainings on (secure) data handling.' The evidence exceeds Phase 1 only in that it documents explicit absence, but does not reach Phase 2, which requires at least sporadic or event-based financial incentives or training funds. No evidence was identified for sporadic, event-based, or formal budget allocations, nor for any positive budgetary support for ecosystem development, technical staff, or training. The evidence does not support higher phases, which require formal, systematic, or sustained budget allocations. The principal strength is the explicit documentary proof of absence for two consecutive fiscal years. The main weakness is the lack of evidence for any positive budget allocation, and the main uncertainty is whether allocations exist in other unreviewed documents or years.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002"
+      ],
+      "contrary_or_limiting_evidence": [],
+      "contrary_or_limiting_reasoning": "No evidence directly contradicts the score. The principal limitation is that the reviewed evidence does not cover all possible budget documents or years. The absence of evidence for sporadic or event-based allocations must be treated as a documentary gap, not proof of non-existence.",
+      "next_phase_gap": "To support Phase 2, evidence is required of at least sporadic or event-based financial incentives or training funds for data ecosystem development, technical staff, or secure data handling. This could include budget lines, official statements, or records of event-based allocations. No such evidence was identified in the supplied bank."
+    }
+  ]
+}

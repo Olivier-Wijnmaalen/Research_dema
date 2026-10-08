@@ -1,0 +1,1788 @@
+{
+  "validated_at": "2026-09-17T13:23:13.202312+00:00",
+  "warnings": [],
+  "result": {
+    "country": "Togo",
+    "framework_version": "current DEMA maturity framework supplied in frozen Stage 2 P5",
+    "assessment_summary": "This assessment covers four indicators: A.1.1 (Roles are known & identified, for all actors), A.1.2 (Roles are known & identified, for the coordinator), A.1.3 (Diversity and representativeness of data users), and A.1.4 (Diversity and representativeness of data producers). For A.1.1, there is strong evidence of identification and partial definition of roles for a wide range of actors, but persistent ambiguity and lack of full legal/official role definition preclude higher maturity. For A.1.2, the ANPC is clearly identified and resourced as the national coordinator, but evidence of formal, ecosystem-wide operationalization and incentivized participation is lacking. For A.1.3 and A.1.4, there is robust evidence of diversity among data users and producers, with multiple sectors and actor types involved, but no proof of systematic, ecosystem-wide engagement or active stimulation of participation. All indicators are provisionally scored at Phase 3 (Managed and defined), with clear documentation of the evidence boundary and the specific requirements not yet demonstrated for Phase 4.\n\nThis assessment covers two indicators: A.2.1 (Human capacity building & retention across actors in relation to data and AI) and A.2.2 (Institutional capacity for data management and quality assurance) for Togo. The evidence demonstrates that Togo has established regular, multi-sectoral, and multi-level capacity-building activities, including training for national and local actors, sectoral specialists, and community-level stakeholders. There is clear documentation of regular training, workshops, and institutionalized capacity-building efforts, with evidence of implementation across government, health, education, civil protection, and other sectors. For institutional capacity, mandates for data management are established, and there is evidence of documented procedures, regular reviews, and partnerships with skilled organizations. However, the evidence does not fully support ecosystem-wide institutionalization, comprehensive quality assurance, or high-level, sustained investment and retention required for higher phases. Both indicators are provisionally scored at Phase 3 (Managed and defined), with clear documentation of regular capacity-building and established institutional mandates, but without full demonstration of institutionalization, local-level extension, or advanced quality assurance mechanisms required for Phase 4.\n\nThis assessment covers two indicators: A.2.3 (Institutional readiness for responsible AI use) and A.2.4 (Process quality). For A.2.3, there is no direct evidence of AI-specific skills, tools, governance, or institutional arrangements for responsible AI use in disaster-risk-relevant data workflows in Togo. While there is extensive evidence of capacity building, training, and digital infrastructure for data management, none of the reviewed evidence demonstrates the use, governance, or institutionalization of AI in disaster data processes. For A.2.4, there is strong evidence of documented, harmonized, and quality-controlled data collection and management processes for disaster risk and impact data, including the use of standardized tools (e.g., KoboCollect), validated questionnaires, and sectoral SOPs. However, there is no evidence of automated validation, routine audits, or continuous process improvement, which are required for higher phases. Both indicators are therefore scored at Phase 1 (A.2.3) and Phase 3 (A.2.4) respectively, with clear evidence gaps for the next phase in each case.\n\nThis assessment covers two indicators: B.1.1 (Data accessibility) and B.1.2 (Data availability) for Togo. For B.1.1, the evidence demonstrates that disaster-risk-relevant data is accessible through official reports, national open data platforms, and sectoral dissemination mechanisms, but does not fully meet the requirements for systematic cataloguing, standard formats, or routine metadata provision. For B.1.2, there is extensive, multi-source, and multi-sectoral evidence of the existence and regular collection of disaster-risk-relevant data across hazards, sectors, and administrative levels, including recent, detailed, and disaggregated datasets. However, the evidence does not fully support ecosystem-wide routine maintenance, defined processes, or comprehensive coverage required for Phase 4. Both indicators are provisionally scored at Phase 3 (Managed and defined), with clear documentation of the strengths, limitations, and next-phase evidence gaps.\n\nThis assessment covers two indicators: B.1.3a (Data quality: accuracy) and B.1.3b (Data quality: completeness) for Togo. For accuracy, the evidence demonstrates that disaster impact data for 2024 and 2022 is collected using harmonized, validated tools (e.g., KoboCollect), with explicit attribution of deaths and detailed, disaggregated sectoral data. However, there is no evidence of systematic, routine validation across all datasets or actors, nor of structured, ecosystem-wide accuracy assessment. For completeness, the evidence shows that most required fields are routinely completed for core datasets in recent disaster assessments, with comprehensive sectoral and demographic breakdowns for the 2024 and 2022 events in several prefectures. However, systematic identification and follow-up of missing data, or completeness monitoring across all actors, sectors, and periods, is not demonstrated. Both indicators are therefore provisionally scored at Phase 3 (Managed and defined), with the principal gap being the absence of evidence for routine, ecosystem-wide implementation of higher-phase requirements.\n\nThis assessment covers two indicators: B.1.3c (Data quality: consistency) and B.1.3d (Data quality: timeliness) for Togo. For B.1.3c, the evidence demonstrates the use of harmonized data collection tools and explicit institutional responsibility for ensuring consistency, but does not show ecosystem-wide, routine enforcement or active monitoring. For B.1.3d, the evidence shows that disaster impact data is collected and reported rapidly for major events, and that some datasets (notably hydrometeorological forecasts and official disaster assessments) are updated and disseminated in a timely manner. However, there is no evidence of systematic, routine updates for all key datasets or of operational processes ensuring timeliness across the ecosystem. Both indicators are provisionally scored at Phase 3 (Managed and defined), as all requirements for this phase are fully supported, but the requirements for Phase 4 are not yet demonstrated. The principal strengths are the existence of harmonized tools and rapid assessment protocols; the main gaps are the lack of evidence for routine, ecosystem-wide implementation and systematic monitoring.\n\nThis assessment covers two indicators: B.1.3e (Data quality: validity) and B.1.3f (Data quality: disaggregation) for Togo. For B.1.3e, the evidence demonstrates that data collection tools for disaster impact assessment are validated and harmonized, and that definitions, classifications, and calculation rules are documented for key datasets, supporting Phase 3 (Managed and defined). However, there is no evidence of systematic, ecosystem-wide adherence to standards or routine review and validation, which are required for Phase 4. For B.1.3f, the evidence shows that disaster impact data is disaggregated by sex, age, and location for major events and that data collection tools and formats include fields for such disaggregation. However, routine, ecosystem-wide collection and use of disaggregated data across multiple indicators and dimensions (e.g., disability, income) is not demonstrated, and evidence of institutionalized analysis is lacking. Therefore, Phase 3 (Managed and defined) is assigned for B.1.3f. Both indicators are supported by strong, recent, and direct evidence from national disaster impact assessments, official forms, and sectoral reports, but do not meet the requirements for Phase 4 due to gaps in systematic implementation and coverage.\n\nThis assessment covers two indicators: B.2.1 (Technical and data interoperability) and B.2.2 (Operationalize common (meta)data standards) for Togo. For B.2.1, the evidence demonstrates the existence of integrated platforms, harmonized data collection tools, and multi-sectoral collaboration, but does not show ecosystem-wide high interoperability or routine, standardized, and audited processes. For B.2.2, there is clear evidence of harmonized data collection instruments and data models for key datasets, but no proof of widespread, systematic adoption or compliance monitoring across the ecosystem. Both indicators are provisionally scored at Phase 3 (Managed and defined), with concrete gaps identified for advancing to Phase 4. The justifications name the principal institutions (ANPC, sectoral ministries, the national geoportal, and project partners), the specific platforms and tools (KoboCollect, the national geoportal), and the scope and limitations of current practice. The main strengths are the operationalization of harmonized tools and platforms for key disaster-risk-relevant data; the main weaknesses are the lack of evidence for ecosystem-wide, routinely monitored, and standardized interoperability or metadata standards. Advancement to Phase 4 would require concrete, ecosystem-wide proof of high, routinely monitored interoperability and systematic, widely adopted standards.\n\nThis assessment covers two indicators: B.2.3 (Technical infrastructure and operational readiness for AI-enabled data workflows) and B.3.1 (Applications and use cases). For B.2.3, the evidence demonstrates the existence of digital platforms, integrated data collection tools, and some real-time reporting capacity, but there is no direct evidence of AI-enabled workflows or ecosystem-wide technical readiness for AI. For B.3.1, there is strong evidence of defined and documented use cases for disaster-risk-relevant data across multiple sectors, including planning, early warning, and post-disaster assessment, with concrete examples of data use in national and subnational contexts. However, integration into decision-making remains partial and uneven, and there is no evidence of routine, embedded, or anticipatory data demand. Both indicators are provisionally scored at Phase 3 (Managed and defined), with clear evidence gaps for higher phases.\n\nThe assessment of indicator B.3.2 (Supply meets demand) for Togo demonstrates that disaster impact and risk data are available, regularly collected, and used for key applications such as post-disaster needs assessments and resource mobilization. There is clear evidence that data supply meets known demand for major national and subnational disaster events, with data being used to produce official reports and inform decision-making. However, there is not yet ecosystem-wide, proactive, or fully institutionalized feedback and coordination between data producers and users. The evidence supports a Phase 3 (Managed and defined) score: users can generally find the data they need, producers respond to known demands, and basic feedback mechanisms exist. There is no evidence of the systematic, institutionalized, and proactive engagement required for Phase 4.\n\nThis assessment covers two indicators: C.1.1 (Trust building among ecosystem actors) and C.1.2 (Responsible data governance & accountability) for Togo. For C.1.1, the evidence demonstrates the existence of coordination mechanisms, multi-actor platforms, and efforts to reduce barriers and improve collaboration, but does not fully support systematic, ecosystem-wide trust or routine, inclusive participation. For C.1.2, Togo has a comprehensive legal framework for data protection, an independent data protection authority, and clear requirements for confidentiality, security, and accountability, but there is no evidence of unified, ecosystem-wide guidelines, systematic enforcement, or routine compliance monitoring. Both indicators are provisionally scored at Phase 3 (Managed and defined), with clear evidence gaps for Phase 4 regarding systematic, institutionalized, and routinely enforced practices.\n\nThis assessment covers two indicators: C.1.3 (Responsible AI governance & accountability) and C.1.4 (Security). For C.1.3, there is no direct or indirect evidence in the supplied bank of any formal, informal, or emergent responsible AI governance, policy, oversight, or implementation in Togo’s disaster-risk-relevant data ecosystem. For C.1.4, Togo has a comprehensive legal and regulatory framework for data security and confidentiality (notably Loi n° 2019-014), with an independent data protection authority, and some evidence of platform-level security protocols. However, there is no evidence of implementation of standard security frameworks (e.g., ISO 27001), core technical controls, or systematic operationalization of security practices in disaster-risk-relevant data systems. Both indicators are therefore scored at Phase 1, with clear evidence gaps for higher phases.\n\nThis assessment covers two indicators: C.1.5 (Privacy) and C.2.1 (Data strategy, including the use of common data standards Data ecosystem strategy and vision). For Privacy (C.1.5), Togo has a comprehensive national law (Loi n° 2019-014) regulating personal data protection, establishing a national authority, and mandating confidentiality, security, and data subject rights. However, there is no direct evidence of systematic implementation, institutionalization, or ecosystem-wide operationalization of privacy-by-design, automated compliance tools, or advanced privacy-enhancing technologies. For Data Strategy (C.2.1), Togo has a national disaster risk reduction strategy, a national civil protection policy, and sectoral strategies that reference data, risk analysis, and integration with national development plans. These strategies are periodically updated and provide a shared vision, but there is no evidence of a dedicated government unit for data standards, nor of a fully institutionalized, actively maintained, and ecosystem-wide strategic vision as required for the highest phase. Both indicators are provisionally scored at Phase 3, with clear evidence of formal policy and strategy, but not of full operationalization, institutionalization, or advanced, ecosystem-wide implementation.\n\nThis assessment covers two indicators: C.2.2 (Dedicated budget) and C.2.3 (Incentivising policies Incentive mechanisms for ecosystem contributions). For C.2.2, there is strong evidence of formal budget allocations, multiple funding sources, and operational budgets for disaster risk management, but no proof of systematic, sustained, or ecosystem-wide investment as required for higher phases. For C.2.3, there is evidence of some policy-level recognition and planned incentives, but no demonstration of active, systematic, or well-funded incentive mechanisms for ecosystem contributions. Both indicators are provisionally scored at Phase 3 (Managed and defined), with clear evidence gaps for higher phases.\n\nThis assessment covers two indicators: C.3.1 (Community engagement, including local, vulnerable, and diverse populations) and C.3.2 (Communication, Inter-agency collaboration & partnerships). For C.3.1, Togo demonstrates managed and defined engagement of communities, including local authorities, women’s groups, and youth, with evidence of participatory mechanisms, targeted campaigns, and involvement in disaster risk reduction activities. However, systematic, routine, and demonstrably inclusive engagement of all vulnerable and diverse populations is not fully evidenced. For C.3.2, there is strong evidence of managed and defined inter-agency collaboration, with official partnerships, multi-actor coordination, and joint activities across government, civil society, technical, and financial partners. Strategic, ecosystem-wide, and routinely institutionalized partnerships with formalized protocols and regular alignment meetings are not yet fully demonstrated. Both indicators are provisionally scored at Phase 3 (Managed and defined), with clear evidence gaps for Phase 4 requirements.\n\nThe assessment of A.1.3 (Diversity and representativeness of data users) for Togo finds that a wide range of data users—including government ministries, civil society, academia, local communities, technical/financial partners, and the private sector—are identified and involved in disaster risk data ecosystem activities. There is clear evidence that the coordinator (ANPC) and other national mechanisms recognize and engage a variety of user groups, and that their needs are considered in planning and reporting. However, while participation is broad and some engagement mechanisms exist, the evidence does not fully demonstrate that user diversity, needs, and capacities are systematically represented in ecosystem processes or that their input routinely influences data priorities and practices. Therefore, the highest fully supported phase is Phase 2 (Recognized but reactive).",
+    "indicator_assessments": [
+      {
+        "indicator_code": "A.1.1",
+        "indicator_name": "Roles are known & identified, for all actors",
+        "phase_score": 3,
+        "matched_phase_requirement": "The key actors in the ecosystem have been identified by e.g. the NDRMA, but the roles of key government agencies and organizations are not always defined through official/legal mechanisms",
+        "score_reasoning": "Multiple sources provide direct evidence that key actors in Togo’s disaster risk data ecosystem are identified and their involvement in disaster risk management is recognized. The 2022-2026 national strategy and the 2024 post-disaster needs assessment list a wide range of actors, including ANPC, sectoral ministries (e.g., Environment, Health, Social Action, Urbanism, Agriculture), local authorities, civil society, NGOs, technical and financial partners, and international organizations (V4ID-0001, V4ID-0011, V4ID-0021, V4ID-0185, V4ID-0231, V4ID-0233, 005_chunk_001_pages_001-001::E002, 007_chunk_001_pages_001-001::E001, 028_chunk_002_pages_011-020::E006, 028_chunk_005_pages_041-048::E014, 028_chunk_005_pages_041-048::E015, 028_chunk_005_pages_041-048::E016, 029_chunk_001_pages_001-010::E009, 029_chunk_002_pages_011-020::E001, 029_chunk_003_pages_021-030::E015, 026_chunk_001_pages_001-001::E001). Several documents and national plans explicitly state the objective to clarify roles and responsibilities (V4ID-0235, 026_chunk_001_pages_001-001::E001). However, there is also explicit evidence of persistent ambiguity and lack of coherence in the legal and institutional attribution of roles (V4ID-0043, 029_chunk_001_pages_001-010::E001), and recommendations for further clarification (V4ID-0044). While some roles are described (e.g., ANPC as coordinator, sectoral ministries with sectoral responsibilities), the evidence does not show that all roles are defined through official/legal mechanisms or that the institutional framework is fully endorsed and operationalized. This exceeds Phase 2, where only identification is required, but does not reach Phase 4, which requires full endorsement and operationalization. The principal strength is the breadth of actor identification and repeated national-level efforts to clarify roles. The principal weakness is the documented ambiguity and lack of full legal definition and operationalization of roles across the ecosystem.",
+        "evidence_supporting_score": [
+          "V4ID-0001",
+          "V4ID-0011",
+          "V4ID-0021",
+          "V4ID-0185",
+          "V4ID-0231",
+          "V4ID-0233",
+          "005_chunk_001_pages_001-001::E002",
+          "007_chunk_001_pages_001-001::E001",
+          "028_chunk_002_pages_011-020::E006",
+          "028_chunk_005_pages_041-048::E014",
+          "028_chunk_005_pages_041-048::E015",
+          "028_chunk_005_pages_041-048::E016",
+          "029_chunk_001_pages_001-010::E009",
+          "029_chunk_002_pages_011-020::E001",
+          "029_chunk_003_pages_021-030::E015",
+          "026_chunk_001_pages_001-001::E001",
+          "V4ID-0235"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0043",
+          "029_chunk_001_pages_001-010::E001",
+          "V4ID-0044"
+        ],
+        "contrary_or_limiting_reasoning": "V4ID-0043 and 029_chunk_001_pages_001-010::E001 explicitly state that the institutional architecture is characterized by ambiguity and lack of coherence in the attribution of roles and responsibilities, and V4ID-0044 recommends further clarification of mandates. These sources limit the score to Phase 3, as they show that roles are not always defined through official/legal mechanisms and the institutional framework is not fully operationalized.",
+        "next_phase_gap": "To reach Phase 4, evidence is needed that the institutional framework defining roles and responsibilities is fully endorsed and operationalized, with formal governance matching real governance in practice. This would require documentation of legal instruments, operational procedures, and demonstrated compliance across all relevant actors, as well as evidence that ambiguity and role confusion have been resolved.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Key actors in the ecosystem have been identified by the national authority or equivalent body.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0001",
+              "V4ID-0011",
+              "V4ID-0021",
+              "V4ID-0185",
+              "V4ID-0231",
+              "V4ID-0233",
+              "005_chunk_001_pages_001-001::E002",
+              "007_chunk_001_pages_001-001::E001",
+              "028_chunk_002_pages_011-020::E006",
+              "028_chunk_005_pages_041-048::E014",
+              "028_chunk_005_pages_041-048::E015",
+              "028_chunk_005_pages_041-048::E016",
+              "029_chunk_001_pages_001-010::E009",
+              "029_chunk_002_pages_011-020::E001",
+              "029_chunk_003_pages_021-030::E015",
+              "026_chunk_001_pages_001-001::E001",
+              "V4ID-0235"
+            ],
+            "explanation": "Multiple sources list and describe the involvement of a wide range of actors in disaster risk management and data ecosystem activities in Togo."
+          },
+          {
+            "requirement": "The roles of key government agencies and organizations are not always defined through official/legal mechanisms.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0043",
+              "029_chunk_001_pages_001-010::E001",
+              "V4ID-0044"
+            ],
+            "explanation": "There is explicit evidence of ambiguity and lack of coherence in the legal and institutional attribution of roles, and recommendations for further clarification."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "A.1.2",
+        "indicator_name": "Roles are known & identified, for the coordinator",
+        "phase_score": 3,
+        "matched_phase_requirement": "The coordinator or national lead takes a more formal role as an intermediary to increase data exchange. The coordinator organises activities to promote the exchange and improvement of data. Actors in the data ecosystem become increasingly active and take up various and complementary roles (i.e data producers, data users, intermediaries, infrastructure providers etc). Participation in the organised activities is incentivized by the government, to ensure the presence of all relevant ministries and important data producers.",
+        "score_reasoning": "The Agence nationale de la protection civile (ANPC) is repeatedly and explicitly identified as the national coordinator for disaster risk management and data ecosystem activities in Togo (V4ID-0014, V4ID-0064, V4ID-0075, V4ID-0124, V4ID-0251, 028_chunk_002_pages_011-020::E006, 029_chunk_001_pages_001-010::E002, 029_chunk_003_pages_021-030::E017). The ANPC is described as having a formal mandate, being resourced for coordination, and organizing platform meetings and operational activities. The national strategy and contingency plans assign the ANPC the role of coordinating interventions, supported by the CNOU and sectoral actors. There is evidence of periodic meetings, operational capacity strengthening, and formal assignment of coordination responsibilities. However, there is no evidence that the institutional framework is fully endorsed and operationalized (Phase 4), nor that all relevant ministries and important data producers are systematically incentivized to participate in organized activities. Recommendations for further clarification of mandates and operationalization (V4ID-0044) and the absence of evidence for ecosystem-wide harmonization or incentivized participation limit the score to Phase 3. The principal strength is the clear, formal identification and resourcing of the coordinator. The principal weakness is the lack of evidence for full operationalization, harmonization, and incentivized, ecosystem-wide participation.",
+        "evidence_supporting_score": [
+          "V4ID-0014",
+          "V4ID-0064",
+          "V4ID-0075",
+          "V4ID-0124",
+          "V4ID-0251",
+          "028_chunk_002_pages_011-020::E006",
+          "029_chunk_001_pages_001-010::E002",
+          "029_chunk_003_pages_021-030::E017"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0044"
+        ],
+        "contrary_or_limiting_reasoning": "V4ID-0044 recommends further clarification of mandates and organizational structures for the ANPC and other institutions, indicating that the operationalization and harmonization of the coordinator role is not yet fully achieved.",
+        "next_phase_gap": "To reach Phase 4, evidence is needed that the institutional framework defining the coordinator's role is fully endorsed and operationalized, with systematic incentivization and participation of all relevant ministries and important data producers, and that the coordinator ensures data cleaning, analysis, and harmonization of information processes across the ecosystem.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "The coordinator or national lead takes a more formal role as an intermediary to increase data exchange.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0014",
+              "V4ID-0064",
+              "V4ID-0075",
+              "V4ID-0124",
+              "V4ID-0251",
+              "028_chunk_002_pages_011-020::E006",
+              "029_chunk_001_pages_001-010::E002",
+              "029_chunk_003_pages_021-030::E017"
+            ],
+            "explanation": "ANPC is formally identified and resourced as the national coordinator, with a mandate to coordinate data exchange and disaster risk management activities."
+          },
+          {
+            "requirement": "The coordinator organises activities to promote the exchange and improvement of data.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0064",
+              "V4ID-0075",
+              "028_chunk_002_pages_011-020::E006"
+            ],
+            "explanation": "ANPC organizes platform meetings and operational activities to promote data exchange and improvement."
+          },
+          {
+            "requirement": "Actors in the data ecosystem become increasingly active and take up various and complementary roles (i.e data producers, data users, intermediaries, infrastructure providers etc).",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0014",
+              "V4ID-0075",
+              "028_chunk_002_pages_011-020::E006"
+            ],
+            "explanation": "The national strategy and evaluation reports describe the involvement of multiple actor types in complementary roles."
+          },
+          {
+            "requirement": "Participation in the organised activities is incentivized by the government, to ensure the presence of all relevant ministries and important data producers.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0064",
+              "V4ID-0075"
+            ],
+            "explanation": "The ANPC is resourced and tasked to ensure participation of relevant ministries and data producers, though evidence of systematic incentivization is limited to formal assignment and resourcing."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "A.1.3",
+        "indicator_name": "Diversity and representativeness of data users",
+        "phase_score": 2,
+        "matched_phase_requirement": "The coordinator or national lead is able to identify a variety of data users and understands their data needs and capacities.",
+        "score_reasoning": "Multiple lines of evidence demonstrate that Togo’s disaster risk data ecosystem includes a variety of data users from government ministries, civil society, academia, local communities, and technical/financial partners. The National Disaster Risk Reduction Platform (PNRRC) and the Agence nationale de la protection civile (ANPC) are documented as coordinating bodies that facilitate collaboration and synergy among ministries, disaster management bodies, academia, civil society, local communities, and other sectors (V4ID-0082, V4ID-0236, 028_chunk_002_pages_011-020::E007). The national contingency and strategic plans explicitly reference the involvement of ministries, civil society organizations, local government representatives, and technical/financial partners in both the development and use of disaster risk data (V4ID-0236, V4ID-0237, V4ID-0238). Open data platforms and the national geoportal are designed to serve entrepreneurs, researchers, investors, citizens, and authorities, further supporting the diversity of data users (V4ID-0384). Evidence from recent disaster impact assessments shows that local authorities, resource persons, decentralized service heads, associations, women’s groups, and NGOs are engaged in data collection and validation processes (028_chunk_002_pages_011-020::E007). However, while these sources confirm the identification and engagement of a variety of data users and some understanding of their needs, there is insufficient evidence that the coordinator actively stimulates their participation, ensures systematic representation, or that user input demonstrably influences data priorities and practices across the ecosystem. No evidence was identified of routine, institutionalized mechanisms for user feedback influencing data production or of systematic representation of all user groups in decision-making. Therefore, the evidence fully supports Phase 2, as the coordinator is able to identify a variety of data users and understands their needs, but does not fully support the more advanced requirements of Phase 3 or higher.",
+        "evidence_supporting_score": [
+          "V4ID-0082",
+          "V4ID-0236",
+          "V4ID-0237",
+          "V4ID-0238",
+          "V4ID-0384",
+          "028_chunk_002_pages_011-020::E007"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0236",
+          "V4ID-0237",
+          "028_chunk_002_pages_011-020::E007"
+        ],
+        "contrary_or_limiting_reasoning": "While the evidence confirms the identification and engagement of diverse data users, it also reveals limitations: the documentation does not demonstrate that user diversity, needs, and capacities are systematically represented in ecosystem processes or that their input routinely influences data priorities and practices. The cited sources (V4ID-0236, V4ID-0237, 028_chunk_002_pages_011-020::E007) describe broad participation and engagement but do not provide concrete proof of institutionalized feedback mechanisms, systematic representation, or demonstrable influence on data priorities. No evidence was found of regular, structured user-producer dialogues or of user-driven changes to data practices.",
+        "next_phase_gap": "To reach Phase 3, concrete evidence is required that the coordinator or national lead not only identifies and understands a variety of data users, but also actively stimulates their participation, ensures that user needs are discussed with data producers, and that the diversity of users, their needs, capacities, and engagement patterns are increasingly reflected in ecosystem practices. This would require documentation of regular, institutionalized user-producer engagement mechanisms, feedback loops, and demonstrable influence of user input on data priorities and practices—such as meeting records, feedback reports, or policy changes resulting from user input.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "The coordinator or national lead is able to identify a variety of data users.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0082",
+              "V4ID-0236",
+              "V4ID-0237",
+              "V4ID-0238",
+              "V4ID-0384"
+            ],
+            "explanation": "The national platform (PNRRC), ANPC, and national plans explicitly identify ministries, civil society, academia, local communities, and technical/financial partners as data users. The open data geoportal is designed for use by entrepreneurs, researchers, investors, citizens, and authorities, confirming the identification of a variety of data users."
+          },
+          {
+            "requirement": "The coordinator or national lead understands the data needs and capacities of a variety of data users.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0082",
+              "V4ID-0236",
+              "028_chunk_002_pages_011-020::E007"
+            ],
+            "explanation": "National plans and assessment processes reference the needs and capacities of ministries, civil society, local authorities, and community groups. Data collection and validation processes involve local authorities, resource persons, and community organizations, indicating an understanding of their needs and capacities."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "A.1.4",
+        "indicator_name": "Diversity and representativeness of data producers",
+        "phase_score": 3,
+        "matched_phase_requirement": "The coordinator or national lead is not only able to identify data producers, from different regions and sectors/organisation types, but also actively stimulates their participation in the data ecosystem through e.g. promoting and facilitating data sharing and leveraging their capacities.",
+        "score_reasoning": "There is robust evidence that data producers in Togo’s disaster risk data ecosystem are diverse and drawn from multiple sectors and organization types. National strategies, plans, and project documents list ministries, agencies, research institutes, universities, civil society, private sector, media, and international partners as data producers (V4ID-0002, V4ID-0020, V4ID-0083, V4ID-0237, V4ID-0385, 007_chunk_001_pages_001-001::E001). The geoportal development involved all ministries, agencies, state services, essential service companies, private sector, and non-governmental actors, with over 10,000 professionals contributing to data collection and consolidation. Thematic working groups and national platforms include a wide range of producer types. However, while identification and engagement are well documented, there is no evidence of a regularly updated data strategy outlining goals of ecosystem collaboration or the use of common data standards as enablers of interoperability (required for Phase 4). There is also no proof of systematic, institutionalized mechanisms to ensure representativeness or to leverage producer capacities across all regions and sectors. The principal strength is the breadth and diversity of data producers. The principal weakness is the lack of evidence for a regularly updated data strategy or systematic, institutionalized collaboration and representativeness.",
+        "evidence_supporting_score": [
+          "V4ID-0002",
+          "V4ID-0020",
+          "V4ID-0083",
+          "V4ID-0237",
+          "V4ID-0385",
+          "007_chunk_001_pages_001-001::E001"
+        ],
+        "contrary_or_limiting_evidence": [],
+        "contrary_or_limiting_reasoning": "No evidence was identified of a regularly updated data strategy or systematic, institutionalized mechanisms for ensuring representativeness and leveraging producer capacities across all regions and sectors.",
+        "next_phase_gap": "To reach Phase 4, evidence is needed of a regularly updated data strategy that outlines the goals of ecosystem collaboration, including how common data standards enable interoperability, comparability, and coordinated data management. This would require documentation of a current, operational data strategy, regular updates, and evidence of systematic, institutionalized collaboration and representativeness among data producers.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "The coordinator or national lead is not only able to identify data producers, from different regions and sectors/organisation types, but also actively stimulates their participation in the data ecosystem through e.g. promoting and facilitating data sharing and leveraging their capacities.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0002",
+              "V4ID-0020",
+              "V4ID-0083",
+              "V4ID-0237",
+              "V4ID-0385",
+              "007_chunk_001_pages_001-001::E001",
+              "033_webpage\\033_webpage.md"
+            ],
+            "explanation": "Multiple sources list a wide range of data producers and describe engagement in data collection, sharing, and consolidation activities."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "A.2.1",
+        "indicator_name": "Human capacity building & retention across actors (in relation to data and AI)",
+        "phase_score": 3,
+        "matched_phase_requirement": "Government and key organizations offer regular capacity-building programs and begin to provide career incentives for data specialists in NDRMA or national lead/coordinator entity. Some actors in the ecosystem can transform and analyze data, though advanced skills are still concentrated in a few institutions (and people, who are hard to retain).",
+        "score_reasoning": "Togo demonstrates regular, multi-sectoral capacity-building activities for disaster-risk-relevant data actors. Evidence shows annual training sessions and study trips for national structures in risk evaluation (V4ID-0051, V4ID-0089), training for local authorities in disaster risk reduction management (V4ID-0065, V4ID-0114), and sector-specific capacity building in health (V4ID-0130, V4ID-0131), education (V4ID-0132), and agriculture (V4ID-0127). The ANPC and sectoral ministries organize and document these activities (V4ID-0113, V4ID-0114, V4ID-0128, V4ID-0129). There is evidence of regular, institutionalized training, including for trainers (V4ID-0132), and the involvement of diverse actors (V4ID-0113, V4ID-0114, V4ID-0128). Capacity-building is not limited to national level but extends to local authorities and community actors (V4ID-0065, V4ID-0114, V4ID-0128). However, while regular programs are documented, the evidence does not show full institutionalization across all levels or high retention rates. Advanced data and AI skills remain concentrated in a few institutions, and there is no proof of high-level, sustained investment or ecosystem-wide collaboration required for Phase 4. No evidence was identified of AI-specific capacity-building or retention mechanisms. The principal strength is the breadth and regularity of capacity-building activities; the main weakness is the lack of evidence for institutionalized retention, advanced digital/AI skills, or high-level investment. To reach Phase 4, concrete proof of institutionalized, ecosystem-wide capacity-building, local-level extension, and high retention would be required.",
+        "evidence_supporting_score": [
+          "V4ID-0051",
+          "V4ID-0089",
+          "V4ID-0113",
+          "V4ID-0114",
+          "V4ID-0127",
+          "V4ID-0128",
+          "V4ID-0129",
+          "V4ID-0130",
+          "V4ID-0131",
+          "V4ID-0132",
+          "V4ID-0065"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0259",
+          "V4ID-0018"
+        ],
+        "contrary_or_limiting_reasoning": "V4ID-0259 and V4ID-0018 note insufficient specialized human resources and low technical/organizational capacity, indicating that while regular training occurs, advanced skills and retention remain limited. No evidence was identified of high-level, sustained investment, or ecosystem-wide institutionalization of capacity-building and retention, especially for AI/data specialists.",
+        "next_phase_gap": "To reach Phase 4, evidence is needed of institutionalized, ecosystem-wide capacity-building extending from national to local level, including follow-up support, user guides, or technology provision to local practitioners and communities, and demonstrated high retention of skilled personnel. Concrete proof would include documentation of institutionalized training programs at all levels, retention statistics, and evidence of collaboration among organizations to strengthen data capabilities.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Government and key organizations offer regular capacity-building programs.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0051",
+              "V4ID-0089",
+              "V4ID-0113",
+              "V4ID-0114",
+              "V4ID-0127",
+              "V4ID-0128",
+              "V4ID-0129",
+              "V4ID-0130",
+              "V4ID-0131",
+              "V4ID-0132",
+              "V4ID-0065"
+            ],
+            "explanation": "Multiple sources document regular, organized training sessions and capacity-building activities for national and local actors, including annual programs and sector-specific training."
+          },
+          {
+            "requirement": "Begin to provide career incentives for data specialists in NDRMA or national lead/coordinator entity.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0113",
+              "V4ID-0114",
+              "V4ID-0127"
+            ],
+            "explanation": "Evidence shows training and capacity-building activities organized by ANPC and sectoral ministries, with reporting and archiving, indicating some career incentives and recognition for data specialists."
+          },
+          {
+            "requirement": "Some actors in the ecosystem can transform and analyze data, though advanced skills are still concentrated in a few institutions (and people, who are hard to retain).",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0113",
+              "V4ID-0114",
+              "V4ID-0127",
+              "V4ID-0128",
+              "V4ID-0129",
+              "V4ID-0130",
+              "V4ID-0131",
+              "V4ID-0132"
+            ],
+            "explanation": "Training and capacity-building activities enable some actors to transform and analyze data, but advanced skills and retention are not ecosystem-wide, as noted in V4ID-0259 and V4ID-0018."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "A.2.2",
+        "indicator_name": "Institutional capacity for data management and quality assurance",
+        "phase_score": 3,
+        "matched_phase_requirement": "Institutional mandates for data production and management are clearly established. Procedures support impartiality, objectivity, and professional independence. Data production processes are transparent and documented with quality criterias established. Regular internal reviews strengthen credibility. Government is establishing partnerships with highly-skilled organisations to increase knowledge building, enhance quality assurance or recruiting people with data skills internally.",
+        "score_reasoning": "Togo has established clear institutional mandates for data production and management, as evidenced by the roles of ANPC and sectoral ministries (V4ID-0090, V4ID-0091, V4ID-0115, V4ID-0133). There is documentation of procedures for data collection, centralization, and dissemination (V4ID-0090, V4ID-0091), and regular internal reviews and archiving of training, simulation, and assessment activities (V4ID-0150, V4ID-0151, V4ID-0152, V4ID-0153, V4ID-0154, V4ID-0155). Partnerships with skilled organizations and internal recruitment are documented (V4ID-0133, V4ID-0115). Data production processes are transparent and documented, with quality criteria established for key datasets (V4ID-0090, V4ID-0091, V4ID-0133). However, the evidence does not fully support ecosystem-wide institutionalization, comprehensive quality assurance, or high-level, sustained investment and retention required for Phase 4. There is no proof of systematic, ecosystem-wide quality assurance procedures, regular external audits, or high-level, sustained investment in data management. The principal strength is the existence of clear mandates, documented procedures, and regular internal reviews; the main weakness is the lack of evidence for comprehensive, institutionalized quality assurance and ecosystem-wide implementation. To reach Phase 4, concrete proof of institutionalized, ecosystem-wide quality assurance, regular external audits, and high-level investment would be required.",
+        "evidence_supporting_score": [
+          "V4ID-0090",
+          "V4ID-0091",
+          "V4ID-0115",
+          "V4ID-0133",
+          "V4ID-0150",
+          "V4ID-0151",
+          "V4ID-0152",
+          "V4ID-0153",
+          "V4ID-0154",
+          "V4ID-0155"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0018",
+          "V4ID-0259"
+        ],
+        "contrary_or_limiting_reasoning": "V4ID-0018 and V4ID-0259 note low technical and organizational capacity and insufficient specialized human resources, indicating that while mandates and procedures exist, comprehensive, institutionalized quality assurance and high-level investment are not fully demonstrated. No evidence was identified of systematic, ecosystem-wide quality assurance procedures or regular external audits.",
+        "next_phase_gap": "To reach Phase 4, evidence is needed of institutionalized, ecosystem-wide quality assurance procedures, regular external audits, and high-level, sustained investment in data management and quality assurance. Concrete proof would include documentation of systematic quality assurance processes, regular external audits, and evidence of high-level investment and retention of skilled personnel across the ecosystem.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Institutional mandates for data production and management are clearly established.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0090",
+              "V4ID-0091",
+              "V4ID-0115",
+              "V4ID-0133"
+            ],
+            "explanation": "Mandates for data production and management are established for ANPC and sectoral ministries, with documentation of roles and responsibilities."
+          },
+          {
+            "requirement": "Procedures support impartiality, objectivity, and professional independence.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0090",
+              "V4ID-0091",
+              "V4ID-0133"
+            ],
+            "explanation": "Procedures for data collection, centralization, and dissemination are documented, supporting impartiality and objectivity."
+          },
+          {
+            "requirement": "Data production processes are transparent and documented with quality criterias established.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0090",
+              "V4ID-0091",
+              "V4ID-0133"
+            ],
+            "explanation": "Data production processes are transparent and documented, with quality criteria established for key datasets."
+          },
+          {
+            "requirement": "Regular internal reviews strengthen credibility.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0150",
+              "V4ID-0151",
+              "V4ID-0152",
+              "V4ID-0153",
+              "V4ID-0154",
+              "V4ID-0155"
+            ],
+            "explanation": "Regular internal reviews and archiving of training, simulation, and assessment activities are documented, strengthening credibility."
+          },
+          {
+            "requirement": "Government is establishing partnerships with highly-skilled organisations to increase knowledge building, enhance quality assurance or recruiting people with data skills internally.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0133",
+              "V4ID-0115"
+            ],
+            "explanation": "Partnerships with skilled organizations and internal recruitment are documented, supporting knowledge building and quality assurance."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "A.2.3",
+        "indicator_name": "Institutional readiness for responsible AI use",
+        "phase_score": 1,
+        "matched_phase_requirement": "There is hardly any use of AI apart from maybe a few of the everyday type of applications (such as drafting and proofreading text, summarization, search and information retrieval, translation, visual generation) through the mainstream AI software services such as Microsoft Copilot or ChatGPT. Organizations have limited awareness of potential AI applications for risk and disaster data, and there are no dedicated skills, guidance, or institutional arrangements to support responsible AI use.",
+        "score_reasoning": "A comprehensive review of the evidence reveals no direct or indirect support for the existence of AI-specific skills, tools, governance arrangements, or institutional support for responsible AI use in Togo’s disaster-risk-relevant data ecosystem. While there is extensive documentation of capacity building, training, and digital infrastructure for data management (e.g., KoboCollect, QGIS, Excel, national digital platforms, and open data portals) (V4ID-0195, V4ID-0196, V4ID-0381, V4ID-0383), none of the cited sources mention the use of AI tools, experimentation with AI, or the development of AI governance frameworks. Capacity-building activities, such as those supported by CREWS, UNDRR, and national agencies, focus on data collection, early warning, and technical skills for disaster risk reduction (V4ID-0199, 005_chunk_001_pages_001-001::E001, 022_chunk_001_pages_001-001::E001), but do not reference AI. The national digital transformation strategy and open data initiatives (V4ID-0377, V4ID-0381, V4ID-0382) describe digital infrastructure and data standards, but not AI readiness or responsible AI use. No evidence was identified of AI experimentation, pilot projects, or institutional guidance for AI in disaster data workflows. Therefore, the only fully supported phase is Phase 1, which describes an ecosystem with limited or no AI use, no dedicated skills, and no institutional arrangements for responsible AI. This is a documentary evidence gap, not a demonstrated absence in practice. To reach Phase 2, concrete evidence of AI experimentation, limited skills, or initial governance arrangements would be required.",
+        "evidence_supporting_score": [],
+        "contrary_or_limiting_evidence": [],
+        "contrary_or_limiting_reasoning": "No evidence was identified that contradicts the Phase 1 score. The principal limitation is the absence of any documentary support for AI-specific skills, tools, or governance in disaster-risk-relevant data management. This is a documentary evidence gap, not a demonstrated absence in practice.",
+        "next_phase_gap": "To reach Phase 2, evidence is required of at least limited AI capacity among actors (e.g., pilot projects, experimentation with AI tools for hazard/disaster data), or the existence of initial governance arrangements, skills, or resources for AI in disaster data workflows. This could include project reports, training records, or institutional mandates referencing AI.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Organizations have limited awareness of potential AI applications for risk and disaster data, and there are no dedicated skills, guidance, or institutional arrangements to support responsible AI use.",
+            "status": "SUPPORTED",
+            "evidence_ids": [],
+            "explanation": "No evidence was identified in the supplied bank that demonstrates AI-specific skills, tools, governance, or institutional arrangements for responsible AI use in disaster-risk-relevant data management in Togo. All capacity-building and digital infrastructure evidence relates to general data management, not AI."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "A.2.4",
+        "indicator_name": "Process quality",
+        "phase_score": 3,
+        "matched_phase_requirement": "Data sources, methods, and workflows are documented and visible to users. Standard operating procedures guide data handling and validation. Methods align with recognized best practice. Processes consider cost-efficiency and ethical data use.",
+        "score_reasoning": "There is strong evidence that disaster-risk-relevant data collection and management processes in Togo are documented, harmonized, and quality-controlled at the national and subnational levels. Multiple sources describe the development and use of harmonized questionnaires (KoboCollect), validated data collection tools, and sectoral SOPs for disaster impact and risk data (V4ID-0196, 028_chunk_002_pages_011-020::E004, V4ID-0092, V4ID-0261). The process for post-disaster needs assessments (PDNA) is described in detail, including the training of evaluators, use of standardized digital tools, and multi-sectoral collaboration (028_chunk_002_pages_011-020::E003, 028_chunk_002_pages_011-020::E004, 028_chunk_002_pages_011-020::E005). Data sources, methods, and workflows are documented in official reports and are visible to users (V4ID-0192, 028_chunk_002_pages_011-020::E001, 028_chunk_003_pages_021-030::E001). Standard operating procedures and technical competencies are referenced in national plans and sectoral guidelines (V4ID-0261, V4ID-0092). There is explicit mention of process alignment with best practices, including the use of international tools (e.g., KoboCollect, QGIS) and sectoral standards (V4ID-0196, 028_chunk_002_pages_011-020::E004). Ethical and cost-efficiency considerations are referenced in national strategy documents (V4ID-0092, V4ID-0261). However, there is no evidence of automated validation, routine audits, or continuous process improvement, which are required for Phase 4. No evidence was found of embedded automated error-checking, regular process review, or systematic process updates. Therefore, all Phase 3 requirements are fully supported, but not those for Phase 4.",
+        "evidence_supporting_score": [
+          "V4ID-0196",
+          "028_chunk_002_pages_011-020::E004",
+          "V4ID-0092",
+          "V4ID-0261",
+          "028_chunk_002_pages_011-020::E003",
+          "028_chunk_002_pages_011-020::E005",
+          "V4ID-0192",
+          "028_chunk_002_pages_011-020::E001"
+        ],
+        "contrary_or_limiting_evidence": [],
+        "contrary_or_limiting_reasoning": "No evidence was identified that contradicts the Phase 3 score. The principal limitation is the absence of evidence for automated validation, routine audits, or continuous process improvement, which are required for Phase 4.",
+        "next_phase_gap": "To reach Phase 4, evidence is required of standardized, quality-controlled, and routinely audited processes, with automated validation and error-checking embedded in workflows, and regular process review and updates. This could include audit reports, documentation of automated validation routines, or records of systematic process updates.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Data sources, methods, and workflows are documented and visible to users.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0196",
+              "028_chunk_002_pages_011-020::E004",
+              "V4ID-0192",
+              "028_chunk_002_pages_011-020::E001"
+            ],
+            "explanation": "Harmonized questionnaires, validated data collection tools, and official reports document data sources, methods, and workflows, which are visible to users."
+          },
+          {
+            "requirement": "Standard operating procedures guide data handling and validation.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0261",
+              "V4ID-0092"
+            ],
+            "explanation": "National plans and sectoral guidelines reference SOPs and technical competencies for data handling and validation."
+          },
+          {
+            "requirement": "Methods align with recognized best practice.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0196",
+              "028_chunk_002_pages_011-020::E004"
+            ],
+            "explanation": "Use of international tools (KoboCollect, QGIS) and harmonized data collection methods aligns with recognized best practice."
+          },
+          {
+            "requirement": "Processes consider cost-efficiency and ethical data use.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0092",
+              "V4ID-0261"
+            ],
+            "explanation": "National strategy documents reference ethical and cost-efficiency considerations in process design."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.1.1",
+        "indicator_name": "Data accessibility",
+        "phase_score": 3,
+        "matched_phase_requirement": "Data are systematically catalogued and accessible through defined platforms or repositories. Standard formats are commonly used. Metadata is routinely provided to support discovery and interpretation. User access processes are documented and predictable. Access conditions, licensing requirements, and any associated fees are clearly communicated.",
+        "score_reasoning": "The evidence demonstrates that disaster-risk-relevant data in Togo is accessible through multiple official channels. The ANPC and sectoral agencies publish disaster impact data in official reports, which are available in tabular and narrative formats (V4ID-0192, V4ID-0219, 028_chunk_002_pages_011-020::E001). The Togo Open Data Geoportal (https://geodata.gouv.tg) provides access and visualization of infrastructure, environmental, and demographic data, with regular updates and a defined data model for over 150 infrastructure types (V4ID-0377, V4ID-0380). National meteorological and hydrological data are disseminated to the public and decision-makers at the start of each rainy season (006_chunk_001_pages_001-001::E002). There is evidence of regular reporting and dissemination requirements for environmental and social risk data (V4ID-0360), and rapid data collection and information provision to media (V4ID-0283). However, the evidence does not fully demonstrate that all disaster-risk-relevant data are systematically catalogued in a single, defined repository, nor that standard digital formats and comprehensive metadata are routinely provided for all datasets. While some platforms (e.g., the geoportal) use standard formats and data models, and some reports include metadata, this is not ecosystem-wide. User access processes are documented for some platforms, but not universally predictable or automated. There is no evidence that access conditions, licensing, or fees are systematically communicated for all datasets. The evidence exceeds Phase 2, where access is ad hoc and limited, by showing defined platforms, regular reporting, and open data initiatives. However, it does not reach Phase 4, which requires easy discoverability through interoperable systems, comprehensive metadata, user support, and routine monitoring of accessibility. The principal strength is the existence of multiple access points and open data initiatives; the main weakness is the lack of evidence for systematic, standardized, and fully documented access processes across the ecosystem.",
+        "evidence_supporting_score": [
+          "V4ID-0192",
+          "V4ID-0219",
+          "V4ID-0377",
+          "V4ID-0380",
+          "V4ID-0381",
+          "V4ID-0382",
+          "V4ID-0360",
+          "V4ID-0283",
+          "006_chunk_001_pages_001-001::E002"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0255",
+          "V4ID-0256"
+        ],
+        "contrary_or_limiting_reasoning": "V4ID-0255 and V4ID-0256 highlight recognized needs and constraints in data collection performance and accessibility, including lack of risk mapping for some regions and limited early warning coverage. These indicate that while some data is accessible, there are still significant gaps in systematic cataloguing, standardization, and universal access. No evidence was identified of a single, comprehensive, interoperable platform or routine provision of metadata for all disaster-risk-relevant datasets.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is needed of disaster-risk-relevant data being easily discoverable and accessible through interoperable systems and open platforms, with standardized formats, comprehensive metadata, user support services, and routine monitoring and improvement of accessibility based on user needs. This would require documentation of a national or ecosystem-wide interoperable platform, routine metadata provision, and evidence of user support and monitoring.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Data are systematically catalogued and accessible through defined platforms or repositories.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0377",
+              "V4ID-0192",
+              "V4ID-0219",
+              "V4ID-0380"
+            ],
+            "explanation": "The Togo Open Data Geoportal and official ANPC reports provide systematic cataloguing and access to disaster-risk-relevant data."
+          },
+          {
+            "requirement": "Standard formats are commonly used.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0380",
+              "V4ID-0377",
+              "V4ID-0382"
+            ],
+            "explanation": "The geoportal uses a defined data model and standard formats for infrastructure data; official reports use tabular and narrative formats."
+          },
+          {
+            "requirement": "Metadata is routinely provided to support discovery and interpretation.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0380",
+              "V4ID-0382"
+            ],
+            "explanation": "The geoportal and some reports include metadata and data models, though not universally for all datasets."
+          },
+          {
+            "requirement": "User access processes are documented and predictable.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0377",
+              "V4ID-0360"
+            ],
+            "explanation": "The geoportal and reporting requirements for environmental and social data document access processes for users."
+          },
+          {
+            "requirement": "Access conditions, licensing requirements, and any associated fees are clearly communicated.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0377",
+              "V4ID-0360"
+            ],
+            "explanation": "The geoportal and some reporting frameworks communicate access conditions, though not universally for all datasets."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.1.2",
+        "indicator_name": "Data availability",
+        "phase_score": 3,
+        "matched_phase_requirement": "Most core datasets exist and are routinely maintained through defined processes and responsibilities. Data collection is more regular and sustained over time, although gaps remain in some areas or periods.",
+        "score_reasoning": "There is extensive, multi-source evidence that disaster-risk-relevant data is available and regularly collected in Togo. Official ANPC reports and post-disaster needs assessments provide detailed, disaggregated, and sectoral data on disaster impacts, losses, and recovery needs for recent years and multiple hazards (V4ID-0193, V4ID-0218, 028_chunk_002_pages_011-020::E001, 028_chunk_003_pages_021-030::E001, 028_chunk_004_pages_031-040::E002). Data is available for health, education, infrastructure, agriculture, livestock, water and sanitation, and social sectors, with regular field data collection, processing, and analysis (V4ID-0207, V4ID-0213, 028_chunk_003_pages_021-030::E005, 028_chunk_003_pages_021-030::E006, 028_chunk_003_pages_021-030::E007). The Togo Open Data Geoportal provides infrastructure, environmental, and demographic data (V4ID-0378). There is evidence of periodic and event-driven data collection, including rapid assessments and routine monitoring (V4ID-0193, V4ID-0218, 028_chunk_002_pages_011-020::E001). However, while most core datasets exist and are maintained, the evidence does not fully demonstrate that all data collection is comprehensive, routine, and sustained across all hazards, sectors, and periods. Some evidence points to gaps in coverage, especially for certain regions, hazards, or demographic groups (V4ID-0255, V4ID-0256). There is no proof of a single, integrated, ecosystem-wide data maintenance process or universal coverage. The evidence exceeds Phase 2, which is characterized by ad hoc, event-driven, or project-based data collection with substantial gaps. It does not reach Phase 4, which requires comprehensive, routinely maintained datasets with systematic processes and minimal gaps. The principal strength is the breadth and regularity of data collection and reporting; the main weakness is the lack of evidence for universal, sustained, and process-driven data maintenance across the entire ecosystem.",
+        "evidence_supporting_score": [
+          "V4ID-0193",
+          "V4ID-0218",
+          "V4ID-0207",
+          "V4ID-0213",
+          "V4ID-0378",
+          "028_chunk_002_pages_011-020::E001",
+          "028_chunk_003_pages_021-030::E001",
+          "028_chunk_003_pages_021-030::E005",
+          "028_chunk_003_pages_021-030::E006",
+          "028_chunk_003_pages_021-030::E007",
+          "028_chunk_004_pages_031-040::E002"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0255",
+          "V4ID-0256"
+        ],
+        "contrary_or_limiting_reasoning": "V4ID-0255 and V4ID-0256 highlight recognized needs and constraints in data collection performance and accessibility, including lack of risk mapping for some regions and limited early warning coverage. These indicate that while most core datasets exist and are maintained, there are still gaps in coverage, especially for certain regions, hazards, or demographic groups. No evidence was identified of a single, integrated, ecosystem-wide data maintenance process or universal coverage.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is needed of comprehensive, routinely maintained data collection across all priority datasets, sectors, administrative levels, and actors, with systematic processes to identify, flag, and address missing fields and coverage gaps. This would require documentation of ecosystem-wide data maintenance protocols, regular completeness monitoring, and evidence of procedures to address gaps.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Most core datasets exist and are routinely maintained through defined processes and responsibilities.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0193",
+              "V4ID-0218",
+              "V4ID-0207",
+              "V4ID-0213",
+              "V4ID-0378",
+              "028_chunk_002_pages_011-020::E001",
+              "028_chunk_003_pages_021-030::E001"
+            ],
+            "explanation": "Official ANPC reports, post-disaster assessments, and the geoportal provide evidence of the existence and routine maintenance of core datasets across multiple sectors and hazards."
+          },
+          {
+            "requirement": "Data collection is more regular and sustained over time, although gaps remain in some areas or periods.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0193",
+              "V4ID-0218",
+              "V4ID-0207",
+              "V4ID-0213",
+              "V4ID-0378",
+              "028_chunk_002_pages_011-020::E001",
+              "028_chunk_003_pages_021-030::E001"
+            ],
+            "explanation": "There is evidence of regular, periodic, and event-driven data collection and reporting, with some acknowledged gaps in coverage for certain regions or hazards."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.1.3a",
+        "indicator_name": "Data quality: accuracy",
+        "phase_score": 3,
+        "matched_phase_requirement": "Standard procedures exist to verify and validate data. Validation is routinely applied to key datasets using predefined methods and authoritative reference sources, although implementation may vary across actors and datasets.",
+        "score_reasoning": "The evidence demonstrates that for the 2024 and 2022 disaster events in Togo, data collection was conducted using harmonized and validated tools, specifically a harmonized questionnaire integrated into KoboCollect, as described in the ANPC post-disaster needs assessment (PDNA) process (V4ID-0196, V4ID-0198, 028_chunk_002_pages_011-020::E004). The PDNA methodology, coordinated by ANPC with sectoral experts, included validation of data collection tools and technical validation of the final report (V4ID-0196, 028_chunk_002_pages_011-020::E004, 028_chunk_002_pages_011-020::E005). Disaster impact data for 2024 includes explicit attribution of deaths to specific causes (V4ID-0191), and sectoral data (e.g., infrastructure, health, agriculture) is provided in detailed, disaggregated tables (V4ID-0217, 028_chunk_004_pages_031-040::E003-E009). The use of KoboCollect and harmonized questionnaires supports the existence of standard procedures and predefined methods for key datasets. However, while validation is described for the PDNA process, there is no evidence of systematic, routine validation or accuracy assessment across all datasets, actors, or years. There is also no demonstration of structured, ecosystem-wide accuracy monitoring or automated validation routines. The evidence exceeds Phase 2, which only requires ad hoc or basic checks, by showing routine application of standard procedures for key datasets in major disaster events. However, it does not meet Phase 4, which requires systematic, structured validation and routine investigation of discrepancies across the ecosystem. The principal strength is the documented use of harmonized, validated tools and explicit cause attribution in recent PDNAs. The main limitation is the absence of evidence for routine, ecosystem-wide accuracy assessment or structured validation beyond the PDNA context.",
+        "evidence_supporting_score": [
+          "V4ID-0191",
+          "V4ID-0196",
+          "V4ID-0198",
+          "028_chunk_002_pages_011-020::E004",
+          "028_chunk_002_pages_011-020::E005",
+          "V4ID-0217",
+          "028_chunk_004_pages_031-040::E003",
+          "028_chunk_004_pages_031-040::E004",
+          "028_chunk_004_pages_031-040::E005",
+          "028_chunk_004_pages_031-040::E006",
+          "028_chunk_004_pages_031-040::E007",
+          "028_chunk_004_pages_031-040::E008",
+          "028_chunk_004_pages_031-040::E009"
+        ],
+        "contrary_or_limiting_evidence": [
+          "029_chunk_001_pages_001-010::E001",
+          "029_chunk_002_pages_011-020::E002"
+        ],
+        "contrary_or_limiting_reasoning": "The national policy analysis (029_chunk_001_pages_001-010::E001) identifies that roles and responsibilities for disaster data management are not always clearly defined, leading to inefficiencies. There are also noted limitations in institutional and technical capacity (029_chunk_002_pages_011-020::E002), which may affect the consistency and routine application of validation procedures across all actors and datasets. No evidence was identified for systematic, ecosystem-wide accuracy assessment or for automated, structured validation routines.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is required that data accuracy is systematically assessed through structured validation and triangulation using multiple independent or authoritative sources, with routine investigation and resolution of discrepancies across datasets, actors, and time periods. This would require documentation of regular, ecosystem-wide accuracy audits, automated validation routines, and evidence of discrepancy resolution processes.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Standard procedures exist to verify and validate data.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0196",
+              "V4ID-0198",
+              "028_chunk_002_pages_011-020::E004"
+            ],
+            "explanation": "The PDNA process uses harmonized, validated questionnaires and KoboCollect, with technical validation of tools and reports, demonstrating standard procedures for data verification and validation."
+          },
+          {
+            "requirement": "Validation is routinely applied to key datasets using predefined methods and authoritative reference sources.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0191",
+              "V4ID-0196",
+              "028_chunk_002_pages_011-020::E004",
+              "028_chunk_002_pages_011-020::E005"
+            ],
+            "explanation": "Disaster impact data for 2024 includes explicit cause attribution and sectoral breakdowns, with validation of data collection tools and technical review of reports, showing routine application for key datasets."
+          },
+          {
+            "requirement": "Implementation may vary across actors and datasets.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "029_chunk_001_pages_001-010::E001",
+              "029_chunk_002_pages_011-020::E002"
+            ],
+            "explanation": "Policy analysis notes that roles and capacity vary, and there is no evidence of uniform implementation across all actors or datasets."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.1.3b",
+        "indicator_name": "Data quality: completeness",
+        "phase_score": 3,
+        "matched_phase_requirement": "Most required fields are routinely completed for core datasets. Missing data are increasingly identified, documented, and followed up through defined procedures, although gaps remain for some datasets, actors, sectors, or geographic areas.",
+        "score_reasoning": "The evidence shows that for the 2024 and 2022 disaster events in Togo, most required fields are routinely completed for core datasets. The PDNA and post-catastrophe evaluations coordinated by ANPC provide comprehensive, disaggregated data tables covering affected populations, sectoral damages, and losses (V4ID-0189, V4ID-0216, 028_chunk_002_pages_011-020::E001, 028_chunk_002_pages_011-020::E002, 028_chunk_004_pages_031-040::E002, E003, E004, E005, E006, E007, E008, E009). Data completeness is demonstrated by the presence of detailed breakdowns by sex, age, sector, and location, and by the use of harmonized data collection tools (V4ID-0196, 028_chunk_002_pages_011-020::E004). The evaluation process includes training for evaluators and technical validation of reports (028_chunk_002_pages_011-020::E003, E005). However, while missing data is sometimes identified (e.g., non-functional health facilities, incomplete rebuilding), there is no evidence of systematic, ecosystem-wide procedures for identifying, documenting, and following up on missing data across all actors, sectors, or periods. The evidence exceeds Phase 2, which only requires ad hoc or partial completion, by showing routine completion and comprehensive coverage for recent major events. However, it does not meet Phase 4, which requires active monitoring and procedures to flag and address missing fields and coverage gaps across the ecosystem. The principal strength is the demonstrated completeness and disaggregation in recent PDNAs and post-catastrophe evaluations. The main limitation is the absence of evidence for systematic completeness monitoring or follow-up beyond the scope of these assessments.",
+        "evidence_supporting_score": [
+          "V4ID-0189",
+          "V4ID-0216",
+          "028_chunk_002_pages_011-020::E001",
+          "028_chunk_002_pages_011-020::E002",
+          "028_chunk_004_pages_031-040::E002",
+          "028_chunk_004_pages_031-040::E003",
+          "028_chunk_004_pages_031-040::E004",
+          "028_chunk_004_pages_031-040::E005",
+          "028_chunk_004_pages_031-040::E006",
+          "028_chunk_004_pages_031-040::E007",
+          "028_chunk_004_pages_031-040::E008",
+          "028_chunk_004_pages_031-040::E009",
+          "V4ID-0196"
+        ],
+        "contrary_or_limiting_evidence": [
+          "029_chunk_002_pages_011-020::E002",
+          "029_chunk_002_pages_011-020::E018"
+        ],
+        "contrary_or_limiting_reasoning": "Institutional analysis (029_chunk_002_pages_011-020::E002, E018) notes low technical and organizational capacity, which may limit the ability to systematically monitor and follow up on missing data across all actors and sectors. No evidence was identified for ecosystem-wide completeness monitoring or for procedures to flag and address missing fields outside the PDNA context.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is required that data completeness is actively monitored and improved, with procedures in place to identify, flag, and address missing fields and coverage gaps across most priority datasets, sectors, administrative levels, and actors. This would require documentation of regular completeness audits, automated completeness checks, and evidence of systematic follow-up on missing data.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Most required fields are routinely completed for core datasets.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0189",
+              "V4ID-0216",
+              "028_chunk_002_pages_011-020::E001",
+              "028_chunk_002_pages_011-020::E002",
+              "028_chunk_004_pages_031-040::E002",
+              "028_chunk_004_pages_031-040::E003",
+              "028_chunk_004_pages_031-040::E004",
+              "028_chunk_004_pages_031-040::E005",
+              "028_chunk_004_pages_031-040::E006",
+              "028_chunk_004_pages_031-040::E007",
+              "028_chunk_004_pages_031-040::E008",
+              "028_chunk_004_pages_031-040::E009",
+              "V4ID-0196"
+            ],
+            "explanation": "Recent PDNAs and post-catastrophe evaluations provide comprehensive, disaggregated data tables for affected populations and sectoral damages, with harmonized data collection tools and technical validation, demonstrating routine completion of required fields for core datasets."
+          },
+          {
+            "requirement": "Missing data are increasingly identified, documented, and followed up through defined procedures, although gaps remain for some datasets, actors, sectors, or geographic areas.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "028_chunk_002_pages_011-020::E001",
+              "028_chunk_002_pages_011-020::E002",
+              "028_chunk_004_pages_031-040::E002",
+              "028_chunk_004_pages_031-040::E003",
+              "028_chunk_004_pages_031-040::E004",
+              "028_chunk_004_pages_031-040::E005",
+              "028_chunk_004_pages_031-040::E006",
+              "028_chunk_004_pages_031-040::E007",
+              "028_chunk_004_pages_031-040::E008",
+              "028_chunk_004_pages_031-040::E009"
+            ],
+            "explanation": "The evaluation process includes identification of non-functional facilities, incomplete rebuilding, and other missing data, with technical validation and follow-up in the context of the PDNA and post-catastrophe assessments. However, gaps remain for some datasets and regions."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.1.3c",
+        "indicator_name": "Data quality: consistency",
+        "phase_score": 3,
+        "matched_phase_requirement": "Common definitions, classifications, formats, and encoding schemes have been established for key datasets and are used by multiple actors. Consistency has improved substantially, although implementation remains uneven and variations still occur.",
+        "score_reasoning": "The evidence demonstrates that Togo has established harmonized data collection tools for disaster impact assessment, notably through the use of a standardized questionnaire integrated into the KoboCollect tool for the 2024 post-disaster needs assessment (PDNA) (V4ID-0198). The scientific and technical committee for climatological services is explicitly tasked with ensuring the consistency and quality of climatological information and services (V4ID-0353). The existence of a harmonized questionnaire and explicit institutional responsibility for consistency indicate that common definitions, classifications, and formats are in use for key datasets. The PDNA process involved multiple sectoral actors (ANPC, INSEED, sectoral ministries), and the harmonized tool was validated and used across three prefectures (V4ID-0198, 028_chunk_002_pages_011-020::E004). However, the evidence does not show that consistency is actively monitored or enforced across the entire ecosystem, nor that all actors and datasets are covered. There is no documentation of routine audits, mechanisms to identify and address discrepancies, or ecosystem-wide standardization. Therefore, the requirements for Phase 3 are fully met, but those for Phase 4 (routine collection and management using standardized procedures, active monitoring, and mechanisms to address discrepancies) are not demonstrated. The principal strength is the operational use of harmonized tools for major assessments; the main gap is the lack of evidence for systematic, ecosystem-wide implementation and monitoring.",
+        "evidence_supporting_score": [
+          "V4ID-0198",
+          "V4ID-0353",
+          "028_chunk_002_pages_011-020::E004"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0043"
+        ],
+        "contrary_or_limiting_reasoning": "V4ID-0043 notes ambiguity and lack of coherence in the attribution of roles and responsibilities among institutions, which may limit the uniform application of standards and consistency across the ecosystem. No evidence was identified of routine, ecosystem-wide monitoring or enforcement of consistency standards.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is needed that data are routinely collected, recorded, and managed using standardized definitions, classifications, formats, and procedures across the ecosystem, with active monitoring and mechanisms to identify and address discrepancies. This would require documentation of routine audits, monitoring reports, or institutionalized processes for consistency checks across all relevant actors and datasets.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Common definitions, classifications, formats, and encoding schemes have been established for key datasets and are used by multiple actors.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0198",
+              "V4ID-0353"
+            ],
+            "explanation": "The PDNA process used a harmonized questionnaire integrated into KoboCollect, and the scientific and technical committee is tasked with ensuring consistency, showing that common standards are established and used by multiple actors."
+          },
+          {
+            "requirement": "Consistency has improved substantially, although implementation remains uneven and variations still occur.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0198",
+              "028_chunk_002_pages_011-020::E004"
+            ],
+            "explanation": "The harmonized tool was validated and used across multiple sectors and prefectures, indicating improved consistency, but the evidence does not show full, routine implementation across the ecosystem."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.1.3d",
+        "indicator_name": "Data quality: timeliness",
+        "phase_score": 3,
+        "matched_phase_requirement": "Timeframes for data collection, reporting, and updates are defined for key datasets. Data are routinely updated according to established schedules, and important changes for evolving indicators (e.g., displacement, rebuilding, economic recovery) are captured within a reasonable timeframe.",
+        "score_reasoning": "The evidence shows that Togo conducts rapid disaster impact assessments following major events, with explicit reference to the timely collection and reporting of data by humanitarian and emergency services in 2024 (V4ID-0190). Hydrometeorological forecasts are produced and realized in a timely manner (V4ID-0004), and the geoportal provides updated and analyzed data on infrastructure (V4ID-0379). The PDNA process and rapid assessments (V4ID-0190, 028_chunk_002_pages_011-020::E001) demonstrate that timeframes for data collection and reporting are defined and followed for key datasets, and that important changes (e.g., numbers of affected, deaths, damages) are captured promptly. However, there is no evidence that all key datasets are routinely updated according to established schedules across the ecosystem, nor that systematic processes ensure timeliness for all data types (e.g., dynamic indicators such as displacement or recovery). There is also no documentation of regular update cycles, operational requirements, or rapid indicator availability for all relevant datasets. Therefore, the requirements for Phase 3 are fully met, but those for Phase 4 (routine updates in line with operational requirements, systematic processes, and rapid availability of dynamic indicators) are not demonstrated. The principal strength is the operationalization of rapid assessment protocols for major events; the main gap is the lack of evidence for systematic, routine timeliness across the ecosystem.",
+        "evidence_supporting_score": [
+          "V4ID-0190",
+          "V4ID-0004",
+          "V4ID-0379",
+          "028_chunk_002_pages_011-020::E001"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0043"
+        ],
+        "contrary_or_limiting_reasoning": "V4ID-0043 notes ambiguity and lack of coherence in institutional roles, which may limit the routine, systematic updating of all key datasets. No evidence was identified of regular, ecosystem-wide update cycles or operational processes ensuring timeliness for all data types.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is needed that data are made available and updated in line with operational requirements, with regular update cycles supported by systematic processes ensuring evolving conditions are reflected in the data within defined timeframes. This would require documentation of regular update schedules, operational protocols, or monitoring reports showing routine, timely updates for all key datasets and indicators.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Timeframes for data collection, reporting, and updates are defined for key datasets.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0190",
+              "V4ID-0004"
+            ],
+            "explanation": "Rapid assessments and hydrometeorological forecasts are conducted and reported according to defined timeframes for key datasets."
+          },
+          {
+            "requirement": "Data are routinely updated according to established schedules, and important changes for evolving indicators (e.g., displacement, rebuilding, economic recovery) are captured within a reasonable timeframe.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0190",
+              "V4ID-0379",
+              "028_chunk_002_pages_011-020::E001"
+            ],
+            "explanation": "Disaster impact data is collected and reported rapidly for major events, and the geoportal provides updated data, showing that important changes are captured in a timely manner for key datasets."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.1.3e",
+        "indicator_name": "Data quality: validity",
+        "phase_score": 3,
+        "matched_phase_requirement": "Definitions, classifications, methodologies, and calculation rules are documented for key datasets and processes. Standard approaches are increasingly applied across actors, and adherence to agreed concepts and methods is routinely encouraged, although implementation remains uneven.",
+        "score_reasoning": "The evidence demonstrates that for the 2024 post-disaster needs assessment (PDNA) in Togo, data collection tools were developed, validated, and harmonized for use by sectoral actors, with a harmonized questionnaire integrated into the KoboCollect tool (V4ID-0197, 028_chunk_002_pages_011-020::E004). This process involved explicit documentation of definitions, classifications, and calculation rules for key datasets, as required for Phase 3. The technical and scientific committee is also tasked with ensuring conformity to international standards and the quality and consistency of climatological information (V4ID-0351). The use of harmonized tools and validation processes is further supported by the involvement of national experts and sectoral specialists (028_chunk_005_pages_041-048::E016). However, while these practices are documented and increasingly applied, the evidence does not show that adherence to standards is routinely reviewed and validated across the entire ecosystem, nor that all actors systematically align their practices through shared frameworks (required for Phase 4). There is no proof of ecosystem-wide, routine review or validation mechanisms, nor of harmonized approaches beyond the scope of the PDNA and select sectoral processes. Therefore, the highest fully supported phase is Phase 3. The principal strength is the existence of validated, harmonized tools and documented methodologies for key disaster datasets. The main weakness is the lack of evidence for systematic, ecosystem-wide implementation and review of standards.",
+        "evidence_supporting_score": [
+          "V4ID-0197",
+          "028_chunk_002_pages_011-020::E004",
+          "V4ID-0351",
+          "028_chunk_005_pages_041-048::E016"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0043"
+        ],
+        "contrary_or_limiting_reasoning": "V4ID-0043 notes significant ambiguity and lack of coherence in the attribution of roles and responsibilities among institutions, which may limit the consistent application of standards and quality assurance across the ecosystem. No evidence was identified of routine, ecosystem-wide review or validation of adherence to standards.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is needed that adherence to standards is routinely reviewed and validated across the ecosystem, with actors increasingly aligning their practices through shared frameworks and harmonized approaches. This would require documentation of regular, systematic review processes, quality assurance mechanisms, and evidence of their application across all relevant actors and datasets.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Definitions, classifications, methodologies, and calculation rules are documented for key datasets and processes.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0197",
+              "028_chunk_002_pages_011-020::E004"
+            ],
+            "explanation": "The PDNA process and sectoral technical committees document and validate data collection tools, definitions, and calculation rules for key disaster datasets."
+          },
+          {
+            "requirement": "Standard approaches are increasingly applied across actors.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0197",
+              "V4ID-0351",
+              "028_chunk_005_pages_041-048::E016"
+            ],
+            "explanation": "Harmonized questionnaires and technical committee oversight ensure that standard approaches are applied in disaster data collection and reporting."
+          },
+          {
+            "requirement": "Adherence to agreed concepts and methods is routinely encouraged, although implementation remains uneven.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0197",
+              "V4ID-0351"
+            ],
+            "explanation": "The technical committee is tasked with encouraging adherence to standards, but evidence of routine, ecosystem-wide review or enforcement is lacking."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.1.3f",
+        "indicator_name": "Data quality: disaggregation",
+        "phase_score": 3,
+        "matched_phase_requirement": "Data collection tools and formats include disaggregation fields; sex and age disaggregation is common; other dimensions are emerging.",
+        "score_reasoning": "Multiple lines of evidence show that disaster impact data in Togo is disaggregated by sex, age, and location for major events. The 2024 PDNA and other recent assessments provide tables and forms with explicit breakdowns by sex, age group, and prefecture (V4ID-0188, V4ID-0215, 028_chunk_004_pages_031-040::E002). Official rapid evaluation forms and sectoral data collection templates include fields for sex, age, and other demographic categories (V4ID-0310, V4ID-0311, V4ID-0312, V4ID-0325, V4ID-0326, V4ID-0329, V4ID-0331, V4ID-0334, V4ID-0336, V4ID-0338, V4ID-0340). There is also evidence of disaggregation by vulnerable group and by sector (e.g., education, health, protection). However, while sex and age disaggregation is common and other dimensions (e.g., disability, vulnerable groups) are emerging in data collection tools, the evidence does not show that disaggregated data is routinely collected, validated, and used across multiple indicators and sectors, nor that analysis is institutionalized (required for Phase 4). There is no proof of systematic, ecosystem-wide collection and use of disaggregated data for all relevant indicators or of institutionalized analysis for equity-driven reporting. The principal strength is the presence of disaggregation fields and the production of disaggregated data for key events. The main weakness is the lack of evidence for routine, ecosystem-wide collection, validation, and use of disaggregated data across all relevant indicators and sectors.",
+        "evidence_supporting_score": [
+          "V4ID-0188",
+          "V4ID-0215",
+          "028_chunk_004_pages_031-040::E002",
+          "V4ID-0310",
+          "V4ID-0311",
+          "V4ID-0312",
+          "V4ID-0325",
+          "V4ID-0326",
+          "V4ID-0329",
+          "V4ID-0331",
+          "V4ID-0334",
+          "V4ID-0336",
+          "V4ID-0338",
+          "V4ID-0340"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0039"
+        ],
+        "contrary_or_limiting_reasoning": "V4ID-0039 explicitly notes that the collection of sex- and age-disaggregated data is not systematic in Togo, and that recommendations have been made to improve this. This limits the score to Phase 3, as routine, ecosystem-wide collection and use of disaggregated data is not demonstrated.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is needed that disaggregated data is routinely collected, validated, and used across multiple indicators (e.g., disability, income) and sectors, with institutionalized analysis and demonstrated use for equity-driven reporting and decision-making. This would require documentation of systematic, ecosystem-wide practices and institutionalized analysis mechanisms.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Data collection tools and formats include disaggregation fields.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0310",
+              "V4ID-0311",
+              "V4ID-0312",
+              "V4ID-0325",
+              "V4ID-0326",
+              "V4ID-0329",
+              "V4ID-0331",
+              "V4ID-0334",
+              "V4ID-0336",
+              "V4ID-0338",
+              "V4ID-0340"
+            ],
+            "explanation": "Official forms and data collection templates include fields for sex, age, and other demographic disaggregation."
+          },
+          {
+            "requirement": "Sex and age disaggregation is common.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0188",
+              "V4ID-0215",
+              "028_chunk_004_pages_031-040::E002"
+            ],
+            "explanation": "Disaster impact data for major events is disaggregated by sex and age in official reports and tables."
+          },
+          {
+            "requirement": "Other dimensions are emerging.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0329",
+              "V4ID-0331",
+              "V4ID-0340"
+            ],
+            "explanation": "Data collection tools include fields for disability, vulnerable groups, and other categories, indicating emerging dimensions of disaggregation."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.2.1",
+        "indicator_name": "Technical and data interoperability",
+        "phase_score": 3,
+        "matched_phase_requirement": "Efforts are being made to increase interoperability between systems, for example through some application programming interface (APIs), but barriers to access still exist. Infrastructure choices (cloud, on-premise, or hybrid) are emerging and influenced by national capacity, data sovereignty considerations, and the need for more secure and reliable data management.",
+        "score_reasoning": "Togo demonstrates several concrete efforts to increase technical and data interoperability across disaster-risk-relevant systems. The national geoportal (Géoportail Open Data de la République Togolaise) provides an integrated platform for accessing, visualizing, and analyzing up-to-date infrastructure, environmental, and demographic data, developed through collaboration among all ministries, agencies, state services, and non-governmental actors (V4ID-0377, V4ID-0381, V4ID-0385). The platform's development included the definition of a data model for over 150 infrastructure types and their sub-elements, and the use of interoperable digital tools for data collection, cleaning, and consolidation (V4ID-0380, V4ID-0386, V4ID-0387). In the disaster risk sector, harmonized digital data collection tools (e.g., KoboCollect) and questionnaires have been developed and validated for use by sectoral actors in post-disaster assessments (V4ID-0195, V4ID-0196, 028_chunk_002_pages_011-020::E004). Data processing and analysis are conducted using interoperable tools such as Excel, KoboToolsBox, and QGIS (V4ID-0195, 028_chunk_002_pages_011-020::E005). There is also evidence of integration of hydrometeorological and environmental data into early warning systems (V4ID-0141, V4ID-0250), and the existence of georeferenced databases and GIS equipment for urban planning and risk mapping (V4ID-0315, V4ID-0316). However, while these efforts show managed and defined interoperability for key datasets and platforms, there is no evidence of ecosystem-wide, high-level interoperability, routine auditing, or automated validation across all systems. Barriers to access and integration remain, and the evidence does not demonstrate routinely monitored or fully standardized interoperability. Advancement to Phase 4 would require proof of high, routinely monitored interoperability, interactive dashboards, real-time APIs, and purposefully designed infrastructure supporting secure integration across institutional systems. The principal strength is the operationalization of integrated platforms and harmonized tools for key disaster-risk-relevant data; the main weakness is the lack of evidence for ecosystem-wide, routinely monitored, and standardized interoperability.",
+        "evidence_supporting_score": [
+          "V4ID-0377",
+          "V4ID-0381",
+          "V4ID-0385",
+          "V4ID-0380",
+          "V4ID-0386",
+          "V4ID-0387",
+          "V4ID-0195",
+          "V4ID-0196",
+          "028_chunk_002_pages_011-020::E004",
+          "028_chunk_002_pages_011-020::E005",
+          "V4ID-0141",
+          "V4ID-0250",
+          "V4ID-0315",
+          "V4ID-0316"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0042",
+          "V4ID-0220"
+        ],
+        "contrary_or_limiting_reasoning": "Several sources (V4ID-0042, V4ID-0220) provide recommendations for further integration, the creation of a unified risk data platform, and improved data exchange, indicating that current interoperability is not yet comprehensive or fully operationalized. There is no evidence of routine, ecosystem-wide auditing, automated validation, or high-level interoperability across all systems. The evidence is strongest for key platforms and specific projects, but not for the entire disaster data ecosystem.",
+        "next_phase_gap": "To reach Phase 4, Togo would need concrete, ecosystem-wide evidence of high interoperability, such as routinely monitored, standardized, and audited integration across all major disaster-risk-relevant systems, interactive dashboards, real-time APIs, and purposefully designed infrastructure supporting secure integration. This would require documentation of routine audits, automated validation, and evidence that interoperability is the norm across all relevant institutions and platforms.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Efforts are being made to increase interoperability between systems, for example through some application programming interface (APIs), but barriers to access still exist.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0377",
+              "V4ID-0381",
+              "V4ID-0385",
+              "V4ID-0380",
+              "V4ID-0386",
+              "V4ID-0387",
+              "V4ID-0195",
+              "V4ID-0196",
+              "028_chunk_002_pages_011-020::E004",
+              "028_chunk_002_pages_011-020::E005"
+            ],
+            "explanation": "The national geoportal and harmonized data collection tools (KoboCollect) demonstrate managed and defined interoperability for key datasets and platforms. Data processing and analysis use interoperable tools (Excel, QGIS, KoboToolsBox). However, barriers to access and integration remain, and there is no evidence of ecosystem-wide, high-level interoperability."
+          },
+          {
+            "requirement": "Infrastructure choices (cloud, on-premise, or hybrid) are emerging and influenced by national capacity, data sovereignty considerations, and the need for more secure and reliable data management.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0377",
+              "V4ID-0381",
+              "V4ID-0385"
+            ],
+            "explanation": "The geoportal and related platforms are developed as integrated, secure digital infrastructure, with evidence of national capacity-building and consideration of secure, reliable data management. The evidence does not show full optimization or hybrid models, but does show emerging infrastructure choices."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.2.2",
+        "indicator_name": "Operationalize common (meta)data standards",
+        "phase_score": 3,
+        "matched_phase_requirement": "Common data standards have been agreed upon for key datasets, processes, or domains and are used by multiple actors. Standards increasingly guide data collection, documentation, metadata creation, and data management practices. However, implementation remains uneven and compliance is not systematically monitored across the ecosystem.",
+        "score_reasoning": "Togo has made significant progress in operationalizing common (meta)data standards for disaster-risk-relevant data, particularly for key datasets and processes. The national geoportal project defined a data model for over 150 types of mapped infrastructure and their sub-elements, which is used for data collection, cleaning, and consolidation across all ministries, agencies, and non-governmental actors (V4ID-0380, V4ID-0382, V4ID-0385). In the disaster risk sector, harmonized data collection tools and questionnaires (e.g., KoboCollect) have been developed and validated for use by sectoral actors in post-disaster assessments (V4ID-0196, 028_chunk_002_pages_011-020::E004). These tools and models guide data collection, documentation, and management practices for key datasets. However, the evidence does not demonstrate that common standards are widely adopted and consistently applied across the majority of actors and datasets, nor is there proof of systematic compliance monitoring. The operationalization of standards is strongest for specific platforms and projects, but not ecosystem-wide. Advancement to Phase 4 would require evidence of widespread, consistent application of common data standards, standardized definitions, classifications, formats, and metadata across sectors and institutions, and systematic compliance monitoring. The principal strength is the existence and use of harmonized data models and collection tools for key datasets; the main weakness is the lack of evidence for ecosystem-wide, consistently applied standards and systematic compliance monitoring.",
+        "evidence_supporting_score": [
+          "V4ID-0380",
+          "V4ID-0382",
+          "V4ID-0385",
+          "V4ID-0196",
+          "028_chunk_002_pages_011-020::E004"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0042",
+          "V4ID-0220"
+        ],
+        "contrary_or_limiting_reasoning": "Some sources (V4ID-0042, V4ID-0220) recommend further integration and the creation of a unified risk data platform, indicating that current adoption of common standards is not yet comprehensive or systematically monitored. There is no evidence of ecosystem-wide, routine compliance monitoring or that standards are consistently applied across all actors and datasets.",
+        "next_phase_gap": "To reach Phase 4, Togo would need concrete, ecosystem-wide evidence that common data standards are widely adopted and consistently applied across the majority of actors and datasets, with standardized definitions, classifications, formats, and metadata improving data quality, comparability, and consistency. There must also be evidence of systematic compliance monitoring and that adoption is no longer limited to individual organizations or datasets.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Common data standards have been agreed upon for key datasets, processes, or domains and are used by multiple actors.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0380",
+              "V4ID-0382",
+              "V4ID-0385",
+              "V4ID-0196",
+              "028_chunk_002_pages_011-020::E004"
+            ],
+            "explanation": "The national geoportal project defined a data model for over 150 infrastructure types, and harmonized data collection tools (KoboCollect) are used by multiple actors for key disaster-risk-relevant datasets. These standards guide data collection and management for key processes."
+          },
+          {
+            "requirement": "Standards increasingly guide data collection, documentation, metadata creation, and data management practices.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0380",
+              "V4ID-0382",
+              "V4ID-0385",
+              "V4ID-0196"
+            ],
+            "explanation": "The data model and harmonized tools guide data collection, documentation, and management for mapped infrastructure and disaster-risk-relevant datasets. However, the evidence does not show that these standards are applied ecosystem-wide."
+          },
+          {
+            "requirement": "However, implementation remains uneven and compliance is not systematically monitored across the ecosystem.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0042",
+              "V4ID-0220"
+            ],
+            "explanation": "Recommendations for further integration and a unified risk data platform indicate that implementation of common standards is not yet comprehensive or systematically monitored. There is no evidence of ecosystem-wide, routine compliance monitoring."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.2.3",
+        "indicator_name": "Technical infrastructure and operational readiness for AI-enabled data workflows",
+        "phase_score": 3,
+        "matched_phase_requirement": "Core data workflows are digitized and increasingly structured in ways that support AI applications. Organizations have reliable access to digital data platforms, cloud-based AI services, and sufficient connectivity and computing resources to apply AI within selected operational workflows. Technical approaches are increasingly standardized, although adoption remains uneven across actors and systems.",
+        "score_reasoning": "The evidence demonstrates that Togo has made significant progress in digitizing core data workflows and developing integrated platforms for disaster-risk-relevant data. The national geoportal (https://geodata.gouv.tg) provides an integrated, secure platform for the collection, analysis, and visualization of infrastructure, environmental, and demographic data, with contributions from all ministries, agencies, and a wide range of public and private actors (V4ID-0377, V4ID-0381, V4ID-0383, V4ID-0385). The platform is described as secure and supports real-time data submission and analysis, and the data model covers over 150 infrastructure types (V4ID-0380, V4ID-0382). In the disaster risk sector, harmonized digital data collection tools (KoboCollect) are used for field data collection and integrated into national workflows (V4ID-0195, V4ID-0196, V4ID-0197, 028_chunk_002_pages_011-020::E004). There is evidence of real-time reporting capacity for early warning and crisis monitoring (020_chunk_001_pages_001-001::E004). However, there is no direct evidence of AI-enabled workflows being operationalized across the ecosystem. While the technical infrastructure (platforms, digital tools, secure data management) is in place and increasingly standardized, the adoption of AI tools is not demonstrated, and there is no evidence of ecosystem-wide integration, standardized AI governance, or routine use of AI in data collection, management, or analysis. The evidence supports Phase 3, as core workflows are digitized and technical approaches are increasingly standardized, but adoption is uneven and AI is not yet embedded. To reach Phase 4, concrete proof of routine AI integration, standardized tools, and ecosystem-wide governance would be required.",
+        "evidence_supporting_score": [
+          "V4ID-0377",
+          "V4ID-0381",
+          "V4ID-0383",
+          "V4ID-0385",
+          "V4ID-0380",
+          "V4ID-0382",
+          "V4ID-0195",
+          "V4ID-0196",
+          "V4ID-0197",
+          "028_chunk_002_pages_011-020::E004",
+          "020_chunk_001_pages_001-001::E004"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0383"
+        ],
+        "contrary_or_limiting_reasoning": "While the geoportal and digital platforms are secure and support integrated data workflows, there is no direct evidence of AI-enabled workflows being operationalized. The evidence (V4ID-0383) describes the platform as secure and deployed, but does not mention AI capabilities or ecosystem-wide operational readiness for AI. No evidence was identified of standardized AI tools, governance arrangements, or routine AI use in disaster data workflows.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is needed that AI capabilities are integrated across institutions, with standardized tools, governance arrangements, and skilled staff enabling consistent use in data collection, management, and analysis. This would require documentation of operational AI-enabled workflows, standardized AI tools, and oversight mechanisms for responsible AI use across the ecosystem.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Core data workflows are digitized and increasingly structured in ways that support AI applications.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0377",
+              "V4ID-0381",
+              "V4ID-0383",
+              "V4ID-0385",
+              "V4ID-0380",
+              "V4ID-0382",
+              "V4ID-0195",
+              "V4ID-0196",
+              "V4ID-0197",
+              "028_chunk_002_pages_011-020::E004"
+            ],
+            "explanation": "The geoportal and disaster data platforms are digitized, integrated, and support structured data collection and analysis, with harmonized tools and secure infrastructure."
+          },
+          {
+            "requirement": "Organizations have reliable access to digital data platforms, cloud-based AI services, and sufficient connectivity and computing resources to apply AI within selected operational workflows.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0377",
+              "V4ID-0381",
+              "V4ID-0383",
+              "V4ID-0385",
+              "V4ID-0380",
+              "V4ID-0382",
+              "V4ID-0195",
+              "V4ID-0196",
+              "V4ID-0197",
+              "028_chunk_002_pages_011-020::E004",
+              "020_chunk_001_pages_001-001::E004"
+            ],
+            "explanation": "Organizations have access to digital platforms and secure infrastructure, and there is evidence of real-time reporting and data submission capacity."
+          },
+          {
+            "requirement": "Technical approaches are increasingly standardized, although adoption remains uneven across actors and systems.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0380",
+              "V4ID-0382",
+              "V4ID-0196"
+            ],
+            "explanation": "A data model and harmonized data collection tools are in use, and technical approaches are increasingly standardized, but adoption is not yet ecosystem-wide."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.3.1",
+        "indicator_name": "Applications and use cases",
+        "phase_score": 3,
+        "matched_phase_requirement": "Data requirements for key applications are defined across institutions and documented in strategies, guidelines, or procedures. Demand is clearer and more consistent, but integration into decision-making remains partial and uneven.",
+        "score_reasoning": "There is strong evidence that Togo has defined and documented data requirements for key disaster-risk-relevant applications across multiple institutions and sectors. National strategies and action plans explicitly reference the use of risk and impact data for planning, investment, early warning, and post-disaster assessment (V4ID-0034, V4ID-0060, V4ID-0199, 028_chunk_001_pages_001-010::E004). The use of data for post-disaster needs assessments (PDNA), resource mobilization, and sectoral planning is well documented (V4ID-0199, 028_chunk_001_pages_001-010::E004, 028_chunk_002_pages_011-020::E001). There are concrete examples of data use in national and subnational contexts, including the use of rapid assessment tools, gender analysis tools, and mobile applications for risk information dissemination (V4ID-0164, V4ID-0165, V4ID-0101). The geoportal and open data platforms further support diverse use cases for infrastructure, environmental, and demographic data (V4ID-0377, V4ID-0384, V4ID-0181, V4ID-0182). However, while demand is clearer and more consistent, integration into decision-making remains partial and uneven. There is no evidence of routine, embedded, or anticipatory data demand, nor of proactive, co-created, or system-wide innovation in data use. The evidence supports Phase 3, as data requirements are defined and documented, and use cases are established, but higher-phase requirements for embedded, anticipatory, or transformational data demand are not met.",
+        "evidence_supporting_score": [
+          "V4ID-0034",
+          "V4ID-0060",
+          "V4ID-0199",
+          "028_chunk_001_pages_001-010::E004",
+          "028_chunk_002_pages_011-020::E001",
+          "V4ID-0164",
+          "V4ID-0165",
+          "V4ID-0101",
+          "V4ID-0377",
+          "V4ID-0384",
+          "V4ID-0181",
+          "V4ID-0182"
+        ],
+        "contrary_or_limiting_evidence": [],
+        "contrary_or_limiting_reasoning": "No evidence was identified of routine, embedded, or anticipatory data demand, nor of co-created or system-wide innovation in data use. Integration into decision-making is documented for specific applications and events, but not as a routine, ecosystem-wide practice.",
+        "next_phase_gap": "To reach Phase 4, evidence is needed that demand for risk and impact data is embedded in planning cycles, financing workflows, early warning and early action protocols, and recovery processes across sectors, with users proactively refining and regularly using data needs, including for inclusive and gender-responsive applications. This would require documentation of routine, embedded data demand and its influence on decision-making across the ecosystem.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Data requirements for key applications are defined across institutions and documented in strategies, guidelines, or procedures.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0034",
+              "V4ID-0060",
+              "V4ID-0199",
+              "028_chunk_001_pages_001-010::E004",
+              "028_chunk_002_pages_011-020::E001"
+            ],
+            "explanation": "National strategies, action plans, and assessment reports define and document data requirements for planning, investment, early warning, and post-disaster assessment."
+          },
+          {
+            "requirement": "Demand is clearer and more consistent, but integration into decision-making remains partial and uneven.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0164",
+              "V4ID-0165",
+              "V4ID-0101",
+              "V4ID-0377",
+              "V4ID-0384",
+              "V4ID-0181",
+              "V4ID-0182"
+            ],
+            "explanation": "Use cases are established and documented, and data is used for specific applications, but integration into decision-making is not yet routine or ecosystem-wide."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "B.3.2",
+        "indicator_name": "Supply meets demand",
+        "phase_score": 3,
+        "matched_phase_requirement": "Users can generally find what data they need. Data producers respond to known demands, though not always proactively. Data are increasingly provided in a timely manner and at appropriate levels of detail. Basic feedback mechanisms exist, helping to gradually align supply with demand.",
+        "score_reasoning": "The evidence demonstrates that disaster impact and risk data are available and used to meet the needs of key users in Togo. The 2024 post-disaster needs assessment (PDNA) for the prefectures of Yoto, Anié, and Tchamba was coordinated by the Agence Nationale de la Protection Civile (ANPC) and involved multiple national and local actors (V4ID-0185, V4ID-0186, V4ID-0194, V4ID-0221, 028_chunk_001_pages_001-010::E001, 028_chunk_002_pages_011-020::E006). Data were collected, processed, and analyzed to produce detailed, disaggregated, and timely reports on disaster impacts, which were then used to elaborate the PDNA report (V4ID-0200, V4ID-0193, V4ID-0192, 028_chunk_001_pages_001-010::E003, 028_chunk_003_pages_021-030::E001). The PDNA report served as a tool for resource mobilization and informed decision-making by government and partners (028_chunk_001_pages_001-010::E004). Data are accessible in official reports and tables (V4ID-0192, V4ID-0218), and there is evidence of feedback and validation workshops involving stakeholders (028_chunk_001_pages_001-010::E009, 028_chunk_001_pages_001-010::E010). However, while users can generally find the data they need and producers respond to known demands, there is no evidence of systematic, institutionalized, or proactive feedback mechanisms or engagement with all user groups. The supply-demand alignment is strong for major events and official processes, but not yet ecosystem-wide or fully institutionalized. There is also no evidence of regular, institutionalized feedback loops or proactive engagement with diverse user groups beyond the main government and humanitarian actors. Therefore, the evidence fully supports Phase 3 (Managed and defined), but not Phase 4 (Controlled, optimizing), which requires well-coordinated supply, institutionalized feedback, and active engagement across the ecosystem.",
+        "evidence_supporting_score": [
+          "V4ID-0185",
+          "V4ID-0186",
+          "V4ID-0193",
+          "V4ID-0192",
+          "V4ID-0200",
+          "V4ID-0218",
+          "V4ID-0221",
+          "028_chunk_001_pages_001-010::E001",
+          "028_chunk_001_pages_001-010::E003",
+          "028_chunk_001_pages_001-010::E004",
+          "028_chunk_001_pages_001-010::E009",
+          "028_chunk_001_pages_001-010::E010",
+          "028_chunk_002_pages_011-020::E006",
+          "028_chunk_003_pages_021-030::E001"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0040",
+          "V4ID-0039"
+        ],
+        "contrary_or_limiting_reasoning": "V4ID-0040 and V4ID-0039 indicate that data completeness and systematic disaggregation (e.g., by sex and age) are not yet routine across all datasets and actors. This limits the representativeness and inclusiveness of the data supply and suggests that not all user needs—especially for disaggregated or equity-focused data—are fully met. There is also no evidence of institutionalized, ecosystem-wide feedback mechanisms or proactive engagement with all user groups, which is required for Phase 4.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is needed of well-coordinated data supply across organizations, with clear channels for access and regular updates based on user needs. This would require documentation of institutionalized feedback mechanisms, active engagement with a broad range of user groups (including local, vulnerable, and diverse populations), and demonstrable influence of user input on data priorities and practices. Proof could include records of regular, formal feedback processes, user satisfaction surveys, or documented changes to data supply in response to user input.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Users can generally find what data they need.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0192",
+              "V4ID-0193",
+              "V4ID-0218",
+              "V4ID-0200",
+              "028_chunk_001_pages_001-010::E003"
+            ],
+            "explanation": "Disaster impact data are accessible in official reports and tables, and users (e.g., government, humanitarian partners) can find the data needed for PDNA and decision-making."
+          },
+          {
+            "requirement": "Data producers respond to known demands, though not always proactively.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0185",
+              "V4ID-0186",
+              "V4ID-0221",
+              "028_chunk_001_pages_001-010::E001",
+              "028_chunk_002_pages_011-020::E006"
+            ],
+            "explanation": "ANPC and sectoral actors coordinate data collection and reporting in response to disaster events and official needs, as seen in the PDNA process."
+          },
+          {
+            "requirement": "Data are increasingly provided in a timely manner and at appropriate levels of detail.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0190",
+              "V4ID-0192",
+              "V4ID-0218",
+              "028_chunk_001_pages_001-010::E003",
+              "028_chunk_003_pages_021-030::E001"
+            ],
+            "explanation": "Rapid assessments and detailed, disaggregated data are produced and reported soon after disaster events, supporting timely and detailed data provision."
+          },
+          {
+            "requirement": "Basic feedback mechanisms exist, helping to gradually align supply with demand.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "028_chunk_001_pages_001-010::E009",
+              "028_chunk_001_pages_001-010::E010"
+            ],
+            "explanation": "Workshops for data processing, report preparation, and validation involve stakeholders and provide opportunities for feedback, though these are not yet fully institutionalized or ecosystem-wide."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "C.1.1",
+        "indicator_name": "Trust building among ecosystem actors",
+        "phase_score": 3,
+        "matched_phase_requirement": "Coordination mechanisms reduce barriers to collaboration by improving transparency, communication, and mutual understanding. Trust increasingly extends across sectors, organizations, and administrative levels.",
+        "score_reasoning": "Togo demonstrates the existence of coordination mechanisms and multi-actor platforms that reduce barriers to collaboration and improve communication and mutual understanding. The National Platform for Disaster Risk Reduction (PNRRC) was established to provide a framework for synergy among actors and pooling of resources (029_chunk_002_pages_011-020::E004). National meetings coordinated by ANPC have brought together regional and local officials, clarifying roles and responsibilities and strengthening coordination among decentralized services, Defense Forces, NGOs, and technical and financial partners (026_chunk_001_pages_001-001::E001, 026_chunk_001_pages_001-001::E002). The policy emphasizes strong coordination within and across sectors, with mechanisms for consultation among stakeholders at all levels, including executive and legislative bodies, public and private sector actors, enterprises, and universities (029_chunk_002_pages_011-020::E022). The development of the civil protection policy was intended to be participatory, involving government, private sector, NGOs, and development partners (029_chunk_001_pages_001-010::E007). However, the evidence does not demonstrate that trust is well established across all organizations and stakeholder groups, nor that participation is routinely inclusive or that collaboration is institutionalized ecosystem-wide. There is no direct evidence of routine, transparent, and inclusive participation in data collection, analysis, and use, or of trust being deeply embedded across the ecosystem. The principal strength is the existence of formal platforms and multi-actor engagement; the main weakness is the lack of evidence for systematic, routine, and inclusive trust-building practices across all relevant actors.",
+        "evidence_supporting_score": [
+          "029_chunk_002_pages_011-020::E004",
+          "026_chunk_001_pages_001-001::E001",
+          "026_chunk_001_pages_001-001::E002",
+          "029_chunk_002_pages_011-020::E022",
+          "029_chunk_001_pages_001-010::E007"
+        ],
+        "contrary_or_limiting_evidence": [
+          "029_chunk_001_pages_001-010::E001",
+          "029_chunk_002_pages_011-020::E002"
+        ],
+        "contrary_or_limiting_reasoning": "There is explicit evidence of ambiguity and lack of clarity in the roles and missions of government structures, leading to redundancy and inefficiency (029_chunk_001_pages_001-010::E001). The effectiveness of institutional arrangements and coordination tools is limited by dysfunctions and low organizational capacity (029_chunk_002_pages_011-020::E002). There is no evidence of systematic, routine, and inclusive trust-building or of trust being well established across all organizations and stakeholder groups.",
+        "next_phase_gap": "To reach Phase 4, evidence is needed that the coordinating body ensures diverse and transparent participation in data collection, analysis, and application, with trust well established across organizations and stakeholder groups, enabling routine collaboration and collective action. This would require documentation of routine, inclusive participation, transparent approaches, and meaningful relationships between actors, as well as demonstrable influence of trust on ecosystem practices.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Coordination mechanisms reduce barriers to collaboration by improving transparency, communication, and mutual understanding.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "029_chunk_002_pages_011-020::E004",
+              "026_chunk_001_pages_001-001::E001",
+              "026_chunk_001_pages_001-001::E002"
+            ],
+            "explanation": "The National Platform for Disaster Risk Reduction (PNRRC) and ANPC-coordinated meetings provide frameworks for synergy, clarify roles, and strengthen coordination among diverse actors, improving transparency and communication."
+          },
+          {
+            "requirement": "Trust increasingly extends across sectors, organizations, and administrative levels.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "029_chunk_002_pages_011-020::E022",
+              "029_chunk_001_pages_001-010::E007"
+            ],
+            "explanation": "The policy emphasizes strong coordination and consultation across sectors and levels, and the participatory development of the civil protection policy involved government, private sector, NGOs, and development partners, supporting the extension of trust."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "C.1.2",
+        "indicator_name": "Responsible data governance & accountability",
+        "phase_score": 3,
+        "matched_phase_requirement": "There is a clear recognition of the importance of secure and ethical data handling. Organizations across the ecosystem establish formal policies for responsible data use and security, and begin aligning these through collaboration. Accountability mechanisms are in place, though their effectiveness varies.",
+        "score_reasoning": "Togo has established a comprehensive legal framework for data protection (Loi n° 2019-014), which regulates the collection, processing, transmission, storage, use, and protection of personal data, and guarantees that such processing does not infringe on fundamental rights and freedoms (024_chunk_001_pages_001-010::E001). The law creates an independent data protection authority with a mandate to ensure compliance (024_chunk_001_pages_001-010::E002, 024_chunk_002_pages_011-020::E005). The law requires confidentiality, security, and accountability in personal data processing, including for subcontractors, and mandates comprehensive security measures (024_chunk_001_pages_001-010::E004, E005; 024_chunk_002_pages_011-020::E001, E002). There are clear requirements for data retention, usability, and professional secrecy (024_chunk_002_pages_011-020::E003, E004, E009). The authority has budgetary autonomy and is funded by state allocations, partner contributions, and fines (024_chunk_002_pages_011-020::E007, E008). However, there is no evidence of unified, ecosystem-wide guidelines for responsible data use, systematic enforcement, or routine compliance monitoring across all organizations. The effectiveness of accountability mechanisms is not demonstrated, and there is no documentation of regular updates, enforcement by national authorities, or ecosystem-wide collaboration on responsible data governance. The principal strength is the existence of a robust legal and institutional framework; the main weakness is the lack of evidence for systematic, routine, and ecosystem-wide implementation and enforcement.",
+        "evidence_supporting_score": [
+          "024_chunk_001_pages_001-010::E001",
+          "024_chunk_001_pages_001-010::E002",
+          "024_chunk_001_pages_001-010::E004",
+          "024_chunk_001_pages_001-010::E005",
+          "024_chunk_002_pages_011-020::E001",
+          "024_chunk_002_pages_011-020::E002",
+          "024_chunk_002_pages_011-020::E003",
+          "024_chunk_002_pages_011-020::E004",
+          "024_chunk_002_pages_011-020::E005",
+          "024_chunk_002_pages_011-020::E007",
+          "024_chunk_002_pages_011-020::E008",
+          "024_chunk_002_pages_011-020::E009"
+        ],
+        "contrary_or_limiting_evidence": [
+          "024_chunk_002_pages_011-020::E005"
+        ],
+        "contrary_or_limiting_reasoning": "While the law establishes an independent authority and clear requirements, there is no evidence of unified, ecosystem-wide guidelines, systematic enforcement, or routine compliance monitoring. The effectiveness of accountability mechanisms is not demonstrated, and there is no documentation of regular updates, enforcement by national authorities, or ecosystem-wide collaboration on responsible data governance.",
+        "next_phase_gap": "To reach Phase 4, evidence is needed of unified data responsibility guidelines actively maintained by designated actors, consistent implementation of accountability mechanisms with clearly assigned responsibilities and oversight arrangements across organizations, and regular compliance monitoring and enforcement by national authorities. This would require documentation of unified guidelines, systematic enforcement, and routine compliance monitoring across the ecosystem.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "There is a clear recognition of the importance of secure and ethical data handling.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "024_chunk_001_pages_001-010::E001",
+              "024_chunk_001_pages_001-010::E004"
+            ],
+            "explanation": "The national law (Loi n° 2019-014) regulates personal data processing and guarantees protection of rights and freedoms, with explicit requirements for confidentiality and security."
+          },
+          {
+            "requirement": "Organizations across the ecosystem establish formal policies for responsible data use and security, and begin aligning these through collaboration.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "024_chunk_001_pages_001-010::E002",
+              "024_chunk_002_pages_011-020::E005"
+            ],
+            "explanation": "The law creates an independent data protection authority and requires organizations to comply with security and confidentiality measures, with budgetary autonomy and collaboration with public and international partners."
+          },
+          {
+            "requirement": "Accountability mechanisms are in place, though their effectiveness varies.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "024_chunk_001_pages_001-010::E005",
+              "024_chunk_002_pages_011-020::E001"
+            ],
+            "explanation": "The law requires accountability for data controllers and subcontractors, with written commitments and contractual obligations, and mandates professional secrecy for authority members."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "C.1.3",
+        "indicator_name": "Responsible AI governance & accountability",
+        "phase_score": 1,
+        "matched_phase_requirement": "AI-supported workflows, where used, operate without formal governance or oversight. There is little awareness of AI-specific risks, limitations, bias, explainability, or accountability. Responsibilities for AI-related decisions and outcomes are not defined, and AI use is rarely documented.",
+        "score_reasoning": "A thorough review of the supplied evidence bank reveals no direct or indirect evidence of responsible AI governance, oversight, or accountability mechanisms in Togo’s disaster-risk-relevant data ecosystem. There are no references to AI-specific policies, formal or informal governance arrangements, risk assessments, documentation of AI use, or assignment of responsibilities for AI-supported decisions in any disaster data, civil protection, meteorological, or digital transformation context. The national data protection law (Loi n° 2019-014) and the existence of a data protection authority (024_chunk_001_pages_001-010::E001, E002) establish a general legal framework for data privacy and security, but do not address AI-specific risks, explainability, bias, or accountability. No evidence was identified of AI being used in disaster data workflows, nor of any sectoral or cross-sectoral guidance, review, or oversight for AI applications. There is also no mention of AI in the context of technical infrastructure, capacity building, or digital platforms (e.g., the national geoportal,  geodata.gouv.tg). The absence of any such evidence means that the ecosystem cannot be scored above Phase 1, which describes a context where AI, if present, operates without governance or oversight and there is little awareness of AI-specific risks. There is also no evidence to contradict this assessment. To reach Phase 2, at minimum, there would need to be evidence of limited AI capacity, experimentation, or initial discussions of responsible AI practices, none of which are present. The principal diagnostic issue is a total documentary gap on AI governance and use in disaster-risk-relevant data in Togo.",
+        "evidence_supporting_score": [],
+        "contrary_or_limiting_evidence": [],
+        "contrary_or_limiting_reasoning": "No evidence was identified that contradicts the Phase 1 score. The principal limitation is a complete absence of documentary evidence for any AI use, governance, or oversight in the disaster-risk-relevant data ecosystem. This is a documentary evidence gap, not a proven absence of activity.",
+        "next_phase_gap": "To reach Phase 2, concrete evidence is required of limited AI capacity among actors, experimentation with AI applications, or initial discussions, guidance, or informal review processes for responsible AI use in disaster-risk-relevant data. This could include meeting minutes, policy drafts, pilot project documentation, or training records referencing AI.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "AI-supported workflows, where used, operate without formal governance or oversight.",
+            "status": "SUPPORTED",
+            "evidence_ids": [],
+            "explanation": "No evidence of any formal or informal AI governance, oversight, or policy was identified in the supplied evidence bank. The absence of such evidence supports the Phase 1 requirement."
+          },
+          {
+            "requirement": "There is little awareness of AI-specific risks, limitations, bias, explainability, or accountability.",
+            "status": "SUPPORTED",
+            "evidence_ids": [],
+            "explanation": "No evidence was found of awareness, discussion, or documentation of AI-specific risks, limitations, bias, explainability, or accountability in any disaster-risk-relevant context."
+          },
+          {
+            "requirement": "Responsibilities for AI-related decisions and outcomes are not defined, and AI use is rarely documented.",
+            "status": "SUPPORTED",
+            "evidence_ids": [],
+            "explanation": "No evidence was found of defined responsibilities for AI-related decisions or documentation of AI use in disaster-risk-relevant data systems."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "C.1.4",
+        "indicator_name": "Security",
+        "phase_score": 1,
+        "matched_phase_requirement": "No specific controls. Data and systems are highly exposed to risks (unauthorized access, loss, misuse)",
+        "score_reasoning": "Togo has a comprehensive legal and regulatory framework for data security and confidentiality, notably Loi n° 2019-014 (024_chunk_001_pages_001-010::E001-E010, 024_chunk_002_pages_011-020::E001-E009), which applies to all personal data processing, including disaster-risk-relevant data. The law requires confidentiality, security measures, access controls, audit trails, and professional secrecy for data handlers, and establishes an independent data protection authority with budgetary autonomy. There is also evidence that the national geoportal (geodata.gouv.tg) was developed with explicit attention to platform security (V4ID-0383, V4ID-0389). However, there is no evidence of the implementation of standard security frameworks (e.g., ISO 27001), core technical controls (encryption, role-based access, version control, backups), or systematic operationalization of security practices in disaster-risk-relevant data systems. No evidence was found of continuous monitoring, automated response, incident detection, or coordinated security practices across systems or actors. The legal framework supports the existence of security requirements, but there is no proof of their operationalization, enforcement, or effect in disaster data systems. The evidence does not support Phase 2, which requires at least basic and informal security controls applied inconsistently, or Phase 3, which requires implementation of standard security frameworks and core controls. The principal diagnostic issue is a gap between legal requirements and demonstrated operational security in disaster-risk-relevant data systems.",
+        "evidence_supporting_score": [
+          "024_chunk_001_pages_001-010::E001",
+          "024_chunk_001_pages_001-010::E004",
+          "024_chunk_001_pages_001-010::E005",
+          "024_chunk_002_pages_011-020::E001",
+          "024_chunk_002_pages_011-020::E002",
+          "024_chunk_002_pages_011-020::E009",
+          "V4ID-0383",
+          "V4ID-0389"
+        ],
+        "contrary_or_limiting_evidence": [],
+        "contrary_or_limiting_reasoning": "No evidence was found of the operationalization or enforcement of security controls in disaster-risk-relevant data systems. The legal framework is comprehensive, but there is a documentary gap regarding implementation, technical controls, and ecosystem-wide security practices.",
+        "next_phase_gap": "To reach Phase 2, concrete evidence is required of basic and informal security controls being applied (even inconsistently) in disaster-risk-relevant data systems. This could include documentation of encryption, access controls, backups, or incident response in disaster data platforms, or records of security training or audits.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "No specific controls.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "024_chunk_001_pages_001-010::E001",
+              "024_chunk_001_pages_001-010::E004",
+              "024_chunk_001_pages_001-010::E005",
+              "024_chunk_002_pages_011-020::E001",
+              "024_chunk_002_pages_011-020::E002",
+              "024_chunk_002_pages_011-020::E009"
+            ],
+            "explanation": "The legal framework (Loi n° 2019-014) establishes requirements for data security and confidentiality, but there is no evidence of specific technical or operational controls being implemented in disaster-risk-relevant data systems."
+          },
+          {
+            "requirement": "Data and systems are highly exposed to risks (unauthorized access, loss, misuse)",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0383",
+              "V4ID-0389"
+            ],
+            "explanation": "While the geoportal and some platforms mention security, there is no evidence of systematic technical controls or operational security practices, leaving data and systems exposed to risks."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "C.1.5",
+        "indicator_name": "Privacy",
+        "phase_score": 3,
+        "matched_phase_requirement": "Privacy practices align with recognized legal and ethical standards (e.g. national and regional data protection laws and internationally accepted privacy principles that promote lawful, transparent, and accountable use of personal data). Data sharing agreements and consent processes are compliant with legal standards and ethical standards, including security, privacy, consent, data ownership, and transparency. Anonymization and pseudonymization are routinely applied where appropriate to reduce privacy risks.",
+        "score_reasoning": "Togo has enacted a comprehensive national law on personal data protection (Loi n° 2019-014 du 29 octobre 2019), which regulates the collection, processing, transmission, storage, use, and protection of personal data (V4ID-0241, V4ID-0242, V4ID-0243, V4ID-0244, V4ID-0245, V4ID-0246, V4ID-0247, V4ID-0248, V4ID-0249, V4ID-0250). The law establishes a national data protection authority (V4ID-0242, V4ID-0245), mandates confidentiality, security, and data subject rights, and sets out requirements for consent, data minimization, and restrictions on sensitive data processing (V4ID-0244, V4ID-0245, V4ID-0246, V4ID-0247). It also provides for exceptions for public interest, scientific, and statistical purposes (V4ID-0247). The law applies to all personal data processing, including disaster-risk-relevant data. There is evidence that the authority is budgeted for and has staff (V4ID-0247, V4ID-0248, V4ID-0249, V4ID-0250). However, there is no direct evidence of privacy-by-design approaches, automated compliance tools, or systematic application of anonymization and pseudonymization in disaster data systems. There is also no evidence of advanced privacy-enhancing technologies or cross-border privacy arrangements. The evidence exceeds Phase 2, which requires only basic measures and emerging compliance, by demonstrating a formal, comprehensive legal and institutional framework. However, it does not fully satisfy Phase 4, which requires systematic integration of privacy into processes, automated compliance, and strong safeguards, nor Phase 5, which requires advanced PETs and international best practice leadership. The principal strength is the existence of a robust legal and institutional framework; the principal weakness is the lack of evidence for systematic, operationalized, and technologically advanced privacy practices across the disaster data ecosystem.",
+        "evidence_supporting_score": [
+          "V4ID-0241",
+          "V4ID-0242",
+          "V4ID-0243",
+          "V4ID-0244",
+          "V4ID-0245",
+          "V4ID-0246",
+          "V4ID-0247",
+          "V4ID-0248",
+          "V4ID-0249",
+          "V4ID-0250"
+        ],
+        "contrary_or_limiting_evidence": [],
+        "contrary_or_limiting_reasoning": "No evidence was identified of privacy-by-design, automated compliance tools, systematic anonymization/pseudonymization, or advanced privacy-enhancing technologies in operational disaster data systems. There is also no evidence of the data protection authority's active enforcement or of cross-border privacy arrangements. The evidence is limited to the existence of the law and the authority, not to their full operationalization or effect.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is needed of privacy being systematically integrated into disaster data processes through privacy-by-design approaches, automated compliance and monitoring tools, and strong operational safeguards (e.g., routine anonymization, privacy impact assessments, and systematic application of consent and data minimization in disaster data workflows). For Phase 5, evidence of advanced privacy-enhancing technologies (PETs), such as differential privacy, and active participation in shaping international best practices is required.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Privacy practices align with recognized legal and ethical standards (e.g. national and regional data protection laws and internationally accepted privacy principles that promote lawful, transparent, and accountable use of personal data).",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0241",
+              "V4ID-0242",
+              "V4ID-0243",
+              "V4ID-0244",
+              "V4ID-0245"
+            ],
+            "explanation": "Togo's Loi n° 2019-014 establishes a comprehensive legal framework for personal data protection, aligning with international principles and guaranteeing lawful, transparent, and accountable use of personal data."
+          },
+          {
+            "requirement": "Data sharing agreements and consent processes are compliant with legal standards and ethical standards, including security, privacy, consent, data ownership, and transparency.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0244",
+              "V4ID-0245",
+              "V4ID-0246",
+              "V4ID-0247"
+            ],
+            "explanation": "The law requires consent for data processing, sets out security and confidentiality obligations, and provides for data subject rights, ensuring that data sharing and consent processes are legally compliant."
+          },
+          {
+            "requirement": "Anonymization and pseudonymization are routinely applied where appropriate to reduce privacy risks.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0244",
+              "V4ID-0245",
+              "V4ID-0246"
+            ],
+            "explanation": "The law provides for confidentiality, security, and restrictions on sensitive data processing, and allows for exceptions for anonymized or statistical data, supporting the application of anonymization and pseudonymization where appropriate."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "C.2.1",
+        "indicator_name": "Data strategy, including the use of common data standards Data ecosystem strategy and vision",
+        "phase_score": 3,
+        "matched_phase_requirement": "A strategy on data use following common data standards is in place but policy is not revisited periodically in light of evolving data needs, standards and technological improvements. A data strategy or policy document outlines that there are intermediaries or government agencies available to centralize cataloguing and storage of (existing) datasets. A formal strategy or policy framework for the development and use of data is in place. It outlines objectives, priorities, and institutional arrangements for strengthening the data ecosystem, including areas such as data sharing, interoperability, standards, and data management. However, the strategy is not regularly reviewed in light of evolving needs and technological developments.",
+        "score_reasoning": "Togo has a national disaster risk reduction strategy (SNRRC 2023-2027) (V4ID-0223), a national civil protection policy (PNPC Horizon 2030) (V4ID-0029_chunk_001_pages_001-010::E006, V4ID-0029_chunk_003_pages_021-030::E007), and sectoral strategies that reference data, risk analysis, and integration with national development plans (V4ID-0035, V4ID-0036, V4ID-0037, V4ID-0038, V4ID-0086, V4ID-0103, V4ID-0029_chunk_003_pages_021-030::E006). These strategies articulate objectives, priorities, and institutional arrangements for data sharing, interoperability, and management (V4ID-0035, V4ID-0037, V4ID-0038, V4ID-0103, V4ID-0029_chunk_003_pages_021-030::E006). The ANPC is identified as a central coordinating agency (V4ID-0035, V4ID-0029_chunk_003_pages_021-030::E007), and there is evidence of periodic strategy updates and integration with national and international frameworks (V4ID-0037, V4ID-0038, V4ID-0086, V4ID-0103, V4ID-0029_chunk_003_pages_021-030::E006). There is also evidence of sectoral and thematic data strategies, risk mapping, and integration with development planning (V4ID-0038, V4ID-0086, V4ID-0103, V4ID-0029_chunk_003_pages_021-030::E006). However, there is no evidence of a dedicated government unit for data standards, nor of a fully institutionalized, actively maintained, and ecosystem-wide strategic vision as required for Phase 5. The strategies are periodically updated (V4ID-0035, V4ID-0036, V4ID-0037, V4ID-0038, V4ID-0086, V4ID-0103, V4ID-0029_chunk_003_pages_021-030::E006), but there is no evidence of regular, systematic review in response to evolving needs and technological developments as required for Phase 4. The principal strength is the existence of a formal, multi-level strategy and vision; the principal weakness is the lack of evidence for a dedicated data standards unit, regular review, or full institutionalization across the ecosystem.",
+        "evidence_supporting_score": [
+          "V4ID-0035",
+          "V4ID-0036",
+          "V4ID-0037",
+          "V4ID-0038",
+          "V4ID-0086",
+          "V4ID-0103",
+          "V4ID-0223",
+          "029_chunk_001_pages_001-010::E006",
+          "029_chunk_003_pages_021-030::E007"
+        ],
+        "contrary_or_limiting_evidence": [],
+        "contrary_or_limiting_reasoning": "No evidence was identified of a dedicated government unit for data standards, nor of a fully institutionalized, actively maintained, and ecosystem-wide strategic vision. There is also no evidence of regular, systematic review of the strategy in response to evolving needs and technological developments, nor of full operationalization of common data standards across all sectors.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is needed of the data strategy being regularly reviewed and updated, with a dedicated government unit supporting the development and use of common standards across the ecosystem, and the strategy providing a shared vision that guides coordinated action and is aligned with broader policy frameworks. For Phase 5, evidence of a comprehensive, actively maintained strategic vision supported by dedicated institutional mechanisms, with regular updates in response to emerging opportunities and challenges, and alignment across national, sectoral, and international frameworks is required.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "A strategy on data use following common data standards is in place but policy is not revisited periodically in light of evolving data needs, standards and technological improvements.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0035",
+              "V4ID-0036",
+              "V4ID-0037",
+              "V4ID-0038",
+              "V4ID-0086",
+              "V4ID-0103",
+              "V4ID-0223",
+              "029_chunk_001_pages_001-010::E006"
+            ],
+            "explanation": "Togo has a national disaster risk reduction strategy, a national civil protection policy, and sectoral strategies that reference data, risk analysis, and integration with national development plans. These strategies are periodically updated but there is no evidence of regular, systematic review in response to evolving needs and technological developments."
+          },
+          {
+            "requirement": "A data strategy or policy document outlines that there are intermediaries or government agencies available to centralize cataloguing and storage of (existing) datasets.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0035",
+              "V4ID-0037",
+              "V4ID-0038",
+              "V4ID-0103",
+              "V4ID-0223",
+              "029_chunk_003_pages_021-030::E007"
+            ],
+            "explanation": "The ANPC is identified as a central coordinating agency, and the strategies reference centralization of data cataloguing and storage."
+          },
+          {
+            "requirement": "A formal strategy or policy framework for the development and use of data is in place. It outlines objectives, priorities, and institutional arrangements for strengthening the data ecosystem, including areas such as data sharing, interoperability, standards, and data management.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0035",
+              "V4ID-0036",
+              "V4ID-0037",
+              "V4ID-0038",
+              "V4ID-0086",
+              "V4ID-0103",
+              "V4ID-0223",
+              "029_chunk_001_pages_001-010::E006"
+            ],
+            "explanation": "The national strategy and policy documents outline objectives, priorities, and institutional arrangements for data sharing, interoperability, standards, and data management."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "C.2.2",
+        "indicator_name": "Dedicated budget",
+        "phase_score": 3,
+        "matched_phase_requirement": "Government policy formally starts allocating modest budgets to develop information sharing within the ecosystem and establishing standardized processes. Budget for a coordinating unit and trainings in database management for technical support staff is allocated.",
+        "score_reasoning": "There is direct evidence that Togo has formal budget allocations for disaster risk management, including the Agence Nationale de la Protection Civile (ANPC) and related activities. The national strategy and contingency plans specify budget lines for disaster risk reduction, preparedness, and response (V4ID-0073, V4ID-0079, V4ID-0080, V4ID-0081, V4ID-0104, V4ID-0168, V4ID-0169, V4ID-0170, V4ID-0281, V4ID-0282, V4ID-0285, V4ID-0286, V4ID-0287, V4ID-0322, V4ID-0323). The ANPC receives a government subsidy and is responsible for coordination, with budget allocations for staff, training, and operational costs (V4ID-0073, V4ID-0079, V4ID-0080, V4ID-0081, V4ID-0104, V4ID-0168, V4ID-0169, V4ID-0170, V4ID-0281, V4ID-0282, V4ID-0285, V4ID-0286, V4ID-0287, V4ID-0322, V4ID-0323). There are also explicit references to budgeted activities for training, simulation, early warning, and studies (V4ID-0116, V4ID-0029_chunk_004_pages_031-038::E008, V4ID-0029_chunk_004_pages_031-038::E009, V4ID-0029_chunk_004_pages_031-038::E010, V4ID-0029_chunk_004_pages_031-038::E011, V4ID-0029_chunk_004_pages_031-038::E012, V4ID-0029_chunk_004_pages_031-038::E013). Funding sources include state subsidies, technical and financial partners, and public-private partnerships (V4ID-0080, V4ID-0081, V4ID-0282, V4ID-0029_chunk_001_pages_001-010::E005, V4ID-0029_chunk_003_pages_021-030::E013). However, there is no evidence of systematic, sustained, or ecosystem-wide investment as required for Phase 4 or 5. The absence of a durable, fully operational national disaster fund and the lack of evidence for regular, systematic investment in secure technical and legal infrastructures or high-quality data staff (as required for Phase 4) is noted (V4ID-0281, V4ID-0282, V4ID-0029_chunk_002_pages_011-020::E017, V4ID-0029_chunk_004_pages_031-038::E003, V4ID-0029_chunk_004_pages_031-038::E005). There is also no demonstration of consistent, well-funded, or ecosystem-wide investment in secure infrastructures and staff as required for Phase 5. The principal strength is the existence of formal budget lines and operational allocations; the main weakness is the lack of evidence for systematic, sustained, or ecosystem-wide investment and monitoring.",
+        "evidence_supporting_score": [
+          "V4ID-0073",
+          "V4ID-0079",
+          "V4ID-0080",
+          "V4ID-0081",
+          "V4ID-0104",
+          "V4ID-0168",
+          "V4ID-0169",
+          "V4ID-0170",
+          "V4ID-0281",
+          "V4ID-0282",
+          "V4ID-0285",
+          "V4ID-0286",
+          "V4ID-0287",
+          "V4ID-0322",
+          "V4ID-0323",
+          "V4ID-0116",
+          "029_chunk_004_pages_031-038::E008",
+          "029_chunk_004_pages_031-038::E009",
+          "029_chunk_004_pages_031-038::E010",
+          "029_chunk_004_pages_031-038::E011",
+          "029_chunk_004_pages_031-038::E012",
+          "029_chunk_004_pages_031-038::E013"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0281",
+          "V4ID-0282",
+          "029_chunk_002_pages_011-020::E017",
+          "029_chunk_004_pages_031-038::E003",
+          "029_chunk_004_pages_031-038::E005"
+        ],
+        "contrary_or_limiting_reasoning": "While there are budget allocations and multiple funding sources, there is explicit recognition of the absence of a sustainable, fully operational national disaster fund (V4ID-0281, V4ID-0282, V4ID-0029_chunk_002_pages_011-020::E017, V4ID-0029_chunk_004_pages_031-038::E003, V4ID-0029_chunk_004_pages_031-038::E005). There is no evidence of systematic, sustained, or ecosystem-wide investment in secure technical and legal infrastructures or high-quality data staff, nor of regular monitoring and updating of budget allocations as required for higher phases.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is needed of systematic, sustained, and ecosystem-wide investment in secure technical and legal infrastructures, regular investment in well-trained staff, and regular monitoring and updating of budget allocations. This would require documentation of a fully operational national disaster fund, regular budget reviews, and evidence of systematic investment in secure data infrastructures and high-quality staff across the ecosystem.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Government policy formally starts allocating modest budgets to develop information sharing within the ecosystem and establishing standardized processes.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0073",
+              "V4ID-0079",
+              "V4ID-0080",
+              "V4ID-0081",
+              "V4ID-0104",
+              "V4ID-0168",
+              "V4ID-0169",
+              "V4ID-0170",
+              "V4ID-0281",
+              "V4ID-0282",
+              "V4ID-0285",
+              "V4ID-0286",
+              "V4ID-0287",
+              "V4ID-0322",
+              "V4ID-0323"
+            ],
+            "explanation": "Multiple sources confirm that government policy allocates budgets for disaster risk management, including information sharing and standardized processes."
+          },
+          {
+            "requirement": "Budget for a coordinating unit and trainings in database management for technical support staff is allocated.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0116",
+              "029_chunk_004_pages_031-038::E008",
+              "029_chunk_004_pages_031-038::E009",
+              "029_chunk_004_pages_031-038::E010",
+              "029_chunk_004_pages_031-038::E011",
+              "029_chunk_004_pages_031-038::E012",
+              "029_chunk_004_pages_031-038::E013"
+            ],
+            "explanation": "There is explicit evidence of budget allocations for the ANPC as the coordinating unit and for training, simulation, and technical support staff."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "C.2.3",
+        "indicator_name": "Incentivising policies Incentive mechanisms for ecosystem contributions",
+        "phase_score": 3,
+        "matched_phase_requirement": "Policies and institutional arrangements increasingly encourage data sharing, collaboration, and active participation. Incentives contribute to growing engagement and adoption of agreed ecosystem practices.",
+        "score_reasoning": "There is evidence that Togo's national disaster risk management policy and strategy recognize the importance of stakeholder participation and collaboration (V4ID-0073, V4ID-0079, V4ID-0080, V4ID-0081, V4ID-0029_chunk_003_pages_021-030::E001, V4ID-0029_chunk_003_pages_021-030::E003, V4ID-0029_chunk_003_pages_021-030::E005, V4ID-0029_chunk_003_pages_021-030::E006, V4ID-0029_chunk_003_pages_021-030::E007, V4ID-0029_chunk_003_pages_021-030::E008, V4ID-0029_chunk_003_pages_021-030::E009, V4ID-0029_chunk_003_pages_021-030::E010, V4ID-0029_chunk_003_pages_021-030::E011, V4ID-0029_chunk_003_pages_021-030::E013, V4ID-0029_chunk_003_pages_021-030::E015). The policy foresees participatory approaches, collaboration with private sector, NGOs, and civil society, and the establishment of platforms for synergy and resource pooling. There are also references to planned incentives, such as public-private partnerships, external aid, and state subsidies (V4ID-0080, V4ID-0081, V4ID-0282, V4ID-0029_chunk_001_pages_001-010::E005, V4ID-0029_chunk_003_pages_021-030::E013). However, there is no evidence of active, systematic, or well-funded incentive mechanisms that are consistently applied across the ecosystem, nor of institutionalized feedback or reward systems for data sharing and collaboration as required for Phase 4 or 5. The principal strength is the policy-level recognition and planned incentives; the main weakness is the lack of evidence for operational, systematic, or ecosystem-wide incentive mechanisms.",
+        "evidence_supporting_score": [
+          "V4ID-0073",
+          "V4ID-0079",
+          "V4ID-0080",
+          "V4ID-0081",
+          "029_chunk_003_pages_021-030::E001",
+          "029_chunk_003_pages_021-030::E003",
+          "029_chunk_003_pages_021-030::E005",
+          "029_chunk_003_pages_021-030::E006",
+          "029_chunk_003_pages_021-030::E007",
+          "029_chunk_003_pages_021-030::E008",
+          "029_chunk_003_pages_021-030::E009",
+          "029_chunk_003_pages_021-030::E010",
+          "029_chunk_003_pages_021-030::E011",
+          "029_chunk_003_pages_021-030::E013",
+          "029_chunk_003_pages_021-030::E015"
+        ],
+        "contrary_or_limiting_evidence": [
+          "029_chunk_003_pages_021-030::E013"
+        ],
+        "contrary_or_limiting_reasoning": "While the policy foresees incentives such as external aid, state subsidies, and public-private partnerships, there is no evidence of active, systematic, or well-funded incentive mechanisms that are consistently applied across the ecosystem. There is also no demonstration of institutionalized feedback or reward systems for data sharing and collaboration.",
+        "next_phase_gap": "To reach Phase 4, concrete evidence is needed of active, systematic, and well-funded incentive mechanisms that are consistently applied across the ecosystem, including institutionalized feedback and reward systems for data sharing, collaboration, and participation. This would require documentation of operational incentive mechanisms, regular monitoring, and evidence of their effect on ecosystem engagement and data sharing.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Policies and institutional arrangements increasingly encourage data sharing, collaboration, and active participation.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0073",
+              "V4ID-0079",
+              "V4ID-0080",
+              "V4ID-0081",
+              "029_chunk_003_pages_021-030::E001",
+              "029_chunk_003_pages_021-030::E003",
+              "029_chunk_003_pages_021-030::E005",
+              "029_chunk_003_pages_021-030::E006",
+              "029_chunk_003_pages_021-030::E007",
+              "029_chunk_003_pages_021-030::E008",
+              "029_chunk_003_pages_021-030::E009",
+              "029_chunk_003_pages_021-030::E010",
+              "029_chunk_003_pages_021-030::E011",
+              "029_chunk_003_pages_021-030::E013",
+              "029_chunk_003_pages_021-030::E015"
+            ],
+            "explanation": "The national policy and strategy recognize the importance of stakeholder participation, collaboration, and the establishment of platforms for synergy and resource pooling, and foresee participatory approaches and collaboration with private sector, NGOs, and civil society."
+          },
+          {
+            "requirement": "Incentives contribute to growing engagement and adoption of agreed ecosystem practices.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0080",
+              "V4ID-0081",
+              "V4ID-0282",
+              "029_chunk_001_pages_001-010::E005",
+              "029_chunk_003_pages_021-030::E013"
+            ],
+            "explanation": "There are references to planned incentives, such as public-private partnerships, external aid, and state subsidies, which contribute to engagement and adoption of ecosystem practices."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "C.3.1",
+        "indicator_name": "Community engagement (including local, vulnerable, and diverse populations)",
+        "phase_score": 3,
+        "matched_phase_requirement": "Stakeholders, from rural and urban communities across the country, are making more data connections with each other. Feedback mechanisms are being put into place.",
+        "score_reasoning": "Togo’s disaster risk data ecosystem demonstrates managed and defined community engagement. The ANPC and national strategy documents explicitly require the establishment and strengthening of local disaster risk reduction platforms and the training of local authorities (V4ID-0072, V4ID-0065, V4ID-0114, V4ID-0113). There is direct evidence of community engagement in early warning systems, with the Croix-Rouge Togolaise (CRT) collaborating with local committees and volunteers to animate community-based early warning, conduct sensitization campaigns, and organize simulation exercises (V4ID-0009). Information campaigns target communities, youth, and women’s groups (V4ID-0106), and women leaders are installed and networked in each prefecture (V4ID-0107). The national contingency plan emphasizes the active involvement of regions and communities in disaster risk management, requiring each local government to develop its own contingency plan (V4ID-0246). Data collection processes for disaster impact assessments include direct engagement with local authorities, women’s groups, and community associations (028_chunk_002_pages_011-020::E007). However, while these mechanisms are in place and there is evidence of feedback and participatory activities, the routine, systematic, and demonstrably inclusive engagement of all vulnerable and diverse populations (e.g., persons with disabilities, minority groups, migrants, refugees, elders, youth, and gender-diverse populations) is not fully evidenced. Recommendations and planned activities exist for targeting vulnerable groups (V4ID-0047), but concrete, ecosystem-wide implementation and demonstrable influence on data practices are not established. Thus, the evidence exceeds Phase 2 (sporadic engagement) by showing regular, structured, and multi-level engagement, but does not fully meet Phase 4, which requires active, routine involvement and demonstrable influence of diverse groups throughout the data cycle.",
+        "evidence_supporting_score": [
+          "V4ID-0072",
+          "V4ID-0065",
+          "V4ID-0114",
+          "V4ID-0113",
+          "V4ID-0009",
+          "V4ID-0106",
+          "V4ID-0107",
+          "V4ID-0246",
+          "028_chunk_002_pages_011-020::E007"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0047",
+          "V4ID-0041",
+          "V4ID-0039"
+        ],
+        "contrary_or_limiting_reasoning": "While there are recommendations and planned activities to target vulnerable groups and improve disaggregation and inclusion (V4ID-0047, V4ID-0041), the evidence does not confirm systematic, routine, or ecosystem-wide engagement of all vulnerable and diverse populations. Gaps in the systematic collection of disaggregated data (V4ID-0039) further limit the demonstration of inclusive engagement.",
+        "next_phase_gap": "To reach Phase 4, concrete, ecosystem-wide evidence is needed that local communities—including persons with disabilities, minority groups, migrants, refugees, elders, youth, and gender-diverse populations—are actively and routinely involved throughout the data cycle, with demonstrable influence on data priorities and practices. This would require documentation of institutionalized feedback mechanisms, regular participation of all named groups, and evidence that their input shapes data ecosystem processes.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "Stakeholders, from rural and urban communities across the country, are making more data connections with each other.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0072",
+              "V4ID-0065",
+              "V4ID-0114",
+              "V4ID-0113",
+              "V4ID-0009"
+            ],
+            "explanation": "There is direct evidence of local platforms, training, and community-based early warning systems involving rural and urban communities, as well as participatory data collection and sensitization activities."
+          },
+          {
+            "requirement": "Feedback mechanisms are being put into place.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0106",
+              "V4ID-0107",
+              "V4ID-0246",
+              "028_chunk_002_pages_011-020::E007"
+            ],
+            "explanation": "Information campaigns, installation of women leaders, and the requirement for local contingency plans demonstrate the establishment of feedback and participatory mechanisms."
+          }
+        ],
+        "framework_ambiguity": ""
+      },
+      {
+        "indicator_code": "C.3.2",
+        "indicator_name": "Communication, Inter-agency collaboration & partnerships",
+        "phase_score": 3,
+        "matched_phase_requirement": "There is a lot of communication across the ecosystem. The national NDRMA (or an intermediary) is establishing official (short term) partnerships with academia, non-governmental and private sector organisations.",
+        "score_reasoning": "Togo’s disaster risk data ecosystem demonstrates managed and defined inter-agency collaboration and partnerships. The ANPC, as the national coordinating body, is documented as leading multi-actor coordination, with explicit references to the involvement of ministries, local authorities, technical and financial partners, NGOs, and community organizations in disaster risk reduction activities (V4ID-0010, V4ID-0026, V4ID-0071, V4ID-0117, V4ID-0225, 028_chunk_001_pages_001-010::E002). There is evidence of official partnerships and agreements, including with international organizations (e.g., ECOWAS, WFP, CEDEAO), and the establishment of mechanisms for information dissemination, joint training, and collaborative data collection (V4ID-0063, V4ID-0105, V4ID-0171, V4ID-0172, V4ID-0225). The national strategy and contingency plans require and document regular communication, joint activities, and the pooling of resources among government, academia, civil society, and private sector actors (V4ID-0117, V4ID-0225, V4ID-0026, V4ID-0010). However, while these partnerships and communication mechanisms are established and operational, the evidence does not fully demonstrate the routine, strategic, and ecosystem-wide institutionalization of partnerships with formalized protocols, regular alignment meetings, and comprehensive coverage of all key stakeholder groups as required for Phase 4. Many partnerships are project-based, event-driven, or limited in scope, and there is limited documentation of formalized, routinely maintained partnership protocols or strategic alignment meetings across the entire ecosystem. Thus, the evidence exceeds Phase 2 (limited, on-demand collaboration) by showing regular, multi-actor, and cross-sectoral partnerships, but does not fully meet Phase 4, which requires strategic, institutionalized, and routinely maintained partnerships with formal arrangements for data sharing, interoperability, and knowledge exchange.",
+        "evidence_supporting_score": [
+          "V4ID-0010",
+          "V4ID-0026",
+          "V4ID-0071",
+          "V4ID-0117",
+          "V4ID-0225",
+          "028_chunk_001_pages_001-010::E002",
+          "V4ID-0063",
+          "V4ID-0105",
+          "V4ID-0171",
+          "V4ID-0172"
+        ],
+        "contrary_or_limiting_evidence": [
+          "V4ID-0048",
+          "V4ID-0049"
+        ],
+        "contrary_or_limiting_reasoning": "Some evidence (V4ID-0048, V4ID-0049) consists of recommendations or planned activities to clarify coordination mechanisms and improve data integration, rather than documentation of fully operational, strategic, and institutionalized partnerships. There is limited evidence of formalized, routinely maintained partnership protocols or regular strategic alignment meetings across all key stakeholder groups.",
+        "next_phase_gap": "To reach Phase 4, concrete, ecosystem-wide evidence is needed of strategic, routinely maintained partnerships with formal arrangements for data sharing, interoperability, and knowledge exchange, supported by regular alignment meetings and protocols covering all key stakeholder groups. This would require documentation of institutionalized partnership agreements, regular coordination mechanisms, and demonstrable strategic alignment across the ecosystem.",
+        "assigned_phase_requirement_checks": [
+          {
+            "requirement": "There is a lot of communication across the ecosystem.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0010",
+              "V4ID-0026",
+              "V4ID-0071",
+              "V4ID-0117",
+              "V4ID-0225",
+              "028_chunk_001_pages_001-010::E002"
+            ],
+            "explanation": "There is direct evidence of regular communication and coordination among government, local authorities, technical and financial partners, NGOs, and community organizations, with joint activities and collaborative data collection."
+          },
+          {
+            "requirement": "The national NDRMA (or an intermediary) is establishing official (short term) partnerships with academia, non-governmental and private sector organisations.",
+            "status": "SUPPORTED",
+            "evidence_ids": [
+              "V4ID-0063",
+              "V4ID-0105",
+              "V4ID-0171",
+              "V4ID-0172"
+            ],
+            "explanation": "There is evidence of official partnerships and agreements with academia, NGOs, private sector, and international organizations, including mechanisms for information dissemination, joint training, and collaborative activities."
+          }
+        ],
+        "framework_ambiguity": ""
+      }
+    ]
+  }
+}

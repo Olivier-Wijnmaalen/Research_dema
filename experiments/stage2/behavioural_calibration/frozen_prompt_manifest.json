@@ -1,0 +1,11 @@
+{
+  "status": "frozen",
+  "selected_version": "P4",
+  "frozen_at_utc": "2026-09-09T18:00:34.798893+00:00",
+  "source_path": "C:\\Users\\olivi\\OneDrive\\Documenten\\FINAL_SCORE\\behavioural_calibration\\prompt_versions\\P4_full_prompt.txt",
+  "frozen_prompt_path": "C:\\Users\\olivi\\OneDrive\\Documenten\\FINAL_SCORE\\DEMA_Maturity_Final_Scoring_Prompt_FROZEN.txt",
+  "sha256": "883FC330BC82BD2BF5824A80E6F9F518DB3FC73E6AC429B505DD7635F1EA619F",
+  "selection_basis": "45/45 prespecified calibration checks; 12/12 complete calibration cases; no unresolved systematic calibration failure; selected before the test run.",
+  "test_result": "23/23 prespecified checks; 6/6 complete cases; temporally separated but not independently blinded.",
+  "post_test_prompt_changes": 0
+}

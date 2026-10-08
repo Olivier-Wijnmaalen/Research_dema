@@ -1,0 +1,7 @@
+﻿langfuse_version,iteration,generated_items,schema_valid_items,item_schema_compliance_percent,traceable_items,lenient_traceability_percent,strict_exact_percent,technical_failures,parse_failures_after_permitted_retry,eligible
+1,0,435,426,97.93,418,96.09,94.71,17,0,False
+2,1,404,404,100.0,380,94.06,92.33,24,0,True
+3,2,413,413,100.0,402,97.34,95.88,11,0,True
+4,3,438,438,100.0,423,96.58,96.12,15,0,True
+5,4,416,416,100.0,408,98.08,96.15,8,0,True
+6,5,464,464,100.0,451,97.2,96.34,13,0,True

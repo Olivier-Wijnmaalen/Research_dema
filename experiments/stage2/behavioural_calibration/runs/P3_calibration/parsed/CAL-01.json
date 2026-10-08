@@ -1,0 +1,45 @@
+{
+  "country": "Lydora",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "For Indicator C.3.2 (Communication, Inter-agency collaboration & partnerships), the evidence demonstrates limited inter-agency collaboration, mostly on-demand or project-bound, with only isolated short-term partnerships and no ecosystem-wide coordination led by the national authority. The evidence supports Phase 2, 'Recognized but reactive', as the highest fully evidenced maturity. There is no proof of regular, ecosystem-wide communication, strategic partnerships, or national coordination mechanisms required for higher phases. The principal limitation is the absence of documentary evidence for broad, sustained, or institutionalized collaboration, and the lack of national authority leadership in partnership arrangements.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.3.2",
+      "indicator_name": "Communication, Inter-agency collaboration & partnerships",
+      "phase_score": 2,
+      "matched_phase_requirement": "Data users and producers are not well networked and there is limited inter-agency collaboration, it only occurs on demand or during a project.",
+      "score_reasoning": "The evidence for Lydora demonstrates that inter-agency collaboration is limited and occurs primarily in response to specific projects or demands. E0001 establishes that the Lydora Risk Office and provincial data units exchange files only when a flood response project requests them, directly supporting the requirement that collaboration is on-demand and project-bound. E0002 documents a single formal short-term partnership—a six-month memorandum between one university laboratory and one software company for a coastal pilot, including a data-sharing protocol. However, this partnership is isolated, covers only one coastal area, and does not involve the national coordinator, indicating that such arrangements are not ecosystem-wide or sustained. E0003 provides direct evidence from the national partnership register (current to June 2026) that there are no regular ecosystem-wide coordination meetings or strategic partnerships led by the national authority, explicitly contradicting the requirements for Phase 3 and above. The evidence thus exceeds Phase 1, which would require a completely fragmented ecosystem with only personal communication, by demonstrating some formal and project-based collaboration. However, it does not meet Phase 3, which requires 'a lot of communication across the ecosystem' and official partnerships established by the national NDRMA or intermediary. The principal strength is the existence of at least one formal partnership with a data-sharing protocol (E0002), but the main weakness is the lack of national leadership and regular, broad-based collaboration. No evidence was identified for strategic alignment meetings, protocols for interoperability and licence sharing across most partnerships, or national authority-led coordination. The assessment is limited by the absence of documentary proof for ecosystem-wide or sustained collaboration.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002",
+        "E0003"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0003"
+      ],
+      "contrary_or_limiting_reasoning": "E0003 directly demonstrates that there are no regular ecosystem-wide coordination meetings or strategic partnerships led by the national authority, limiting the score to Phase 2 and contradicting the requirements for Phase 3 and above.",
+      "next_phase_gap": "To achieve Phase 3, evidence is required of 'a lot of communication across the ecosystem' and official (short term) partnerships established by the national NDRMA or intermediary with academia, non-governmental, and private sector organizations. No evidence was identified for ecosystem-wide communication, national authority-led partnerships, or regular coordination mechanisms.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Data users and producers are not well networked",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001",
+            "E0003"
+          ],
+          "explanation": "E0001 shows that exchanges are limited to project requests, and E0003 confirms the absence of regular ecosystem-wide coordination, supporting the claim that users and producers are not well networked."
+        },
+        {
+          "requirement": "There is limited inter-agency collaboration, it only occurs on demand or during a project",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001",
+            "E0002"
+          ],
+          "explanation": "E0001 documents project-bound collaboration, and E0002 provides an example of a single short-term partnership for a pilot, supporting the requirement that collaboration is limited and occurs on demand or during a project."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

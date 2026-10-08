@@ -1,0 +1,46 @@
+{
+  "run": "P5_calibration",
+  "prompt_sha256": "B38BDB5699D14C898EE7C55A0219D2D7AF95062E5C8427110B443CE3288A6BDE",
+  "checks_passed": 45,
+  "checks_total": 45,
+  "rule_adherence_rate": 1.0,
+  "complete_cases_passed": 12,
+  "cases_total": 12,
+  "complete_case_pass_rate": 1.0,
+  "by_rule": {
+    "R1": {
+      "passed": 13,
+      "total": 13
+    },
+    "R2": {
+      "passed": 4,
+      "total": 4
+    },
+    "R3": {
+      "passed": 3,
+      "total": 3
+    },
+    "R4": {
+      "passed": 1,
+      "total": 1
+    },
+    "R5": {
+      "passed": 8,
+      "total": 8
+    },
+    "R6": {
+      "passed": 4,
+      "total": 4
+    },
+    "R7": {
+      "passed": 1,
+      "total": 1
+    },
+    "R8": {
+      "passed": 11,
+      "total": 11
+    }
+  },
+  "qualitative_finding": "P5 added a final output-compliance self-audit to the gap-aware, criterion-gated scoring prompt. All prespecified checks passed; all assigned-phase requirement checks were SUPPORTED; no regression was observed relative to P4.",
+  "score_sheet_sha256": "B55D16CA2B04F9E5563A5AC0246E073ECB9506A3A1FA3366319363E64F40AB17"
+}

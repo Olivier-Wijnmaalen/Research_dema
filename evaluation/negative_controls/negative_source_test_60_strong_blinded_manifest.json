@@ -1,0 +1,1680 @@
+{
+  "experiment": "negative-source sensitivity test with strong-evidence retention",
+  "created_at_utc": "2026-09-17T16:22:24.581567+00:00",
+  "random_seed": 20260917,
+  "selection_rule": "Retain all 31 strong evaluation records used in the baseline justification, then sample 29 from the remaining 52 strong records using a fixed seed.",
+  "original_evaluation_records": 232,
+  "strong_records_available": 83,
+  "retained_strong_records": 60,
+  "retained_previously_used_strong_records": 31,
+  "retained_sampled_strong_records": 29,
+  "retained_evidence_ids": [
+    "006_chunk_001_pages_001-001::E002",
+    "007_chunk_001_pages_001-001::E001",
+    "020_chunk_001_pages_001-001::E004",
+    "024_chunk_001_pages_001-010::E001",
+    "024_chunk_001_pages_001-010::E002",
+    "024_chunk_001_pages_001-010::E004",
+    "024_chunk_001_pages_001-010::E005",
+    "028_chunk_001_pages_001-010::E003",
+    "028_chunk_002_pages_011-020::E001",
+    "028_chunk_002_pages_011-020::E002",
+    "028_chunk_002_pages_011-020::E003",
+    "028_chunk_002_pages_011-020::E004",
+    "028_chunk_002_pages_011-020::E005",
+    "028_chunk_002_pages_011-020::E006",
+    "028_chunk_002_pages_011-020::E007",
+    "028_chunk_003_pages_021-030::E001",
+    "028_chunk_003_pages_021-030::E005",
+    "028_chunk_003_pages_021-030::E006",
+    "028_chunk_003_pages_021-030::E007",
+    "028_chunk_004_pages_031-040::E002",
+    "028_chunk_004_pages_031-040::E003",
+    "028_chunk_004_pages_031-040::E004",
+    "028_chunk_004_pages_031-040::E005",
+    "028_chunk_004_pages_031-040::E006",
+    "028_chunk_004_pages_031-040::E007",
+    "028_chunk_004_pages_031-040::E008",
+    "028_chunk_004_pages_031-040::E009",
+    "028_chunk_005_pages_041-048::E016",
+    "029_chunk_002_pages_011-020::E002",
+    "029_chunk_002_pages_011-020::E017",
+    "029_chunk_003_pages_021-030::E008",
+    "028_chunk_005_pages_041-048::E004",
+    "019_chunk_001_pages_001-001::E005",
+    "028_chunk_005_pages_041-048::E006",
+    "028_chunk_005_pages_041-048::E013",
+    "028_chunk_001_pages_001-010::E011",
+    "024_chunk_001_pages_001-010::E008",
+    "028_chunk_004_pages_031-040::E001",
+    "024_chunk_001_pages_001-010::E007",
+    "005_chunk_001_pages_001-001::E001",
+    "020_chunk_001_pages_001-001::E001",
+    "028_chunk_003_pages_021-030::E008",
+    "028_chunk_005_pages_041-048::E010",
+    "028_chunk_003_pages_021-030::E003",
+    "028_chunk_003_pages_021-030::E021",
+    "028_chunk_003_pages_021-030::E020",
+    "024_chunk_001_pages_001-010::E003",
+    "028_chunk_005_pages_041-048::E001",
+    "028_chunk_003_pages_021-030::E016",
+    "028_chunk_003_pages_021-030::E011",
+    "005_chunk_001_pages_001-001::E004",
+    "029_chunk_002_pages_011-020::E007",
+    "028_chunk_003_pages_021-030::E018",
+    "028_chunk_005_pages_041-048::E003",
+    "028_chunk_003_pages_021-030::E019",
+    "006_chunk_001_pages_001-001::E005",
+    "028_chunk_003_pages_021-030::E012",
+    "024_chunk_001_pages_001-010::E010",
+    "028_chunk_003_pages_021-030::E009",
+    "006_chunk_001_pages_001-001::E004"
+  ],
+  "synthetic_records": 155,
+  "synthetic_records_per_indicator": 5,
+  "experimental_bank_records": 215,
+  "blinding_rule": "All genuine and control records were re-keyed into a neutral EV-#### namespace and randomly ordered using seed 20260918. Record type is available only in this analyst manifest.",
+  "bank_sha256": "27e1cda7031d238725d6ae0b1e983a2ed2d08d6c2a1755658f7057e5bed8c8a5",
+  "blind_id_mapping": [
+    {
+      "experimental_evidence_id": "EV-0001",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.3f",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0002",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.1.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0003",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.3b",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0004",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.2.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0005",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0006",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.3.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0007",
+      "record_type": "genuine",
+      "original_evidence_id": "024_chunk_001_pages_001-010::E004",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0008",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.2.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0009",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0010",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_005_pages_041-048::E016",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0011",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.3f",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0012",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.1.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0013",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0014",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0015",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.3.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0016",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0017",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E011",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0018",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_004_pages_031-040::E006",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0019",
+      "record_type": "genuine",
+      "original_evidence_id": "024_chunk_001_pages_001-010::E005",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0020",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.3b",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0021",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.3.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0022",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.1.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0023",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.3c",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0024",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_004_pages_031-040::E001",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0025",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0026",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_004_pages_031-040::E002",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0027",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.3e",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0028",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.3c",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0029",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0030",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0031",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0032",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0033",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E007",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0034",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0035",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_004_pages_031-040::E003",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0036",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E006",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0037",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.1.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0038",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.1.5",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0039",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.3c",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0040",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0041",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0042",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0043",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0044",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.1.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0045",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0046",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0047",
+      "record_type": "genuine",
+      "original_evidence_id": "024_chunk_001_pages_001-010::E008",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0048",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_002_pages_011-020::E006",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0049",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0050",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.1.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0051",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0052",
+      "record_type": "genuine",
+      "original_evidence_id": "024_chunk_001_pages_001-010::E001",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0053",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.3.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0054",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0055",
+      "record_type": "genuine",
+      "original_evidence_id": "019_chunk_001_pages_001-001::E005",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0056",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.3.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0057",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.3.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0058",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.1.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0059",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E018",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0060",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0061",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0062",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.3.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0063",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E019",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0064",
+      "record_type": "genuine",
+      "original_evidence_id": "020_chunk_001_pages_001-001::E004",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0065",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0066",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0067",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0068",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E012",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0069",
+      "record_type": "genuine",
+      "original_evidence_id": "005_chunk_001_pages_001-001::E004",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0070",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0071",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0072",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.3d",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0073",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0074",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0075",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.3.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0076",
+      "record_type": "genuine",
+      "original_evidence_id": "024_chunk_001_pages_001-010::E007",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0077",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_004_pages_031-040::E004",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0078",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0079",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.3a",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0080",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E020",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0081",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0082",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E003",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0083",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_004_pages_031-040::E005",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0084",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0085",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E021",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0086",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.2.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0087",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.2.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0088",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0089",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_005_pages_041-048::E013",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0090",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.1.5",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0091",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.3.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0092",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.1.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0093",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.3.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0094",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.1.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0095",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0096",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_004_pages_031-040::E007",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0097",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0098",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E009",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0099",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0100",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E008",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0101",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.3.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0102",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.1.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0103",
+      "record_type": "genuine",
+      "original_evidence_id": "006_chunk_001_pages_001-001::E004",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0104",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.3a",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0105",
+      "record_type": "genuine",
+      "original_evidence_id": "007_chunk_001_pages_001-001::E001",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0106",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_002_pages_011-020::E001",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0107",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.3.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0108",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0109",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.3.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0110",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.1.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0111",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0112",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.1.5",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0113",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.3b",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0114",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_005_pages_041-048::E001",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0115",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0116",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.3d",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0117",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0118",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.3c",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0119",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_005_pages_041-048::E003",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0120",
+      "record_type": "genuine",
+      "original_evidence_id": "006_chunk_001_pages_001-001::E002",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0121",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.3e",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0122",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.3c",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0123",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0124",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_004_pages_031-040::E009",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0125",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0126",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.3e",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0127",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0128",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0129",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.3b",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0130",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.3e",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0131",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.3f",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0132",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_002_pages_011-020::E003",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0133",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.3b",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0134",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0135",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.3a",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0136",
+      "record_type": "genuine",
+      "original_evidence_id": "029_chunk_003_pages_021-030::E008",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0137",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0138",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.3a",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0139",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.1.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0140",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0141",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0142",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0143",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0144",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_002_pages_011-020::E007",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0145",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.1.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0146",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0147",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_001_pages_001-010::E003",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0148",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.1.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0149",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_001_pages_001-010::E011",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0150",
+      "record_type": "genuine",
+      "original_evidence_id": "024_chunk_001_pages_001-010::E002",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0151",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.1.5",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0152",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.3f",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0153",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0154",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_002_pages_011-020::E002",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0155",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.3.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0156",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_005_pages_041-048::E010",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0157",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0158",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0159",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.3e",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0160",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.1.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0161",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E001",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0162",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0163",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0164",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0165",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.2.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0166",
+      "record_type": "genuine",
+      "original_evidence_id": "029_chunk_002_pages_011-020::E017",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0167",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0168",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0169",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0170",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0171",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_005_pages_041-048::E006",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0172",
+      "record_type": "genuine",
+      "original_evidence_id": "029_chunk_002_pages_011-020::E007",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0173",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0174",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.1.4",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0175",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E005",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0176",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.3d",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0177",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.3d",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0178",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.3f",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0179",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0180",
+      "record_type": "genuine",
+      "original_evidence_id": "024_chunk_001_pages_001-010::E010",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0181",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0182",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.1.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0183",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.1.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0184",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.3d",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0185",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.3.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0186",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.3.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0187",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0188",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.1.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0189",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0190",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.1.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0191",
+      "record_type": "genuine",
+      "original_evidence_id": "024_chunk_001_pages_001-010::E003",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0192",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.2.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0193",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_002_pages_011-020::E004",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0194",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_003_pages_021-030::E016",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0195",
+      "record_type": "genuine",
+      "original_evidence_id": "006_chunk_001_pages_001-001::E005",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0196",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_004_pages_031-040::E008",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0197",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_005_pages_041-048::E004",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0198",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0199",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0200",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0201",
+      "record_type": "genuine",
+      "original_evidence_id": "029_chunk_002_pages_011-020::E002",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0202",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.1.5",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0203",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0204",
+      "record_type": "genuine",
+      "original_evidence_id": "020_chunk_001_pages_001-001::E001",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0205",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.1.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0206",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.2.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0207",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.3.2",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0208",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.3.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0209",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.2.3",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0210",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.3a",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0211",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.3.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0212",
+      "record_type": "genuine",
+      "original_evidence_id": "028_chunk_002_pages_011-020::E005",
+      "used_in_baseline_justification": true
+    },
+    {
+      "experimental_evidence_id": "EV-0213",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.3.1",
+      "expected_scoring_value": "none"
+    },
+    {
+      "experimental_evidence_id": "EV-0214",
+      "record_type": "genuine",
+      "original_evidence_id": "005_chunk_001_pages_001-001::E001",
+      "used_in_baseline_justification": false
+    },
+    {
+      "experimental_evidence_id": "EV-0215",
+      "record_type": "control",
+      "original_evidence_id": null,
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.1.4",
+      "expected_scoring_value": "none"
+    }
+  ]
+}

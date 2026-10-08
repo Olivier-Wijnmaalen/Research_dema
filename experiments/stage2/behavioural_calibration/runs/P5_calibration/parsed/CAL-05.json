@@ -1,0 +1,42 @@
+{
+  "country": "Orinth",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment of Indicator C.2.2 (Dedicated budget) for Orinth finds no evidence of a formal, sustained, or even sporadic budget allocation for data sharing, technical staff, or training on secure data handling. The available evidence directly documents the absence of budget lines for a data coordinating unit and database-management training in the 2026 national budget (E0001), and the explicit lack of training funds for the Emergency Data Directorate in 2025, resulting in the cancellation of all planned secure-data courses (E0002). No evidence was identified to support the existence of any financial incentives, event-based or otherwise, for data sharing or technical capacity building. As such, the assessment concludes that Orinth remains at Phase 1 (Incomplete, ad hoc) for this indicator, with a clear documentary evidence gap for any higher phase. The principal limitation is the absence of positive evidence for any budgetary provision, not a proven impossibility of such allocations elsewhere.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.2.2",
+      "indicator_name": "Dedicated budget",
+      "phase_score": 1,
+      "matched_phase_requirement": "Little to no (financial) incentives in place to stimulate the sharing and exchange of risk and/or impact data. There are insufficient funds available for technical staff and/or trainings on (secure) data handling.",
+      "score_reasoning": "The assessment of Orinth’s dedicated budget for risk and disaster data sharing and technical capacity finds no evidence of any financial incentives or budget allocations that would support a higher maturity phase. The 2026 national budget review found no identifiable line for a data coordinating unit or for database-management training (E0001), directly supporting the absence of budgeted support for these functions. Furthermore, the Auditor-General’s statement that the Emergency Data Directorate had no training funds in fiscal year 2025 and cancelled all planned secure-data courses (E0002) provides explicit evidence of insufficient funds for technical staff training. These two items together demonstrate that there are neither ongoing nor event-based financial incentives or training funds in place for the relevant period. No evidence was identified of any sporadic, event-based, or formal budget allocations for data sharing, technical staff, or training, nor of any government policy or program that would meet the requirements for Phase 2 or above. The evidence thus fully supports Phase 1, which requires little to no financial incentives and insufficient funds for technical staff or training. This exceeds a hypothetical lower phase only in that Phase 1 is the lowest. The next phase (Phase 2) requires at least sporadic or event-based financial incentives or training funds, which was not demonstrated by any evidence. The principal limitation is a documentary evidence gap for any positive budgetary provision, not a proven impossibility of such allocations elsewhere. No evidence contradicts this assessment, but the absence of positive evidence for any higher phase is decisive.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002"
+      ],
+      "contrary_or_limiting_evidence": [],
+      "contrary_or_limiting_reasoning": "No evidence directly contradicts the assigned phase. The main limitation is the absence of positive evidence for any budget allocation or financial incentive for data sharing or technical staff/training. The reviewed budget and Auditor-General’s report do not cover every possible government allocation, but no evidence was identified to suggest any such allocations exist.",
+      "next_phase_gap": "Documentary evidence of any financial incentives, even if sporadic or event-based, or any funds for training (e.g., a budget line, program, or official record of event-based funding for data sharing or technical staff training) is required to support Phase 2.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Little to no (financial) incentives in place to stimulate the sharing and exchange of risk and/or impact data.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001",
+            "E0002"
+          ],
+          "explanation": "The 2026 budget review found no identifiable line for a data coordinating unit or database-management training (E0001), and the Emergency Data Directorate had no training funds in 2025 (E0002), supporting the absence of financial incentives."
+        },
+        {
+          "requirement": "There are insufficient funds available for technical staff and/or trainings on (secure) data handling.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0002",
+            "E0001"
+          ],
+          "explanation": "The Auditor-General’s report states that the Emergency Data Directorate had no training funds in 2025 and cancelled all planned secure-data courses (E0002). The 2026 budget review found no relevant budget line (E0001)."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

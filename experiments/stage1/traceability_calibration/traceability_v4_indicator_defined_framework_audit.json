@@ -1,0 +1,29 @@
+{
+  "migration": "V4 traceability prompt with indicator-level DEMA definitions",
+  "source_prompt": "C:\\Users\\olivi\\OneDrive\\Documenten\\OPENAI_AZURE_V1\\traceability_calibration\\traceability_v4_verify_repair_abstain.md",
+  "source_prompt_sha256": "324c883b33284a345a5313bb7bb2e11eebd8a9233029627e0f0f8df099ac3881",
+  "framework_source": "C:\\Users\\olivi\\OneDrive\\Documenten\\OPENAI_AZURE_V1\\DEMA_Indicator_Definitions_Prompt_Ready.txt",
+  "framework_source_sha256": "3cd6768ffe570e432b3bbbb3e56d021eea9692e126fca394094ba050db1600b1",
+  "output_prompt": "C:\\Users\\olivi\\OneDrive\\Documenten\\OPENAI_AZURE_V1\\traceability_calibration\\traceability_v4_indicator_defined_framework.md",
+  "output_prompt_sha256": "7ee30eec2e879db6a187b329c31a7496da4be71268f08c8c345da62652b148c0",
+  "framework_replacement_only": true,
+  "unchanged_prefix_characters": 6921,
+  "unchanged_suffix_characters": 9935,
+  "old_framework_characters": 4789,
+  "new_framework_characters": 16111,
+  "indicator_count": 30,
+  "template_variables_preserved": {
+    "country": true,
+    "input_text": true
+  },
+  "langfuse": {
+    "name": "dema-extraction-v4-indicator-defined-framework",
+    "version": 1,
+    "labels": [
+      "candidate",
+      "latest"
+    ],
+    "prompt_was_published": true,
+    "historical_v4_was_modified": false
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "started_at": "2026-09-09T17:50:53.470617+00:00",
+  "prompt_path": "C:\\Users\\olivi\\OneDrive\\Documenten\\FINAL_SCORE\\behavioural_calibration\\prompt_versions\\P4_full_prompt.txt",
+  "prompt_sha256": "883FC330BC82BD2BF5824A80E6F9F518DB3FC73E6AC429B505DD7635F1EA619F",
+  "cases_path": "C:\\Users\\olivi\\OneDrive\\Documenten\\FINAL_SCORE\\behavioural_calibration\\calibration_cases.json",
+  "cases_sha256": "F65A93EEC0102DE395CBD3706A7499D005DDD48A1D4C0F4375BD032927456A61",
+  "model_requested": "gpt-4.1-students",
+  "temperature": 0,
+  "max_output_tokens": 4000,
+  "endpoint_origin": "https://510-ai-research.services.ai.azure.com",
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "results": [
+    {
+      "case_id": "CAL-01",
+      "request_sha256": "B19E1C3DF3494085EF3078B6A67949DA1D0D344E177A0F868E62768131DAA7F3",
+      "status": "completed",
+      "response_id": "resp_0c47ff8761b667b4006aa19c81d488819789f93ae93fefa513",
+      "model_returned": "gpt-4.1-students",
+      "raw_sha256": "82A5E154F588B9E96B72C50CE65C1BB41B80F45BEB4D1D7287876ED5A625C41D",
+      "usage": {
+        "input_tokens": 14028,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 910,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 14938
+      },
+      "json_valid": true
+    },
+    {
+      "case_id": "CAL-02",
+      "request_sha256": "BFCC870CE3F86AEB246675315DAC47E9FE149235DECA1E4C02E4888C145ED6E9",
+      "status": "completed",
+      "response_id": "resp_096f69e2ed51833a006aa19c8b5b3c8190b947f745b2e17d2f",
+      "model_returned": "gpt-4.1-students",
+      "raw_sha256": "A4A8E0C5F91350761D9C03CFA11A9549346EEFC2045DD1EAC7DE0D188B964C5C",
+      "usage": {
+        "input_tokens": 13847,
+        "input_tokens_details": {
+          "cached_tokens": 13056,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 1027,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 14874
+      },
+      "json_valid": true
+    },
+    {
+      "case_id": "CAL-03",
+      "request_sha256": "E0BE134C3C6E51CF52DE94C503E99AB09B843E6A1FA45EAA7DA46E09148C4AD8",
+      "status": "completed",
+      "response_id": "resp_09582a5f71b93e7f006aa19c940e508193a9f9543e5813d20c",
+      "model_returned": "gpt-4.1-students",
+      "raw_sha256": "FD9576B08C5B24E2BED3985632B54A7532D6B40123B3367DE73EF6AFBDFF1077",
+      "usage": {
+        "input_tokens": 14043,
+        "input_tokens_details": {
+          "cached_tokens": 13056,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 1072,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 15115
+      },
+      "json_valid": true
+    },
+    {
+      "case_id": "CAL-04",
+      "request_sha256": "545163D8A1625C67D0FFE6211ADC771EAD9318FE89D00A230663B4C3F0C786B4",
+      "status": "completed",
+      "response_id": "resp_0dd10a0500282ae6006aa19c9ddd30819698e542fd55916968",
+      "model_returned": "gpt-4.1-students",
+      "raw_sha256": "96A710B5A32F3A74F27CA10C795D2BEF1E587790F3969197C46DFE83CCCB339E",
+      "usage": {
+        "input_tokens": 14018,
+        "input_tokens_details": {
+          "cached_tokens": 13056,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 1068,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 15086
+      },
+      "json_valid": true
+    },
+    {
+      "case_id": "CAL-05",
+      "request_sha256": "4BF4C94886E70B6694FAD1A6B327CB6B557883DC7E4B45C1CA57C13F73B71A90",
+      "status": "completed",
+      "response_id": "resp_0225895ab909de2f006aa19ca5915c81968d458cf4e72bcc9c",
+      "model_returned": "gpt-4.1-students",
+      "raw_sha256": "FA990FC2C09E9630BD823DC6F9FAC8A63C02D2A7FDF3A32DBFF93BAE5924135A",
+      "usage": {
+        "input_tokens": 13750,
+        "input_tokens_details": {
+          "cached_tokens": 13056,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 945,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 14695
+      },
+      "json_valid": true
+    },
+    {
+      "case_id": "CAL-06",
+      "request_sha256": "FE93E0B2CEAE3E24B8A0DD3CC945C6D5FE4DDB287AD6D60368504B7DE433D0EB",
+      "status": "completed",
+      "response_id": "resp_0135ef473edb2c29006aa19cac15108196bdf096b444e365f6",
+      "model_returned": "gpt-4.1-students",
+      "raw_sha256": "65FA2A369B1B4BB6522DFEE3590C43CF37E012676C0A37ACDD13FDBC7D136317",
+      "usage": {
+        "input_tokens": 14010,
+        "input_tokens_details": {
+          "cached_tokens": 13056,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 980,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 14990
+      },
+      "json_valid": true
+    },
+    {
+      "case_id": "CAL-07",
+      "request_sha256": "AD378B7D1DC590939E429B984E2C00C2BA1D40A618D6260434A3DED10339C2E5",
+      "status": "completed",
+      "response_id": "resp_00f52495fd85c094006aa19cb2dbd08195a06265ae1f8c8a37",
+      "model_returned": "gpt-4.1-students",
+      "raw_sha256": "503ADA41F98C7AE31A445BDE0D050C6004F229040DF353602D26EE951C2FFC40",
+      "usage": {
+        "input_tokens": 13716,
+        "input_tokens_details": {
+          "cached_tokens": 13056,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 943,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 14659
+      },
+      "json_valid": true
+    },
+    {
+      "case_id": "CAL-08",
+      "request_sha256": "5983E04A3EF69B4CBCB100761817D4AD9FF400BFC4BEFBBB060026C2FAEE0E90",
+      "status": "completed",
+      "response_id": "resp_016301baea56e43c006aa19cb9673c81949de0357cb671bd00",
+      "model_returned": "gpt-4.1-students",
+      "raw_sha256": "D456CC5168E17352A213475EC98E030BCF4FEA3BD40C3390A9940A1B65988810",
+      "usage": {
+        "input_tokens": 13888,
+        "input_tokens_details": {
+          "cached_tokens": 13056,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 858,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 14746
+      },
+      "json_valid": true
+    },
+    {
+      "case_id": "CAL-09",
+      "request_sha256": "6FFD7FEB11EA835779C25DDC3F0C11CB363097C0D032F0A10B9785A61230D218",
+      "status": "completed",
+      "response_id": "resp_0c08531eb1c9bbb8006aa19cbf90908195a54449fbc3d6d31e",
+      "model_returned": "gpt-4.1-students",
+      "raw_sha256": "07281A7E9A381B529911AB1A313E2C103CC6DF27A56135C505A9C4F556208CFB",
+      "usage": {
+        "input_tokens": 13952,
+        "input_tokens_details": {
+          "cached_tokens": 13056,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 1138,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 15090
+      },
+      "json_valid": true
+    },
+    {
+      "case_id": "CAL-10",
+      "request_sha256": "FB64A2383056DEB8A489FA8CFE888C472A9144D28B5E14E1AA7694ECE8E996C0",
+      "status": "completed",
+      "response_id": "resp_02aabecf56d8293c006aa19cc765b08197b5d1620e7d9d0549",
+      "model_returned": "gpt-4.1-students",
+      "raw_sha256": "E40233CBCDFC2B3AF88AD050E87016758563B36AC90363791A989E32F2FFBC37",
+      "usage": {
+        "input_tokens": 13933,
+        "input_tokens_details": {
+          "cached_tokens": 13056,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 992,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 14925
+      },
+      "json_valid": true
+    },
+    {
+      "case_id": "CAL-11",
+      "request_sha256": "F8410968AE85C8CA318A31E042A1919B27A754A95668057F1243BAB1792ABC95",
+      "status": "completed",
+      "response_id": "resp_0f6aa6626d5236c8006aa19cce19dc8190af73a6e143e03c2c",
+      "model_returned": "gpt-4.1-students",
+      "raw_sha256": "341422704EDC80028EC9772016CCCCE33A5EFC7059BE35D294D24AE3636E2038",
+      "usage": {
+        "input_tokens": 14294,
+        "input_tokens_details": {
+          "cached_tokens": 13056,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 1082,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 15376
+      },
+      "json_valid": true
+    },
+    {
+      "case_id": "CAL-12",
+      "request_sha256": "B515F0E75BF0BC6B19F09D31A6DACDB99089C8CE618D8C89AAF8C0DC7C00541D",
+      "status": "completed",
+      "response_id": "resp_02d00707302883c0006aa19cd5012c819085e5fc50828b53a7",
+      "model_returned": "gpt-4.1-students",
+      "raw_sha256": "883692E8AA344D67033F4086AA676EF30C0CBF783C11C836E0F2DFA86E15A6BB",
+      "usage": {
+        "input_tokens": 13936,
+        "input_tokens_details": {
+          "cached_tokens": 13056,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 909,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 14845
+      },
+      "json_valid": true
+    }
+  ]
+}

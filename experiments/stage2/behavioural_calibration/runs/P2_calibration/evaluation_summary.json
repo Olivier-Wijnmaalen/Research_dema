@@ -1,0 +1,45 @@
+{
+  "run": "P2_calibration",
+  "checks_passed": 39,
+  "checks_total": 45,
+  "rule_adherence_rate": 0.8666666666666667,
+  "complete_cases_passed": 9,
+  "cases_total": 12,
+  "complete_case_pass_rate": 0.75,
+  "by_rule": {
+    "R1": {
+      "passed": 9,
+      "total": 13
+    },
+    "R2": {
+      "passed": 4,
+      "total": 4
+    },
+    "R3": {
+      "passed": 3,
+      "total": 3
+    },
+    "R4": {
+      "passed": 1,
+      "total": 1
+    },
+    "R5": {
+      "passed": 8,
+      "total": 8
+    },
+    "R6": {
+      "passed": 4,
+      "total": 4
+    },
+    "R7": {
+      "passed": 1,
+      "total": 1
+    },
+    "R8": {
+      "passed": 9,
+      "total": 11
+    }
+  },
+  "qualitative_finding": "Stronger prose-only gating was insufficient and caused one scope-generalization regression.",
+  "score_sheet_sha256": "39B4BE3B5E2DC8A941A007A597ABC131EAE53B1496717E11F52832A1AAFA6512"
+}

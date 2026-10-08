@@ -1,0 +1,39 @@
+{
+  "country": "Elandor",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment for Indicator B.2.2 (Operationalize common (meta)data standards) in Elandor finds limited evidence of common data standards adoption. The only documented use of a shared standard is restricted to a single externally funded mountain project involving two agencies (E0001). No evidence demonstrates broader adoption, agreement, or routine use of common standards across multiple actors, domains, or sectors. There is a clear documentary gap for ecosystem-wide standards, as confirmed by the absence of any supplied inventory showing standards used outside the landslide project (E0003). No evidence supports systematic or widespread implementation, nor compliance monitoring. Therefore, the highest fully supported phase is Phase 2, which requires fragmented, project-specific adoption of standards by some organizations. The next phase (Phase 3) is not supported due to the lack of evidence for agreed standards guiding data collection, documentation, metadata creation, or data management practices across multiple actors or domains.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.2.2",
+      "indicator_name": "Operationalize common (meta)data standards",
+      "phase_score": 2,
+      "matched_phase_requirement": "Some organizations or projects have adopted data standards for specific datasets or activities, but implementation remains fragmented and largely organization-specific. Common definitions, classifications, metadata requirements, or data collection templates are not consistently used across actors.",
+      "score_reasoning": "The evidence demonstrates that two agencies in Elandor use a shared landslide classification within a single externally funded mountain project (E0001). This directly supports the requirement that some organizations or projects have adopted data standards for specific datasets or activities, but implementation remains fragmented and largely organization-specific. The evidence is explicit that this standard is not used outside the project, and no broader adoption is documented. The supplied inventory confirms that no agreed standard is used across multiple domains or routinely by actors outside the landslide project (E0003), establishing a documentary gap for ecosystem-wide standards. No evidence was identified for common definitions, classifications, metadata requirements, or data collection templates being consistently used across actors. The national data centre's infrastructure (E0002) does not address standards, definitions, or metadata, and therefore does not support a higher phase. The evidence exceeds Phase 1, which requires little or no use of common data standards, as there is at least one documented project-specific standard. However, it does not meet Phase 3, which requires common data standards to be agreed upon for key datasets, processes, or domains and used by multiple actors, with standards guiding data collection, documentation, metadata creation, and data management practices. The principal strength is the existence of a documented project-specific standard; the principal weakness is the lack of evidence for broader or systematic adoption.",
+      "evidence_supporting_score": ["E0001", "E0003"],
+      "contrary_or_limiting_evidence": ["E0003"],
+      "contrary_or_limiting_reasoning": "E0003 establishes a documentary gap for standards used outside the landslide project, confirming that no evidence supports broader adoption or routine use of common standards across actors or domains. This limits the score to Phase 2.",
+      "next_phase_gap": "Evidence is required for common data standards agreed upon for key datasets, processes, or domains and used by multiple actors. Documentation should show standards guiding data collection, documentation, metadata creation, and data management practices across the ecosystem, not just within a single project.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Some organizations or projects have adopted data standards for specific datasets or activities.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0001"],
+          "explanation": "E0001 documents two agencies using a shared landslide classification in a mountain project, demonstrating adoption of a project-specific standard."
+        },
+        {
+          "requirement": "Implementation remains fragmented and largely organization-specific.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0001", "E0003"],
+          "explanation": "E0001 shows the standard is limited to one project; E0003 confirms no broader adoption or routine use of standards across actors or domains."
+        },
+        {
+          "requirement": "Common definitions, classifications, metadata requirements, or data collection templates are not consistently used across actors.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0003"],
+          "explanation": "E0003 explicitly states that no supplied inventory documents an agreed standard used across multiple domains or routinely by actors outside the landslide project."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

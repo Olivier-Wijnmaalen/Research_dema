@@ -1,0 +1,21 @@
+{
+  "version": "V4",
+  "parent": "V3",
+  "parent_sha256": "add26ce2c451244921ba01766d86f82501acd31a0934937163362088b25fb94a",
+  "sha256": "324c883b33284a345a5313bb7bb2e11eebd8a9233029627e0f0f8df099ac3881",
+  "v3_observed": {
+    "total_rows": 431,
+    "status_counts": {
+      "PASS_EXACT": 403,
+      "PASS_NORMALIZED": 3,
+      "REPAIR_REQUIRED": 4,
+      "FAIL": 21
+    },
+    "strict_pass_rate_percent": 93.503,
+    "accepted_pass_rate_percent": 94.2,
+    "traceable_rate_percent": 95.128,
+    "chunks_with_nonaccepted_rows": 12
+  },
+  "mutation": "Mandatory pre-output literal-presence check with recopy-or-abstain handling",
+  "rationale": "V3 reduced failures to 21, but residual rows still joined separated PDF fragments or failed literal webpage matching. V4 converts verification into a final admission gate."
+}

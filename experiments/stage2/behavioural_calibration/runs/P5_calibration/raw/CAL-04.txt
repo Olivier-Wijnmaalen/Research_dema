@@ -1,0 +1,39 @@
+{
+  "country": "Bellmare",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "This assessment covers only Indicator B.1.3d (Data quality: timeliness) for Bellmare. The evidence demonstrates that while there are defined schedules for data updates and official claims of rapid reporting, independent audit evidence shows that these schedules are not routinely met in practice. Most provinces consistently miss the required update deadlines, resulting in significant delays. Therefore, the ecosystem does not meet the criteria for routine, scheduled updates as required for Phase 3 or higher. The assessment finds that Bellmare is at Phase 2: data are collected following events, but reporting and updates are delayed and inconsistent, with schedules driven by events or requirements rather than operational needs. The principal strength is the existence of a defined schedule and some official recognition of the need for timely data. The main weakness is the lack of routine, timely implementation across the ecosystem, as evidenced by the audit. Advancement to Phase 3 would require clear, documented evidence of routine, timely updates in accordance with defined schedules across all relevant actors.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.1.3d",
+      "indicator_name": "Data quality: timeliness",
+      "phase_score": 2,
+      "matched_phase_requirement": "Data are usually collected following events, but reporting and updates are often delayed and inconsistent. Update schedules are largely driven by specific events, projects, or reporting requirements rather than defined operational needs. Dynamic impacts like displacement or infrastructure recovery are poorly tracked.",
+      "score_reasoning": "The evidence for Bellmare’s data quality: timeliness shows that while there is a formal schedule for weekly uploads of provincial incident records, actual implementation is inconsistent and delayed. The Bellmare Operations Centre claims that all provincial incident records are uploaded within 24 hours under a weekly update schedule (E0001), and the system manual defines weekly uploads for incident data (E0003). However, an independent audit of the same system and quarter found that, despite the existence of a written weekly schedule, the median upload delay was 18 days, and 7 out of 10 provinces missed every weekly deadline (E0002). This audit is more authoritative and directly contradicts the self-reported compliance, demonstrating that routine, timely updates are not achieved in practice. The existence of a defined schedule and some official recognition of the need for timely data exceeds Phase 1, where there are no defined expectations or procedures. However, the lack of routine, timely implementation across the ecosystem means that the requirements for Phase 3—where timeframes are defined and data are routinely updated according to established schedules—are not met. The evidence does not support systematic, routine updates or the timely capture of evolving indicators as required for Phase 3. The principal strength is the recognition of the need for timely data and the existence of a formal schedule. The main weakness is the lack of routine, timely implementation, as evidenced by the audit. Advancement to Phase 3 would require clear, documented evidence of routine, timely updates in accordance with defined schedules across all relevant actors.",
+      "evidence_supporting_score": ["E0001", "E0002", "E0003"],
+      "contrary_or_limiting_evidence": ["E0002"],
+      "contrary_or_limiting_reasoning": "E0002, the independent audit, directly contradicts the self-reported compliance by showing that most provinces consistently miss the weekly deadlines, with a median delay of 18 days. This demonstrates that routine, timely updates are not achieved, preventing a Phase 3 score.",
+      "next_phase_gap": "Documented, ecosystem-wide evidence that data are routinely updated according to established schedules, with timely capture of important changes for evolving indicators (e.g., displacement, rebuilding, economic recovery) across all relevant actors. Audit or monitoring records showing consistent, timely compliance with defined update schedules are required.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Data are usually collected following events.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0001", "E0002", "E0003"],
+          "explanation": "The system manual and official reports indicate that data collection and uploads are scheduled following events, and the audit confirms that data are collected, albeit with delays."
+        },
+        {
+          "requirement": "Reporting and updates are often delayed and inconsistent.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002"],
+          "explanation": "The independent audit found a median upload delay of 18 days and that 7 of 10 provinces missed every weekly deadline, demonstrating delayed and inconsistent updates."
+        },
+        {
+          "requirement": "Update schedules are largely driven by specific events, projects, or reporting requirements rather than defined operational needs.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002", "E0003"],
+          "explanation": "While a weekly schedule is defined (E0003), the audit (E0002) shows that in practice, updates are not routinely implemented, and delays are common, indicating that operational needs do not drive consistent, timely updates."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

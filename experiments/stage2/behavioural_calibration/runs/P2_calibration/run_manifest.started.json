@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-09-09T17:45:06.674082+00:00",
+  "prompt_path": "C:\\Users\\olivi\\OneDrive\\Documenten\\FINAL_SCORE\\behavioural_calibration\\prompt_versions\\P2_full_prompt.txt",
+  "prompt_sha256": "B2C474ED94FF3E7B43260FC57CB3EC81E273A568925EB1C77BA9A1E3A197D5DA",
+  "cases_path": "C:\\Users\\olivi\\OneDrive\\Documenten\\FINAL_SCORE\\behavioural_calibration\\calibration_cases.json",
+  "cases_sha256": "F65A93EEC0102DE395CBD3706A7499D005DDD48A1D4C0F4375BD032927456A61",
+  "model_requested": "gpt-4.1-students",
+  "temperature": 0,
+  "max_output_tokens": 4000,
+  "endpoint_origin": "https://510-ai-research.services.ai.azure.com",
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "results": []
+}

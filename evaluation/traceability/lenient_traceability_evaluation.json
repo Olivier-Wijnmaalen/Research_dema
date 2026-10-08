@@ -1,0 +1,1448 @@
+{
+  "summary": {
+    "criterion": "Unicode NFKC and whitespace normalization; Markdown emphasis/list markers ignored; conversion metadata and page-boundary footnote insertions ignored.",
+    "candidate_records": 238,
+    "strict_pass": 232,
+    "lenient_pass": 238,
+    "lenient_fail": 0,
+    "strict_failures_reclassified_as_lenient_pass": [
+      "006_chunk_001_pages_001-001::E003",
+      "007_chunk_001_pages_001-001::E003",
+      "015_chunk_005_pages_041-050::E014",
+      "029_chunk_002_pages_011-020::E006",
+      "029_chunk_002_pages_011-020::E014",
+      "029_chunk_003_pages_021-030::E012"
+    ],
+    "remaining_failures": []
+  },
+  "results": [
+    {
+      "evidence_id": "005_chunk_001_pages_001-001::E001",
+      "chunk": "005/005_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "005_chunk_001_pages_001-001::E002",
+      "chunk": "005/005_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "005_chunk_001_pages_001-001::E003",
+      "chunk": "005/005_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "005_chunk_001_pages_001-001::E004",
+      "chunk": "005/005_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "005_chunk_001_pages_001-001::E005",
+      "chunk": "005/005_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "005_chunk_001_pages_001-001::E006",
+      "chunk": "005/005_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "005_chunk_001_pages_001-001::E007",
+      "chunk": "005/005_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "005_chunk_001_pages_001-001::E008",
+      "chunk": "005/005_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "005_chunk_001_pages_001-001::E009",
+      "chunk": "005/005_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "006_chunk_001_pages_001-001::E001",
+      "chunk": "006/006_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "006_chunk_001_pages_001-001::E002",
+      "chunk": "006/006_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "006_chunk_001_pages_001-001::E004",
+      "chunk": "006/006_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "006_chunk_001_pages_001-001::E005",
+      "chunk": "006/006_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "006_chunk_001_pages_001-001::E006",
+      "chunk": "006/006_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "006_chunk_001_pages_001-001::E007",
+      "chunk": "006/006_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "007_chunk_001_pages_001-001::E001",
+      "chunk": "007/007_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "007_chunk_001_pages_001-001::E002",
+      "chunk": "007/007_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E001",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E002",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E003",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E004",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E005",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E006",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E007",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E008",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E009",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E010",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E011",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E012",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "011_chunk_002_pages_011-018::E013",
+      "chunk": "011/011_chunk_002_pages_011-018.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E001",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E002",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E003",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E004",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E005",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E006",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E007",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E008",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E009",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E010",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E011",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E012",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E013",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E014",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E015",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E016",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_002_pages_011-020::E017",
+      "chunk": "015/015_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E001",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E002",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E003",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E004",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E005",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E006",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E007",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E008",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E009",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E010",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E011",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E012",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E013",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E015",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E016",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E017",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E018",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E019",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E020",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E021",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E022",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "019_chunk_001_pages_001-001::E001",
+      "chunk": "019/019_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "019_chunk_001_pages_001-001::E002",
+      "chunk": "019/019_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "019_chunk_001_pages_001-001::E003",
+      "chunk": "019/019_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "019_chunk_001_pages_001-001::E004",
+      "chunk": "019/019_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "019_chunk_001_pages_001-001::E005",
+      "chunk": "019/019_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "019_chunk_001_pages_001-001::E006",
+      "chunk": "019/019_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "020_chunk_001_pages_001-001::E001",
+      "chunk": "020/020_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "020_chunk_001_pages_001-001::E002",
+      "chunk": "020/020_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "020_chunk_001_pages_001-001::E003",
+      "chunk": "020/020_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "020_chunk_001_pages_001-001::E004",
+      "chunk": "020/020_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "020_chunk_001_pages_001-001::E005",
+      "chunk": "020/020_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "020_chunk_001_pages_001-001::E006",
+      "chunk": "020/020_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "022_chunk_001_pages_001-001::E001",
+      "chunk": "022/022_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "022_chunk_001_pages_001-001::E002",
+      "chunk": "022/022_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "022_chunk_001_pages_001-001::E003",
+      "chunk": "022/022_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "022_chunk_001_pages_001-001::E004",
+      "chunk": "022/022_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "022_chunk_001_pages_001-001::E005",
+      "chunk": "022/022_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "022_chunk_001_pages_001-001::E006",
+      "chunk": "022/022_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_001_pages_001-010::E001",
+      "chunk": "024/024_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_001_pages_001-010::E002",
+      "chunk": "024/024_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_001_pages_001-010::E003",
+      "chunk": "024/024_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_001_pages_001-010::E004",
+      "chunk": "024/024_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_001_pages_001-010::E005",
+      "chunk": "024/024_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_001_pages_001-010::E006",
+      "chunk": "024/024_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_001_pages_001-010::E007",
+      "chunk": "024/024_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_001_pages_001-010::E008",
+      "chunk": "024/024_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_001_pages_001-010::E009",
+      "chunk": "024/024_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_001_pages_001-010::E010",
+      "chunk": "024/024_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_002_pages_011-020::E001",
+      "chunk": "024/024_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_002_pages_011-020::E002",
+      "chunk": "024/024_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_002_pages_011-020::E003",
+      "chunk": "024/024_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_002_pages_011-020::E004",
+      "chunk": "024/024_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_002_pages_011-020::E005",
+      "chunk": "024/024_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_002_pages_011-020::E006",
+      "chunk": "024/024_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_002_pages_011-020::E007",
+      "chunk": "024/024_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_002_pages_011-020::E008",
+      "chunk": "024/024_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_002_pages_011-020::E009",
+      "chunk": "024/024_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "024_chunk_002_pages_011-020::E010",
+      "chunk": "024/024_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "026_chunk_001_pages_001-001::E001",
+      "chunk": "026/026_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "026_chunk_001_pages_001-001::E002",
+      "chunk": "026/026_chunk_001_pages_001-001.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_001_pages_001-010::E001",
+      "chunk": "028/028_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_001_pages_001-010::E002",
+      "chunk": "028/028_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_001_pages_001-010::E003",
+      "chunk": "028/028_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_001_pages_001-010::E004",
+      "chunk": "028/028_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_001_pages_001-010::E005",
+      "chunk": "028/028_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_001_pages_001-010::E006",
+      "chunk": "028/028_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_001_pages_001-010::E007",
+      "chunk": "028/028_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_001_pages_001-010::E008",
+      "chunk": "028/028_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_001_pages_001-010::E009",
+      "chunk": "028/028_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_001_pages_001-010::E010",
+      "chunk": "028/028_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_001_pages_001-010::E011",
+      "chunk": "028/028_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_002_pages_011-020::E001",
+      "chunk": "028/028_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_002_pages_011-020::E002",
+      "chunk": "028/028_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_002_pages_011-020::E003",
+      "chunk": "028/028_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_002_pages_011-020::E004",
+      "chunk": "028/028_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_002_pages_011-020::E005",
+      "chunk": "028/028_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_002_pages_011-020::E006",
+      "chunk": "028/028_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_002_pages_011-020::E007",
+      "chunk": "028/028_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E001",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E002",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E003",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E004",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E005",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E006",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E007",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E008",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E009",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E010",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E011",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E012",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E013",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E014",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E015",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E016",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E017",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E018",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E019",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E020",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_003_pages_021-030::E021",
+      "chunk": "028/028_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_004_pages_031-040::E001",
+      "chunk": "028/028_chunk_004_pages_031-040.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_004_pages_031-040::E002",
+      "chunk": "028/028_chunk_004_pages_031-040.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_004_pages_031-040::E003",
+      "chunk": "028/028_chunk_004_pages_031-040.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_004_pages_031-040::E004",
+      "chunk": "028/028_chunk_004_pages_031-040.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_004_pages_031-040::E005",
+      "chunk": "028/028_chunk_004_pages_031-040.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_004_pages_031-040::E006",
+      "chunk": "028/028_chunk_004_pages_031-040.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_004_pages_031-040::E007",
+      "chunk": "028/028_chunk_004_pages_031-040.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_004_pages_031-040::E008",
+      "chunk": "028/028_chunk_004_pages_031-040.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_004_pages_031-040::E009",
+      "chunk": "028/028_chunk_004_pages_031-040.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_004_pages_031-040::E010",
+      "chunk": "028/028_chunk_004_pages_031-040.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E001",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E002",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E003",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E004",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E005",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E006",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E007",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E008",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E009",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E010",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E011",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E012",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E013",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E014",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E015",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "028_chunk_005_pages_041-048::E016",
+      "chunk": "028/028_chunk_005_pages_041-048.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_001_pages_001-010::E001",
+      "chunk": "029/029_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_001_pages_001-010::E002",
+      "chunk": "029/029_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_001_pages_001-010::E003",
+      "chunk": "029/029_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_001_pages_001-010::E004",
+      "chunk": "029/029_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_001_pages_001-010::E005",
+      "chunk": "029/029_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_001_pages_001-010::E006",
+      "chunk": "029/029_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_001_pages_001-010::E007",
+      "chunk": "029/029_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_001_pages_001-010::E008",
+      "chunk": "029/029_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_001_pages_001-010::E009",
+      "chunk": "029/029_chunk_001_pages_001-010.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E001",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E002",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E003",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E004",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E005",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E007",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E008",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E009",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E010",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E011",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E012",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E013",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E015",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E016",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E017",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E018",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E019",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E020",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E021",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E022",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E001",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E002",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E003",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E004",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E005",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E006",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E007",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E008",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E009",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E010",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E011",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E013",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E014",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E015",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E016",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E017",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E018",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E001",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E002",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E003",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E004",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E005",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E006",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E007",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E008",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E009",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E010",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E011",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E012",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_004_pages_031-038::E013",
+      "chunk": "029/029_chunk_004_pages_031-038.md",
+      "strict_result": "PASS",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "006_chunk_001_pages_001-001::E003",
+      "chunk": "006/006_chunk_001_pages_001-001.md",
+      "strict_result": "FAIL",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "007_chunk_001_pages_001-001::E003",
+      "chunk": "007/007_chunk_001_pages_001-001.md",
+      "strict_result": "FAIL",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "015_chunk_005_pages_041-050::E014",
+      "chunk": "015/015_chunk_005_pages_041-050.md",
+      "strict_result": "FAIL",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E006",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "FAIL",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_002_pages_011-020::E014",
+      "chunk": "029/029_chunk_002_pages_011-020.md",
+      "strict_result": "FAIL",
+      "lenient_result": "PASS"
+    },
+    {
+      "evidence_id": "029_chunk_003_pages_021-030::E012",
+      "chunk": "029/029_chunk_003_pages_021-030.md",
+      "strict_result": "FAIL",
+      "lenient_result": "PASS"
+    }
+  ]
+}

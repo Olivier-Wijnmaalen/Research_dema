@@ -1,0 +1,21 @@
+.env
+**/.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Recreated by the dashboard build.
+dashboard/node_modules/
+dashboard/node_modules.partial-*/
+dashboard/dist/
+dashboard/public/
+
+# New paid/model runs require review before committing selected artifacts.
+working-runs/
+outputs/local_runs/

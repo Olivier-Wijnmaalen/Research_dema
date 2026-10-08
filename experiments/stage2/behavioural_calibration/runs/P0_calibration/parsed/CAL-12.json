@@ -1,0 +1,23 @@
+{
+  "country": "Zafran",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "For Zafran, the assessment of Indicator A.1.1 (Roles are known & identified, for all actors) demonstrates that key government and non-government actors—including ministries, relief organisations, universities, and telecommunications firms—are identified by the Zafran Disaster Secretariat. The customary tasks of these actors are described, but several agencies' data roles are not defined in laws or official mandates. No evidence was found of a fully endorsed and operationalized institutional framework, nor of a dynamic, collaborative ecosystem that continuously evolves roles. The evidence supports a Phase 3 score, as the identification of actors and description of their roles is established, but legal or official mechanisms are not consistently applied. The principal strength is the existence of an endorsed list and role descriptions; the main weakness is the lack of legal definition and operationalization. The next phase would require proof of a fully endorsed and operationalized institutional framework.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "A.1.1",
+      "indicator_name": "Roles are known & identified, for all actors",
+      "phase_score": 3,
+      "matched_phase_requirement": "The key actors in the ecosystem have been identified by e.g. the NDRMA, but the roles of key government agencies and organizations are not always defined through official/legal mechanisms",
+      "score_reasoning": "The Zafran Disaster Secretariat maintains an endorsed list identifying ministries, relief organisations, universities, and telecommunications firms active in the data ecosystem (E0001). This demonstrates that key actors—both government and non-government—are systematically identified at the national level. The list also describes customary tasks, indicating that roles are known and documented for these actors (E0002). However, a legal review found that several agencies' data roles are not defined in laws or official mandates, meaning that the definition of roles is not consistently established through official or legal mechanisms (E0002). This matches the Phase 3 requirement, which specifies that actors are identified but roles are not always defined through official/legal mechanisms. The evidence exceeds Phase 2, which only requires identification of actors without any role definition, because the Zafran Disaster Secretariat's list includes both identification and description of customary tasks. However, the evidence does not fully satisfy Phase 4, which requires a fully endorsed and operationalized institutional framework where formal governance is also real governance in practice. No reviewed record demonstrates that such a framework is operationalized (E0003). No evidence was identified for a dynamic, collaborative, and continuously evolving ecosystem as required for Phase 5. The principal strength is the existence of an endorsed list and role descriptions; the main weakness is the lack of legal definition and operationalization. The assessment is limited by the absence of documentary proof for a fully operationalized institutional framework.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0003"
+      ],
+      "contrary_or_limiting_reasoning": "E0003 explicitly states that no reviewed record demonstrates a fully endorsed institutional framework is operationalized in practice. This is a documentary gap, not proof of real-world absence, but it limits the score to Phase 3 as it prevents confirmation of Phase 4 or higher.",
+      "next_phase_gap": "To reach Phase 4, evidence is required of a fully endorsed and operationalized institutional framework that defines the roles and responsibilities of all actors in the ecosystem, demonstrating that formal governance is also real governance in practice. No such proof was identified in the supplied evidence."
+    }
+  ]
+}

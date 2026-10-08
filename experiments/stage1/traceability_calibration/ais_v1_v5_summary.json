@@ -1,0 +1,37 @@
+[
+  {
+    "version": "V1",
+    "technical_final_rows": 394,
+    "PARTIALLY_ATTRIBUTABLE": 162,
+    "FULLY_ATTRIBUTABLE": 227,
+    "NOT_ATTRIBUTABLE": 5
+  },
+  {
+    "version": "V2",
+    "technical_final_rows": 392,
+    "PARTIALLY_ATTRIBUTABLE": 182,
+    "FULLY_ATTRIBUTABLE": 200,
+    "NOT_ATTRIBUTABLE": 10
+  },
+  {
+    "version": "V3",
+    "technical_final_rows": 410,
+    "PARTIALLY_ATTRIBUTABLE": 215,
+    "FULLY_ATTRIBUTABLE": 191,
+    "NOT_ATTRIBUTABLE": 4
+  },
+  {
+    "version": "V4",
+    "technical_final_rows": 410,
+    "PARTIALLY_ATTRIBUTABLE": 194,
+    "FULLY_ATTRIBUTABLE": 207,
+    "NOT_ATTRIBUTABLE": 9
+  },
+  {
+    "version": "V5",
+    "technical_final_rows": 421,
+    "PARTIALLY_ATTRIBUTABLE": 188,
+    "FULLY_ATTRIBUTABLE": 226,
+    "NOT_ATTRIBUTABLE": 7
+  }
+]

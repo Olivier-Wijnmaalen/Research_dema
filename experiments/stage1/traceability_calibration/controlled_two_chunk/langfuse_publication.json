@@ -1,0 +1,33 @@
+{
+  "prompt_name": "dema-controlled-two-chunk-error-calibration",
+  "source_baseline": {
+    "name": "newframework_compact",
+    "version": 1,
+    "normalized_text_sha256": "43afe76031285dae8ec2f3f611d0ddc417a1e038da30f1b36f9a747449a03812",
+    "exact_text_identity_with_controlled_p0": true
+  },
+  "p0": {
+    "version": 1,
+    "labels": [
+      "controlled-p0"
+    ],
+    "sha256": "43afe76031285dae8ec2f3f611d0ddc417a1e038da30f1b36f9a747449a03812"
+  },
+  "p1": {
+    "version": 2,
+    "labels": [
+      "controlled-p1"
+    ],
+    "sha256": "3f5af4da5c2b31a4cc3d052167f421d656c7c6d3e1e57e38242bfee270419723"
+  },
+  "p2": {
+    "version": 3,
+    "labels": [
+      "controlled-p2",
+      "latest"
+    ],
+    "sha256": "332efe1057b5381b04fbf00f34a65330b730dcdd9212ff665621d50589e996f1"
+  },
+  "single_change_identity_check": true,
+  "p2_single_change_identity_check": true
+}

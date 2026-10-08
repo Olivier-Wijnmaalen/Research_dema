@@ -1,0 +1,27 @@
+{
+  "study": "quotation-traceability sequential prompt calibration",
+  "baseline_prompt": "newframework_compact Langfuse v1",
+  "baseline_file": "C:\\Users\\olivi\\OneDrive\\Documenten\\OPENAI_AZURE_V1\\traceability_calibration\\traceability_v0_compact_baseline.md",
+  "baseline_sha256": "0ec679ee6ccada6cc03655a8f773007e7ef6af4dc27556ef040b411d75c98439",
+  "validator_file": "C:\\Users\\olivi\\OneDrive\\Documenten\\OPENAI_AZURE_V1\\technical_validator.py",
+  "validator_sha256": "a699538754a720aa9fb19212fc747d6fa0d43f4033e22d8f29f570742701638c",
+  "corpus_manifest": "C:\\Users\\olivi\\OneDrive\\Documenten\\OPENAI_AZURE_V1\\output\\newframework-compact-all-chunks\\chunk-manifest.json",
+  "chunks": 30,
+  "model": "gpt-4.1-students",
+  "temperature": 0.2,
+  "max_output_tokens": 32768,
+  "selection_rule": {
+    "primary": "lowest FAIL/total candidate rate",
+    "yield_constraint": "candidate evidence yield must be at least 90% of V0 yield (>= 402 of 446 rows)",
+    "tie_1": "if FAIL rates differ by <1 percentage point, prefer higher PASS_EXACT rate",
+    "tie_2": "if exact rates also differ by <1 percentage point, prefer the earlier/less complex prompt"
+  },
+  "v1": {
+    "file": "C:\\Users\\olivi\\OneDrive\\Documenten\\OPENAI_AZURE_V1\\traceability_calibration\\traceability_v1_explicit_source_grounding.md",
+    "sha256": "67916b96031e7426ada126bc4d83caee638352fefbc22f5d41f0b492a55f9fa6",
+    "parent_sha256": "0ec679ee6ccada6cc03655a8f773007e7ef6af4dc27556ef040b411d75c98439",
+    "changed_component": "quotation traceability instructions only",
+    "mutation": "Explicit source grounding and exact-substring eligibility definition",
+    "rationale": "The V0 failure audit found non-verbatim reconstruction even though general copying rules were already present; V1 makes source membership the explicit eligibility test."
+  }
+}

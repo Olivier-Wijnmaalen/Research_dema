@@ -1,0 +1,1474 @@
+{
+  "experiment": "negative-source sensitivity test with strong-evidence retention",
+  "created_at_utc": "2026-09-17T16:16:47.558024+00:00",
+  "random_seed": 20260917,
+  "selection_rule": "Retain all 31 strong evaluation records used in the baseline justification, then sample 29 from the remaining 52 strong records using a fixed seed.",
+  "original_evaluation_records": 232,
+  "strong_records_available": 83,
+  "retained_strong_records": 60,
+  "retained_previously_used_strong_records": 31,
+  "retained_sampled_strong_records": 29,
+  "retained_evidence_ids": [
+    "006_chunk_001_pages_001-001::E002",
+    "007_chunk_001_pages_001-001::E001",
+    "020_chunk_001_pages_001-001::E004",
+    "024_chunk_001_pages_001-010::E001",
+    "024_chunk_001_pages_001-010::E002",
+    "024_chunk_001_pages_001-010::E004",
+    "024_chunk_001_pages_001-010::E005",
+    "028_chunk_001_pages_001-010::E003",
+    "028_chunk_002_pages_011-020::E001",
+    "028_chunk_002_pages_011-020::E002",
+    "028_chunk_002_pages_011-020::E003",
+    "028_chunk_002_pages_011-020::E004",
+    "028_chunk_002_pages_011-020::E005",
+    "028_chunk_002_pages_011-020::E006",
+    "028_chunk_002_pages_011-020::E007",
+    "028_chunk_003_pages_021-030::E001",
+    "028_chunk_003_pages_021-030::E005",
+    "028_chunk_003_pages_021-030::E006",
+    "028_chunk_003_pages_021-030::E007",
+    "028_chunk_004_pages_031-040::E002",
+    "028_chunk_004_pages_031-040::E003",
+    "028_chunk_004_pages_031-040::E004",
+    "028_chunk_004_pages_031-040::E005",
+    "028_chunk_004_pages_031-040::E006",
+    "028_chunk_004_pages_031-040::E007",
+    "028_chunk_004_pages_031-040::E008",
+    "028_chunk_004_pages_031-040::E009",
+    "028_chunk_005_pages_041-048::E016",
+    "029_chunk_002_pages_011-020::E002",
+    "029_chunk_002_pages_011-020::E017",
+    "029_chunk_003_pages_021-030::E008",
+    "028_chunk_005_pages_041-048::E004",
+    "019_chunk_001_pages_001-001::E005",
+    "028_chunk_005_pages_041-048::E006",
+    "028_chunk_005_pages_041-048::E013",
+    "028_chunk_001_pages_001-010::E011",
+    "024_chunk_001_pages_001-010::E008",
+    "028_chunk_004_pages_031-040::E001",
+    "024_chunk_001_pages_001-010::E007",
+    "005_chunk_001_pages_001-001::E001",
+    "020_chunk_001_pages_001-001::E001",
+    "028_chunk_003_pages_021-030::E008",
+    "028_chunk_005_pages_041-048::E010",
+    "028_chunk_003_pages_021-030::E003",
+    "028_chunk_003_pages_021-030::E021",
+    "028_chunk_003_pages_021-030::E020",
+    "024_chunk_001_pages_001-010::E003",
+    "028_chunk_005_pages_041-048::E001",
+    "028_chunk_003_pages_021-030::E016",
+    "028_chunk_003_pages_021-030::E011",
+    "005_chunk_001_pages_001-001::E004",
+    "029_chunk_002_pages_011-020::E007",
+    "028_chunk_003_pages_021-030::E018",
+    "028_chunk_005_pages_041-048::E003",
+    "028_chunk_003_pages_021-030::E019",
+    "006_chunk_001_pages_001-001::E005",
+    "028_chunk_003_pages_021-030::E012",
+    "024_chunk_001_pages_001-010::E010",
+    "028_chunk_003_pages_021-030::E009",
+    "006_chunk_001_pages_001-001::E004"
+  ],
+  "synthetic_records": 155,
+  "synthetic_records_per_indicator": 5,
+  "experimental_bank_records": 215,
+  "bank_sha256": "2530d8c6c55658ff77d484669e947dcf164ce61be0185b5fec412718281bb1a7",
+  "control_manifest": [
+    {
+      "evidence_id": "EVT-0001",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.1.1",
+      "target_indicator_name": "Roles are known & identified, for all actors",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0002",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.1.1",
+      "target_indicator_name": "Roles are known & identified, for all actors",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0003",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.1.1",
+      "target_indicator_name": "Roles are known & identified, for all actors",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0004",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.1.1",
+      "target_indicator_name": "Roles are known & identified, for all actors",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0005",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.1.1",
+      "target_indicator_name": "Roles are known & identified, for all actors",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0006",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.1.2",
+      "target_indicator_name": "Roles are known & identified, for the coordinator",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0007",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.1.2",
+      "target_indicator_name": "Roles are known & identified, for the coordinator",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0008",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.1.2",
+      "target_indicator_name": "Roles are known & identified, for the coordinator",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0009",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.1.2",
+      "target_indicator_name": "Roles are known & identified, for the coordinator",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0010",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.1.2",
+      "target_indicator_name": "Roles are known & identified, for the coordinator",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0011",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.1.3",
+      "target_indicator_name": "Diversity and representativeness of data users",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0012",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.1.3",
+      "target_indicator_name": "Diversity and representativeness of data users",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0013",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.1.3",
+      "target_indicator_name": "Diversity and representativeness of data users",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0014",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.1.3",
+      "target_indicator_name": "Diversity and representativeness of data users",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0015",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.1.3",
+      "target_indicator_name": "Diversity and representativeness of data users",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0016",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.1.4",
+      "target_indicator_name": "Diversity and representativeness of data producers",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0017",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.1.4",
+      "target_indicator_name": "Diversity and representativeness of data producers",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0018",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.1.4",
+      "target_indicator_name": "Diversity and representativeness of data producers",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0019",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.1.4",
+      "target_indicator_name": "Diversity and representativeness of data producers",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0020",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.1.4",
+      "target_indicator_name": "Diversity and representativeness of data producers",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0021",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.2.1",
+      "target_indicator_name": "Human capacity building & retention across actors (in relation to data and AI)",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0022",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.2.1",
+      "target_indicator_name": "Human capacity building & retention across actors (in relation to data and AI)",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0023",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.2.1",
+      "target_indicator_name": "Human capacity building & retention across actors (in relation to data and AI)",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0024",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.2.1",
+      "target_indicator_name": "Human capacity building & retention across actors (in relation to data and AI)",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0025",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.2.1",
+      "target_indicator_name": "Human capacity building & retention across actors (in relation to data and AI)",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0026",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.2.2",
+      "target_indicator_name": "Institutional capacity for data management and quality assurance",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0027",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.2.2",
+      "target_indicator_name": "Institutional capacity for data management and quality assurance",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0028",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.2.2",
+      "target_indicator_name": "Institutional capacity for data management and quality assurance",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0029",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.2.2",
+      "target_indicator_name": "Institutional capacity for data management and quality assurance",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0030",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.2.2",
+      "target_indicator_name": "Institutional capacity for data management and quality assurance",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0031",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.2.3",
+      "target_indicator_name": "Institutional readiness for responsible AI use",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0032",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.2.3",
+      "target_indicator_name": "Institutional readiness for responsible AI use",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0033",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.2.3",
+      "target_indicator_name": "Institutional readiness for responsible AI use",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0034",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.2.3",
+      "target_indicator_name": "Institutional readiness for responsible AI use",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0035",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.2.3",
+      "target_indicator_name": "Institutional readiness for responsible AI use",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0036",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "A.2.4",
+      "target_indicator_name": "Process quality",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0037",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "A.2.4",
+      "target_indicator_name": "Process quality",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0038",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "A.2.4",
+      "target_indicator_name": "Process quality",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0039",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "A.2.4",
+      "target_indicator_name": "Process quality",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0040",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "A.2.4",
+      "target_indicator_name": "Process quality",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0041",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.1",
+      "target_indicator_name": "Data accessibility",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0042",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.1",
+      "target_indicator_name": "Data accessibility",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0043",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.1",
+      "target_indicator_name": "Data accessibility",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0044",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.1",
+      "target_indicator_name": "Data accessibility",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0045",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.1",
+      "target_indicator_name": "Data accessibility",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0046",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.2",
+      "target_indicator_name": "Data availability",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0047",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.2",
+      "target_indicator_name": "Data availability",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0048",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.2",
+      "target_indicator_name": "Data availability",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0049",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.2",
+      "target_indicator_name": "Data availability",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0050",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.2",
+      "target_indicator_name": "Data availability",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0051",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.3a",
+      "target_indicator_name": "Data quality: accuracy",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0052",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.3a",
+      "target_indicator_name": "Data quality: accuracy",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0053",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.3a",
+      "target_indicator_name": "Data quality: accuracy",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0054",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.3a",
+      "target_indicator_name": "Data quality: accuracy",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0055",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.3a",
+      "target_indicator_name": "Data quality: accuracy",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0056",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.3b",
+      "target_indicator_name": "Data quality: completeness",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0057",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.3b",
+      "target_indicator_name": "Data quality: completeness",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0058",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.3b",
+      "target_indicator_name": "Data quality: completeness",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0059",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.3b",
+      "target_indicator_name": "Data quality: completeness",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0060",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.3b",
+      "target_indicator_name": "Data quality: completeness",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0061",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.3c",
+      "target_indicator_name": "Data quality: consistency",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0062",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.3c",
+      "target_indicator_name": "Data quality: consistency",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0063",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.3c",
+      "target_indicator_name": "Data quality: consistency",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0064",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.3c",
+      "target_indicator_name": "Data quality: consistency",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0065",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.3c",
+      "target_indicator_name": "Data quality: consistency",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0066",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.3d",
+      "target_indicator_name": "Data quality: timeliness",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0067",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.3d",
+      "target_indicator_name": "Data quality: timeliness",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0068",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.3d",
+      "target_indicator_name": "Data quality: timeliness",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0069",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.3d",
+      "target_indicator_name": "Data quality: timeliness",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0070",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.3d",
+      "target_indicator_name": "Data quality: timeliness",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0071",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.3e",
+      "target_indicator_name": "Data quality: validity",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0072",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.3e",
+      "target_indicator_name": "Data quality: validity",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0073",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.3e",
+      "target_indicator_name": "Data quality: validity",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0074",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.3e",
+      "target_indicator_name": "Data quality: validity",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0075",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.3e",
+      "target_indicator_name": "Data quality: validity",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0076",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.1.3f",
+      "target_indicator_name": "Data quality: disaggregation",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0077",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.1.3f",
+      "target_indicator_name": "Data quality: disaggregation",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0078",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.1.3f",
+      "target_indicator_name": "Data quality: disaggregation",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0079",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.1.3f",
+      "target_indicator_name": "Data quality: disaggregation",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0080",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.1.3f",
+      "target_indicator_name": "Data quality: disaggregation",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0081",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.2.1",
+      "target_indicator_name": "Technical and data interoperability",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0082",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.2.1",
+      "target_indicator_name": "Technical and data interoperability",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0083",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.2.1",
+      "target_indicator_name": "Technical and data interoperability",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0084",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.2.1",
+      "target_indicator_name": "Technical and data interoperability",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0085",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.2.1",
+      "target_indicator_name": "Technical and data interoperability",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0086",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.2.2",
+      "target_indicator_name": "Operationalize common (meta)data standards",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0087",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.2.2",
+      "target_indicator_name": "Operationalize common (meta)data standards",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0088",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.2.2",
+      "target_indicator_name": "Operationalize common (meta)data standards",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0089",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.2.2",
+      "target_indicator_name": "Operationalize common (meta)data standards",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0090",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.2.2",
+      "target_indicator_name": "Operationalize common (meta)data standards",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0091",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.2.3",
+      "target_indicator_name": "Technical infrastructure and operational readiness for AI-enabled data workflows",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0092",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.2.3",
+      "target_indicator_name": "Technical infrastructure and operational readiness for AI-enabled data workflows",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0093",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.2.3",
+      "target_indicator_name": "Technical infrastructure and operational readiness for AI-enabled data workflows",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0094",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.2.3",
+      "target_indicator_name": "Technical infrastructure and operational readiness for AI-enabled data workflows",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0095",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.2.3",
+      "target_indicator_name": "Technical infrastructure and operational readiness for AI-enabled data workflows",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0096",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.3.1",
+      "target_indicator_name": "Applications and use cases",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0097",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.3.1",
+      "target_indicator_name": "Applications and use cases",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0098",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.3.1",
+      "target_indicator_name": "Applications and use cases",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0099",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.3.1",
+      "target_indicator_name": "Applications and use cases",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0100",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.3.1",
+      "target_indicator_name": "Applications and use cases",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0101",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "B.3.2",
+      "target_indicator_name": "Supply meets demand",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0102",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "B.3.2",
+      "target_indicator_name": "Supply meets demand",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0103",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "B.3.2",
+      "target_indicator_name": "Supply meets demand",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0104",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "B.3.2",
+      "target_indicator_name": "Supply meets demand",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0105",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "B.3.2",
+      "target_indicator_name": "Supply meets demand",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0106",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.1.1",
+      "target_indicator_name": "Trust building among ecosystem actors",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0107",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.1.1",
+      "target_indicator_name": "Trust building among ecosystem actors",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0108",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.1.1",
+      "target_indicator_name": "Trust building among ecosystem actors",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0109",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.1.1",
+      "target_indicator_name": "Trust building among ecosystem actors",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0110",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.1.1",
+      "target_indicator_name": "Trust building among ecosystem actors",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0111",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.1.2",
+      "target_indicator_name": "Responsible data governance & accountability",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0112",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.1.2",
+      "target_indicator_name": "Responsible data governance & accountability",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0113",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.1.2",
+      "target_indicator_name": "Responsible data governance & accountability",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0114",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.1.2",
+      "target_indicator_name": "Responsible data governance & accountability",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0115",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.1.2",
+      "target_indicator_name": "Responsible data governance & accountability",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0116",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.1.3",
+      "target_indicator_name": "Responsible AI governance & accountability",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0117",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.1.3",
+      "target_indicator_name": "Responsible AI governance & accountability",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0118",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.1.3",
+      "target_indicator_name": "Responsible AI governance & accountability",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0119",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.1.3",
+      "target_indicator_name": "Responsible AI governance & accountability",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0120",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.1.3",
+      "target_indicator_name": "Responsible AI governance & accountability",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0121",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.1.4",
+      "target_indicator_name": "Security",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0122",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.1.4",
+      "target_indicator_name": "Security",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0123",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.1.4",
+      "target_indicator_name": "Security",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0124",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.1.4",
+      "target_indicator_name": "Security",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0125",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.1.4",
+      "target_indicator_name": "Security",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0126",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.1.5",
+      "target_indicator_name": "Privacy",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0127",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.1.5",
+      "target_indicator_name": "Privacy",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0128",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.1.5",
+      "target_indicator_name": "Privacy",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0129",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.1.5",
+      "target_indicator_name": "Privacy",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0130",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.1.5",
+      "target_indicator_name": "Privacy",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0131",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.2.1",
+      "target_indicator_name": "Data strategy, including the use of common data standards Data ecosystem strategy and vision",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0132",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.2.1",
+      "target_indicator_name": "Data strategy, including the use of common data standards Data ecosystem strategy and vision",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0133",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.2.1",
+      "target_indicator_name": "Data strategy, including the use of common data standards Data ecosystem strategy and vision",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0134",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.2.1",
+      "target_indicator_name": "Data strategy, including the use of common data standards Data ecosystem strategy and vision",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0135",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.2.1",
+      "target_indicator_name": "Data strategy, including the use of common data standards Data ecosystem strategy and vision",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0136",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.2.2",
+      "target_indicator_name": "Dedicated budget",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0137",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.2.2",
+      "target_indicator_name": "Dedicated budget",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0138",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.2.2",
+      "target_indicator_name": "Dedicated budget",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0139",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.2.2",
+      "target_indicator_name": "Dedicated budget",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0140",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.2.2",
+      "target_indicator_name": "Dedicated budget",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0141",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.2.3",
+      "target_indicator_name": "Incentivising policies Incentive mechanisms for ecosystem contributions",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0142",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.2.3",
+      "target_indicator_name": "Incentivising policies Incentive mechanisms for ecosystem contributions",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0143",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.2.3",
+      "target_indicator_name": "Incentivising policies Incentive mechanisms for ecosystem contributions",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0144",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.2.3",
+      "target_indicator_name": "Incentivising policies Incentive mechanisms for ecosystem contributions",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0145",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.2.3",
+      "target_indicator_name": "Incentivising policies Incentive mechanisms for ecosystem contributions",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0146",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.3.1",
+      "target_indicator_name": "Community engagement (including local, vulnerable, and diverse populations)",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0147",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.3.1",
+      "target_indicator_name": "Community engagement (including local, vulnerable, and diverse populations)",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0148",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.3.1",
+      "target_indicator_name": "Community engagement (including local, vulnerable, and diverse populations)",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0149",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.3.1",
+      "target_indicator_name": "Community engagement (including local, vulnerable, and diverse populations)",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0150",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.3.1",
+      "target_indicator_name": "Community engagement (including local, vulnerable, and diverse populations)",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    },
+    {
+      "evidence_id": "EVT-0151",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "agenda_mention",
+      "target_indicator_code": "C.3.2",
+      "target_indicator_name": "Communication, Inter-agency collaboration & partnerships",
+      "expected_scoring_value": "none",
+      "reason": "The record only establishes that the topic appeared on an agenda; it provides no decision, implementation, practice, coverage, result, or identified gap."
+    },
+    {
+      "evidence_id": "EVT-0152",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "future_possibility",
+      "target_indicator_code": "C.3.2",
+      "target_indicator_name": "Communication, Inter-agency collaboration & partnerships",
+      "expected_scoring_value": "none",
+      "reason": "This is a conditional expression of interest and does not document a commitment, funded activity, implementation, output, or maturity-relevant condition."
+    },
+    {
+      "evidence_id": "EVT-0153",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "glossary_reference",
+      "target_indicator_code": "C.3.2",
+      "target_indicator_name": "Communication, Inter-agency collaboration & partnerships",
+      "expected_scoring_value": "none",
+      "reason": "A glossary entry does not establish that the described capability, governance arrangement, or practice exists or is used in Togo."
+    },
+    {
+      "evidence_id": "EVT-0154",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "presentation_attendance",
+      "target_indicator_code": "C.3.2",
+      "target_indicator_name": "Communication, Inter-agency collaboration & partnerships",
+      "expected_scoring_value": "none",
+      "reason": "Attendance and topic exposure do not demonstrate capacity, adoption, implementation, institutionalization, outcomes, or an ecosystem-level gap."
+    },
+    {
+      "evidence_id": "EVT-0155",
+      "record_type": "synthetic_low_quality_control",
+      "control_class": "generic_external_comment",
+      "target_indicator_code": "C.3.2",
+      "target_indicator_name": "Communication, Inter-agency collaboration & partnerships",
+      "expected_scoring_value": "none",
+      "reason": "The statement is generic, contains no evidence about Togo, and provides no basis for distinguishing a DEMA maturity phase."
+    }
+  ]
+}

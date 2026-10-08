@@ -1,0 +1,23 @@
+{
+  "country": "Zafran",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "For Zafran, the assessment of Indicator A.1.1 (Roles are known & identified, for all actors) finds that key actors—including ministries, relief organizations, universities, and telecommunications firms—are identified by the Zafran Disaster Secretariat. The customary tasks of these actors are described, but several agencies' data roles are not defined in laws or official mandates. No evidence demonstrates a fully endorsed and operationalized institutional framework, nor a dynamic, collaborative ecosystem as required for higher phases. The evidence fully supports Phase 3, as the identification of actors and partial role definition is established, but does not meet the requirements for Phase 4 or 5.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "A.1.1",
+      "indicator_name": "Roles are known & identified, for all actors",
+      "phase_score": 3,
+      "matched_phase_requirement": "The key actors in the ecosystem have been identified by e.g. the NDRMA, but the roles of key government agencies and organizations are not always defined through official/legal mechanisms",
+      "score_reasoning": "The Zafran Disaster Secretariat maintains an endorsed list identifying ministries, relief organizations, universities, and telecommunications firms active in the data ecosystem (E0001). This demonstrates that key government and non-government actors are identified at the national level, satisfying the core requirement for Phase 2 and Phase 3. The list describes customary tasks, but a legal review found that several agencies' data roles are not defined in laws or official mandates (E0002). This directly matches the Phase 3 criterion, which requires identification of actors but acknowledges that roles are not always defined through official/legal mechanisms. The evidence thus exceeds Phase 1, where actors are unable to identify and define roles, and Phase 2, which only requires identification without legal definition. However, no reviewed record demonstrates that a fully endorsed institutional framework is operationalized in practice (E0003), which is required for Phase 4. There is also no evidence of a dynamic, collaborative, and continuously evolving ecosystem as required for Phase 5. The evidence does not support the existence or operationalization of a formal governance framework, nor does it demonstrate system-wide innovation or adaptation beyond formal structures. The principal strength is the clear identification of actors and partial role description; the main weakness is the lack of legal definition and operationalized institutional framework.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0003"
+      ],
+      "contrary_or_limiting_reasoning": "E0003 establishes a documentary gap: no evidence demonstrates that a fully endorsed institutional framework is operationalized in practice. This limits the score to Phase 3, as operationalization is required for Phase 4. The absence is documentary, not proof of real-world absence.",
+      "next_phase_gap": "To achieve Phase 4, evidence is required that a fully endorsed institutional framework defining the roles and responsibilities of actors is operationalized in practice. This would include documentation of formal governance mechanisms, legal mandates, and demonstrated implementation across the ecosystem. No such evidence was identified in the supplied records."
+    }
+  ]
+}

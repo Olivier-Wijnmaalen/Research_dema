@@ -1,0 +1,838 @@
+{
+  "run_id": "dema-20260917T132056Z",
+  "started_at": "2026-09-17T13:20:56.577896+00:00",
+  "status": "complete",
+  "country": "Togo",
+  "model": "gpt-4.1-students",
+  "held_out_chunk_count": 30,
+  "base_evidence_count": 390,
+  "stage1": {
+    "prompt": "dema-lenient-calibration/evidence-extraction",
+    "version": 6,
+    "sha256": "d2436f48ec0c9ff693f2b4f1964adc21e179995ec11905d1bf70902bcd8c355c"
+  },
+  "stage2": {
+    "prompt": "dema-stage2-final-strategy-20260916-p5",
+    "version": 1,
+    "sha256_crlf": "a3734a364931d5aaa90188c82eee400b0812023a5d4dcb14da70d917067669af"
+  },
+  "chunks": [
+    {
+      "source_id": "005",
+      "source_file": "005_chunk_001_pages_001-001.md",
+      "source_url": "https://www.preventionweb.net/news/undrr-green-climate-fund-west-african-development-bank-and-early-warning-all-partners-join?utm",
+      "processing_unit_id": "005_chunk_001_pages_001-001",
+      "relative_path": "005/005_chunk_001_pages_001-001.md",
+      "input_sha256": "cc8ef2b6bef3ab8bfdba05e1e56f6f4dc220b19b61605a07baa35e0773f8f776",
+      "accepted": 9,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_00e287b8d9334ea1006aabe00b36b88190bd10d2bb2df8ce41",
+        "usage": {
+          "input": 9272,
+          "output": 1961,
+          "total": 11233
+        },
+        "elapsed_seconds": 13.171
+      }
+    },
+    {
+      "source_id": "006",
+      "source_file": "006_chunk_001_pages_001-001.md",
+      "source_url": "https://togopresse.tg/agro-hydro-climatiques-au-nord-togo-lanamet-appelle-a-semer-des-les-1res-pluies-utiles-en-privilegiant-des-cultures-a-cycle-court/",
+      "processing_unit_id": "006_chunk_001_pages_001-001",
+      "relative_path": "006/006_chunk_001_pages_001-001.md",
+      "input_sha256": "f44aa56652d9ce6123d25d77974c5ed5fefcbfb95ce6d55b63dc6dd9f6f44ea1",
+      "accepted": 6,
+      "rejected": 1,
+      "call": {
+        "response_id": "resp_09a49bb8c0cad45e006aabe01674cc8197b22e4564eae2c8cc",
+        "usage": {
+          "input": 8111,
+          "output": 1887,
+          "total": 9998
+        },
+        "elapsed_seconds": 12.742
+      }
+    },
+    {
+      "source_id": "007",
+      "source_file": "007_chunk_001_pages_001-001.md",
+      "source_url": "https://www.togofirst.com/fr/services-publics/3004-16235-togo-une-cartographie-nationale-pour-structurer-les-donnees-meteorologiques",
+      "processing_unit_id": "007_chunk_001_pages_001-001",
+      "relative_path": "007/007_chunk_001_pages_001-001.md",
+      "input_sha256": "209270b5b16ba5734aabc72f7a7f020ca445548d89b48c358743161d7a37fc31",
+      "accepted": 2,
+      "rejected": 1,
+      "call": {
+        "response_id": "resp_02bb7dbc69181ae0006aabe0239e788197960ca7f39e57d230",
+        "usage": {
+          "input": 8462,
+          "output": 782,
+          "total": 9244
+        },
+        "elapsed_seconds": 5.194
+      }
+    },
+    {
+      "source_id": "008",
+      "source_file": "008_chunk_001_pages_001-001.md",
+      "source_url": "https://www.giz.de/en/worldwide/200840.html",
+      "processing_unit_id": "008_chunk_001_pages_001-001",
+      "relative_path": "008/008_chunk_001_pages_001-001.md",
+      "input_sha256": "e0250e635aebe940250c587a921c15083d190a602e02c6da006a14d1b0812d8c",
+      "accepted": 0,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_05dc4091d67dcdd1006aabe02877248194a0ecb87884b70f3f",
+        "usage": {
+          "input": 6916,
+          "output": 74,
+          "total": 6990
+        },
+        "elapsed_seconds": 2.229
+      }
+    },
+    {
+      "source_id": "011",
+      "source_file": "011_chunk_001_pages_001-010.md",
+      "source_url": "https://www.undp.org/fr/africa/publications/cadre-institutionnel-et-operationnel-pour-un-systeme-dalerte-precoce-et-daction-rapide-multirisque-en-afrique",
+      "processing_unit_id": "011_chunk_001_pages_001-010",
+      "relative_path": "011/011_chunk_001_pages_001-010.md",
+      "input_sha256": "4f857e7f7f092817601c68b311589800d129d853b87d98876522231d89363f1d",
+      "accepted": 0,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_0845e02dc4db8571006aabe02aacc48190b21491e84eeab057",
+        "usage": {
+          "input": 10272,
+          "output": 106,
+          "total": 10378
+        },
+        "elapsed_seconds": 2.291
+      }
+    },
+    {
+      "source_id": "011",
+      "source_file": "011_chunk_002_pages_011-018.md",
+      "source_url": "https://www.undp.org/fr/africa/publications/cadre-institutionnel-et-operationnel-pour-un-systeme-dalerte-precoce-et-daction-rapide-multirisque-en-afrique",
+      "processing_unit_id": "011_chunk_002_pages_011-018",
+      "relative_path": "011/011_chunk_002_pages_011-018.md",
+      "input_sha256": "4c5a60d5a4bd9e2a1285ec3206abd7da26ca3ad05d1a2dcc0ddd800f631eada9",
+      "accepted": 13,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_02a48b5c2a91bc33006aabe02d0a5081978d37454415b2ca11",
+        "usage": {
+          "input": 9334,
+          "output": 2569,
+          "total": 11903
+        },
+        "elapsed_seconds": 13.67
+      }
+    },
+    {
+      "source_id": "015",
+      "source_file": "015_chunk_001_pages_001-010.md",
+      "source_url": "https://au.int/sites/default/files/documents/38507-doc-DTS_for_Africa_2020-2030_French.pdf",
+      "processing_unit_id": "015_chunk_001_pages_001-010",
+      "relative_path": "015/015_chunk_001_pages_001-010.md",
+      "input_sha256": "77e0c9cd69c8d93b4d8cbe1b6a5763fea5097d0d1b154b699700b53c768e6484",
+      "accepted": 0,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_0219db215e8c9e25006aabe03ab0b081949c63a7a065fcbf05",
+        "usage": {
+          "input": 10406,
+          "output": 88,
+          "total": 10494
+        },
+        "elapsed_seconds": 4.739
+      }
+    },
+    {
+      "source_id": "015",
+      "source_file": "015_chunk_002_pages_011-020.md",
+      "source_url": "https://au.int/sites/default/files/documents/38507-doc-DTS_for_Africa_2020-2030_French.pdf",
+      "processing_unit_id": "015_chunk_002_pages_011-020",
+      "relative_path": "015/015_chunk_002_pages_011-020.md",
+      "input_sha256": "735934c4d39caa060646daf7727ae811396fd8cf450f1bc1387442c47831bfb3",
+      "accepted": 17,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_03541a75da3bf3cb006aabe04023d8819792344f6e8af0201c",
+        "usage": {
+          "input": 13050,
+          "output": 3304,
+          "total": 16354
+        },
+        "elapsed_seconds": 22.117
+      }
+    },
+    {
+      "source_id": "015",
+      "source_file": "015_chunk_003_pages_021-030.md",
+      "source_url": "https://au.int/sites/default/files/documents/38507-doc-DTS_for_Africa_2020-2030_French.pdf",
+      "processing_unit_id": "015_chunk_003_pages_021-030",
+      "relative_path": "015/015_chunk_003_pages_021-030.md",
+      "input_sha256": "d04501e62ff8de43aae5638e62da3bf6a183ab987d01fe877d95bf37db4ccc65",
+      "accepted": 0,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_030af878c3ce5acb006aabe0559fb08194b791f5168fc5f184",
+        "usage": {
+          "input": 12091,
+          "output": 88,
+          "total": 12179
+        },
+        "elapsed_seconds": 2.323
+      }
+    },
+    {
+      "source_id": "015",
+      "source_file": "015_chunk_004_pages_031-040.md",
+      "source_url": "https://au.int/sites/default/files/documents/38507-doc-DTS_for_Africa_2020-2030_French.pdf",
+      "processing_unit_id": "015_chunk_004_pages_031-040",
+      "relative_path": "015/015_chunk_004_pages_031-040.md",
+      "input_sha256": "eb29eada8c0eb6a2a7da73076b2a5f0e859f739092686f6c5e2aaa2d416656e2",
+      "accepted": 0,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_0cc00793da0ef9a0006aabe0583db48193bb7b34f19051e5b9",
+        "usage": {
+          "input": 12602,
+          "output": 88,
+          "total": 12690
+        },
+        "elapsed_seconds": 2.776
+      }
+    },
+    {
+      "source_id": "015",
+      "source_file": "015_chunk_005_pages_041-050.md",
+      "source_url": "https://au.int/sites/default/files/documents/38507-doc-DTS_for_Africa_2020-2030_French.pdf",
+      "processing_unit_id": "015_chunk_005_pages_041-050",
+      "relative_path": "015/015_chunk_005_pages_041-050.md",
+      "input_sha256": "cde669039230c3dd41a079d9d6b49f8233c8421fff092b74a7a96a03b9e309ac",
+      "accepted": 21,
+      "rejected": 1,
+      "call": {
+        "response_id": "resp_02ad7a6f9aa7b2c7006aabe05acc648197a842056d229a9a67",
+        "usage": {
+          "input": 12061,
+          "output": 4195,
+          "total": 16256
+        },
+        "elapsed_seconds": 17.861
+      }
+    },
+    {
+      "source_id": "015",
+      "source_file": "015_chunk_006_pages_051-060.md",
+      "source_url": "https://au.int/sites/default/files/documents/38507-doc-DTS_for_Africa_2020-2030_French.pdf",
+      "processing_unit_id": "015_chunk_006_pages_051-060",
+      "relative_path": "015/015_chunk_006_pages_051-060.md",
+      "input_sha256": "7c5e3127a7dd0fa152b89afb0684e59fc2a981af76620b4fb97436c3f56313af",
+      "accepted": 0,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_021355fd1968af8e006aabe06cbb3081909a123e272bf621e5",
+        "usage": {
+          "input": 13782,
+          "output": 88,
+          "total": 13870
+        },
+        "elapsed_seconds": 4.353
+      }
+    },
+    {
+      "source_id": "015",
+      "source_file": "015_chunk_007_pages_061-070.md",
+      "source_url": "https://au.int/sites/default/files/documents/38507-doc-DTS_for_Africa_2020-2030_French.pdf",
+      "processing_unit_id": "015_chunk_007_pages_061-070",
+      "relative_path": "015/015_chunk_007_pages_061-070.md",
+      "input_sha256": "9f3c917cc9d9cc0d128474bbc9829ab1a3adf4a691c64040b20112bdbc802647",
+      "accepted": 0,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_088d24800825653c006aabe0715c448197a91ecf7704986485",
+        "usage": {
+          "input": 11280,
+          "output": 88,
+          "total": 11368
+        },
+        "elapsed_seconds": 2.977
+      }
+    },
+    {
+      "source_id": "015",
+      "source_file": "015_chunk_008_pages_071-071.md",
+      "source_url": "https://au.int/sites/default/files/documents/38507-doc-DTS_for_Africa_2020-2030_French.pdf",
+      "processing_unit_id": "015_chunk_008_pages_071-071",
+      "relative_path": "015/015_chunk_008_pages_071-071.md",
+      "input_sha256": "a7ddfae5859a29ecb37c9dc04cfc6c5ee24cb7f71b580fe9346a3d207e582412",
+      "accepted": 0,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_0cf5bcb113d46233006aabe07408348190b161ed1f8493477b",
+        "usage": {
+          "input": 6233,
+          "output": 88,
+          "total": 6321
+        },
+        "elapsed_seconds": 2.361
+      }
+    },
+    {
+      "source_id": "019",
+      "source_file": "019_chunk_001_pages_001-001.md",
+      "source_url": "https://wmo.int/activities/projects/project-portfolio/togo-hydromet-and-early-warning-services",
+      "processing_unit_id": "019_chunk_001_pages_001-001",
+      "relative_path": "019/019_chunk_001_pages_001-001.md",
+      "input_sha256": "4021953f179064f06ce0e24149249c6f0935b73d105a0d7663d0a66d32a347e9",
+      "accepted": 6,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_0d69921ff4ba718c006aabe0766b688194b85d9addd412b708",
+        "usage": {
+          "input": 6698,
+          "output": 1019,
+          "total": 7717
+        },
+        "elapsed_seconds": 7.856
+      }
+    },
+    {
+      "source_id": "020",
+      "source_file": "020_chunk_001_pages_001-001.md",
+      "source_url": "https://www.ecowas.int/ecowas-equips-field-monitors-of-the-early-warning-directorate-in-togo-for-better-data-collection-for-conflict-prevention-and-management-in-west-africa/",
+      "processing_unit_id": "020_chunk_001_pages_001-001",
+      "relative_path": "020/020_chunk_001_pages_001-001.md",
+      "input_sha256": "3630a1cfe7ff17f8c72da6ec53a4c23c2415a0518ef81c16712ab976a02bf06c",
+      "accepted": 6,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_05197da561cc22bf006aabe07e4d8c8190837f644b2f5b766b",
+        "usage": {
+          "input": 8745,
+          "output": 1482,
+          "total": 10227
+        },
+        "elapsed_seconds": 8.474
+      }
+    },
+    {
+      "source_id": "022",
+      "source_file": "022_chunk_001_pages_001-001.md",
+      "source_url": "https://anpctogo.tg/category/activites/formation/",
+      "processing_unit_id": "022_chunk_001_pages_001-001",
+      "relative_path": "022/022_chunk_001_pages_001-001.md",
+      "input_sha256": "2f3b70b8ae7f83c19b346a3866db84f8266688113960cf5b0501766d2b50f2f7",
+      "accepted": 6,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_0fd63f90efc4663f006aabe086ddf08197a54328543ff97986",
+        "usage": {
+          "input": 8439,
+          "output": 963,
+          "total": 9402
+        },
+        "elapsed_seconds": 6.198
+      }
+    },
+    {
+      "source_id": "023",
+      "source_file": "023_chunk_001_pages_001-001.md",
+      "source_url": "https://jumelages-partenariats.com/home/en/actualites.php?n=22904&utm",
+      "processing_unit_id": "023_chunk_001_pages_001-001",
+      "relative_path": "023/023_chunk_001_pages_001-001.md",
+      "input_sha256": "b13e10c4dd7767aba19e970518ba0b8a343f5c98eacf854a30a9db173b2ea21f",
+      "accepted": 0,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_02ec246d5f63f561006aabe08d05788190822081228a501814",
+        "usage": {
+          "input": 7496,
+          "output": 82,
+          "total": 7578
+        },
+        "elapsed_seconds": 1.793
+      }
+    },
+    {
+      "source_id": "024",
+      "source_file": "024_chunk_001_pages_001-010.md",
+      "source_url": "https://dataprotection.africa/togolese-republic/#:~:text=Privacy%20enshrined%20in%20Constitution%3A%20Yes%2C%20the%20right%20to,personal%20data%20was%20published%20on%2029%20October%202019.",
+      "processing_unit_id": "024_chunk_001_pages_001-010",
+      "relative_path": "024/024_chunk_001_pages_001-010.md",
+      "input_sha256": "aa655aab65b5e1f566b6e45f5189339029052c1736bd77f757440eb1e7665818",
+      "accepted": 10,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_00471462f5f04921006aabe08eec788195aff32d4e7d99489c",
+        "usage": {
+          "input": 16252,
+          "output": 2742,
+          "total": 18994
+        },
+        "elapsed_seconds": 12.456
+      }
+    },
+    {
+      "source_id": "024",
+      "source_file": "024_chunk_002_pages_011-020.md",
+      "source_url": "https://dataprotection.africa/togolese-republic/#:~:text=Privacy%20enshrined%20in%20Constitution%3A%20Yes%2C%20the%20right%20to,personal%20data%20was%20published%20on%2029%20October%202019.",
+      "processing_unit_id": "024_chunk_002_pages_011-020",
+      "relative_path": "024/024_chunk_002_pages_011-020.md",
+      "input_sha256": "d9717ef105fe6a62e50d34e5127642288f0a2510384388829b39b1ef5583181a",
+      "accepted": 10,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_00a03d647e7ff99e006aabe09b702c8190876832cdd9b68896",
+        "usage": {
+          "input": 17038,
+          "output": 2522,
+          "total": 19560
+        },
+        "elapsed_seconds": 14.739
+      }
+    },
+    {
+      "source_id": "026",
+      "source_file": "026_chunk_001_pages_001-001.md",
+      "source_url": "https://anpctogo.tg/lanpc-redynamise-les-differentes-plateformes-regionales-de-reduction-des-risques-de-catastrophes-afin-de-renforcer-la-resilience-nationale/",
+      "processing_unit_id": "026_chunk_001_pages_001-001",
+      "relative_path": "026/026_chunk_001_pages_001-001.md",
+      "input_sha256": "91321e51f5eaa046ddd2a35a4cd0ae50a9bb69b4d3ad3f6d02267a66293a3c16",
+      "accepted": 2,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_0c2b5aed4d052ae5006aabe0aa2b208196ab18c4039a7af7b1",
+        "usage": {
+          "input": 7693,
+          "output": 706,
+          "total": 8399
+        },
+        "elapsed_seconds": 4.163
+      }
+    },
+    {
+      "source_id": "028",
+      "source_file": "028_chunk_001_pages_001-010.md",
+      "source_url": "https://anpctogo.tg/wp-content/uploads/2025/11/ANPC_Rapport-Evaluation-Approfondie-Post-Catastrophe-finalise_03-09-24.pdf",
+      "processing_unit_id": "028_chunk_001_pages_001-010",
+      "relative_path": "028/028_chunk_001_pages_001-010.md",
+      "input_sha256": "c1aae1b00385695f15b4434d3ffa38d67b08ca50a6897a5d2c218300f18a2d5b",
+      "accepted": 11,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_06a361056091a7aa006aabe0ae737481908c106685967c602b",
+        "usage": {
+          "input": 16092,
+          "output": 2623,
+          "total": 18715
+        },
+        "elapsed_seconds": 14.366
+      }
+    },
+    {
+      "source_id": "028",
+      "source_file": "028_chunk_002_pages_011-020.md",
+      "source_url": "https://anpctogo.tg/wp-content/uploads/2025/11/ANPC_Rapport-Evaluation-Approfondie-Post-Catastrophe-finalise_03-09-24.pdf",
+      "processing_unit_id": "028_chunk_002_pages_011-020",
+      "relative_path": "028/028_chunk_002_pages_011-020.md",
+      "input_sha256": "c36e4d8242384dde167ac2a829b5d5613d9fa7ced78851c769fa80ce56007b32",
+      "accepted": 7,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_0c9a000b1c4817e1006aabe0bcb96c81939a1361c259607860",
+        "usage": {
+          "input": 10920,
+          "output": 2581,
+          "total": 13501
+        },
+        "elapsed_seconds": 13.265
+      }
+    },
+    {
+      "source_id": "028",
+      "source_file": "028_chunk_003_pages_021-030.md",
+      "source_url": "https://anpctogo.tg/wp-content/uploads/2025/11/ANPC_Rapport-Evaluation-Approfondie-Post-Catastrophe-finalise_03-09-24.pdf",
+      "processing_unit_id": "028_chunk_003_pages_021-030",
+      "relative_path": "028/028_chunk_003_pages_021-030.md",
+      "input_sha256": "9fcdec0acf4863117ebf3c8b699eb32525a8d771288b50105fc6cc1fba897ce3",
+      "accepted": 21,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_09dc39cca2da71fa006aabe0ca54548196bc0477d95ab0f3bf",
+        "usage": {
+          "input": 12010,
+          "output": 7002,
+          "total": 19012
+        },
+        "elapsed_seconds": 27.172
+      }
+    },
+    {
+      "source_id": "028",
+      "source_file": "028_chunk_004_pages_031-040.md",
+      "source_url": "https://anpctogo.tg/wp-content/uploads/2025/11/ANPC_Rapport-Evaluation-Approfondie-Post-Catastrophe-finalise_03-09-24.pdf",
+      "processing_unit_id": "028_chunk_004_pages_031-040",
+      "relative_path": "028/028_chunk_004_pages_031-040.md",
+      "input_sha256": "3d12d4e170ffbd04e64e69def9cc0ebe107060a48f8d18ae83c1dff20ebf052c",
+      "accepted": 10,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_0fdb0acca7833c0b006aabe0e53f0c81948c90888908601f2b",
+        "usage": {
+          "input": 13757,
+          "output": 3973,
+          "total": 17730
+        },
+        "elapsed_seconds": 17.838
+      }
+    },
+    {
+      "source_id": "028",
+      "source_file": "028_chunk_005_pages_041-048.md",
+      "source_url": "https://anpctogo.tg/wp-content/uploads/2025/11/ANPC_Rapport-Evaluation-Approfondie-Post-Catastrophe-finalise_03-09-24.pdf",
+      "processing_unit_id": "028_chunk_005_pages_041-048",
+      "relative_path": "028/028_chunk_005_pages_041-048.md",
+      "input_sha256": "3f645e4d28d3fd23e24f086939970217002695acf809ebdb6786219dc80c5b90",
+      "accepted": 16,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_0aca46eb045f1f26006aabe0f7324c8190acc041586faf31e1",
+        "usage": {
+          "input": 12476,
+          "output": 7615,
+          "total": 20091
+        },
+        "elapsed_seconds": 30.776
+      }
+    },
+    {
+      "source_id": "029",
+      "source_file": "029_chunk_001_pages_001-010.md",
+      "source_url": "https://anpctogo.tg/wp-content/uploads/2019/12/LA-POLITIQUE-NATIONALE-DE-LA-PROTECTION-CIVILE-HORIZON-2030.pdf",
+      "processing_unit_id": "029_chunk_001_pages_001-010",
+      "relative_path": "029/029_chunk_001_pages_001-010.md",
+      "input_sha256": "a30b2950cbcc21cc32f5b480b00d71647ab9dd904554675835661543eedab855",
+      "accepted": 9,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_070fab319196b6dd006aabe115e2e0819393289e427140e7cc",
+        "usage": {
+          "input": 11277,
+          "output": 2222,
+          "total": 13499
+        },
+        "elapsed_seconds": 12.052
+      }
+    },
+    {
+      "source_id": "029",
+      "source_file": "029_chunk_002_pages_011-020.md",
+      "source_url": "https://anpctogo.tg/wp-content/uploads/2019/12/LA-POLITIQUE-NATIONALE-DE-LA-PROTECTION-CIVILE-HORIZON-2030.pdf",
+      "processing_unit_id": "029_chunk_002_pages_011-020",
+      "relative_path": "029/029_chunk_002_pages_011-020.md",
+      "input_sha256": "d115ba4c33a1e16c618d36de9173374d9bbb89b15a02f479c4db681962810df9",
+      "accepted": 20,
+      "rejected": 2,
+      "call": {
+        "response_id": "resp_0550a81a3be0d488006aabe121fa848197a6e9ee8e75ae888f",
+        "usage": {
+          "input": 13193,
+          "output": 4366,
+          "total": 17559
+        },
+        "elapsed_seconds": 22.01
+      }
+    },
+    {
+      "source_id": "029",
+      "source_file": "029_chunk_003_pages_021-030.md",
+      "source_url": "https://anpctogo.tg/wp-content/uploads/2019/12/LA-POLITIQUE-NATIONALE-DE-LA-PROTECTION-CIVILE-HORIZON-2030.pdf",
+      "processing_unit_id": "029_chunk_003_pages_021-030",
+      "relative_path": "029/029_chunk_003_pages_021-030.md",
+      "input_sha256": "8f7bbec839ae14b716575e26db0c58db71b2f5732c4f85f250260ee85ac00a4a",
+      "accepted": 17,
+      "rejected": 1,
+      "call": {
+        "response_id": "resp_001119f9d409d69a006aabe1380d90819780471fa434d5fee7",
+        "usage": {
+          "input": 12278,
+          "output": 3391,
+          "total": 15669
+        },
+        "elapsed_seconds": 16.084
+      }
+    },
+    {
+      "source_id": "029",
+      "source_file": "029_chunk_004_pages_031-038.md",
+      "source_url": "https://anpctogo.tg/wp-content/uploads/2019/12/LA-POLITIQUE-NATIONALE-DE-LA-PROTECTION-CIVILE-HORIZON-2030.pdf",
+      "processing_unit_id": "029_chunk_004_pages_031-038",
+      "relative_path": "029/029_chunk_004_pages_031-038.md",
+      "input_sha256": "d2025b6c95622bfc6b9b45c32a982ba84555fd89517b51f2f9a797085b3f3d0e",
+      "accepted": 13,
+      "rejected": 0,
+      "call": {
+        "response_id": "resp_048e0dc74cf4cc95006aabe1483de481958647c1ed2ff1c260",
+        "usage": {
+          "input": 11228,
+          "output": 2013,
+          "total": 13241
+        },
+        "elapsed_seconds": 11.798
+      }
+    }
+  ],
+  "stage1_completed": 30,
+  "stage1_accepted_rows": 232,
+  "stage1_rejected_rows": 6,
+  "stage1_usage": {
+    "input": 329464,
+    "output": 60708,
+    "total": 390172
+  },
+  "combined_evidence_count": 622,
+  "scoring_indicator_count": 31,
+  "stage2_batches_completed": 16,
+  "stage2_calls": [
+    {
+      "batch": 1,
+      "scope": [
+        "A.1.1",
+        "A.1.2",
+        "A.1.3",
+        "A.1.4"
+      ],
+      "response_id": "resp_0f91f6dea2fcfe0d006aabe49f0a1081958edd88ad33946253",
+      "usage": {
+        "input_tokens": 370697,
+        "input_tokens_details": {
+          "cached_tokens": 13184,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 4448,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 375145
+      },
+      "elapsed_seconds": 0,
+      "reused_completed_response": true
+    },
+    {
+      "batch": 2,
+      "scope": [
+        "A.2.1",
+        "A.2.2"
+      ],
+      "response_id": "resp_09c26610b0cf8d78006aabe6bc4ce48197beeea479a643473b",
+      "usage": {
+        "input": 220238,
+        "output": 2712,
+        "total": 222950
+      },
+      "elapsed_seconds": 36.65
+    },
+    {
+      "batch": 3,
+      "scope": [
+        "A.2.3",
+        "A.2.4"
+      ],
+      "response_id": "resp_09cf7612ea6a4c77006aabe6df15b48197b8917b3bf75906c0",
+      "usage": {
+        "input": 220224,
+        "output": 2158,
+        "total": 222382
+      },
+      "elapsed_seconds": 26.833
+    },
+    {
+      "batch": 4,
+      "scope": [
+        "B.1.1",
+        "B.1.2"
+      ],
+      "response_id": "resp_07f3400362108847006aabe6f9e3a48195b7695662cb8632e9",
+      "usage": {
+        "input": 220219,
+        "output": 2926,
+        "total": 223145
+      },
+      "elapsed_seconds": 35.112
+    },
+    {
+      "batch": 5,
+      "scope": [
+        "B.1.3a",
+        "B.1.3b"
+      ],
+      "response_id": "resp_0141225e9c6acd67006aabe71d0ca8819597b320ecfe6c486d",
+      "usage": {
+        "input": 220225,
+        "output": 3211,
+        "total": 223436
+      },
+      "elapsed_seconds": 32.997
+    },
+    {
+      "batch": 6,
+      "scope": [
+        "B.1.3c",
+        "B.1.3d"
+      ],
+      "response_id": "resp_011db2c8291453f0006aabe73fad80819586d415b08e1a5296",
+      "usage": {
+        "input": 220226,
+        "output": 1926,
+        "total": 222152
+      },
+      "elapsed_seconds": 25.149
+    },
+    {
+      "batch": 7,
+      "scope": [
+        "B.1.3e",
+        "B.1.3f"
+      ],
+      "response_id": "resp_042b10ed2b5956ba006aabe75739488195bc515a62dd250e9b",
+      "usage": {
+        "input": 220226,
+        "output": 2310,
+        "total": 222536
+      },
+      "elapsed_seconds": 26.373
+    },
+    {
+      "batch": 8,
+      "scope": [
+        "B.2.1",
+        "B.2.2"
+      ],
+      "response_id": "resp_0bb807bee713b90c006aabe774fe988193a6d1d50abb89c368",
+      "usage": {
+        "input": 220226,
+        "output": 2694,
+        "total": 222920
+      },
+      "elapsed_seconds": 34.349
+    },
+    {
+      "batch": 9,
+      "scope": [
+        "B.2.3",
+        "B.3.1"
+      ],
+      "response_id": "resp_0c3adb191d3c0ca4006aabe794316c819788295e27a6ab2746",
+      "usage": {
+        "input": 220229,
+        "output": 2515,
+        "total": 222744
+      },
+      "elapsed_seconds": 32.581
+    },
+    {
+      "batch": 10,
+      "scope": [
+        "B.3.2"
+      ],
+      "response_id": "resp_003ac96f66029dec006aabe7b49cb8819590105062d0f35d73",
+      "usage": {
+        "input": 220195,
+        "output": 1863,
+        "total": 222058
+      },
+      "elapsed_seconds": 28.268
+    },
+    {
+      "batch": 11,
+      "scope": [
+        "C.1.1",
+        "C.1.2"
+      ],
+      "response_id": "resp_02672dc6ae6d17ca006aabe7d0fa348193afe4cfd1d9ae9fea",
+      "usage": {
+        "input": 220225,
+        "output": 2331,
+        "total": 222556
+      },
+      "elapsed_seconds": 35.202
+    },
+    {
+      "batch": 12,
+      "scope": [
+        "C.1.3",
+        "C.1.4"
+      ],
+      "response_id": "resp_025046bed52f72a7006aabe7f41c188197b2988dc9152e25f5",
+      "usage": {
+        "input": 220221,
+        "output": 1976,
+        "total": 222197
+      },
+      "elapsed_seconds": 37.52
+    },
+    {
+      "batch": 13,
+      "scope": [
+        "C.1.5",
+        "C.2.1"
+      ],
+      "response_id": "resp_0c114705d07c4077006aabe819bbb88190be6c20be00ff9233",
+      "usage": {
+        "input": 220231,
+        "output": 3158,
+        "total": 223389
+      },
+      "elapsed_seconds": 33.73
+    },
+    {
+      "batch": 14,
+      "scope": [
+        "C.2.2",
+        "C.2.3"
+      ],
+      "response_id": "resp_0ab45ef40dbedf03006aabe83b73748193b5b35f69c8f0df27",
+      "usage": {
+        "input": 220228,
+        "output": 3386,
+        "total": 223614
+      },
+      "elapsed_seconds": 38.909
+    },
+    {
+      "batch": 15,
+      "scope": [
+        "C.3.1",
+        "C.3.2"
+      ],
+      "response_id": "resp_0effaa5e7ad774f7006aabe86267688196b3cd5787c34e4a4e",
+      "usage": {
+        "input": 220234,
+        "output": 2360,
+        "total": 222594
+      },
+      "elapsed_seconds": 38.804
+    },
+    {
+      "batch": 16,
+      "scope": [
+        "A.1.3"
+      ],
+      "response_id": "resp_0d375a62ae527d10006aabe9ac96e48193872f7d574ed37e48",
+      "usage": {
+        "input": 220274,
+        "output": 1349,
+        "total": 221623
+      },
+      "elapsed_seconds": 21.723
+    }
+  ],
+  "completed_at": "2026-09-17T13:23:13.211722+00:00",
+  "stage2_validation_warnings": []
+}

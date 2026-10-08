@@ -1,0 +1,23 @@
+{
+  "country": "Selucia",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "Selucia demonstrates partial adoption of common data standards for flood datasets, with the Selucia Meteorological Service and Water Agency using a shared hazard classification and metadata template. However, implementation is limited to the flood domain and is not shown for other sectors or datasets. A compliance review confirms that use of the flood standard is uneven among municipal offices and that systematic monitoring of compliance is absent. No evidence supports wider or more consistent adoption, nor collaborative governance or regular maintenance of standards. The evidence fully supports Phase 3 for indicator B.2.2, as common data standards have been agreed upon and are used by multiple actors for a key domain, but implementation remains uneven and compliance is not systematically monitored. There is no evidence to support Phase 4 or higher, as adoption is not shown to be widespread or consistent across the majority of actors and datasets.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.2.2",
+      "indicator_name": "Operationalize common (meta)data standards",
+      "phase_score": 3,
+      "matched_phase_requirement": "Common data standards have been agreed upon for key datasets, processes, or domains and are used by multiple actors. Standards increasingly guide data collection, documentation, metadata creation, and data management practices. However, implementation remains uneven and compliance is not systematically monitored across the ecosystem.",
+      "score_reasoning": "The evidence demonstrates that the Selucia Meteorological Service and Water Agency use a common hazard classification and metadata template for flood datasets, establishing that common data standards have been agreed upon and are used by multiple actors for a key domain (E0001). This directly matches the Phase 3 requirement, which calls for common standards to be agreed and used by multiple actors for key datasets, with uneven implementation and lack of systematic monitoring. The compliance review further confirms that implementation is uneven among municipal offices and that systematic monitoring of the flood standard is absent (E0003), reinforcing the limitation described in Phase 3. There is no evidence of common standards being widely adopted or consistently applied across the majority of actors and datasets, nor of collaborative governance or regular maintenance of standards, which are required for Phase 4 and 5. The evidence exceeds Phase 2, which only requires fragmented, organization-specific adoption, as it shows agreement and use between two national agencies for a key dataset. However, it does not reach Phase 4, as adoption is not shown to be widespread or consistent, and systematic monitoring is explicitly absent. The principal strength is the existence of agreed standards for flood data between major agencies; the principal weakness is the lack of ecosystem-wide adoption and monitoring.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0003"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0003"
+      ],
+      "contrary_or_limiting_reasoning": "E0003 confirms that implementation of the flood standard is uneven among municipal offices and that systematic monitoring is absent. This directly limits the score to Phase 3, as Phase 4 requires widespread and consistent adoption across the majority of actors and datasets, which is not demonstrated.",
+      "next_phase_gap": "Evidence is required showing that common data standards are widely adopted and consistently applied across the majority of actors and datasets, not limited to the flood domain. Proof of standardized definitions, classifications, formats, and metadata improving data quality, comparability, and consistency across sectors and institutions, as well as evidence of systematic monitoring and compliance, was not identified in the supplied evidence."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "country": "Selucia",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "Selucia demonstrates partial adoption of common data standards for flood datasets, with evidence of agreement and use between the Meteorological Service and Water Agency. However, implementation remains uneven, especially among municipal offices, and there is no evidence of systematic monitoring or ecosystem-wide adoption. No evidence supports broader or more consistent application across sectors or regular maintenance through collaborative governance. The evidence fully supports Phase 3 ('Managed and defined'), but not Phase 4 or 5. The principal strength is the existence of agreed standards for a key domain and use by multiple actors; the main weakness is the lack of systematic monitoring and uneven implementation, with no proof of wider adoption or institutionalization.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.2.2",
+      "indicator_name": "Operationalize common (meta)data standards",
+      "phase_score": 3,
+      "matched_phase_requirement": "Common data standards have been agreed upon for key datasets, processes, or domains and are used by multiple actors. Standards increasingly guide data collection, documentation, metadata creation, and data management practices. However, implementation remains uneven and compliance is not systematically monitored across the ecosystem.",
+      "score_reasoning": "The evidence demonstrates that the Selucia Meteorological Service and the Water Agency use a common hazard classification and metadata template for flood datasets (E0001), directly supporting the requirement that common data standards have been agreed upon for key datasets and are used by multiple actors. This satisfies the first part of the Phase 3 criterion. However, a compliance review found no systematic monitoring of the flood standard and uneven use among municipal offices (E0003), confirming that implementation remains uneven and compliance is not systematically monitored, which is explicitly required for Phase 3 and limits advancement to Phase 4. There is no evidence that common data standards are widely adopted and consistently applied across the majority of actors and datasets, nor that adoption is common practice across sectors and institutions, as required for Phase 4. No evidence supports regular maintenance through collaborative governance or ecosystem-wide seamless integration, as required for Phase 5. The evidence exceeds Phase 2, which only requires fragmented, organization-specific adoption, by demonstrating agreement and use between two national agencies for a key domain. However, the lack of systematic monitoring and uneven implementation prevents scoring above Phase 3. The principal strength is the existence of agreed standards for flood datasets used by multiple actors; the main weakness is the absence of evidence for broader adoption, systematic monitoring, or institutionalization. No evidence was identified for other domains, sectors, or collaborative governance processes.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0003"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0003"
+      ],
+      "contrary_or_limiting_reasoning": "E0003 documents that there is no systematic monitoring of the flood standard and that its use is uneven among municipal offices. This directly limits the score to Phase 3, as Phase 4 requires consistent application across the majority of actors and datasets, and systematic monitoring.",
+      "next_phase_gap": "Evidence is required that common data standards are widely adopted and consistently applied across the majority of actors and datasets, not limited to the flood domain or two agencies. Proof of systematic monitoring, regular review, and common practice across sectors and institutions was not identified in the supplied evidence.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Common data standards have been agreed upon for key datasets, processes, or domains and are used by multiple actors.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "E0001 shows that the Selucia Meteorological Service and Water Agency use a common hazard classification and metadata template for flood datasets, demonstrating agreement and use by multiple actors for a key domain."
+        },
+        {
+          "requirement": "Standards increasingly guide data collection, documentation, metadata creation, and data management practices.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "E0001 indicates that the common hazard classification and metadata template are used for flood datasets, guiding data collection and metadata practices for those actors."
+        },
+        {
+          "requirement": "Implementation remains uneven and compliance is not systematically monitored across the ecosystem.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0003"
+          ],
+          "explanation": "E0003 reports no systematic monitoring and uneven use among municipal offices, directly supporting the requirement that implementation is uneven and compliance is not systematically monitored."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

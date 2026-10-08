@@ -1,0 +1,21 @@
+{
+  "version": "V5",
+  "parent": "V4",
+  "parent_sha256": "324c883b33284a345a5313bb7bb2e11eebd8a9233029627e0f0f8df099ac3881",
+  "sha256": "19b8717ccf4c80a38cf2d832923b2e75a3d4ac09c095360ac68d4f362b5a7575",
+  "v4_observed": {
+    "total_rows": 424,
+    "status_counts": {
+      "PASS_EXACT": 399,
+      "PASS_NORMALIZED": 2,
+      "REPAIR_REQUIRED": 9,
+      "FAIL": 14
+    },
+    "strict_pass_rate_percent": 94.104,
+    "accepted_pass_rate_percent": 94.575,
+    "traceable_rate_percent": 96.698,
+    "chunks_with_nonaccepted_rows": 10
+  },
+  "mutation": "Endpoint-continuity check and local-span policy for long lists, tables, forms, and glossaries",
+  "rationale": "V4 retained 14 failures; inserted omissions and substantial reconstruction dominated the residual PDF cases. V5 targets compression of difficult layouts while preserving separate evidence rows."
+}

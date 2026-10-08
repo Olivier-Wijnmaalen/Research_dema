@@ -1,0 +1,40 @@
+{
+  "study": "controlled two-chunk error-driven prompt iteration",
+  "stage": "P1",
+  "parent_stage": "P0",
+  "selected_global_chunk_numbers": [
+    6,
+    27
+  ],
+  "observed_p0_dominant_failure": {
+    "category": "altered_quotation",
+    "count": 3,
+    "hard_fail_count": 3,
+    "tied_on_total_count": [
+      "altered_quotation",
+      "incorrect_page"
+    ],
+    "selection_rule": "Highest total count; ties are broken by the number of hard FAIL or output-level failures, then by the prespecified taxonomy order."
+  },
+  "changed_component": "quotation instructions only",
+  "mutation": "Add OCR-literal copy, no reconstruction, exact-search-or-omit instructions",
+  "unchanged_components": [
+    "DEMA framework",
+    "retrieval task",
+    "source relevance rules",
+    "classification rules",
+    "output schema",
+    "page and URL rules",
+    "model",
+    "temperature",
+    "output-token ceiling",
+    "two input chunks",
+    "technical validator"
+  ],
+  "p0_file": "traceability_calibration\\traceability_v0_compact_baseline.md",
+  "p0_sha256": "0ec679ee6ccada6cc03655a8f773007e7ef6af4dc27556ef040b411d75c98439",
+  "p1_file": "traceability_calibration\\controlled_two_chunk\\p1_ocr_literal_quote_fidelity.md",
+  "p1_sha256": "95e780e071fe92587b976b403431d0a57ad0346599ba6a44afda87d6d75d09e5",
+  "added_instruction_block": "P1 CONTROLLED CHANGE — OCR-LITERAL QUOTATION FIDELITY (MANDATORY):\n- Treat the characters in INPUT_TEXT as the authoritative record even when OCR is corrupt, fragmented, ungrammatical, or visually confusing.\n- Copy supporting_quote as one literal, uninterrupted span. Do not repair spelling or accents; replace characters; reorder words, bullets, or OCR fragments; reconstruct a readable sentence; or remove intervening headings, symbols, or text.\n- For noisy OCR, tables, lists, or multi-column layouts, use a shorter local span that is already contiguous and sufficient. If no such span supports the claim, omit the evidence row.\n- Immediately before output, search INPUT_TEXT for the full proposed supporting_quote as an exact character sequence. If it is absent, recopy a literal span or omit the row.",
+  "identity_check_after_removing_addition": "PASS"
+}

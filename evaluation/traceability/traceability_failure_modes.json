@@ -1,0 +1,60 @@
+{
+  "development_generation": {
+    "generated_rows": 428,
+    "generation_failure_mode": "TRUNCATED_OUTPUT_CONSERVATIVE_SALVAGE",
+    "independent_attempts": 6,
+    "complete_rows_retained": 3,
+    "incomplete_rows_discarded": 1
+  },
+  "development_technical": {
+    "status_counts": {
+      "PASS_EXACT": 395,
+      "PASS_NORMALIZED": 6,
+      "REPAIR_REQUIRED": 7,
+      "FAIL": 20
+    },
+    "strict_pass_rate_percent": 92.29,
+    "accepted_pass_rate_percent": 93.692,
+    "traceable_rate_including_repair_percent": 95.327,
+    "nontraceable_failure_modes": {
+      "COMPOSITE_OR_NONCONTIGUOUS_QUOTATION": 4,
+      "MINOR_OCR_SPACING_OR_BOUNDARY_VARIATION": 6,
+      "TABLE_FORM_LIST_OR_HEADING_RECONSTRUCTION": 10
+    },
+    "repair_required_modes": {
+      "CORRECT_PAGE_REFERENCE": 5,
+      "REMOVE_ADDED_TERMINAL_PUNCTUATION": 2
+    },
+    "accepted_normalization_modes": {
+      "FORM_TABLE_LAYOUT_NORMALIZATION": 6
+    },
+    "distinct_nontraceable_quote_passages": 16
+  },
+  "development_attribution": {
+    "not_attributable_rows": 13,
+    "failure_modes": {
+      "UNSUPPORTED_CONTEXT_PROCESS_OR_PROVENANCE": 3,
+      "IMPLEMENTATION_OR_OPERATIONAL_STATUS_INFERRED": 4,
+      "ACTOR_ROLE_MISCLASSIFICATION": 1,
+      "DATA_COLLECTION_AVAILABILITY_OR_USE_INFERRED": 5
+    }
+  },
+  "held_out_technical": {
+    "generated_rows": 238,
+    "rejected_rows": 6,
+    "failure_modes": {
+      "MARKDOWN_EMPHASIS_MARKERS_OMITTED": 2,
+      "BULLET_MARKER_ADDED": 1,
+      "CROSS_PAGE_CONCATENATION_WITH_INTERVENING_TEXT_OMITTED": 3
+    }
+  },
+  "stage2_citation_formatting": {
+    "repair_occurrences": 30,
+    "repair_modes": {
+      "REDUNDANT_SOURCE_LOCATOR_REMOVED": 2,
+      "V4ID_ZERO_PADDING_CORRECTED": 5,
+      "ERRONEOUS_V4_PREFIX_REMOVED": 23
+    }
+  },
+  "coding_note": "Development FAIL and AIS NOT_ATTRIBUTABLE subtypes are post-hoc qualitative codes applied to the preserved row-level artifacts. Original validator statuses and row identifiers are retained in the detail CSV."
+}

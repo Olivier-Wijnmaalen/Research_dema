@@ -1,0 +1,45 @@
+{
+  "run": "P0_calibration",
+  "checks_passed": 42,
+  "checks_total": 45,
+  "rule_adherence_rate": 0.9333333333333333,
+  "complete_cases_passed": 10,
+  "cases_total": 12,
+  "complete_case_pass_rate": 0.8333333333333334,
+  "by_rule": {
+    "R1": {
+      "passed": 11,
+      "total": 13
+    },
+    "R2": {
+      "passed": 4,
+      "total": 4
+    },
+    "R3": {
+      "passed": 3,
+      "total": 3
+    },
+    "R4": {
+      "passed": 1,
+      "total": 1
+    },
+    "R5": {
+      "passed": 8,
+      "total": 8
+    },
+    "R6": {
+      "passed": 4,
+      "total": 4
+    },
+    "R7": {
+      "passed": 1,
+      "total": 1
+    },
+    "R8": {
+      "passed": 10,
+      "total": 11
+    }
+  },
+  "qualitative_finding": "P0 handled documentary gaps, duplicates, relevance, complementary evidence, and most scope boundaries, but allowed formal mechanisms to outweigh contradicted implementation and did not expose duplicated phase wording.",
+  "score_sheet_sha256": "2BCB3F33D5246C1CA21A3A9CFE9DCC1904E95AB319AA1F44C40BD97F8235EB75"
+}

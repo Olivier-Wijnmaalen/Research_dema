@@ -1,0 +1,18 @@
+{
+  "prompt_sha256": "8BC0F174945D09EE0B8BFDBA1B14CC978B39220726143775E45E5DC6BD3EDAED",
+  "calibration_cases_sha256": "F65A93EEC0102DE395CBD3706A7499D005DDD48A1D4C0F4375BD032927456A61",
+  "calibration_answer_keys_sha256": "CAE7FD9F9D419DC0C2602FABFD183CD80FAD4BDC0B33D7DC76978F45EF52D5C6",
+  "case_count": 12,
+  "check_count": 45,
+  "rule_coverage": {
+    "R1": 13,
+    "R2": 4,
+    "R3": 3,
+    "R4": 1,
+    "R5": 8,
+    "R6": 4,
+    "R7": 1,
+    "R8": 11
+  },
+  "model_runs_completed": 0
+}

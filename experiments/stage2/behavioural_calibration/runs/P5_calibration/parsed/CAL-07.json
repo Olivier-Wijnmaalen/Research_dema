@@ -1,0 +1,43 @@
+{
+  "country": "Pelas",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment of Indicator C.3.1 (Community engagement, including local, vulnerable, and diverse populations) for Pelas is based on two national-level evidence items. The evidence demonstrates that both rural and urban community committees are engaged in submitting observations and participating in quarterly meetings with data producers, and that their feedback has influenced dissemination decisions. However, there is no evidence of active involvement of local communities throughout the entire data cycle, nor of engagement mechanisms specifically targeting persons with disabilities, minority groups, migrants, refugees, elders, youth, or gender-diverse populations. The available documentation supports a Phase 3 (Managed and defined) score, as it demonstrates nationwide connections and feedback mechanisms, but does not fully meet the requirements for Phase 4 or above.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.3.1",
+      "indicator_name": "Community engagement (including local, vulnerable, and diverse populations)",
+      "phase_score": 3,
+      "matched_phase_requirement": "Stakeholders, from rural and urban communities across the country, are making more data connections with each other. Feedback mechanisms are being put into place.",
+      "score_reasoning": "The evidence for Pelas demonstrates that both rural and urban community committees are engaged in the national disaster data ecosystem. Specifically, rural and urban community committees submit observations through a national feedback portal and participate in quarterly meetings with data producers in every province (E0001). This directly supports the requirement that stakeholders from rural and urban communities across the country are making more data connections with each other. Furthermore, the existence of a national feedback portal and regular meetings constitutes a feedback mechanism being put into place. Additional evidence shows that community feedback has been used to prompt changes in warning-map legends (E0002), indicating that the feedback mechanism is not only present but also has some influence on dissemination decisions. This exceeds Phase 2, which only requires that local communities are sometimes engaged in data collection and dissemination, as the evidence demonstrates systematic, nationwide engagement and operational feedback mechanisms. However, the evidence does not demonstrate that local communities are actively involved throughout the entire data cycle (collection, analysis, dissemination, and use), as required for Phase 4. Nor is there any documentation of engagement or feedback mechanisms that actively involve persons with disabilities, minority groups, migrants, refugees, elders, youth, or gender-diverse populations, as required for Phase 5. The principal strength is the documented, nationwide, structured engagement and feedback process. The main limitation is the absence of evidence for comprehensive, cycle-wide involvement or targeted inclusion of diverse and vulnerable groups.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0002"
+      ],
+      "contrary_or_limiting_reasoning": "E0002 explicitly notes that records do not show community involvement throughout collection and analysis, which is a requirement for Phase 4. No evidence was identified for engagement mechanisms targeting persons with disabilities, minority groups, migrants, refugees, elders, youth, or gender-diverse populations, which is required for Phase 5.",
+      "next_phase_gap": "Documented, active involvement of local communities throughout the entire data cycle (collection, analysis, dissemination, and use) is required for Phase 4. For Phase 5, evidence is needed of engagement and feedback mechanisms that actively involve persons with disabilities, minority groups, migrants, refugees, elders, youth, vulnerable groups, and gender-diverse populations. No such documentation was identified in the supplied evidence.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Stakeholders from rural and urban communities across the country are making more data connections with each other.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "E0001 documents that rural and urban community committees submit observations and meet quarterly with producers in every province, demonstrating nationwide connections."
+        },
+        {
+          "requirement": "Feedback mechanisms are being put into place.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001",
+            "E0002"
+          ],
+          "explanation": "E0001 describes a national feedback portal and regular meetings, while E0002 shows that community feedback has influenced dissemination decisions, confirming the presence of feedback mechanisms."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

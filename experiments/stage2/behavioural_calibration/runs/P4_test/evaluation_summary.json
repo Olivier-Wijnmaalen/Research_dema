@@ -1,0 +1,45 @@
+{
+  "run": "P4_test",
+  "checks_passed": 23,
+  "checks_total": 23,
+  "rule_adherence_rate": 1.0,
+  "complete_cases_passed": 6,
+  "cases_total": 6,
+  "complete_case_pass_rate": 1.0,
+  "by_rule": {
+    "R1": {
+      "passed": 6,
+      "total": 6
+    },
+    "R2": {
+      "passed": 2,
+      "total": 2
+    },
+    "R3": {
+      "passed": 1,
+      "total": 1
+    },
+    "R4": {
+      "passed": 1,
+      "total": 1
+    },
+    "R5": {
+      "passed": 3,
+      "total": 3
+    },
+    "R6": {
+      "passed": 3,
+      "total": 3
+    },
+    "R7": {
+      "passed": 1,
+      "total": 1
+    },
+    "R8": {
+      "passed": 6,
+      "total": 6
+    }
+  },
+  "qualitative_finding": "All prespecified test checks passed. The test set was temporally separated but assistant-authored in the same session and was not independently blinded.",
+  "score_sheet_sha256": "E61DC2633511734DAFA1205F9188A7878C6F9F974DFC5E5FF2A5716EEB25C36F"
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Umberia",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "This assessment addresses Indicator B.1.1 (Data accessibility) for Umberia, using two evidence items. The evidence demonstrates that while one municipality (Northbank) has advanced accessibility features, national-level practices remain manual, slow, and poorly reusable. No evidence supports ecosystem-wide accessibility, interoperability, or regular monitoring. The highest fully supported phase is Phase 2, as national practices dominate and advanced features are isolated. The principal strength is the existence of a local portal with reusable formats and metadata; the principal weakness is the lack of national integration and routine accessibility. To reach Phase 3, evidence of systematic cataloguing, defined platforms, routine metadata, and predictable access processes at national scale is required.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.1.1",
+      "indicator_name": "Data accessibility",
+      "phase_score": 2,
+      "matched_phase_requirement": "Some data are accessible upon request, typically after events or reporting deadlines. Basic dissemination channels exist, but discoverability remains limited. Metadata is partial or inconsistent. Access procedures are manual and slow. Applicable fees or access conditions may exist but are not consistently documented or communicated. While digital records may exist, data are frequently disseminated as static reports (PDF), summary tables, paper records, or other formats (such as printed map instead of GIS file) that limit direct reuse.",
+      "score_reasoning": "The evidence for Umberia demonstrates that, at the national level, data accessibility remains largely manual and reactive. National agencies usually send static PDF summaries by email after a written request, with inconsistent metadata fields (E0002). This directly matches the Phase 2 requirement: data are accessible upon request, dissemination channels exist, but discoverability is limited, metadata is partial, and access is manual and slow. The evidence also notes that digital records exist but are frequently disseminated as static reports, limiting reuse (E0002). While Northbank municipality operates a portal publishing flood layers in reusable geospatial formats with complete metadata and a help desk (E0001), this is only one of 64 municipalities and is not integrated or monitored nationally. The existence of this advanced local portal exceeds Phase 1, which describes data as difficult to discover and access, stored in isolated systems, and dependent on informal relationships. However, the national practice dominates ecosystem accessibility, and the advanced features in Northbank are isolated and not representative of broader practice. There is no evidence of systematic cataloguing, defined platforms, routine metadata provision, or predictable access processes at the national level, which are required for Phase 3. Therefore, the highest fully supported phase is Phase 2. The principal strength is the presence of a local portal with strong accessibility features; the principal weakness is the lack of national integration and routine accessibility.",
+      "evidence_supporting_score": [
+        "E0002",
+        "E0001"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0001"
+      ],
+      "contrary_or_limiting_reasoning": "E0001 demonstrates advanced accessibility in Northbank municipality, but its limitation is clear: it is only one of 64 municipalities, with no evidence of national integration or monitoring. This prevents the local portal from supporting a higher phase for the national ecosystem. No evidence contradicts the national practice described in E0002.",
+      "next_phase_gap": "Evidence of systematic cataloguing, defined platforms or repositories, routine metadata provision, and predictable, documented user access processes at national scale is required. No evidence was identified for national-level platforms, routine metadata, or clear access conditions."
+    }
+  ]
+}

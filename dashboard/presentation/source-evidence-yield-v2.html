@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evidence yield by source</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 1920px; height: 1080px; margin: 0; overflow: hidden; }
+    body {
+      color: #f7f6f3;
+      background: #191b1a url('./source-yield-background-v2.png') center / cover no-repeat;
+      font-family: Arial, Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .slide { position: relative; width: 1920px; height: 1080px; padding: 28px 32px 24px; }
+    .heading { display: flex; min-height: 105px; align-items: flex-start; justify-content: space-between; gap: 40px; }
+    h1 { margin: 0; color: #f7f6f3; font-size: 46px; line-height: 1.04; letter-spacing: -.035em; }
+    .subtitle { margin: 13px 0 0; color: #aaa9a5; font-size: 15px; }
+    .total-card { display: grid; width: 420px; min-height: 84px; grid-template-columns: 1fr auto; align-content: center; column-gap: 18px; padding: 17px 24px; border-radius: 9px; background: #97172b; box-shadow: 0 10px 28px rgba(0,0,0,.2); }
+    .total-card small { grid-column: 1 / -1; margin-bottom: 7px; color: #ffdce1; font-size: 10px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; }
+    .total-card b { font-size: 25px; line-height: 1; }
+    .total-card strong { padding-left: 18px; border-left: 2px solid rgba(255,255,255,.42); font-size: 25px; line-height: 1; }
+    .column-head { display: grid; grid-template-columns: 160px 480px 1fr 112px 112px 130px; gap: 12px; align-items: end; height: 58px; padding: 0 0 10px; color: #9c9c98; font-size: 10px; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; }
+    .column-head .axis { display: grid; gap: 8px; }
+    .ticks { position: relative; display: flex; justify-content: space-between; padding-top: 7px; border-top: 2px solid #d8d7d1; color: #8e8e89; font-size: 8px; font-weight: 500; letter-spacing: 0; text-transform: none; }
+    .ticks::before, .ticks::after { position: absolute; top: -5px; width: 1px; height: 8px; background: #d8d7d1; content: ''; }
+    .ticks::before { left: 0; } .ticks::after { right: 0; }
+    .column-head .center { text-align: center; }
+    .chart { display: grid; gap: 11px; }
+    .group { display: grid; grid-template-columns: 160px 1fr; gap: 12px; }
+    .group-card { display: flex; min-height: 100%; flex-direction: column; justify-content: center; padding: 20px 17px; border-radius: 11px; color: white; }
+    .group.pdf .group-card { background: #94172b; }
+    .group.web .group-card { background: #e0262d; }
+    .group-card b { font-size: 34px; line-height: 1; }
+    .group-card span { margin-top: 9px; font-size: 13px; font-weight: 800; line-height: 1.15; }
+    .group-card small { margin-top: 8px; color: rgba(255,255,255,.76); font-size: 10px; line-height: 1.3; }
+    .group-rows { display: grid; gap: 4px; }
+    .source-row { display: grid; height: 35px; grid-template-columns: 480px 1fr 112px 112px 130px; gap: 12px; }
+    .source-name, .count, .share, .density { display: flex; align-items: center; border-radius: 5px; }
+    .source-name { min-width: 0; padding: 0 15px; color: #3b2a2d; background: #f7e4e6; font-size: 14px; font-weight: 600; }
+    .source-name span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .source-name em { margin-right: 9px; color: var(--row-color); font-style: normal; font-weight: 900; }
+    .bar-cell { display: flex; align-items: center; padding: 0 1px; }
+    .bar-track { position: relative; width: 100%; height: 22px; overflow: hidden; border-radius: 3px; background: #f2f2ee; box-shadow: inset 0 0 0 1px rgba(0,0,0,.08); }
+    .bar { position: absolute; inset: 0 auto 0 0; border-radius: 3px 0 0 3px; background: var(--row-color); }
+    .count { justify-content: center; color: #363433; background: #f4f3f0; font-size: 15px; font-weight: 800; }
+    .share { justify-content: center; color: white; background: var(--row-color); font-size: 14px; font-weight: 800; }
+    .density { justify-content: center; color: #3e2a2d; background: #f7e4e6; font-size: 14px; font-weight: 800; }
+    .density small { margin-left: 4px; color: #94777c; font-size: 9px; font-weight: 600; }
+    .collapsed-note { display: flex; min-height: 34px; align-items: center; margin: 9px 0 0 172px; padding: 0 14px; border: 1px solid #60434a; border-radius: 6px; color: #c6b7ba; background: rgba(79, 28, 38, .34); font-size: 11px; }
+    .collapsed-note b { margin-right: 7px; color: #ed747b; letter-spacing: .06em; }
+    .footer { position: absolute; right: 32px; bottom: 8px; color: #797974; font-size: 8px; }
+  </style>
+</head>
+<body>
+  <main class="slide">
+    <header class="heading">
+      <div><h1>Evidence yield by source</h1><p class="subtitle">Evidence production by source document, with document length accounted for through evidence items per page.</p></div>
+      <div class="total-card"><small>Combined evidence</small><b>622</b><strong>100.0%</strong></div>
+    </header>
+
+    <div class="column-head">
+      <span>Source type</span>
+      <span>Source document</span>
+      <span class="axis">Share of combined evidence<div class="ticks"><i>0%</i><i>10%</i><i>20%</i><i>30%</i></div></span>
+      <span class="center">Evidence</span>
+      <span class="center">Share</span>
+      <span class="center">Items / page</span>
+    </div>
+
+    <section id="chart" class="chart"></section>
+    <div id="collapsed-note" class="collapsed-note"></div>
+    <footer class="footer">Webpage length estimated at 500 visible words per page equivalent; percentages may not sum to 100.0% because of rounding.</footer>
+  </main>
+
+  <script>
+    const names = {
+      'ANPC in-depth post-disaster assessment 2024': 'ANPC post-disaster assessment 2024',
+      'ANPC 2024 PDNA · Yoto, Anié and Tchamba': 'ANPC PDNA 2024 — Yoto, Anié & Tchamba',
+      'Multi-hazard early warning and action framework for Africa': 'Africa multi-hazard early warning framework',
+      'MENTD–World Bank PANT environmental and social plan': 'MENTD–World Bank PANT environmental plan',
+      'ANPC Bulletin No. 33 · July–September 2026': 'ANPC Bulletin No. 33 — July–September 2026'
+    };
+    const displayName = source => names[source.source_name] || source.source_name;
+    const total = 622;
+    const groups = [
+      { format: 'PDF', code: 'PDF', label: 'PDF documents', note: 'Actual document pages', className: 'pdf', color: '#a31630' },
+      { format: 'Web page', code: 'WEB', label: 'Web pages', note: 'Estimated page equivalents', className: 'web', color: '#e1262d' }
+    ];
+    const formatRate = value => new Intl.NumberFormat('en-GB', { maximumFractionDigits: 2 }).format(value);
+
+    fetch('/data.json').then(response => response.json()).then(data => {
+      const nonZero = data.source_analysis.filter(source => source.evidence_item_count > 0);
+      document.querySelector('#chart').innerHTML = groups.map(group => {
+        const sources = nonZero.filter(source => source.format === group.format).sort((a, b) => b.evidence_item_count - a.evidence_item_count);
+        return `<article class="group ${group.className}" style="--row-color:${group.color}">
+          <div class="group-card"><b>${group.code}</b><span>${group.label}</span><small>${group.note}<br>${sources.length} contributing sources</small></div>
+          <div class="group-rows">${sources.map(source => {
+            const share = source.evidence_item_count / total * 100;
+            const width = Math.min(100, share / 30 * 100);
+            return `<div class="source-row">
+              <div class="source-name"><em>●</em><span>${displayName(source)}</span></div>
+              <div class="bar-cell"><span class="bar-track"><i class="bar" style="width:${width}%"></i></span></div>
+              <div class="count">${source.evidence_item_count}</div>
+              <div class="share">${share.toFixed(1)}%</div>
+              <div class="density">${formatRate(source.evidence_per_page)}<small>/ page</small></div>
+            </div>`;
+          }).join('')}</div>
+        </article>`;
+      }).join('');
+
+      const zeroSources = data.source_analysis.filter(source => source.evidence_item_count === 0).map(displayName);
+      document.querySelector('#collapsed-note').innerHTML = `<b>NOTE</b> ${zeroSources.length} sources with no extracted evidence are collapsed: ${zeroSources.join('; ')}.`;
+    });
+  </script>
+</body>
+</html>

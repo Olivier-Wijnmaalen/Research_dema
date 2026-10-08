@@ -1,0 +1,41 @@
+{
+  "study": "controlled two-chunk error-driven prompt iteration",
+  "stage": "P2",
+  "parent_stage": "P1",
+  "selected_global_chunk_numbers": [
+    6,
+    27
+  ],
+  "observed_p1_dominant_failure": {
+    "category": "incorrect_page",
+    "count": 3,
+    "hard_fail_count": 0,
+    "tied_on_total_count": [
+      "incorrect_page"
+    ],
+    "selection_rule": "Highest total count; ties are broken by the number of hard FAIL or output-level failures, then by the prespecified taxonomy order."
+  },
+  "changed_component": "page-number provenance instructions only",
+  "mutation": "Bind each exact quotation occurrence to its governing page metadata marker",
+  "unchanged_components": [
+    "P0 prompt",
+    "P1 quotation-fidelity addition",
+    "DEMA framework",
+    "retrieval task",
+    "source relevance rules",
+    "classification rules",
+    "output schema",
+    "source URL rules",
+    "model",
+    "temperature",
+    "output-token ceiling",
+    "two input chunks",
+    "technical validator"
+  ],
+  "p1_file": "traceability_calibration\\controlled_two_chunk\\p1_ocr_literal_quote_fidelity.md",
+  "p1_sha256": "95e780e071fe92587b976b403431d0a57ad0346599ba6a44afda87d6d75d09e5",
+  "p2_file": "traceability_calibration\\controlled_two_chunk\\p2_page_marker_binding.md",
+  "p2_sha256": "4d26ffe445725f2f2a26dbf439bd0cf2edb3139873dd239c3662e563e5c94d7a",
+  "added_instruction_block": "P2 CONTROLLED CHANGE — EXACT PAGE-MARKER BINDING (MANDATORY):\n- After fixing supporting_quote, locate that exact occurrence in INPUT_TEXT and scan backward to the nearest governing `<!-- ... page_number=... -->` metadata marker.\n- Copy page_number only from that marker. Do not infer it from a printed page label, table of contents, section number, nearby quotation, adjacent page, or the position of the chunk.\n- If the quotation is not wholly governed by the claimed page marker, correct the page_number before output or omit the row.\n- Repeat this page-marker check independently for every evidence row, even when several rows use text from the same apparent section.",
+  "identity_check_after_removing_addition": "PASS"
+}

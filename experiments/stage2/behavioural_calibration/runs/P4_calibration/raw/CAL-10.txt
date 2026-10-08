@@ -1,0 +1,39 @@
+{
+  "country": "Virelia",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment for Indicator B.1.3a (Data quality: accuracy) in Virelia is based on three evidence items. The strongest evidence (E0002, E0003) demonstrates the existence and routine application of predefined validation procedures using authoritative reference sources for key datasets, as well as the presence of a formal validation manual specifying checks against the civil registry and geocoded asset register. However, implementation is uneven, with two regional offices not consistently applying these procedures. There is no evidence of systematic triangulation with multiple independent sources or routine discrepancy resolution, which are required for Phase 4. The evidence exceeds Phase 2, which only requires basic, ad hoc checks, and fully supports Phase 3, which requires standard procedures and routine validation for key datasets using authoritative sources, even if implementation varies. No evidence supports higher-phase requirements such as systematic triangulation, automated validation, or continuous monitoring. Therefore, the provisional score for Virelia on this indicator is Phase 3 (Managed and defined).",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.1.3a",
+      "indicator_name": "Data quality: accuracy",
+      "phase_score": 3,
+      "matched_phase_requirement": "Standard procedures exist to verify and validate data. Validation is routinely applied to key datasets using predefined methods and authoritative reference sources, although implementation may vary across actors and datasets.",
+      "score_reasoning": "The strongest evidence for Virelia’s data accuracy practices comes from a 2026 independent technical review (E0002), which sampled all five key datasets and found that predefined validation procedures were routinely used with authoritative registries. This directly supports the requirement for standard procedures and routine validation for key datasets using authoritative reference sources. The review also notes that two regional offices applied these procedures inconsistently, which aligns with the phase wording that implementation may vary across actors and datasets. The 2026 validation manual (E0003) further substantiates the existence of standard procedures, specifying checks against the civil registry and geocoded asset register—concrete authoritative sources. The agency brochure (E0001) asserts accuracy and careful checking but lacks methodological detail and is not sufficient on its own. The evidence exceeds Phase 2, which only requires basic, ad hoc checks, by demonstrating formalized, routine validation processes. However, the evidence does not support Phase 4, which requires systematic triangulation with multiple independent sources and routine discrepancy resolution, nor does it show automated validation or continuous monitoring as required for Phase 5. The principal strength is the documented, routine use of authoritative validation procedures for key datasets. The main weakness is uneven implementation across regional offices and the absence of evidence for systematic triangulation or automated processes. No evidence was identified for higher-phase requirements such as routine discrepancy resolution or automated validation.",
+      "evidence_supporting_score": ["E0002", "E0003"],
+      "contrary_or_limiting_evidence": ["E0002"],
+      "contrary_or_limiting_reasoning": "E0002 notes that two regional offices applied validation procedures inconsistently, limiting evidence for ecosystem-wide systematic validation. No evidence was identified for systematic triangulation, routine discrepancy resolution, or automated validation, which are required for higher phases.",
+      "next_phase_gap": "To support Phase 4, evidence is needed that data accuracy is systematically assessed through structured validation and triangulation using multiple independent or authoritative sources, and that discrepancies are routinely investigated and resolved through documented procedures. No evidence was identified for these practices.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Standard procedures exist to verify and validate data.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0003", "E0002"],
+          "explanation": "E0003 documents the existence of a validation manual specifying standard procedures; E0002 confirms routine use of these procedures for key datasets."
+        },
+        {
+          "requirement": "Validation is routinely applied to key datasets using predefined methods and authoritative reference sources.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002", "E0003"],
+          "explanation": "E0002 shows routine application of predefined validation procedures with authoritative registries for all five key datasets; E0003 specifies the authoritative sources used."
+        },
+        {
+          "requirement": "Implementation may vary across actors and datasets.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002"],
+          "explanation": "E0002 notes inconsistent application in two regional offices, matching the phase wording that implementation may vary."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "source_bank": "C:\\Users\\olivi\\OneDrive\\Documenten\\FINAL_SCORE\\evidence_bank_v4_indicator_defined_for_maturity_scoring.json",
+  "source_bank_sha256": "94A062F211CE77DCEA686BFF849CEEE25C082380246C48B2ACB9AE63D4AAFD59",
+  "source_rows": 390,
+  "prepared_rows": 389,
+  "p0_prompt": "C:\\Users\\olivi\\OneDrive\\Documenten\\FINAL_SCORE\\DEMA_Maturity_Final_Scoring_Prompt_FROZEN.txt",
+  "p0_prompt_sha256": "883FC330BC82BD2BF5824A80E6F9F518DB3FC73E6AC429B505DD7635F1EA619F"
+}

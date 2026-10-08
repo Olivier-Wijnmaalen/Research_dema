@@ -1,0 +1,714 @@
+{
+  "set_name": "DEMA synthetic calibration set v1",
+  "contains_real_togo_material": false,
+  "cases": [
+    {
+      "case_id": "CAL-01",
+      "country": "Lydora",
+      "scoring_scope": "Indicator C.3.2 only: Communication, Inter-agency collaboration & partnerships",
+      "indicator": {
+        "indicator_code": "C.3.2",
+        "indicator_name": "Communication, Inter-agency collaboration & partnerships",
+        "phase_descriptions": {
+          "1": "The eco-system is fragmented and no official partnerships are in place between actors. Communication between actors only takes place based on personal relations and requests.",
+          "2": "Data users and producers are not well networked and there is limited inter-agency collaboration, it only occurs on demand or during a project.",
+          "3": "There is a lot of communication across the ecosystem. The national NDRMA (or an intermediary) is establishing official (short term) partnerships with academia, non-governmental and private sector organisations.",
+          "4": "There is a coordinating actor that facilitates exchange and collaboration among actors. The national DMA has strategic partnerships with various organisation types including strategic alignment meetings; most partnership include protocols for data sharing, interoperability and licence sharing. Communication and collaboration are well established across the ecosystem. Strategic partnerships connect key stakeholder groups, supported by regular coordination mechanisms and shared objectives. Many partnerships include formal arrangements for data sharing, interoperability, and licence sharing.",
+          "5": "The national authority has strategic partnerships with all strategically important international aid organizations, academic institutions and private sector tech providers. All partnerships have regular alignment meetings, protocols for data sharing, interoperability and licence sharing. Communication, collaboration, and partnerships are deeply institutionalized across the ecosystem. Strategic partnerships span national and international actors, including government, academia, civil society, humanitarian organizations, and the private sector. Partnership arrangements are routinely maintained and supported by formal mechanisms for alignment, data sharing, interoperability, and knowledge exchange."
+        },
+        "subdimension": "Collaboration & inclusion"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The Lydora Risk Office and provincial data units exchange files only when a flood response project requests them.",
+          "evidence_directly_proves": "Project-bound, on-demand inter-agency collaboration.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "Exchange occurs when a response project requests it."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "local",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "One university laboratory and one software company signed a six-month memorandum containing a data-sharing protocol for a coastal pilot.",
+          "evidence_directly_proves": "One formal short-term partnership with a data-sharing protocol.",
+          "limitations_or_weaknesses": "The pilot covers one coast and the national coordinator is not a party.",
+          "supporting_quote": "One university laboratory and one software company signed a six-month memorandum containing a data-sharing protocol for a coastal pilot."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "No evidence in the partnership register shows regular ecosystem-wide coordination meetings or strategic partnerships led by the national authority.",
+          "evidence_directly_proves": "A direct register finding about missing regular national mechanisms.",
+          "limitations_or_weaknesses": "Register current to June 2026.",
+          "supporting_quote": "No evidence in the partnership register shows regular ecosystem-wide coordination meetings or strategic partnerships led by the national authority."
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-02",
+      "country": "Norwyn",
+      "scoring_scope": "Indicator B.2.3 only: Technical infrastructure and operational readiness for AI-enabled data workflows",
+      "indicator": {
+        "indicator_code": "B.2.3",
+        "indicator_name": "Technical infrastructure and operational readiness for AI-enabled data workflows",
+        "phase_descriptions": {
+          "1": "Data workflows are largely manual and rely on disconnected files, spreadsheets, or standalone applications. Technical systems are insufficient to support AI-enabled workflows, and digital data are often not available in formats that can be readily used by AI tools. Reliable connectivity, computing resources, or access to AI platforms may be limited.",
+          "2": "Some technical foundations for AI-enabled workflows exist. Organizations increasingly use digital systems and may have access to cloud-based AI tools, but data remain fragmented and workflows are only partially digitized. AI is used experimentally rather than as an embedded component of operational data processes.",
+          "3": "Core data workflows are digitized and increasingly structured in ways that support AI applications. Organizations have reliable access to digital data platforms, cloud-based AI services, and sufficient connectivity and computing resources to apply AI within selected operational workflows. Technical approaches are increasingly standardized, although adoption remains uneven across actors and systems.",
+          "4": "AI-enabled workflows are routinely supported by technical systems across the ecosystem. Data pipelines, platforms, and processing environments allow AI tools to be integrated into data collection, management, analysis, and dissemination processes. Technical environments are scalable, maintained, and increasingly interoperable across organizations.",
+          "5": "AI is seamlessly embedded within routine data workflows throughout the ecosystem. Technical systems support the continuous integration of AI into data collection, processing, analysis, dissemination, and decision support. Infrastructure, platforms, and workflows are continuously optimized to support scalable, reliable, and adaptive AI-enabled operations across organizations."
+        },
+        "subdimension": "Data supply"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The Cabinet approved the Norwyn AI Readiness Roadmap, which states that an integrated cloud platform will be procured in 2027.",
+          "evidence_directly_proves": "Formal intention to procure a future platform.",
+          "limitations_or_weaknesses": "Does not show procurement, deployment, or operation.",
+          "supporting_quote": "The Cabinet approved the Norwyn AI Readiness Roadmap, which states that an integrated cloud platform will be procured in 2027."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A current workflow review found that offices transfer spreadsheets by email and analysts manually re-enter records.",
+          "evidence_directly_proves": "Current manual and fragmented workflows.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "Analysts manually re-enter emailed spreadsheets."
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-03",
+      "country": "East Verdan",
+      "scoring_scope": "Indicator A.2.1 only: Human capacity building & retention across actors (in relation to data and AI)",
+      "indicator": {
+        "indicator_code": "A.2.1",
+        "indicator_name": "Human capacity building & retention across actors (in relation to data and AI)",
+        "phase_descriptions": {
+          "1": "Few to no training or capacity-building efforts exist to develop or maintain data skills within NDRMA and/or government more broadly.",
+          "2": "Capacity-building efforts are initiated, but often sporadically, to improve data skills often first at the national level. They are not yet implemented across national, regional, and local levels of all relevant organizations.Basic training efforts are initiated, often sporadically, to improve data skills among government staff and local officers. Therefore, digital skills remain low across the ecosystem, and retention of trained personnel is a challenge.",
+          "3": "Government and key organizations offer regular capacity-building programs and begin to provide career incentives for data specialists in NDRMA or national lead/coordinator entity. Some actors in the ecosystem can transform and analyze data, though advanced skills are still concentrated in a few institutions (and people, who are hard to retain).",
+          "4": "Human capacity building becomes increasingly institutionalized and extends from the national to the local level. The government includes capacity-building at the local level, by providing follow-up support, simple user guides, or technology (e.g., tablets) to local DRR practitioners and communities. Skilled intermediaries are present across the ecosystem, and organizations collaborate to strengthen data capabilities.",
+          "5": "The ecosystem demonstrates high-level, sustained investment in professional development. Organizations are overall highly skilled, and there is strong collaboration between specialized actors. Retention is high."
+        },
+        "subdimension": "Capacity"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The East Verdan Data Office delivered one two-day spreadsheet course for national emergency staff in March 2026.",
+          "evidence_directly_proves": "One sporadic national training event.",
+          "limitations_or_weaknesses": "No regular programme, career incentive, retention measure, or subnational coverage.",
+          "supporting_quote": "The East Verdan Data Office delivered one two-day spreadsheet course for national emergency staff in March 2026."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A ministry newsletter repeats the Data Office announcement that one two-day spreadsheet course was delivered in March 2026.",
+          "evidence_directly_proves": "Repetition of S01.",
+          "limitations_or_weaknesses": "Newsletter cites S01 and is not independent corroboration.",
+          "supporting_quote": "A ministry newsletter repeats the Data Office announcement that one two-day spreadsheet course was delivered in March 2026."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A partner bulletin reproduces the ministry newsletter's statement about the same March 2026 course.",
+          "evidence_directly_proves": "Second-hand repetition of S01 through S02.",
+          "limitations_or_weaknesses": "No independent observation or additional course.",
+          "supporting_quote": "A partner bulletin reproduces the ministry newsletter's statement about the same March 2026 course."
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-04",
+      "country": "Bellmare",
+      "scoring_scope": "Indicator B.1.3d only: Data quality: timeliness",
+      "indicator": {
+        "indicator_code": "B.1.3d",
+        "indicator_name": "Data quality: timeliness",
+        "phase_descriptions": {
+          "1": "Exposure and vulnerability data is largerly outdated, even in dynamic context such urban areas or mobile population settings where risk conditions are dynamicaly changing. Data are often reported long after events occur and updates are infrequent. There are no defined expectations or procedures regarding when data should become available or be updated.",
+          "2": "Data are usually collected following events, but reporting and updates are often delayed and inconsistent. Update schedules are largely driven by specific events, projects, or reporting requirements rather than defined operational needs. Dynamic impacts like displacement or infrastructure recovery are poorly tracked",
+          "3": "Timeframes for data collection, reporting, and updates are defined for key datasets. Data are routinely updated according to established schedules, and important changes for evolving indicators (e.g., displacement, rebuilding, economic recovery) are captured within a reasonable timeframe.",
+          "4": "Data are made available and updated in line with operational requirements. Regular update cycles are supported by systematic processes that ensure evolving conditions are reflected in the data within defined timeframes. Rapid indicators (e.g., deaths, injuries) are available early, and dynamic indicators (e.g., displacement, livelihoods) periodically using structured protocols.",
+          "5": "Data are continuously monitored and updated through highly efficient processes. Information is available within timelines that support both immediate operational needs and longer-term decision-making, and update mechanisms adapt dynamically as conditions evolve."
+        },
+        "subdimension": "Data quality"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The Bellmare Operations Centre reports that all provincial incident records are uploaded within 24 hours under a weekly update schedule.",
+          "evidence_directly_proves": "An official claim of defined and rapid reporting.",
+          "limitations_or_weaknesses": "Self-reported performance; no underlying timestamps.",
+          "supporting_quote": "The Bellmare Operations Centre reports that all provincial incident records are uploaded within 24 hours under a weekly update schedule."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "An independent audit of the same system and quarter found a written weekly schedule but a median upload delay of 18 days; 7 of 10 provinces missed every weekly deadline.",
+          "evidence_directly_proves": "Defined schedule exists, but routine implementation is seriously inconsistent.",
+          "limitations_or_weaknesses": "Independent audit of the same period and system.",
+          "supporting_quote": "An independent audit of the same system and quarter found a written weekly schedule but a median upload delay of 18 days; 7 of 10 provinces missed every weekly deadline."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The system manual defines weekly uploads for incident data.",
+          "evidence_directly_proves": "A defined reporting timeframe.",
+          "limitations_or_weaknesses": "Does not establish compliance.",
+          "supporting_quote": "The system manual defines weekly uploads for incident data."
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-05",
+      "country": "Orinth",
+      "scoring_scope": "Indicator C.2.2 only: Dedicated budget",
+      "indicator": {
+        "indicator_code": "C.2.2",
+        "indicator_name": "Dedicated budget",
+        "phase_descriptions": {
+          "1": "Little to no (financial) incentives in place to stimulate the sharing and exchange of risk and/or impact data. There are insufficient funds available for technical staff and/or trainings on (secure) data handling",
+          "2": "Some (financial) incentives in place, yet they are sporadic or event-based. Some funds for training available, yet these are sporadic or event-based",
+          "3": "Government policy formally starts allocating modest budgets to develop information sharing within the ecosystem and establishing standardized processes. Budget for a coordinating unit and trainings in database management for technical support staff is allocated.",
+          "4": "Government invests in secure technical and legal infrastructures to ensure accessibility and safety of risk and disaster data. Government systematically invests in well trained staff to ensure availability of high quality risk and disaster data.",
+          "5": "The government consistently invests well-trained staff & in secure infrastructures to ensure accessible and safe information sharing within the ecosystem."
+        },
+        "subdimension": "Policies, standards & resources"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The reviewed 2026 budget volume contains no identifiable line for a data coordinating unit or database-management training.",
+          "evidence_directly_proves": "Documentary gap within one reviewed budget volume.",
+          "limitations_or_weaknesses": "Silence does not prove that no allocation exists elsewhere.",
+          "supporting_quote": "The reviewed 2026 budget volume contains no identifiable line for a data coordinating unit or database-management training."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The Auditor-General states that the Emergency Data Directorate had no training funds in fiscal year 2025 and cancelled all planned secure-data courses.",
+          "evidence_directly_proves": "Explicit absence of training funds for a named unit and year.",
+          "limitations_or_weaknesses": "Does not establish every government budget.",
+          "supporting_quote": "The Auditor-General states that the Emergency Data Directorate had no training funds in fiscal year 2025 and cancelled all planned secure-data courses."
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-06",
+      "country": "Selucia",
+      "scoring_scope": "Indicator B.2.2 only: Operationalize common (meta)data standards",
+      "indicator": {
+        "indicator_code": "B.2.2",
+        "indicator_name": "Operationalize common (meta)data standards",
+        "phase_descriptions": {
+          "1": "There is little or no use of common data standards across actors. Organizations collect, document, and manage data using their own definitions, classifications, formats, and metadata practices. As a result, data are difficult to compare, combine, or interpret consistently across organizations.",
+          "2": "Some organizations or projects have adopted data standards for specific datasets or activities, but implementation remains fragmented and largely organization-specific. Common definitions, classifications, metadata requirements, or data collection templates are not consistently used across actors.",
+          "3": "Common data standards have been agreed upon for key datasets, processes, or domains and are used by multiple actors. Standards increasingly guide data collection, documentation, metadata creation, and data management practices. However, implementation remains uneven and compliance is not systematically monitored across the ecosystem.",
+          "4": "Common data standards are widely adopted and consistently applied across the majority of actors and datasets. Standardized definitions, classifications, formats, and metadata improve data quality, comparability, and consistency. Adoption is no longer limited to individual organizations or datasets but is common practice across sectors and institutions",
+          "5": "Common data standards are fully institutionalized and regularly maintained through collaborative governance processes. Standards are consistently applied across sectors and organizations and evolve in response to emerging needs. The standardized use of data, metadata, classifications, and documentation enables seamless integration, interoperability, harmonized analysis, and efficient data exchange across the ecosystem."
+        },
+        "subdimension": "Data supply"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The Selucia Meteorological Service uses a common hazard classification and metadata template with the Water Agency for flood datasets.",
+          "evidence_directly_proves": "Two actors use agreed standards for a key domain.",
+          "limitations_or_weaknesses": "Adoption outside the flood domain is not shown.",
+          "supporting_quote": "The Selucia Meteorological Service uses a common hazard classification and metadata template with the Water Agency for flood datasets."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "B.2.2 common standards",
+          "subdimension": "B.2.2 common standards",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A national warehouse purchased redundant servers and increased storage capacity by 80 percent.",
+          "evidence_directly_proves": "Technical storage capacity only.",
+          "limitations_or_weaknesses": "Does not address definitions, classifications, formats, or metadata standards.",
+          "supporting_quote": "A national warehouse purchased redundant servers and increased storage capacity by 80 percent."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A compliance review found no systematic monitoring of the flood standard and uneven use among municipal offices.",
+          "evidence_directly_proves": "Uneven implementation and absent systematic monitoring.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "A compliance review found no systematic monitoring of the flood standard and uneven use among municipal offices."
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-07",
+      "country": "Pelas",
+      "scoring_scope": "Indicator C.3.1 only: Community engagement (including local, vulnerable, and diverse populations)",
+      "indicator": {
+        "indicator_code": "C.3.1",
+        "indicator_name": "Community engagement (including local, vulnerable, and diverse populations)",
+        "phase_descriptions": {
+          "1": "Data is collected, analysed and disseminated without involving local communities and stakeholders.",
+          "2": "Local communities are sometimes engaged in the collection and dissemmination of data to improve the effectiveness of Early Warnings Systems and reduce the impact of disasters.",
+          "3": "Stakeholders, from rural and urban communities across the country, are making more data connections with each other. Feedback mechanisms are being put into place.",
+          "4": "Local communities are actively involved throughout the data cycle, to ensure they understand the importance of risk and impact data for DRR and EW and become part of the ecosystem.",
+          "5": "Engagement and feedback mechanisms actively involve persons with disabilities, minority groups, migrants and refugees, elder and youth, vulnerable groups, and gender-diverse populations."
+        },
+        "subdimension": "Collaboration & inclusion"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "B.1 accessibility",
+          "subdimension": "B.1 accessibility",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "Rural and urban community committees submit observations through a national feedback portal and meet quarterly with producers in every province.",
+          "evidence_directly_proves": "Nationwide rural/urban connections and an operating feedback mechanism.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "Rural and urban community committees submit observations through a national feedback portal and meet quarterly with producers in every province."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "B.3 use",
+          "subdimension": "B.3 use",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "Meeting records show community comments prompted changes to two warning-map legends.",
+          "evidence_directly_proves": "Feedback is used in dissemination decisions.",
+          "limitations_or_weaknesses": "Records do not show community involvement throughout collection and analysis.",
+          "supporting_quote": "Meeting records show community comments prompted changes to two warning-map legends."
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-08",
+      "country": "Tavira",
+      "scoring_scope": "Indicator C.2.2 only: Dedicated budget",
+      "indicator": {
+        "indicator_code": "C.2.2",
+        "indicator_name": "Dedicated budget",
+        "phase_descriptions": {
+          "1": "Little to no (financial) incentives in place to stimulate the sharing and exchange of risk and/or impact data. There are insufficient funds available for technical staff and/or trainings on (secure) data handling",
+          "2": "Some (financial) incentives in place, yet they are sporadic or event-based. Some funds for training available, yet these are sporadic or event-based",
+          "3": "Government policy formally starts allocating modest budgets to develop information sharing within the ecosystem and establishing standardized processes. Budget for a coordinating unit and trainings in database management for technical support staff is allocated.",
+          "4": "Government invests in secure technical and legal infrastructures to ensure accessibility and safety of risk and disaster data. Government systematically invests in well trained staff to ensure availability of high quality risk and disaster data.",
+          "5": "The government consistently invests well-trained staff & in secure infrastructures to ensure accessible and safe information sharing within the ecosystem."
+        },
+        "subdimension": "Policies, standards & resources"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The 2026 Appropriations Act allocates a modest recurring line to the National Data Coordination Unit for information-sharing procedures.",
+          "evidence_directly_proves": "Formal budget allocation for a coordinating unit and standardized information sharing.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "The 2026 Appropriations Act allocates a modest recurring line to the National Data Coordination Unit for information-sharing procedures."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The Ministry of Finance training annex allocates funds for quarterly database-management training for technical support staff.",
+          "evidence_directly_proves": "Allocated training budget for database-management staff.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "The Ministry of Finance training annex allocates funds for quarterly database-management training for technical support staff."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The allocations do not fund secure infrastructure or systematic recruitment and retention of trained staff.",
+          "evidence_directly_proves": "Direct limit against Phase 4 investment requirements.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "The allocations do not fund secure infrastructure or systematic recruitment and retention of trained staff."
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-09",
+      "country": "Umberia",
+      "scoring_scope": "Indicator B.1.1 only: Data accessibility",
+      "indicator": {
+        "indicator_code": "B.1.1",
+        "indicator_name": "Data accessibility",
+        "phase_descriptions": {
+          "1": "Data are difficult to discover and access, often stored in isolated systems or personal files. Formats are inconsistent or unsuitable for reuse. Metadata is largely absent. Access depends on informal relationships rather than defined processes. Costs, if applicable, are unclear, negotiated on a case-by-case basis, or not publicly communicated.",
+          "2": "Some data are accessible upon request, typically after events or reporting deadlines. Basic dissemination channels exist, but discoverability remains limited. Metadata is partial or inconsistent. Access procedures are manual and slow. Applicable fees or access conditions may exist but are not consistently documented or communicated. While digital records may exist, data are frequently disseminated as static reports (PDF), summary tables, paper records, or other formats (such as printed map instead of GIS file) that limit direct reuse.",
+          "3": "Data are systematically catalogued and accessible through defined platforms or repositories. Standard formats are commonly used. Standardized digital formats are commonly used, replacing reliance on paper records and static reports. Data are increasingly available through structured databases and spreadsheets, or geospatial data formats that support reuse. Metadata is routinely provided to support discovery and interpretation. User access processes are documented and predictable. Access conditions, licensing requirements, and any associated fees are clearly communicated.",
+          "4": "Data are easily discoverable and accessible through interoperable systems and open platforms. Standardized formats, comprehensive metadata, and user support services are in place. Access costs, if any, are affordable and transparent. Fees, where applicable, do not create unnecessary barriers to legitimate data use. Accessibility is regularly monitored and improved based on user needs.",
+          "5": "Data are proactively disseminated through integrated, user-centric platforms. Access is seamless, near real-time, and tailored to diverse users. Rich metadata, APIs, and advanced support services enable wide reuse. Accessibility actively drives innovation, decision-making, and public value. Access conditions are designed to maximize public value. Data are openly available where appropriate, and any cost recovery mechanisms are transparent, justified, and minimize barriers to access and reuse."
+        },
+        "subdimension": "Data supply"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "local",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A portal in Northbank municipality publishes flood layers in reusable geospatial formats with complete metadata and a help desk.",
+          "evidence_directly_proves": "Strong accessibility features in one municipality.",
+          "limitations_or_weaknesses": "One of 64 municipalities; no national integration or monitoring.",
+          "supporting_quote": "A portal in Northbank municipality publishes flood layers in reusable geospatial formats with complete metadata and a help desk."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "National agencies usually send static PDF summaries by email after a written request; metadata fields are inconsistent.",
+          "evidence_directly_proves": "National accessibility remains manual, slow, and poorly reusable.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "National agencies usually send static PDF summaries by email after a written request; metadata fields are inconsistent."
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-10",
+      "country": "Virelia",
+      "scoring_scope": "Indicator B.1.3a only: Data quality: accuracy",
+      "indicator": {
+        "indicator_code": "B.1.3a",
+        "indicator_name": "Data quality: accuracy",
+        "phase_descriptions": {
+          "1": "Data accuracy is largely unknown. Data are frequently based on estimates, unverified reports, or inconsistent sources. Validation practices are largely absent and errors often remain undetected.",
+          "2": "Some efforts are made to verify data, typically when concerns arise or when information is questioned. Basic checks against reports or alternative sources occur, but validation remains inconsistent and unsystematic.",
+          "3": "Standard procedures exist to verify and validate data. Validation is routinely applied to key datasets using predefined methods and authoritative reference sources, although implementation may vary across actors and datasets.",
+          "4": "Data accuracy is systematically assessed through structured validation and triangulation using multiple independent or authoritative sources. Discrepancies are routinely investigated and resolved through documented procedures.",
+          "5": "High confidence exists in data accuracy across the ecosystem. Validation processes are highly standardized and increasingly automated, supported by multiple authoritative sources, transparent documentation, continuous monitoring, and regular expert review."
+        },
+        "subdimension": "Data quality"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A 2024 agency brochure says incident figures are accurate and checked carefully.",
+          "evidence_directly_proves": "A general self-assertion of accuracy.",
+          "limitations_or_weaknesses": "No method, sample, reference source, or results.",
+          "supporting_quote": "A 2024 agency brochure says incident figures are accurate and checked carefully."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A 2026 independent technical review sampled all five key datasets and found predefined validation procedures were routinely used with authoritative registries, although two regional offices applied them inconsistently.",
+          "evidence_directly_proves": "Routine predefined validation with authoritative sources, uneven across actors.",
+          "limitations_or_weaknesses": "Does not show systematic triangulation with multiple independent sources or routine discrepancy resolution.",
+          "supporting_quote": "A 2026 independent technical review sampled all five key datasets and found predefined validation procedures were routinely used with authoritative registries, although two regional offices applied them inconsistently."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The 2026 validation manual specifies checks against the civil registry and geocoded asset register.",
+          "evidence_directly_proves": "Standard procedures and named authoritative references.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "The 2026 validation manual specifies checks against the civil registry and geocoded asset register."
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-11",
+      "country": "West Aster",
+      "scoring_scope": "Indicator C.2.1 only: Data strategy, including the use of common data standards Data ecosystem strategy and vision",
+      "indicator": {
+        "indicator_code": "C.2.1",
+        "indicator_name": "Data strategy, including the use of common data standards Data ecosystem strategy and vision",
+        "phase_descriptions": {
+          "1": "There is no specific data strategy. Data is not specifically addressed in other policy or strategy documents. There is no reference to common data standards. There is no clear strategy or long-term vision for the development of the data ecosystem. Data-related issues are not specifically addressed in broader policy or strategy documents, and there is little strategic consideration of topics such as data sharing, quality, interoperability, standards, or data use.",
+          "2": "While there is no specific data strategy, the importance of risk and impact data collection and the use of common data standards is recognized in a strategic or policy document created by the government or adopted from an international or regional organization. While there is no comprehensive data ecosystem strategy, the importance of data for decision-making, risk and impact analysis, and ecosystem coordination is recognized in one or more policy or strategy documents. Strategic priorities such as data sharing, interoperability, or the use of common standards are acknowledged but remain fragmented.",
+          "3": "A strategy on data use following common data standards is in place but policy is not revisited periodically in light of evolving data needs, standards and technological improvements. A data strategy or policy document outlines that there are intermediaries or government agencies available to centralize cataloguing and storage of (existing) datasets. A formal strategy or policy framework for the development and use of data is in place. It outlines objectives, priorities, and institutional arrangements for strengthening the data ecosystem, including areas such as data sharing, interoperability, standards, and data management. However, the strategy is not regularly reviewed in light of evolving needs and technological developments. Strategy frameworks one can think of include national data strategies, digital government strategies, AI strategies, open data policies, National Statistical System strategies, sectoral data strategies (including disaster-risk-related strategies), or other formal policy instruments.",
+          "4": "The data strategy is regularly updated and outlines the goals of ecosystem collaboration. The strategy includes how common data standards can enable interoperability, comparability, and coordinated data management. The data ecosystem strategy is regularly reviewed and updated and provides a shared vision for ecosystem development and collaboration. It guides coordinated action across key areas such as data governance, sharing, interoperability, standards, quality, and innovation, and is aligned with broader national or sectoral policy frameworks.",
+          "5": "The country has a national data strategy in place with a dedicated government unit to support the development and use of common standards across the ecosystem. The ecosystem is guided by a comprehensive and actively maintained strategic vision supported by dedicated institutional mechanisms. Strategic priorities are regularly updated in response to emerging opportunities and challenges, and are aligned across national, sectoral, and international frameworks. The strategy drives sustained improvements in data sharing, governance, interoperability, standards, innovation, and responsible data use across the ecosystem."
+        },
+        "subdimension": "Policies, standards & resources"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The formally adopted West Aster National Data Strategy sets objectives for sharing, interoperability, metadata standards, cataloguing, and assigns the Digital Records Agency to central storage.",
+          "evidence_directly_proves": "A formal comprehensive strategy with objectives and institutional arrangements.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "The formally adopted West Aster National Data Strategy sets objectives for sharing, interoperability, metadata standards, cataloguing, and assigns the Digital Records Agency to central storage."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The strategy has no scheduled review mechanism and has not been revised since adoption in 2022.",
+          "evidence_directly_proves": "No periodic review or update.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "The strategy has no scheduled review mechanism and has not been revised since adoption in 2022."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "An implementation review found that the planned catalogue was not yet operational.",
+          "evidence_directly_proves": "The catalogue is not implemented.",
+          "limitations_or_weaknesses": "Implementation weakness does not negate existence of the formal strategy.",
+          "supporting_quote": "An implementation review found that the planned catalogue was not yet operational."
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-12",
+      "country": "Zafran",
+      "scoring_scope": "Indicator A.1.1 only: Roles are known & identified, for all actors",
+      "indicator": {
+        "indicator_code": "A.1.1",
+        "indicator_name": "Roles are known & identified, for all actors",
+        "phase_descriptions": {
+          "1": "Actors are unable to identify and define role of key government agencies and organizations in the ecosystem.",
+          "2": "The key actors in the ecosystem have been identified by e.g. the National Disaster Risk Management Autority/Agency ( NDRMA), but the roles of key government agencies and organizations are not always defined through official/legal mechanisms",
+          "3": "The key actors in the ecosystem have been identified by e.g. the NDRMA, but the roles of key government agencies and organizations are not always defined through official/legal mechanisms",
+          "4": "The institutional framework that defines the roles and responsibilities of the actors in the ecosystem is fully endorsed and operationalized. (the formal governance is also the real governance in practice)",
+          "5": "A dynamic, collaborative, and continuously evolving data ecosystem where all actors—government and non-government, including private sector—jointly innovate, adapt their roles, and drive transformative, system-wide improvements beyond the formal institutional framework."
+        },
+        "subdimension": "Roles"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The Zafran Disaster Secretariat maintains an endorsed list identifying ministries, relief organisations, universities, and telecommunications firms active in the data ecosystem.",
+          "evidence_directly_proves": "Key government and non-government actors are identified.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "The Zafran Disaster Secretariat maintains an endorsed list identifying ministries, relief organisations, universities, and telecommunications firms active in the data ecosystem."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The list describes customary tasks, but the legal review found that several agencies' data roles are not defined in laws or official mandates.",
+          "evidence_directly_proves": "Roles are known but not always legally defined.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "The list describes customary tasks, but the legal review found that several agencies' data roles are not defined in laws or official mandates."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "No reviewed record demonstrates that a fully endorsed institutional framework is operationalized in practice.",
+          "evidence_directly_proves": "No documentary support for Phase 4 operationalization.",
+          "limitations_or_weaknesses": "Documentary gap, not proof of real-world absence.",
+          "supporting_quote": "No reviewed record demonstrates that a fully endorsed institutional framework is operationalized in practice."
+        }
+      ]
+    }
+  ]
+}

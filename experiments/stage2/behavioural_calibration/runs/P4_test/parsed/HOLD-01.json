@@ -1,0 +1,51 @@
+{
+  "country": "Arcland",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "For Indicator A.2.1 (Human capacity building & retention across actors), Arcland demonstrates regular national-level capacity-building and formal career incentives for data specialists in the national coordinating authority. However, advanced skills remain concentrated in a few institutions and retention is still a challenge. There is no evidence of institutionalized capacity-building extending from national to local levels, nor of ecosystem-wide collaboration or high retention. The evidence supports Phase 3 ('Managed and defined'), as all requirements for this phase are fully met, but not those for Phase 4 or higher.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "A.2.1",
+      "indicator_name": "Human capacity building & retention across actors (in relation to data and AI)",
+      "phase_score": 3,
+      "matched_phase_requirement": "Government and key organizations offer regular capacity-building programs and begin to provide career incentives for data specialists in NDRMA or national lead/coordinator entity. Some actors in the ecosystem can transform and analyze data, though advanced skills are still concentrated in a few institutions (and people, who are hard to retain).",
+      "score_reasoning": "The evidence demonstrates that Arcland has established regular capacity-building programs at the national level, as the Arcland Emergency Institute has delivered quarterly data-analysis courses for national agencies for three consecutive years (E0001). This satisfies the requirement for regular capacity-building programs. Additionally, the civil-service framework awards a specialist grade and salary increment to data analysts in the national coordinating authority (E0002), directly supporting the criterion of career incentives for data specialists. A staffing review confirms that advanced analysis skills remain concentrated in two national institutions and turnover is high (E0004), which aligns with the phase 3 requirement that advanced skills are still concentrated and retention is a challenge. There is no evidence that capacity-building is institutionalized and extends from national to local levels, nor that skilled intermediaries are present across the ecosystem or that organizations collaborate to strengthen data capabilities, as required for phase 4. The only local-level activity is a single district pilot issuing tablets and a user guide to twelve local officers (E0003), which is insufficient to demonstrate ecosystem-wide or routine local-level capacity-building. The evidence thus exceeds phase 2, which only requires sporadic and basic training efforts, but does not meet phase 4, which requires institutionalized, ecosystem-wide, and local-level capacity-building and collaboration. The principal strength is the regularity and formalization of national capacity-building and incentives; the main weakness is the lack of demonstrated extension to local levels and ecosystem-wide collaboration.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002",
+        "E0004"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0003"
+      ],
+      "contrary_or_limiting_reasoning": "E0003 documents only a single district pilot for local-level support, which does not demonstrate institutionalized or ecosystem-wide capacity-building at the local level. This limits the score to phase 3, as phase 4 requires capacity-building to be institutionalized and extended from national to local levels.",
+      "next_phase_gap": "To reach phase 4, evidence is required that human capacity-building is institutionalized and extends from the national to the local level, including routine provision of follow-up support, user guides, or technology to local DRR practitioners and communities. Proof of skilled intermediaries present across the ecosystem and collaborative efforts to strengthen data capabilities is also needed. No such evidence was identified in the supplied documents.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Government and key organizations offer regular capacity-building programs.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "E0001 documents quarterly data-analysis courses delivered for national agencies for three consecutive years, demonstrating regular capacity-building programs."
+        },
+        {
+          "requirement": "Government and key organizations begin to provide career incentives for data specialists in NDRMA or national lead/coordinator entity.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "explanation": "E0002 shows the civil-service framework awards a specialist grade and salary increment to data analysts in the national coordinating authority, directly supporting the requirement for career incentives."
+        },
+        {
+          "requirement": "Some actors in the ecosystem can transform and analyze data, though advanced skills are still concentrated in a few institutions (and people, who are hard to retain).",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0004"
+          ],
+          "explanation": "E0004 confirms advanced analysis skills remain concentrated in two national institutions and turnover is high, matching the requirement that advanced skills are concentrated and retention is a challenge."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

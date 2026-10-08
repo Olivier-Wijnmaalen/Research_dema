@@ -1,0 +1,311 @@
+{
+  "set_name": "DEMA test answer keys v1",
+  "written_before_test_run": true,
+  "authorship": "Assistant-constructed in same session; not independently blinded",
+  "researcher_approved": false,
+  "keys": [
+    {
+      "case_id": "HOLD-01",
+      "primary_rules": [
+        "R1",
+        "R6",
+        "R8"
+      ],
+      "acceptable_phase": [
+        3
+      ],
+      "supported_requirements": [
+        "Regular programmes and career incentives exist.",
+        "Advanced skills remain concentrated and retention is difficult."
+      ],
+      "unsupported_requirements": [
+        "Institutionalized national-to-local coverage and ecosystem-wide intermediaries."
+      ],
+      "must_retain": [
+        "E0004"
+      ],
+      "required_reasoning": [
+        "Keep the tablet pilot local and isolated."
+      ],
+      "failure_behaviours": [
+        "Assign Phase 4 from one district pilot."
+      ],
+      "checks": [
+        {
+          "check_id": "HOLD-01-01",
+          "rule": "R1",
+          "description": "Phase score equals 3.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-01-02",
+          "rule": "R6",
+          "description": "Does not generalize E0003 beyond one district.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-01-03",
+          "rule": "R5",
+          "description": "Retains E0004 and its retention limitation.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-01-04",
+          "rule": "R8",
+          "description": "Names institutionalized national-to-local coverage as missing.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "HOLD-02",
+      "primary_rules": [
+        "R2",
+        "R4",
+        "R8"
+      ],
+      "acceptable_phase": [
+        2
+      ],
+      "supported_requirements": [
+        "A policy recognizes risk data, interoperability, and standards in fragmented form."
+      ],
+      "unsupported_requirements": [
+        "An adopted comprehensive data strategy with institutional arrangements."
+      ],
+      "must_retain": [],
+      "required_reasoning": [
+        "Separate future drafting from an adopted strategy.",
+        "Treat E0002 and E0003 as derived repetitions."
+      ],
+      "failure_behaviours": [
+        "Assign Phase 3 because three records mention a future strategy."
+      ],
+      "checks": [
+        {
+          "check_id": "HOLD-02-01",
+          "rule": "R1",
+          "description": "Phase score equals 2.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-02-02",
+          "rule": "R2",
+          "description": "Distinguishes recognition and future drafting from adoption.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-02-03",
+          "rule": "R4",
+          "description": "Does not count E0002 and E0003 as independent strategies or corroboration.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-02-04",
+          "rule": "R8",
+          "description": "Names a formal comprehensive strategy and institutional arrangements as missing.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "HOLD-03",
+      "primary_rules": [
+        "R2",
+        "R5"
+      ],
+      "acceptable_phase": [
+        2
+      ],
+      "supported_requirements": [
+        "Verification occurs reactively when concerns arise."
+      ],
+      "unsupported_requirements": [
+        "Routine application of standard validation to key datasets."
+      ],
+      "must_retain": [
+        "E0002"
+      ],
+      "required_reasoning": [
+        "Prefer direct current audit and logs for implementation while retaining the manual as formal intention."
+      ],
+      "failure_behaviours": [
+        "Assign Phase 3 from the manual despite audited non-implementation."
+      ],
+      "checks": [
+        {
+          "check_id": "HOLD-03-01",
+          "rule": "R1",
+          "description": "Phase score equals 2.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-03-02",
+          "rule": "R2",
+          "description": "Distinguishes documented procedure from actual practice.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-03-03",
+          "rule": "R5",
+          "description": "Explains why E0002 and E0003 outweigh E0001 for implementation.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-03-04",
+          "rule": "R8",
+          "description": "Names routine implementation as the Phase 3 gap.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "HOLD-04",
+      "primary_rules": [
+        "R7",
+        "R8"
+      ],
+      "acceptable_phase": [
+        4
+      ],
+      "supported_requirements": [
+        "Communities are actively involved in collection, analysis, dissemination, and feedback across the country."
+      ],
+      "unsupported_requirements": [
+        "Active inclusion of all Phase 5 named vulnerable and diverse groups."
+      ],
+      "must_retain": [
+        "E0004"
+      ],
+      "required_reasoning": [
+        "Combine E0001-E0003 as compatible complementary evidence of the full data cycle."
+      ],
+      "failure_behaviours": [
+        "Reject Phase 4 because no single record covers the full cycle.",
+        "Assign Phase 5 without named-group evidence."
+      ],
+      "checks": [
+        {
+          "check_id": "HOLD-04-01",
+          "rule": "R1",
+          "description": "Phase score equals 4.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-04-02",
+          "rule": "R7",
+          "description": "Combines E0001, E0002, and E0003 with their distinct contributions.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-04-03",
+          "rule": "R5",
+          "description": "Retains E0004.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-04-04",
+          "rule": "R8",
+          "description": "Names participation of specified diverse groups as the Phase 5 gap.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "HOLD-05",
+      "primary_rules": [
+        "R3",
+        "R6"
+      ],
+      "acceptable_phase": [
+        2
+      ],
+      "supported_requirements": [
+        "Some organizations use a standard in one project."
+      ],
+      "unsupported_requirements": [
+        "Agreed standards used by multiple actors beyond the project or key domains ecosystem-wide."
+      ],
+      "must_retain": [
+        "E0003"
+      ],
+      "required_reasoning": [
+        "Use E0001 despite mismatching metadata, exclude E0002 from standards support, and describe E0003 as a documentary gap."
+      ],
+      "failure_behaviours": [
+        "Treat cloud infrastructure as standards adoption.",
+        "Claim broader standards factually do not exist."
+      ],
+      "checks": [
+        {
+          "check_id": "HOLD-05-01",
+          "rule": "R1",
+          "description": "Phase score equals 2.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-05-02",
+          "rule": "R6",
+          "description": "Uses E0001 by substance despite metadata and excludes E0002 from score support.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-05-03",
+          "rule": "R3",
+          "description": "Uses documentary-gap rather than factual-absence language for E0003.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-05-04",
+          "rule": "R8",
+          "description": "Names multi-actor broader agreed use as the Phase 3 gap.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "HOLD-06",
+      "primary_rules": [
+        "R1",
+        "R6",
+        "R8"
+      ],
+      "acceptable_phase": [
+        3
+      ],
+      "supported_requirements": [
+        "Key national datasets are systematically catalogued with reusable formats, routine metadata, and predictable access."
+      ],
+      "unsupported_requirements": [
+        "Interoperable open systems, comprehensive ecosystem-wide user support, and regular accessibility monitoring."
+      ],
+      "must_retain": [],
+      "required_reasoning": [
+        "Treat the weather API as isolated and retain the national Phase 3 boundary."
+      ],
+      "failure_behaviours": [
+        "Assign Phase 4 or 5 from one service's API."
+      ],
+      "checks": [
+        {
+          "check_id": "HOLD-06-01",
+          "rule": "R1",
+          "description": "Phase score equals 3.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-06-02",
+          "rule": "R6",
+          "description": "Does not generalize E0003 beyond the weather service.",
+          "critical": true
+        },
+        {
+          "check_id": "HOLD-06-03",
+          "rule": "R8",
+          "description": "Names interoperability and monitoring as higher-phase gaps.",
+          "critical": true
+        }
+      ]
+    }
+  ]
+}

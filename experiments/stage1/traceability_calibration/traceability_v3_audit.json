@@ -1,0 +1,21 @@
+{
+  "version": "V3",
+  "parent": "V2",
+  "parent_sha256": "f3251ac014719470930bf29843e9d9b0131981a444ba24d48c03fd5a93d13af5",
+  "sha256": "add26ce2c451244921ba01766d86f82501acd31a0934937163362088b25fb94a",
+  "v2_observed": {
+    "total_rows": 430,
+    "status_counts": {
+      "PASS_EXACT": 358,
+      "PASS_NORMALIZED": 18,
+      "REPAIR_REQUIRED": 16,
+      "FAIL": 38
+    },
+    "strict_pass_rate_percent": 83.256,
+    "accepted_pass_rate_percent": 87.442,
+    "traceable_rate_percent": 91.163,
+    "chunks_with_nonaccepted_rows": 17
+  },
+  "mutation": "Bind page and URL to the exact span; prohibit truncation and internal omissions",
+  "rationale": "V2 retained 38 failures, including 12 ellipsis/omission cases, and produced 16 repairable citation errors. V3 targets those observed mechanisms without changing retrieval scope."
+}

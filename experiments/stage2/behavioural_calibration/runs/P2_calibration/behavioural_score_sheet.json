@@ -1,0 +1,577 @@
+{
+  "checks": [
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-01",
+      "check_id": "CAL-01-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 2.",
+      "status": "FAIL",
+      "adjudication_note": "Regressed from Phase 2 to Phase 3."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-01",
+      "check_id": "CAL-01-02",
+      "rule": "R1",
+      "critical": true,
+      "description": "Does not generalize the coastal pilot to the ecosystem.",
+      "status": "FAIL",
+      "adjudication_note": "Allowed one local two-actor partnership to satisfy an ecosystem-level Phase 3 requirement."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-01",
+      "check_id": "CAL-01-03",
+      "rule": "R5",
+      "critical": true,
+      "description": "Retains and explains E0003.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-01",
+      "check_id": "CAL-01-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Names the unsupported Phase 3 communication and partnership requirements.",
+      "status": "FAIL",
+      "adjudication_note": "Did not identify the missing Phase 3 breadth and national/intermediary partnership requirement."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-02",
+      "check_id": "CAL-02-01",
+      "rule": "R2",
+      "critical": true,
+      "description": "Phase score equals 1.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-02",
+      "check_id": "CAL-02-02",
+      "rule": "R2",
+      "critical": true,
+      "description": "Explicitly distinguishes future procurement from present implementation.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-02",
+      "check_id": "CAL-02-03",
+      "rule": "R8",
+      "critical": true,
+      "description": "Identifies operational digital foundations or experimental AI use as missing for Phase 2.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-03",
+      "check_id": "CAL-03-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 2.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-03",
+      "check_id": "CAL-03-02",
+      "rule": "R4",
+      "critical": true,
+      "description": "Identifies the shared lineage and does not count three independent events.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-03",
+      "check_id": "CAL-03-03",
+      "rule": "R8",
+      "critical": true,
+      "description": "Names regular programming and career incentives as unsupported Phase 3 elements.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-04",
+      "check_id": "CAL-04-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 2.",
+      "status": "FAIL",
+      "adjudication_note": "Still assigned Phase 3 despite contradicted routine implementation."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-04",
+      "check_id": "CAL-04-02",
+      "rule": "R5",
+      "critical": true,
+      "description": "Explicitly addresses the conflict and gives a reasoned preference to E0002.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-04",
+      "check_id": "CAL-04-03",
+      "rule": "R2",
+      "critical": true,
+      "description": "Distinguishes formal schedule from implementation.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-04",
+      "check_id": "CAL-04-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Identifies routine compliance as the Phase 3 gap.",
+      "status": "FAIL",
+      "adjudication_note": "Still treated routine compliance as a Phase 4 gap."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-05",
+      "check_id": "CAL-05-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 1.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-05",
+      "check_id": "CAL-05-02",
+      "rule": "R3",
+      "critical": true,
+      "description": "Uses documentary-gap language for E0001.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-05",
+      "check_id": "CAL-05-03",
+      "rule": "R3",
+      "critical": true,
+      "description": "Uses factual but scope-bounded absence language for E0002.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-05",
+      "check_id": "CAL-05-04",
+      "rule": "R5",
+      "critical": true,
+      "description": "Retains both records and their different implications.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-06",
+      "check_id": "CAL-06-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 3.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-06",
+      "check_id": "CAL-06-02",
+      "rule": "R6",
+      "critical": true,
+      "description": "Does not use E0002 as maturity support.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-06",
+      "check_id": "CAL-06-03",
+      "rule": "R5",
+      "critical": true,
+      "description": "Retains E0003.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-06",
+      "check_id": "CAL-06-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Names wide and consistent adoption as missing for Phase 4.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-07",
+      "check_id": "CAL-07-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 3.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-07",
+      "check_id": "CAL-07-02",
+      "rule": "R6",
+      "critical": true,
+      "description": "Uses E0001 and E0002 based on content despite metadata.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-07",
+      "check_id": "CAL-07-03",
+      "rule": "R8",
+      "critical": true,
+      "description": "Identifies full-data-cycle involvement as missing for Phase 4.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-08",
+      "check_id": "CAL-08-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 3.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-08",
+      "check_id": "CAL-08-02",
+      "rule": "R7",
+      "critical": true,
+      "description": "Uses E0001 and E0002 jointly with each contribution stated.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-08",
+      "check_id": "CAL-08-03",
+      "rule": "R5",
+      "critical": true,
+      "description": "Retains E0003.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-08",
+      "check_id": "CAL-08-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Names secure infrastructure and systematic staff investment as Phase 4 gaps.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-09",
+      "check_id": "CAL-09-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 2.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-09",
+      "check_id": "CAL-09-02",
+      "rule": "R6",
+      "critical": true,
+      "description": "Preserves the municipal scope of E0001.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-09",
+      "check_id": "CAL-09-03",
+      "rule": "R5",
+      "critical": true,
+      "description": "Uses E0002 to characterize national practice.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-09",
+      "check_id": "CAL-09-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Names national systematic cataloguing and reusable access as missing.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-10",
+      "check_id": "CAL-10-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 3.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-10",
+      "check_id": "CAL-10-02",
+      "rule": "R5",
+      "critical": true,
+      "description": "Explains evidential weight using specificity, authority, and recency.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-10",
+      "check_id": "CAL-10-03",
+      "rule": "R6",
+      "critical": true,
+      "description": "Does not treat the brochure as proof of a validation method.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-10",
+      "check_id": "CAL-10-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Names systematic triangulation and discrepancy resolution as Phase 4 gaps.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-11",
+      "check_id": "CAL-11-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score equals 3.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-11",
+      "check_id": "CAL-11-02",
+      "rule": "R2",
+      "critical": true,
+      "description": "Separates policy existence from catalogue implementation.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-11",
+      "check_id": "CAL-11-03",
+      "rule": "R5",
+      "critical": true,
+      "description": "Retains E0003 without letting it negate the formal-policy criterion.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-11",
+      "check_id": "CAL-11-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Identifies regular review and updating as Phase 4 gaps.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-12",
+      "check_id": "CAL-12-01",
+      "rule": "R1",
+      "critical": true,
+      "description": "Phase score is 2 or 3 under the prespecified ambiguity.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-12",
+      "check_id": "CAL-12-02",
+      "rule": "R1",
+      "critical": true,
+      "description": "Explicitly acknowledges identical Phase 2/3 substantive wording.",
+      "status": "FAIL",
+      "adjudication_note": "Still did not acknowledge the identical Phase 2/3 descriptions."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-12",
+      "check_id": "CAL-12-03",
+      "rule": "R3",
+      "critical": true,
+      "description": "Describes Phase 4 operationalization as not demonstrated, not factually nonexistent.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    },
+    {
+      "run": "P2_calibration",
+      "case_id": "CAL-12",
+      "check_id": "CAL-12-04",
+      "rule": "R8",
+      "critical": true,
+      "description": "Identifies endorsement plus operationalization as the Phase 4 boundary.",
+      "status": "PASS",
+      "adjudication_note": "Output satisfied the prespecified check on manual review."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "CAL-01",
+      "passed": false,
+      "checks_passed": 1,
+      "checks_total": 4,
+      "phase_returned": 3,
+      "acceptable_phase": [
+        2
+      ]
+    },
+    {
+      "case_id": "CAL-02",
+      "passed": true,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "phase_returned": 1,
+      "acceptable_phase": [
+        1
+      ]
+    },
+    {
+      "case_id": "CAL-03",
+      "passed": true,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "phase_returned": 2,
+      "acceptable_phase": [
+        2
+      ]
+    },
+    {
+      "case_id": "CAL-04",
+      "passed": false,
+      "checks_passed": 2,
+      "checks_total": 4,
+      "phase_returned": 3,
+      "acceptable_phase": [
+        2
+      ]
+    },
+    {
+      "case_id": "CAL-05",
+      "passed": true,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "phase_returned": 1,
+      "acceptable_phase": [
+        1
+      ]
+    },
+    {
+      "case_id": "CAL-06",
+      "passed": true,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "phase_returned": 3,
+      "acceptable_phase": [
+        3
+      ]
+    },
+    {
+      "case_id": "CAL-07",
+      "passed": true,
+      "checks_passed": 3,
+      "checks_total": 3,
+      "phase_returned": 3,
+      "acceptable_phase": [
+        3
+      ]
+    },
+    {
+      "case_id": "CAL-08",
+      "passed": true,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "phase_returned": 3,
+      "acceptable_phase": [
+        3
+      ]
+    },
+    {
+      "case_id": "CAL-09",
+      "passed": true,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "phase_returned": 2,
+      "acceptable_phase": [
+        2
+      ]
+    },
+    {
+      "case_id": "CAL-10",
+      "passed": true,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "phase_returned": 3,
+      "acceptable_phase": [
+        3
+      ]
+    },
+    {
+      "case_id": "CAL-11",
+      "passed": true,
+      "checks_passed": 4,
+      "checks_total": 4,
+      "phase_returned": 3,
+      "acceptable_phase": [
+        3
+      ]
+    },
+    {
+      "case_id": "CAL-12",
+      "passed": false,
+      "checks_passed": 3,
+      "checks_total": 4,
+      "phase_returned": 3,
+      "acceptable_phase": [
+        2,
+        3
+      ]
+    }
+  ]
+}

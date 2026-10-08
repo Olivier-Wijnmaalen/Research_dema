@@ -1,0 +1,65 @@
+{
+  "country": "Umberia",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment for Indicator B.1.1 (Data accessibility) in Umberia reveals a fragmented landscape. While Northbank municipality demonstrates advanced accessibility features—publishing flood layers in reusable geospatial formats with complete metadata and a help desk (E0001)—this is an isolated case, covering only one of 64 municipalities and lacking national integration or monitoring. At the national level, data accessibility is characterized by manual, slow processes: agencies typically send static PDF summaries by email after written requests, with inconsistent metadata fields (E0002). There is no evidence of systematic cataloguing, defined platforms, or routine provision of metadata at the national scale. No evidence supports the existence of standard formats, structured databases, or predictable user access processes across the ecosystem. Therefore, the highest fully supported phase is Phase 2, which reflects limited, reactive accessibility with basic dissemination channels and partial metadata, but not systematic, platform-based access or routine metadata provision.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.1.1",
+      "indicator_name": "Data accessibility",
+      "phase_score": 2,
+      "matched_phase_requirement": "Some data are accessible upon request, typically after events or reporting deadlines. Basic dissemination channels exist, but discoverability remains limited. Metadata is partial or inconsistent. Access procedures are manual and slow. Applicable fees or access conditions may exist but are not consistently documented or communicated. While digital records may exist, data are frequently disseminated as static reports (PDF), summary tables, paper records, or other formats (such as printed map instead of GIS file) that limit direct reuse.",
+      "score_reasoning": "The evidence demonstrates that, at the national level, data accessibility is limited and reactive. National agencies usually send static PDF summaries by email after a written request, with metadata fields that are inconsistent (E0002). This directly matches the Phase 2 requirement: data are accessible upon request, dissemination channels exist but are basic, discoverability is limited, metadata is partial, and access procedures are manual and slow. The formats used (static PDFs) limit direct reuse, and there is no evidence of systematic cataloguing or platform-based access. While Northbank municipality operates a portal with reusable geospatial formats, complete metadata, and a help desk (E0001), this is an isolated example covering only one municipality and does not represent ecosystem-wide practice. There is no evidence of national integration, routine metadata provision, or structured databases. The evidence exceeds Phase 1, which would require data to be largely inaccessible, stored in isolated systems, and dependent on informal relationships. However, it does not fully satisfy Phase 3, which requires systematic cataloguing, defined platforms, routine metadata provision, and predictable user access processes. The principal strength is the existence of basic dissemination channels and some digital records; the principal weakness is the lack of systematic, platform-based access and routine metadata provision at the national level.",
+      "evidence_supporting_score": [
+        "E0002"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0001"
+      ],
+      "contrary_or_limiting_reasoning": "E0001 demonstrates advanced accessibility features in Northbank municipality, but this is limited to one of 64 municipalities and lacks national integration or monitoring. It does not contradict the national-level assessment but highlights a local exception that cannot be generalized to the ecosystem.",
+      "next_phase_gap": "Evidence of systematic cataloguing, defined platforms or repositories, routine metadata provision, standard formats, structured databases, and predictable user access processes at the national or ecosystem-wide level was not identified. Proof of ecosystem-wide adoption of reusable formats and routine metadata provision is required for Phase 3.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Some data are accessible upon request, typically after events or reporting deadlines.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "explanation": "National agencies send static PDF summaries by email after a written request, demonstrating that some data are accessible upon request."
+        },
+        {
+          "requirement": "Basic dissemination channels exist, but discoverability remains limited.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "explanation": "Email-based dissemination of static PDF summaries constitutes a basic channel, but discoverability is limited as data are not catalogued or platform-based."
+        },
+        {
+          "requirement": "Metadata is partial or inconsistent.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "explanation": "Metadata fields in national data releases are inconsistent, matching the requirement for partial or inconsistent metadata."
+        },
+        {
+          "requirement": "Access procedures are manual and slow.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "explanation": "Data access requires written requests and manual email responses, demonstrating manual and slow procedures."
+        },
+        {
+          "requirement": "While digital records may exist, data are frequently disseminated as static reports (PDF), summary tables, paper records, or other formats that limit direct reuse.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "explanation": "National agencies disseminate data as static PDF summaries, which limit direct reuse."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

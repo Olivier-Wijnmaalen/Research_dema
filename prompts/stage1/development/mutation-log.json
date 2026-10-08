@@ -1,0 +1,52 @@
+[
+  {
+    "iteration": 1,
+    "langfuse_version": 2,
+    "base_prompt": "prompts\\dema-lenient-calibration\\evidence-extraction-v1-baseline.txt",
+    "prompt_file": "prompts\\dema-lenient-calibration\\evidence-extraction-v2.txt",
+    "mutation_type": "instruction_addition",
+    "exact_added_text": "FINAL ITEM SELF-CHECK — ITERATION 1\nBefore serialization, check every evidence item independently:\n1. If INPUT_TEXT represents an unpaginated webpage, set page_number to the empty string \"\". Never output \"not_applicable\", \"N/A\", a URL, or descriptive text in page_number.\n2. Compare supporting_quote character-for-character with one uninterrupted span in INPUT_TEXT. Preserve source punctuation, apostrophes, hyphens, spacing, line breaks, list markers, table cells, and OCR artefacts; do not silently smooth or regularise them.\n3. For a table, form, or list, prefer the shortest uninterrupted span that establishes the proposition. If the desired wording would require joining cells, rows, list entries, pages, or separated fragments, use a smaller contiguous quote or omit the item.",
+    "rationale": "Baseline had 9 webpage page-field violations and 17 non-contiguous or reconstructed quotations, concentrated in tables, lists, and page boundaries.",
+    "sha256": "9581108028223e598e816bb6ede7ec6fc26cd6219fadaf046cd376e68523e8a6"
+  },
+  {
+    "iteration": 2,
+    "langfuse_version": 3,
+    "base_prompt": "prompts\\dema-lenient-calibration\\evidence-extraction-v2.txt",
+    "prompt_file": "prompts\\dema-lenient-calibration\\evidence-extraction-v3.txt",
+    "mutation_type": "instruction_addition",
+    "exact_added_text": "ATOMIC QUOTE UNIT — ITERATION 2\nFor each item, copy the quotation before drafting any other field. Prefer exactly one complete source sentence, one uninterrupted list item, or one uninterrupted table row. Extend beyond that unit only when the additional adjacent text is indispensable to establish the same proposition. Never use a Markdown heading, stored page label, HTML comment, metadata line, or repeated boundary page as a bridge between quotation fragments. Never replace source text with an ellipsis or omission symbol. After copying, locate the complete candidate quotation as one literal span in INPUT_TEXT; if it cannot be located, shorten it to a locatable atomic unit or omit the item.",
+    "rationale": "Iteration 1 reached 100% item-schema compliance but had 24 traceability failures: 5 omissions, 7 stitched passages, and 12 reconstructed passages.",
+    "sha256": "58f4189197c67a68ea6b94032228cb7e016effa33d9d73d8c5f578014581ab3c"
+  },
+  {
+    "iteration": 3,
+    "langfuse_version": 4,
+    "base_prompt": "prompts\\dema-lenient-calibration\\evidence-extraction-v3.txt",
+    "prompt_file": "prompts\\dema-lenient-calibration\\evidence-extraction-v4.txt",
+    "mutation_type": "instruction_addition",
+    "exact_added_text": "PAGE AND TABLE BOUNDARIES — ITERATION 3\nTreat every stored page marker, `## Page` label, and `<!-- source_url=... -->` metadata comment as an absolute quotation boundary. A supporting_quote must stay entirely on one side of such a boundary; do not delete the boundary and join the surrounding prose. If a sentence is split by a boundary, select a complete contiguous fragment from one side that still establishes the proposition or omit the item. For Markdown tables, copy one literal source row including its `|` separators when that row is sufficient. Do not reconstruct a row by joining visually aligned columns, wrapped OCR fragments, headers, or cells.",
+    "rationale": "Iteration 2 had 11 failures; six removed intervening source text and three reconstructed form/table text, often around page or layout boundaries.",
+    "sha256": "896baf7ffa4641ed97ec7814851777fc97d1751ed24242971a8294da312b302b"
+  },
+  {
+    "iteration": 4,
+    "langfuse_version": 5,
+    "base_prompt": "prompts\\dema-lenient-calibration\\evidence-extraction-v4.txt",
+    "prompt_file": "prompts\\dema-lenient-calibration\\evidence-extraction-v5.txt",
+    "mutation_type": "instruction_addition",
+    "exact_added_text": "MANDATORY QUOTE ATOMICITY — ITERATION 4\nThe atomic quote unit is mandatory, not a preference. Each supporting_quote must be limited to one contiguous source sentence, one list item, one table row, or one short contiguous paragraph when the source has no sentence boundary. Do not combine multiple units into one quote. When extracting from a webpage, copy the selected Markdown source span exactly as supplied, including visible heading or emphasis markers that fall inside the selected span; do not rewrite the webpage into plain prose. A quotation containing `...`, `â€¦`, or `[...]` is permitted only when the identical omission characters already occur at the same position in INPUT_TEXT.",
+    "rationale": "Iteration 3 had 15 failures, including seven substantial reconstructions, four webpage reconstructions, and two inserted omissions; optional atomicity was insufficient.",
+    "sha256": "94f5d4f4b8d359bc7f82799f99c3d83bd1d65351c7429761906fc2b3165c47ba"
+  },
+  {
+    "iteration": 5,
+    "langfuse_version": 6,
+    "base_prompt": "prompts\\dema-lenient-calibration\\evidence-extraction-v5.txt",
+    "prompt_file": "prompts\\dema-lenient-calibration\\evidence-extraction-v6.txt",
+    "mutation_type": "instruction_addition",
+    "exact_added_text": "LITERAL-SPAN REJECTION TEST — ITERATION 5\nReject a candidate quotation unless all of the following are true: (a) its first character and last character delimit one substring that occurs in INPUT_TEXT; (b) every character between those boundaries is retained in the same order; (c) no page marker, metadata comment, heading, cell, list item, line, or OCR token between those boundaries has been deleted; and (d) no character, punctuation mark, space, or omission symbol has been added or corrected. When a source sentence is interrupted by stored layout material, do not quote the reconstructed sentence: choose a shorter phrase wholly between two boundaries. Perform this rejection test separately for every evidence item immediately before returning JSON.",
+    "rationale": "Iteration 4 had eight failures: six removed intervening source material, one inserted an omission, and one substantially altered an OCR token.",
+    "sha256": "d2436f48ec0c9ff693f2b4f1964adc21e179995ec11905d1bf70902bcd8c355c"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "test_cases_sha256": "72D51ED9FB07F9911E0A6E6D1B7FD2EE4BC5D3A06E6FA32C7386756732531E31",
+  "test_answer_keys_sha256": "FFB397584819D0EA68D98078F58E4C636E2DB5C1EDD0FD9267A5154FD34CAA1D",
+  "case_count": 6,
+  "check_count": 23,
+  "independently_blinded": false,
+  "model_runs_completed": 0
+}

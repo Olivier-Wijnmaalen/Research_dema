@@ -1,0 +1,24 @@
+{
+  "country": "Bellmare",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "This assessment provisionally scores Bellmare on Indicator B.1.3d (Data quality: timeliness) using three evidence items. The evidence demonstrates the existence of defined reporting schedules for incident data and some claims of rapid uploads, but an independent audit reveals substantial delays and widespread non-compliance. The evidence supports Phase 3 (Managed and defined), as timeframes for data collection, reporting, and updates are defined and documented, and there is some routine updating. However, systematic, timely implementation and alignment with operational requirements are not demonstrated, and regular update cycles supported by systematic processes are not evidenced. The principal strength is the existence of formal schedules and some updating; the principal weakness is inconsistent implementation and lack of evidence for operational timeliness. The next phase would require proof of regular, timely updates in line with operational needs, supported by systematic processes and structured protocols for rapid and dynamic indicators.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.1.3d",
+      "indicator_name": "Data quality: timeliness",
+      "phase_score": 3,
+      "matched_phase_requirement": "Timeframes for data collection, reporting, and updates are defined for key datasets. Data are routinely updated according to established schedules, and important changes for evolving indicators (e.g., displacement, rebuilding, economic recovery) are captured within a reasonable timeframe.",
+      "score_reasoning": "The evidence demonstrates that Bellmare has defined timeframes for incident data reporting, as established by the system manual specifying weekly uploads (E0003) and the Bellmare Operations Centre's claim that provincial incident records are uploaded within 24 hours under a weekly update schedule (E0001). This satisfies the requirement for defined timeframes and routine updating for key datasets. However, an independent audit (E0002) found that, despite the existence of a written weekly schedule, the median upload delay was 18 days, and 7 of 10 provinces missed every weekly deadline. This indicates that while schedules exist and some updating occurs, implementation is inconsistent and not reliably timely. The evidence exceeds Phase 2, which only requires event-driven, delayed, and inconsistent updates, as Bellmare has formal schedules and some routine updating. However, it does not fully satisfy Phase 4, which requires data to be made available and updated in line with operational requirements, supported by systematic processes ensuring timely updates for both rapid and dynamic indicators. The audit shows that regular update cycles and operational timeliness are not achieved. The principal strength is the existence of formal schedules and some updating; the principal weakness is inconsistent implementation and lack of evidence for operational timeliness. No evidence was identified for systematic, timely updates or structured protocols for rapid and dynamic indicators.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002",
+        "E0003"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0002"
+      ],
+      "contrary_or_limiting_reasoning": "E0002, the independent audit, directly contradicts the Operations Centre's claim (E0001) by demonstrating widespread non-compliance with the weekly schedule and substantial delays. This limits the score to Phase 3, as it shows that regular, timely updates in line with operational requirements are not achieved.",
+      "next_phase_gap": "To reach Phase 4, evidence is required that data are made available and updated in line with operational requirements, supported by systematic processes that ensure evolving conditions are reflected in the data within defined timeframes. This would include proof of regular update cycles, timely availability of rapid indicators (e.g., deaths, injuries), and periodic updates for dynamic indicators (e.g., displacement, livelihoods) using structured protocols. No evidence was identified for systematic, timely updates or structured protocols for rapid and dynamic indicators."
+    }
+  ]
+}

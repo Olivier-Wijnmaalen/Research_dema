@@ -1,0 +1,52 @@
+{
+  "country": "Virelia",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "For Indicator B.1.3a (Data quality: accuracy), the evidence demonstrates that Virelia has established standard procedures for verifying and validating key disaster datasets, routinely applying these procedures using authoritative reference sources such as the civil registry and geocoded asset register. An independent technical review confirms routine use of predefined validation procedures for all five key datasets, though implementation is uneven across regional offices. No evidence supports systematic triangulation with multiple independent sources or routine discrepancy resolution, nor highly standardized or automated validation processes. Therefore, the highest fully supported phase is Phase 3: Managed and defined.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.1.3a",
+      "indicator_name": "Data quality: accuracy",
+      "phase_score": 3,
+      "matched_phase_requirement": "Standard procedures exist to verify and validate data. Validation is routinely applied to key datasets using predefined methods and authoritative reference sources, although implementation may vary across actors and datasets.",
+      "score_reasoning": "The evidence base for Virelia demonstrates that standard procedures for data verification and validation are in place and routinely applied to key disaster datasets. The 2026 validation manual specifies checks against the civil registry and geocoded asset register, establishing the use of authoritative reference sources and predefined methods (E0003). An independent technical review from 2026 confirms that all five key datasets are subject to routine validation procedures, though it notes that two regional offices apply these procedures inconsistently (E0002). This supports the phase 3 requirement that standard procedures exist and are routinely applied, with implementation varying across actors and datasets. The agency brochure from 2024 asserts accuracy and careful checking but lacks methodological detail and does not independently substantiate routine practice (E0001). The evidence exceeds phase 2, which only requires basic, inconsistent checks, by demonstrating formalized, routine validation with authoritative sources. However, it does not fully satisfy phase 4, which requires systematic assessment through structured validation and triangulation using multiple independent sources, nor does it show routine investigation and resolution of discrepancies. No evidence was identified for highly standardized or automated validation processes, continuous monitoring, or regular expert review as required for phase 5. The principal strength is the existence and routine application of standard validation procedures for key datasets; the main weakness is uneven implementation and lack of evidence for systematic triangulation or discrepancy resolution.",
+      "evidence_supporting_score": [
+        "E0002",
+        "E0003"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0001"
+      ],
+      "contrary_or_limiting_reasoning": "E0001 provides only a general self-assertion of accuracy without methodological detail, sample, or reference sources. It does not contradict the existence of standard procedures but is insufficient to support higher-phase requirements. The main evidentiary limitation is the absence of proof for systematic triangulation, routine discrepancy resolution, or highly standardized and automated validation processes.",
+      "next_phase_gap": "To reach phase 4, evidence is needed that data accuracy is systematically assessed through structured validation and triangulation using multiple independent or authoritative sources, and that discrepancies are routinely investigated and resolved through documented procedures. No evidence was identified for these practices in the supplied documents.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Standard procedures exist to verify and validate data.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0003",
+            "E0002"
+          ],
+          "explanation": "The 2026 validation manual specifies standard procedures for checks against authoritative sources (E0003), and the 2026 technical review confirms routine use of predefined validation procedures (E0002)."
+        },
+        {
+          "requirement": "Validation is routinely applied to key datasets using predefined methods and authoritative reference sources.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0002",
+            "E0003"
+          ],
+          "explanation": "The technical review sampled all five key datasets and found routine application of predefined validation procedures with authoritative registries (E0002), and the manual specifies authoritative reference sources (E0003)."
+        },
+        {
+          "requirement": "Implementation may vary across actors and datasets.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "explanation": "The technical review notes that two regional offices applied validation procedures inconsistently, demonstrating variation in implementation (E0002)."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

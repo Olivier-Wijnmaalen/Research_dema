@@ -1,0 +1,421 @@
+{
+  "set_name": "DEMA synthetic temporally separated test set v1",
+  "contains_real_togo_material": false,
+  "independently_blinded": false,
+  "cases": [
+    {
+      "case_id": "HOLD-01",
+      "country": "Arcland",
+      "scoring_scope": "Indicator A.2.1 only: Human capacity building & retention across actors (in relation to data and AI)",
+      "indicator": {
+        "indicator_code": "A.2.1",
+        "indicator_name": "Human capacity building & retention across actors (in relation to data and AI)",
+        "phase_descriptions": {
+          "1": "Few to no training or capacity-building efforts exist to develop or maintain data skills within NDRMA and/or government more broadly.",
+          "2": "Capacity-building efforts are initiated, but often sporadically, to improve data skills often first at the national level. They are not yet implemented across national, regional, and local levels of all relevant organizations.Basic training efforts are initiated, often sporadically, to improve data skills among government staff and local officers. Therefore, digital skills remain low across the ecosystem, and retention of trained personnel is a challenge.",
+          "3": "Government and key organizations offer regular capacity-building programs and begin to provide career incentives for data specialists in NDRMA or national lead/coordinator entity. Some actors in the ecosystem can transform and analyze data, though advanced skills are still concentrated in a few institutions (and people, who are hard to retain).",
+          "4": "Human capacity building becomes increasingly institutionalized and extends from the national to the local level. The government includes capacity-building at the local level, by providing follow-up support, simple user guides, or technology (e.g., tablets) to local DRR practitioners and communities. Skilled intermediaries are present across the ecosystem, and organizations collaborate to strengthen data capabilities.",
+          "5": "The ecosystem demonstrates high-level, sustained investment in professional development. Organizations are overall highly skilled, and there is strong collaboration between specialized actors. Retention is high."
+        },
+        "subdimension": "Capacity"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The Arcland Emergency Institute has delivered quarterly data-analysis courses for national agencies for three consecutive years.",
+          "evidence_directly_proves": "A regular national capacity-building programme.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "The Arcland Emergency Institute has delivered quarterly data-analysis courses for national agencies for three consecutive years."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The civil-service framework awards a specialist grade and salary increment to data analysts in the national coordinating authority.",
+          "evidence_directly_proves": "A formal career incentive for data specialists.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "The civil-service framework awards a specialist grade and salary increment to data analysts in the national coordinating authority."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "local",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A single district pilot issued tablets and a user guide to twelve local officers.",
+          "evidence_directly_proves": "One advanced local support pilot.",
+          "limitations_or_weaknesses": "No evidence of extension across national, regional, and local levels.",
+          "supporting_quote": "A single district pilot issued tablets and a user guide to twelve local officers."
+        },
+        {
+          "evidence_id": "E0004",
+          "source_number": "S04",
+          "source_file": "s04_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A staffing review found advanced analysis skills remain concentrated in two national institutions and turnover is high.",
+          "evidence_directly_proves": "Advanced skills remain concentrated and retention remains difficult.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "A staffing review found advanced analysis skills remain concentrated in two national institutions and turnover is high."
+        }
+      ]
+    },
+    {
+      "case_id": "HOLD-02",
+      "country": "Brinora",
+      "scoring_scope": "Indicator C.2.1 only: Data strategy, including the use of common data standards Data ecosystem strategy and vision",
+      "indicator": {
+        "indicator_code": "C.2.1",
+        "indicator_name": "Data strategy, including the use of common data standards Data ecosystem strategy and vision",
+        "phase_descriptions": {
+          "1": "There is no specific data strategy. Data is not specifically addressed in other policy or strategy documents. There is no reference to common data standards. There is no clear strategy or long-term vision for the development of the data ecosystem. Data-related issues are not specifically addressed in broader policy or strategy documents, and there is little strategic consideration of topics such as data sharing, quality, interoperability, standards, or data use.",
+          "2": "While there is no specific data strategy, the importance of risk and impact data collection and the use of common data standards is recognized in a strategic or policy document created by the government or adopted from an international or regional organization. While there is no comprehensive data ecosystem strategy, the importance of data for decision-making, risk and impact analysis, and ecosystem coordination is recognized in one or more policy or strategy documents. Strategic priorities such as data sharing, interoperability, or the use of common standards are acknowledged but remain fragmented.",
+          "3": "A strategy on data use following common data standards is in place but policy is not revisited periodically in light of evolving data needs, standards and technological improvements. A data strategy or policy document outlines that there are intermediaries or government agencies available to centralize cataloguing and storage of (existing) datasets. A formal strategy or policy framework for the development and use of data is in place. It outlines objectives, priorities, and institutional arrangements for strengthening the data ecosystem, including areas such as data sharing, interoperability, standards, and data management. However, the strategy is not regularly reviewed in light of evolving needs and technological developments. Strategy frameworks one can think of include national data strategies, digital government strategies, AI strategies, open data policies, National Statistical System strategies, sectoral data strategies (including disaster-risk-related strategies), or other formal policy instruments.",
+          "4": "The data strategy is regularly updated and outlines the goals of ecosystem collaboration. The strategy includes how common data standards can enable interoperability, comparability, and coordinated data management. The data ecosystem strategy is regularly reviewed and updated and provides a shared vision for ecosystem development and collaboration. It guides coordinated action across key areas such as data governance, sharing, interoperability, standards, quality, and innovation, and is aligned with broader national or sectoral policy frameworks.",
+          "5": "The country has a national data strategy in place with a dedicated government unit to support the development and use of common standards across the ecosystem. The ecosystem is guided by a comprehensive and actively maintained strategic vision supported by dedicated institutional mechanisms. Strategic priorities are regularly updated in response to emerging opportunities and challenges, and are aligned across national, sectoral, and international frameworks. The strategy drives sustained improvements in data sharing, governance, interoperability, standards, innovation, and responsible data use across the ecosystem."
+        },
+        "subdimension": "Policies, standards & resources"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "Brinora's Disaster Policy recognizes risk data, interoperability, and common standards as national priorities, but it is not a comprehensive data strategy.",
+          "evidence_directly_proves": "Fragmented strategic recognition of data and standards.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "Brinora's Disaster Policy recognizes risk data, interoperability, and common standards as national priorities, but it is not a comprehensive data strategy."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A ministry newsletter repeats the Disaster Policy statement and announces that a comprehensive strategy will be drafted next year.",
+          "evidence_directly_proves": "Repetition and future intention.",
+          "limitations_or_weaknesses": "Cites S01; no adopted strategy.",
+          "supporting_quote": "A ministry newsletter repeats the Disaster Policy statement and announces that a comprehensive strategy will be drafted next year."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A donor brief reproduces the newsletter's announcement that a strategy will be drafted.",
+          "evidence_directly_proves": "Second-hand repetition.",
+          "limitations_or_weaknesses": "Derived from S02 and does not establish adoption.",
+          "supporting_quote": "A donor brief reproduces the newsletter's announcement that a strategy will be drafted."
+        }
+      ]
+    },
+    {
+      "case_id": "HOLD-03",
+      "country": "Coravel",
+      "scoring_scope": "Indicator B.1.3a only: Data quality: accuracy",
+      "indicator": {
+        "indicator_code": "B.1.3a",
+        "indicator_name": "Data quality: accuracy",
+        "phase_descriptions": {
+          "1": "Data accuracy is largely unknown. Data are frequently based on estimates, unverified reports, or inconsistent sources. Validation practices are largely absent and errors often remain undetected.",
+          "2": "Some efforts are made to verify data, typically when concerns arise or when information is questioned. Basic checks against reports or alternative sources occur, but validation remains inconsistent and unsystematic.",
+          "3": "Standard procedures exist to verify and validate data. Validation is routinely applied to key datasets using predefined methods and authoritative reference sources, although implementation may vary across actors and datasets.",
+          "4": "Data accuracy is systematically assessed through structured validation and triangulation using multiple independent or authoritative sources. Discrepancies are routinely investigated and resolved through documented procedures.",
+          "5": "High confidence exists in data accuracy across the ecosystem. Validation processes are highly standardized and increasingly automated, supported by multiple authoritative sources, transparent documentation, continuous monitoring, and regular expert review."
+        },
+        "subdimension": "Data quality"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A 2023 internal manual states that all key datasets undergo routine validation against authoritative registers.",
+          "evidence_directly_proves": "A documented formal validation procedure.",
+          "limitations_or_weaknesses": "Does not demonstrate use.",
+          "supporting_quote": "A 2023 internal manual states that all key datasets undergo routine validation against authoritative registers."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A 2026 independent audit of the same datasets found checks occurred only after users reported suspected errors and no sampled dataset had been routinely checked against a register.",
+          "evidence_directly_proves": "Reactive validation and non-implementation of the manual.",
+          "limitations_or_weaknesses": "Direct audit of current practice.",
+          "supporting_quote": "A 2026 independent audit of the same datasets found checks occurred only after users reported suspected errors and no sampled dataset had been routinely checked against a register."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "Staff logs show five checks initiated after complaints during 2026.",
+          "evidence_directly_proves": "Basic verification when concerns arise.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "Staff logs show five checks initiated after complaints during 2026."
+        }
+      ]
+    },
+    {
+      "case_id": "HOLD-04",
+      "country": "Dameris",
+      "scoring_scope": "Indicator C.3.1 only: Community engagement (including local, vulnerable, and diverse populations)",
+      "indicator": {
+        "indicator_code": "C.3.1",
+        "indicator_name": "Community engagement (including local, vulnerable, and diverse populations)",
+        "phase_descriptions": {
+          "1": "Data is collected, analysed and disseminated without involving local communities and stakeholders.",
+          "2": "Local communities are sometimes engaged in the collection and dissemmination of data to improve the effectiveness of Early Warnings Systems and reduce the impact of disasters.",
+          "3": "Stakeholders, from rural and urban communities across the country, are making more data connections with each other. Feedback mechanisms are being put into place.",
+          "4": "Local communities are actively involved throughout the data cycle, to ensure they understand the importance of risk and impact data for DRR and EW and become part of the ecosystem.",
+          "5": "Engagement and feedback mechanisms actively involve persons with disabilities, minority groups, migrants and refugees, elder and youth, vulnerable groups, and gender-diverse populations."
+        },
+        "subdimension": "Collaboration & inclusion"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "Community monitors in every province collect rainfall and impact observations using agreed forms.",
+          "evidence_directly_proves": "Nationwide community involvement in collection.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "Community monitors in every province collect rainfall and impact observations using agreed forms."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "District analysis sessions include community delegates who interpret observations with technical officers and approve corrections.",
+          "evidence_directly_proves": "Community involvement in analysis and validation.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "District analysis sessions include community delegates who interpret observations with technical officers and approve corrections."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "Community radio groups and village committees co-design and disseminate warning messages, then submit feedback through monthly forums.",
+          "evidence_directly_proves": "Community involvement in dissemination and feedback.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "Community radio groups and village committees co-design and disseminate warning messages, then submit feedback through monthly forums."
+        },
+        {
+          "evidence_id": "E0004",
+          "source_number": "S04",
+          "source_file": "s04_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "Participation records do not identify disability, migrant, refugee, minority, age, or gender-diverse groups separately.",
+          "evidence_directly_proves": "No documentary support for the specifically diverse participation required by Phase 5.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "Participation records do not identify disability, migrant, refugee, minority, age, or gender-diverse groups separately."
+        }
+      ]
+    },
+    {
+      "case_id": "HOLD-05",
+      "country": "Elandor",
+      "scoring_scope": "Indicator B.2.2 only: Operationalize common (meta)data standards",
+      "indicator": {
+        "indicator_code": "B.2.2",
+        "indicator_name": "Operationalize common (meta)data standards",
+        "phase_descriptions": {
+          "1": "There is little or no use of common data standards across actors. Organizations collect, document, and manage data using their own definitions, classifications, formats, and metadata practices. As a result, data are difficult to compare, combine, or interpret consistently across organizations.",
+          "2": "Some organizations or projects have adopted data standards for specific datasets or activities, but implementation remains fragmented and largely organization-specific. Common definitions, classifications, metadata requirements, or data collection templates are not consistently used across actors.",
+          "3": "Common data standards have been agreed upon for key datasets, processes, or domains and are used by multiple actors. Standards increasingly guide data collection, documentation, metadata creation, and data management practices. However, implementation remains uneven and compliance is not systematically monitored across the ecosystem.",
+          "4": "Common data standards are widely adopted and consistently applied across the majority of actors and datasets. Standardized definitions, classifications, formats, and metadata improve data quality, comparability, and consistency. Adoption is no longer limited to individual organizations or datasets but is common practice across sectors and institutions",
+          "5": "Common data standards are fully institutionalized and regularly maintained through collaborative governance processes. Standards are consistently applied across sectors and organizations and evolve in response to emerging needs. The standardized use of data, metadata, classifications, and documentation enables seamless integration, interoperability, harmonized analysis, and efficient data exchange across the ecosystem."
+        },
+        "subdimension": "Data supply"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "C.3 partnerships",
+          "subdimension": "C.3 partnerships",
+          "evidence_scope": "local",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "Two agencies use a shared landslide classification in one externally funded mountain project.",
+          "evidence_directly_proves": "A project-specific standard used by some organizations.",
+          "limitations_or_weaknesses": "No use outside one project.",
+          "supporting_quote": "Two agencies use a shared landslide classification in one externally funded mountain project."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "B.2.2 standards",
+          "subdimension": "B.2.2 standards",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The national data centre operates a scalable cloud cluster with automated backups.",
+          "evidence_directly_proves": "Advanced infrastructure only.",
+          "limitations_or_weaknesses": "Does not address common definitions, classifications, formats, or metadata.",
+          "supporting_quote": "The national data centre operates a scalable cloud cluster with automated backups."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "No supplied inventory documents an agreed standard used across multiple domains or routinely by actors outside the landslide project.",
+          "evidence_directly_proves": "Documentary gap for broader standards adoption.",
+          "limitations_or_weaknesses": "Does not prove broader standards do not exist.",
+          "supporting_quote": "No supplied inventory documents an agreed standard used across multiple domains or routinely by actors outside the landslide project."
+        }
+      ]
+    },
+    {
+      "case_id": "HOLD-06",
+      "country": "Faron",
+      "scoring_scope": "Indicator B.1.1 only: Data accessibility",
+      "indicator": {
+        "indicator_code": "B.1.1",
+        "indicator_name": "Data accessibility",
+        "phase_descriptions": {
+          "1": "Data are difficult to discover and access, often stored in isolated systems or personal files. Formats are inconsistent or unsuitable for reuse. Metadata is largely absent. Access depends on informal relationships rather than defined processes. Costs, if applicable, are unclear, negotiated on a case-by-case basis, or not publicly communicated.",
+          "2": "Some data are accessible upon request, typically after events or reporting deadlines. Basic dissemination channels exist, but discoverability remains limited. Metadata is partial or inconsistent. Access procedures are manual and slow. Applicable fees or access conditions may exist but are not consistently documented or communicated. While digital records may exist, data are frequently disseminated as static reports (PDF), summary tables, paper records, or other formats (such as printed map instead of GIS file) that limit direct reuse.",
+          "3": "Data are systematically catalogued and accessible through defined platforms or repositories. Standard formats are commonly used. Standardized digital formats are commonly used, replacing reliance on paper records and static reports. Data are increasingly available through structured databases and spreadsheets, or geospatial data formats that support reuse. Metadata is routinely provided to support discovery and interpretation. User access processes are documented and predictable. Access conditions, licensing requirements, and any associated fees are clearly communicated.",
+          "4": "Data are easily discoverable and accessible through interoperable systems and open platforms. Standardized formats, comprehensive metadata, and user support services are in place. Access costs, if any, are affordable and transparent. Fees, where applicable, do not create unnecessary barriers to legitimate data use. Accessibility is regularly monitored and improved based on user needs.",
+          "5": "Data are proactively disseminated through integrated, user-centric platforms. Access is seamless, near real-time, and tailored to diverse users. Rich metadata, APIs, and advanced support services enable wide reuse. Accessibility actively drives innovation, decision-making, and public value. Access conditions are designed to maximize public value. Data are openly available where appropriate, and any cost recovery mechanisms are transparent, justified, and minimize barriers to access and reuse."
+        },
+        "subdimension": "Data supply"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "E0001",
+          "source_number": "S01",
+          "source_file": "s01_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The Faron Data Catalogue lists all key national disaster datasets in a defined repository and provides routine metadata, CSV downloads, and documented request procedures.",
+          "evidence_directly_proves": "National systematic cataloguing, reusable formats, metadata, and predictable access.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "The Faron Data Catalogue lists all key national disaster datasets in a defined repository and provides routine metadata, CSV downloads, and documented request procedures."
+        },
+        {
+          "evidence_id": "E0002",
+          "source_number": "S02",
+          "source_file": "s02_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "A user audit confirms that the catalogue's documented access process is consistently followed by all national agencies.",
+          "evidence_directly_proves": "Implemented and predictable national access processes.",
+          "limitations_or_weaknesses": "",
+          "supporting_quote": "A user audit confirms that the catalogue's documented access process is consistently followed by all national agencies."
+        },
+        {
+          "evidence_id": "E0003",
+          "source_number": "S03",
+          "source_file": "s03_fictional_document.pdf",
+          "reference_source_url": "",
+          "page_number": "1",
+          "dimension": "matching",
+          "subdimension": "matching",
+          "evidence_scope": "national",
+          "country_specificity": "fictional-country specific",
+          "evidence_statement": "The weather service alone offers a real-time API and live user chat.",
+          "evidence_directly_proves": "One sector has Phase 5-like access features.",
+          "limitations_or_weaknesses": "No evidence of integrated APIs, interoperability, monitoring, or user-centric services across the ecosystem.",
+          "supporting_quote": "The weather service alone offers a real-time API and live user chat."
+        }
+      ]
+    }
+  ]
+}

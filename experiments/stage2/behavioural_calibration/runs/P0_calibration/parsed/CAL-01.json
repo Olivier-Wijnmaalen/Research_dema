@@ -1,0 +1,24 @@
+{
+  "country": "Lydora",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment of Indicator C.3.2 (Communication, Inter-agency collaboration & partnerships) for Lydora reveals limited but emerging formal collaboration. Evidence demonstrates that inter-agency communication is mostly project-driven and ad hoc, with only isolated short-term partnerships and no ecosystem-wide strategic coordination led by the national authority. The highest fully supported maturity phase is Phase 2, as there is proof of limited inter-agency collaboration occurring on demand or during specific projects, but no evidence of sustained, ecosystem-wide partnerships or regular coordination mechanisms. The principal gap is the absence of national-level, strategic, and routine partnership arrangements, as well as the lack of regular alignment meetings and protocols involving the national authority.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.3.2",
+      "indicator_name": "Communication, Inter-agency collaboration & partnerships",
+      "phase_score": 2,
+      "matched_phase_requirement": "Data users and producers are not well networked and there is limited inter-agency collaboration, it only occurs on demand or during a project.",
+      "score_reasoning": "The evidence for Lydora demonstrates that inter-agency collaboration and communication are limited and primarily occur in response to specific projects or demands. The Lydora Risk Office and provincial data units exchange files only when a flood response project requests them, indicating that collaboration is not routine but rather event-driven and ad hoc (E0001). This directly matches the Phase 2 requirement, which describes limited inter-agency collaboration occurring on demand or during a project. Additionally, a formal short-term partnership was established between one university laboratory and one software company for a coastal pilot, including a data-sharing protocol (E0002). However, this partnership is geographically limited, short-term, and does not involve the national coordinator, further supporting the characterization of fragmented and sporadic collaboration. There is no evidence of ecosystem-wide strategic partnerships, regular coordination meetings, or protocols led by the national authority, as confirmed by the partnership register current to June 2026, which explicitly states the absence of such mechanisms (E0003). This evidence exceeds Phase 1, which would require no official partnerships and communication only via personal relations, as there is at least one formal partnership and some project-based exchanges. However, it does not reach Phase 3, which requires the national NDRMA or intermediary to establish official partnerships with academia, non-governmental, and private sector organizations, nor does it demonstrate ecosystem-wide communication or regular partnership arrangements. The principal strength is the existence of at least one formal partnership and some project-driven exchanges; the main weakness is the lack of sustained, national-level coordination and strategic partnerships.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002",
+        "E0003"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0003"
+      ],
+      "contrary_or_limiting_reasoning": "E0003 directly limits the score by confirming that no regular ecosystem-wide coordination meetings or strategic partnerships led by the national authority are documented in the partnership register. This demonstrates the absence of national-level, sustained, and routine partnership arrangements required for higher phases.",
+      "next_phase_gap": "To reach Phase 3, evidence is required that the national NDRMA or an intermediary is actively establishing official partnerships with academia, non-governmental, and private sector organizations, and that communication is routine and ecosystem-wide. Specifically, documentation of regular partnership arrangements, strategic alignment meetings, and involvement of the national coordinator in formal collaborations was not identified in the supplied evidence."
+    }
+  ]
+}

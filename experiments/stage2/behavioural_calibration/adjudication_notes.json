@@ -1,0 +1,44 @@
+{
+  "method": "All outputs were reviewed case-by-case against the prespecified keys. Checks not listed as failures passed. This compact encoding is expanded into complete per-check score sheets by evaluate_runs.py.",
+  "runs": {
+    "P0_calibration": {
+      "failed_checks": {
+        "CAL-04-01": "Assigned Phase 3 rather than the expected Phase 2 despite audited widespread schedule non-compliance.",
+        "CAL-04-04": "Treated routine compliance as a Phase 4 gap instead of recognizing it as an unsatisfied Phase 3 requirement.",
+        "CAL-12-02": "Invented a distinction between the substantively identical Phase 2 and Phase 3 descriptions."
+      },
+      "qualitative_finding": "P0 handled documentary gaps, duplicates, relevance, complementary evidence, and most scope boundaries, but allowed formal mechanisms to outweigh contradicted implementation and did not expose duplicated phase wording."
+    },
+    "P1_calibration": {
+      "failed_checks": {
+        "CAL-04-01": "Still assigned Phase 3 despite direct evidence that routine scheduled updating was not implemented.",
+        "CAL-04-04": "Still placed routine compliance above the assigned phase rather than treating it as part of Phase 3.",
+        "CAL-12-02": "Still invented a Phase 2/3 distinction and did not acknowledge identical wording."
+      },
+      "qualitative_finding": "The narrative amendment did not change the systematic failures."
+    },
+    "P2_calibration": {
+      "failed_checks": {
+        "CAL-01-01": "Regressed from Phase 2 to Phase 3.",
+        "CAL-01-02": "Allowed one local two-actor partnership to satisfy an ecosystem-level Phase 3 requirement.",
+        "CAL-01-04": "Did not identify the missing Phase 3 breadth and national/intermediary partnership requirement.",
+        "CAL-04-01": "Still assigned Phase 3 despite contradicted routine implementation.",
+        "CAL-04-04": "Still treated routine compliance as a Phase 4 gap.",
+        "CAL-12-02": "Still did not acknowledge the identical Phase 2/3 descriptions."
+      },
+      "qualitative_finding": "Stronger prose-only gating was insufficient and caused one scope-generalization regression."
+    },
+    "P3_calibration": {
+      "failed_checks": {},
+      "qualitative_finding": "All prespecified checks passed, but CAL-09's new requirement matrix marked an optional 'fees may exist' clause NOT_DEMONSTRATED while still assigning the phase. This post-key internal-consistency defect triggered P4 and is reported outside the prespecified denominator."
+    },
+    "P4_calibration": {
+      "failed_checks": {},
+      "qualitative_finding": "All prespecified checks passed and no unresolved systematic failure was identified. Assigned-phase matrices contained only supported mandatory requirements."
+    },
+    "P4_test": {
+      "failed_checks": {},
+      "qualitative_finding": "All prespecified test checks passed. The test set was temporally separated but assistant-authored in the same session and was not independently blinded."
+    }
+  }
+}

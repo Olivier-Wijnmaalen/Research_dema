@@ -1,0 +1,21 @@
+{
+  "country": "Umberia",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "This assessment provisionally scores Umberia on Indicator B.1.1 (Data accessibility) using two evidence items. The evidence demonstrates advanced accessibility features in one municipality (Northbank), but national-level practices remain manual, slow, and poorly reusable. No evidence supports ecosystem-wide accessibility, interoperability, or regular monitoring. The highest fully-supported phase is Phase 2, as national practices dominate and advanced features are isolated. The principal gap is the absence of systematic, platform-based, catalogued, and reusable data accessibility at the national level.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.1.1",
+      "indicator_name": "Data accessibility",
+      "phase_score": 2,
+      "matched_phase_requirement": "Some data are accessible upon request, typically after events or reporting deadlines. Basic dissemination channels exist, but discoverability remains limited. Metadata is partial or inconsistent. Access procedures are manual and slow. Applicable fees or access conditions may exist but are not consistently documented or communicated. While digital records may exist, data are frequently disseminated as static reports (PDF), summary tables, paper records, or other formats (such as printed map instead of GIS file) that limit direct reuse.",
+      "score_reasoning": "The strongest evidence for national-level data accessibility in Umberia is that 'National agencies usually send static PDF summaries by email after a written request; metadata fields are inconsistent' (E0002). This directly matches the Phase 2 requirement: data are accessible upon request, dissemination channels exist, but discoverability is limited, metadata is inconsistent, and access is manual and slow. The evidence confirms that digital records exist but are typically static reports, limiting reuse. No evidence supports systematic cataloguing, defined platforms, or routine provision of metadata at the national level, which are required for Phase 3. While Northbank municipality operates a portal with reusable geospatial formats, complete metadata, and a help desk (E0001), this is only one of 64 municipalities and is not integrated or monitored nationally. The advanced features in Northbank exceed Phase 2 for that locality, but the DEMA framework requires ecosystem-wide maturity for higher phases. The national practice remains dominant and reactive, with basic dissemination and limited discoverability. The evidence exceeds Phase 1, which would require data to be difficult to discover and access, stored in isolated systems, and dependent on informal relationships. However, it does not fully satisfy Phase 3, which requires systematic cataloguing, defined platforms, routine metadata, and predictable access processes across the ecosystem. The principal strength is the existence of some digital dissemination and isolated advanced practice; the principal weakness is the lack of national integration and systematic accessibility.",
+      "evidence_supporting_score": [
+        "E0002",
+        "E0001"
+      ],
+      "contrary_or_limiting_evidence": [],
+      "contrary_or_limiting_reasoning": "No evidence directly contradicts the score. The main limitation is that advanced accessibility features are only demonstrated in one municipality (E0001) and are not ecosystem-wide. No evidence was identified for systematic cataloguing, defined platforms, routine metadata, or predictable access processes at the national level.",
+      "next_phase_gap": "To reach Phase 3, evidence is required for systematic cataloguing and accessibility through defined platforms or repositories at the national level, routine provision of metadata, standardized digital formats, and documented, predictable user access processes. No evidence was identified for these characteristics in the supplied documents."
+    }
+  ]
+}

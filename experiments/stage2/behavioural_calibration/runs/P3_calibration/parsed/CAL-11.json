@@ -1,0 +1,52 @@
+{
+  "country": "West Aster",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "For Indicator C.2.1 (Data strategy, including the use of common data standards Data ecosystem strategy and vision), the evidence demonstrates that West Aster has a formally adopted National Data Strategy with objectives for sharing, interoperability, metadata standards, cataloguing, and institutional arrangements assigning the Digital Records Agency to central storage (E0001). However, the strategy lacks a scheduled review mechanism and has not been revised since its adoption in 2022 (E0002), and the planned catalogue is not yet operational (E0003). This supports Phase 3, which requires a formal strategy outlining objectives, priorities, and institutional arrangements, but not regular review or updating. There is no evidence supporting regular updates, ecosystem-wide collaboration, or alignment with broader frameworks required for Phase 4 or 5. The principal strength is the existence of a comprehensive strategy and designated agency; the main weakness is the absence of periodic review and incomplete implementation of cataloguing. The next phase would require evidence of regular review and updating of the strategy, and demonstrable ecosystem-wide collaborative vision and action.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.2.1",
+      "indicator_name": "Data strategy, including the use of common data standards Data ecosystem strategy and vision",
+      "phase_score": 3,
+      "matched_phase_requirement": "A formal strategy or policy framework for the development and use of data is in place. It outlines objectives, priorities, and institutional arrangements for strengthening the data ecosystem, including areas such as data sharing, interoperability, standards, and data management. However, the strategy is not regularly reviewed in light of evolving needs and technological developments.",
+      "score_reasoning": "The evidence demonstrates that West Aster has a formally adopted National Data Strategy, which sets objectives for sharing, interoperability, metadata standards, cataloguing, and assigns the Digital Records Agency to central storage (E0001). This directly supports the requirement for a formal strategy or policy framework outlining objectives, priorities, and institutional arrangements for strengthening the data ecosystem. The strategy covers key areas such as data sharing, interoperability, standards, and data management, as required for Phase 3. However, the strategy has no scheduled review mechanism and has not been revised since its adoption in 2022 (E0002), which means it is not regularly reviewed in light of evolving needs and technological developments. This limitation is consistent with the Phase 3 requirement, which explicitly allows for the absence of regular review. Additionally, an implementation review found that the planned catalogue was not yet operational (E0003), indicating some implementation gaps, but this does not negate the existence of the formal strategy. The evidence exceeds Phase 2, which only requires recognition of the importance of data in policy documents without a comprehensive strategy or institutional arrangements. It does not fully satisfy Phase 4, which requires regular review and updating of the strategy, a shared vision for ecosystem development and collaboration, and alignment with broader frameworks. The principal strength is the existence of a comprehensive strategy and designated agency; the main weakness is the absence of periodic review and incomplete implementation of cataloguing. The next phase would require evidence of regular review and updating of the strategy, and demonstrable ecosystem-wide collaborative vision and action.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002",
+        "E0003"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0002",
+        "E0003"
+      ],
+      "contrary_or_limiting_reasoning": "E0002 demonstrates that the strategy is not regularly reviewed or updated, which limits the score to Phase 3 and prevents assignment of Phase 4. E0003 shows that the planned catalogue is not yet operational, indicating incomplete implementation, but this does not contradict the existence of the formal strategy required for Phase 3.",
+      "next_phase_gap": "Evidence of a regularly updated data strategy, a shared vision for ecosystem development and collaboration, regular review and updating of the strategy, and demonstrable alignment with broader national or sectoral policy frameworks was not identified in the supplied evidence.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "A formal strategy or policy framework for the development and use of data is in place.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "E0001 confirms the existence of the formally adopted West Aster National Data Strategy."
+        },
+        {
+          "requirement": "It outlines objectives, priorities, and institutional arrangements for strengthening the data ecosystem, including areas such as data sharing, interoperability, standards, and data management.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "E0001 details objectives for sharing, interoperability, metadata standards, cataloguing, and assigns the Digital Records Agency to central storage."
+        },
+        {
+          "requirement": "However, the strategy is not regularly reviewed in light of evolving needs and technological developments.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0002"
+          ],
+          "explanation": "E0002 states that the strategy has no scheduled review mechanism and has not been revised since adoption in 2022."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

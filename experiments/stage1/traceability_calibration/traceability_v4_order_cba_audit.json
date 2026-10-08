@@ -1,0 +1,23 @@
+{
+  "study": "DEMA dimension-order sensitivity",
+  "parent_prompt": "newframework-compact-traceability-calibration",
+  "parent_study_version": "V4",
+  "parent_order": [
+    "A",
+    "B",
+    "C"
+  ],
+  "candidate_order": [
+    "C",
+    "B",
+    "A"
+  ],
+  "changed_scope": "framework block order and matching output-enum order only",
+  "parent_sha256": "e20db2f27f04f7b516fdf442b663c02efb9eec1a39a3868636d0b4239ab07d0e",
+  "candidate_sha256": "c7c08eb7132bf93db690fc0b33dd55d18876934f09d1ddb2184afe15d157dc51",
+  "parent_length": 21708,
+  "candidate_length": 21708,
+  "langfuse_prompt_name": "newframework-compact-traceability-order-sensitivity",
+  "langfuse_prompt_version": 1,
+  "langfuse_label": "order-cba"
+}

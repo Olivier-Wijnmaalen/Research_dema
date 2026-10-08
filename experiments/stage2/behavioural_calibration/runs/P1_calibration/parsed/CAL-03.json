@@ -1,0 +1,22 @@
+{
+  "country": "East Verdan",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment for Indicator A.2.1 (Human capacity building & retention across actors) in East Verdan is based on three evidence items, all referencing a single two-day spreadsheet course delivered by the East Verdan Data Office for national emergency staff in March 2026. No evidence was identified for regular, institutionalized, or multi-level capacity-building, career incentives, retention measures, or collaboration across organizations. The evidence supports only sporadic, national-level training, consistent with Phase 2. No evidence supports higher phases.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "A.2.1",
+      "indicator_name": "Human capacity building & retention across actors (in relation to data and AI)",
+      "phase_score": 2,
+      "matched_phase_requirement": "Capacity-building efforts are initiated, but often sporadically, to improve data skills often first at the national level. They are not yet implemented across national, regional, and local levels of all relevant organizations. Basic training efforts are initiated, often sporadically, to improve data skills among government staff and local officers. Therefore, digital skills remain low across the ecosystem, and retention of trained personnel is a challenge.",
+      "score_reasoning": "The evidence base for East Verdan demonstrates that the East Verdan Data Office delivered a single two-day spreadsheet course for national emergency staff in March 2026 (E0001). This is corroborated by a ministry newsletter (E0002) and a partner bulletin (E0003), both of which repeat the original announcement but do not provide independent or additional information. The course was delivered at the national level and is described as a one-off event, with no indication of regularity, institutionalization, or extension to regional or local levels. There is no evidence of ongoing capacity-building programmes, career incentives for data specialists, or retention measures. The evidence directly matches the Phase 2 requirement: 'Capacity-building efforts are initiated, but often sporadically, to improve data skills often first at the national level.' The evidence exceeds Phase 1, which requires 'few to no training or capacity-building efforts,' as at least one training event is documented. However, it does not meet Phase 3, which requires regular capacity-building programmes, career incentives, and evidence that some actors can transform and analyze data. No evidence was identified for institutionalized or regular training, subnational coverage, or collaboration across organizations. The principal strength is the documented initiation of capacity-building, but the main weakness is the lack of regularity, coverage, and retention measures.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002",
+        "E0003"
+      ],
+      "contrary_or_limiting_evidence": [],
+      "contrary_or_limiting_reasoning": "No evidence directly contradicts the score. The principal limitation is the absence of evidence for regular, institutionalized, or multi-level capacity-building, career incentives, retention measures, or collaboration. No evidence was identified for these elements in the supplied evidence bank.",
+      "next_phase_gap": "To achieve Phase 3, evidence is required for regular capacity-building programmes offered by government and key organizations, career incentives for data specialists in NDRMA or the national lead/coordinator entity, and demonstration that some actors in the ecosystem can transform and analyze data. No evidence of these elements was identified in the supplied documents."
+    }
+  ]
+}

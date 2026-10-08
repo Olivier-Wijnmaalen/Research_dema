@@ -1,0 +1,83 @@
+{
+  "country": "Faron",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment for Indicator B.1.1 (Data accessibility) in Faron demonstrates that national disaster datasets are systematically catalogued and accessible through a defined repository, with routine metadata, standard CSV downloads, and documented access procedures. A user audit confirms consistent implementation of these access processes across national agencies. While the weather service offers advanced features such as a real-time API and live user chat, these are not ecosystem-wide. There is no evidence of ecosystem-wide interoperable systems, open platforms, comprehensive metadata, or user support services. The evidence fully supports Phase 3, 'Managed and defined,' but does not demonstrate the requirements for Phase 4 or above. The principal strengths are the existence and implementation of a national data catalogue and predictable access. The main limitation is the absence of proof for ecosystem-wide interoperability, advanced user support, or regular accessibility monitoring.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.1.1",
+      "indicator_name": "Data accessibility",
+      "phase_score": 3,
+      "matched_phase_requirement": "Data are systematically catalogued and accessible through defined platforms or repositories. Standard formats are commonly used. Standardized digital formats are commonly used, replacing reliance on paper records and static reports. Data are increasingly available through structured databases and spreadsheets, or geospatial data formats that support reuse. Metadata is routinely provided to support discovery and interpretation. User access processes are documented and predictable. Access conditions, licensing requirements, and any associated fees are clearly communicated.",
+      "score_reasoning": "The Faron Data Catalogue is identified as a national repository listing all key disaster datasets, providing routine metadata, CSV downloads, and documented request procedures (E0001). This demonstrates systematic cataloguing, use of standard digital formats, and routine metadata provision. The catalogue's access process is confirmed to be consistently followed by all national agencies through a user audit, establishing predictable and implemented user access processes (E0002). These findings directly satisfy the Phase 3 requirements for systematic cataloguing, standard formats, routine metadata, and documented access procedures. The weather service offers a real-time API and live user chat (E0003), but this is limited to one sector and does not represent ecosystem-wide practice. There is no evidence of interoperable systems, open platforms, comprehensive metadata, or user support services across the ecosystem, nor proof of regular accessibility monitoring or improvement based on user needs. The evidence exceeds Phase 2, which only requires basic dissemination channels and partial metadata, by demonstrating systematic cataloguing, standard formats, and routine metadata. However, it does not fully satisfy Phase 4, which requires ecosystem-wide interoperability, open platforms, comprehensive metadata, user support services, and regular accessibility monitoring. The principal strength is the national implementation of systematic cataloguing and predictable access; the main weakness is the lack of ecosystem-wide advanced accessibility features.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0003"
+      ],
+      "contrary_or_limiting_reasoning": "E0003 shows that advanced accessibility features (real-time API, live user chat) are present only in the weather service, not across the ecosystem. There is no evidence of ecosystem-wide interoperable systems, open platforms, or comprehensive user support services. This limits the score to Phase 3, as Phase 4 requires these features to be present throughout the ecosystem.",
+      "next_phase_gap": "To achieve Phase 4, evidence is required of ecosystem-wide interoperable systems and open platforms, comprehensive metadata, user support services, affordable and transparent access costs, and regular monitoring and improvement of accessibility based on user needs. No evidence was identified for these requirements in the supplied documents.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Data are systematically catalogued and accessible through defined platforms or repositories.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "E0001 confirms the existence of the Faron Data Catalogue, a defined repository listing all key national disaster datasets."
+        },
+        {
+          "requirement": "Standard formats are commonly used.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "E0001 states that CSV downloads are provided, demonstrating the use of standard digital formats."
+        },
+        {
+          "requirement": "Standardized digital formats are commonly used, replacing reliance on paper records and static reports.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "E0001 describes CSV downloads and structured repository access, indicating a shift from paper/static reports to digital formats."
+        },
+        {
+          "requirement": "Data are increasingly available through structured databases and spreadsheets, or geospatial data formats that support reuse.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "E0001 confirms that datasets are available in structured, reusable formats (CSV)."
+        },
+        {
+          "requirement": "Metadata is routinely provided to support discovery and interpretation.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "E0001 explicitly states that routine metadata is provided for all key datasets."
+        },
+        {
+          "requirement": "User access processes are documented and predictable.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001",
+            "E0002"
+          ],
+          "explanation": "E0001 describes documented request procedures; E0002 confirms consistent implementation of these processes by all national agencies."
+        },
+        {
+          "requirement": "Access conditions, licensing requirements, and any associated fees are clearly communicated.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "E0001 notes documented request procedures, which implies clear communication of access conditions. No evidence contradicts this."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

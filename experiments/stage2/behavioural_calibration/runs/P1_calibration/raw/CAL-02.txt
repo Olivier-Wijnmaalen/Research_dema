@@ -1,0 +1,18 @@
+{
+  "country": "Norwyn",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment of Norwyn’s technical infrastructure and operational readiness for AI-enabled data workflows reveals a predominantly manual, fragmented environment. Evidence demonstrates that data workflows rely on disconnected files and manual processes, with no operational AI-enabled systems. While a formal intention exists to procure an integrated cloud platform in the future, there is no evidence of current digitization, technical integration, or AI workflow support. The highest fully supported phase is Phase 1, as no evidence demonstrates the existence or implementation of technical foundations, digitized workflows, or operational AI capabilities required for higher phases.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.2.3",
+      "indicator_name": "Technical infrastructure and operational readiness for AI-enabled data workflows",
+      "phase_score": 1,
+      "matched_phase_requirement": "Data workflows are largely manual and rely on disconnected files, spreadsheets, or standalone applications. Technical systems are insufficient to support AI-enabled workflows, and digital data are often not available in formats that can be readily used by AI tools. Reliable connectivity, computing resources, or access to AI platforms may be limited.",
+      "score_reasoning": "The evidence from the current workflow review (E0002) establishes that Norwyn’s offices transfer spreadsheets by email and analysts manually re-enter records, demonstrating that data workflows are fragmented and largely manual. This directly matches the Phase 1 requirement, which specifies reliance on disconnected files, spreadsheets, and manual processes. There is no evidence of digitized workflows, technical integration, or operational AI-enabled systems. The Cabinet’s approval of the Norwyn AI Readiness Roadmap (E0001) indicates a formal intention to procure an integrated cloud platform in 2027, but does not demonstrate current procurement, deployment, or operation of such a platform. Therefore, while there is a documented future plan, the evidence does not support the existence of technical foundations, digitized workflows, or AI workflow support required for Phase 2 or higher. The evidence exceeds the threshold for Phase 1 by demonstrating the current manual and fragmented state, but does not reach Phase 2, as there is no proof of any technical foundations, partial digitization, or experimental AI use. The principal diagnostic issue is the absence of demonstrated digitization or operational technical systems supporting AI workflows. The highest fully supported phase is Phase 1.",
+      "evidence_supporting_score": ["E0002"],
+      "contrary_or_limiting_evidence": ["E0001"],
+      "contrary_or_limiting_reasoning": "E0001 documents a formal intention to procure an integrated cloud platform in the future, but does not demonstrate current procurement, deployment, or operation. It does not contradict the manual and fragmented workflow established by E0002, but limits the score by showing that technical foundations and digitized workflows are not yet implemented.",
+      "next_phase_gap": "Concrete evidence of implemented technical foundations for AI-enabled workflows, such as digitized data systems, operational cloud platforms, or experimental AI use, is required to support Phase 2. No evidence was identified demonstrating current digitization, technical integration, or operational AI capabilities."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+CALIBRATED PHASE-BOUNDARY RULES
+
+Apply the following rules when interpreting the framework:
+
+1. A phase requirement is fully supported only when the complete evidence record supports both the existence of a formal mechanism and any implementation, regularity, coverage, performance, or effect stated in that requirement. A policy, manual, schedule, or self-reported claim does not satisfy an implementation or regularity clause when more direct evidence for the same scope and period shows material non-implementation or non-compliance. In that situation, retain the formal mechanism as a documented strength, but assign the highest phase whose substantive requirements remain supported after the contradiction is considered.
+
+2. If adjacent phase descriptions for an indicator are substantively identical, do not invent a distinction between them. Explicitly identify the duplicated wording as a framework ambiguity. Use the higher of the identical phases only as an administrative convention when the shared criterion is supported, state that the evidence cannot substantively distinguish the two phases, and assess the next genuinely different phase as the higher-phase boundary.
+

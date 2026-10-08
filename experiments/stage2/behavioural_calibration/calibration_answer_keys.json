@@ -1,0 +1,639 @@
+{
+  "set_name": "DEMA calibration answer keys v1",
+  "written_before_model_run": true,
+  "authorship": "Assistant-constructed draft for researcher review",
+  "researcher_approved": false,
+  "keys": [
+    {
+      "case_id": "CAL-01",
+      "primary_rules": [
+        "R1",
+        "R5",
+        "R8"
+      ],
+      "acceptable_phase": [
+        2
+      ],
+      "supported_requirements": [
+        "Limited inter-agency collaboration occurs on demand or during a project."
+      ],
+      "unsupported_requirements": [
+        "Broad ecosystem communication.",
+        "National-authority short-term partnerships across academia, NGOs, and private sector.",
+        "Regular strategic coordination and widespread formal protocols."
+      ],
+      "must_retain": [
+        "E0003"
+      ],
+      "required_reasoning": [
+        "Treat E0002 as an isolated local advanced feature and keep the ecosystem score at Phase 2.",
+        "Explain missing Phase 3 breadth and national coordination."
+      ],
+      "failure_behaviours": [
+        "Assign Phase 3 or 4 because one pilot memorandum contains a protocol.",
+        "Ignore E0003."
+      ],
+      "checks": [
+        {
+          "check_id": "CAL-01-01",
+          "rule": "R1",
+          "description": "Phase score equals 2.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-01-02",
+          "rule": "R1",
+          "description": "Does not generalize the coastal pilot to the ecosystem.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-01-03",
+          "rule": "R5",
+          "description": "Retains and explains E0003.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-01-04",
+          "rule": "R8",
+          "description": "Names the unsupported Phase 3 communication and partnership requirements.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-02",
+      "primary_rules": [
+        "R2",
+        "R8"
+      ],
+      "acceptable_phase": [
+        1
+      ],
+      "supported_requirements": [
+        "Current workflows are manual and fragmented."
+      ],
+      "unsupported_requirements": [
+        "Existing technical foundations for AI-enabled workflows.",
+        "Operational cloud access or experimental AI use."
+      ],
+      "must_retain": [
+        "E0002"
+      ],
+      "required_reasoning": [
+        "Separate approval of a future roadmap from current operation.",
+        "Use Phase 1 as a documentary/substantive match based on E0002."
+      ],
+      "failure_behaviours": [
+        "Describe the planned platform as operational.",
+        "Assign Phase 2 solely because a roadmap was approved."
+      ],
+      "checks": [
+        {
+          "check_id": "CAL-02-01",
+          "rule": "R2",
+          "description": "Phase score equals 1.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-02-02",
+          "rule": "R2",
+          "description": "Explicitly distinguishes future procurement from present implementation.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-02-03",
+          "rule": "R8",
+          "description": "Identifies operational digital foundations or experimental AI use as missing for Phase 2.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-03",
+      "primary_rules": [
+        "R4",
+        "R8"
+      ],
+      "acceptable_phase": [
+        2
+      ],
+      "supported_requirements": [
+        "One sporadic basic national training was initiated."
+      ],
+      "unsupported_requirements": [
+        "Regular capacity-building programmes.",
+        "Career incentives.",
+        "Subnational institutionalization and follow-up support."
+      ],
+      "must_retain": [],
+      "required_reasoning": [
+        "Recognize E0002 and E0003 as repetitions of E0001, not independent corroboration."
+      ],
+      "failure_behaviours": [
+        "Infer regularity from three records.",
+        "Count the records as three courses."
+      ],
+      "checks": [
+        {
+          "check_id": "CAL-03-01",
+          "rule": "R1",
+          "description": "Phase score equals 2.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-03-02",
+          "rule": "R4",
+          "description": "Identifies the shared lineage and does not count three independent events.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-03-03",
+          "rule": "R8",
+          "description": "Names regular programming and career incentives as unsupported Phase 3 elements.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-04",
+      "primary_rules": [
+        "R5",
+        "R2"
+      ],
+      "acceptable_phase": [
+        2
+      ],
+      "supported_requirements": [
+        "A written update schedule exists.",
+        "Actual reporting is delayed and inconsistent."
+      ],
+      "unsupported_requirements": [
+        "Routine updating according to the schedule.",
+        "Timeliness aligned with operational requirements."
+      ],
+      "must_retain": [
+        "E0002"
+      ],
+      "required_reasoning": [
+        "Prefer the direct independent audit for actual performance while retaining the official claim.",
+        "Distinguish a defined schedule from its routine implementation."
+      ],
+      "failure_behaviours": [
+        "Assign Phase 3 based only on the manual or self-report.",
+        "Silently discard either side of the conflict."
+      ],
+      "checks": [
+        {
+          "check_id": "CAL-04-01",
+          "rule": "R1",
+          "description": "Phase score equals 2.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-04-02",
+          "rule": "R5",
+          "description": "Explicitly addresses the conflict and gives a reasoned preference to E0002.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-04-03",
+          "rule": "R2",
+          "description": "Distinguishes formal schedule from implementation.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-04-04",
+          "rule": "R8",
+          "description": "Identifies routine compliance as the Phase 3 gap.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-05",
+      "primary_rules": [
+        "R3",
+        "R5"
+      ],
+      "acceptable_phase": [
+        1
+      ],
+      "supported_requirements": [
+        "A named directorate explicitly had no training funds in FY2025."
+      ],
+      "unsupported_requirements": [
+        "Sporadic/event-based funding.",
+        "National absence of every relevant allocation."
+      ],
+      "must_retain": [
+        "E0001",
+        "E0002"
+      ],
+      "required_reasoning": [
+        "Describe E0001 as a documentary gap and E0002 as explicit bounded absence."
+      ],
+      "failure_behaviours": [
+        "Claim the entire country has no relevant budget solely from E0001.",
+        "Treat E0002 as mere documentary silence."
+      ],
+      "checks": [
+        {
+          "check_id": "CAL-05-01",
+          "rule": "R1",
+          "description": "Phase score equals 1.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-05-02",
+          "rule": "R3",
+          "description": "Uses documentary-gap language for E0001.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-05-03",
+          "rule": "R3",
+          "description": "Uses factual but scope-bounded absence language for E0002.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-05-04",
+          "rule": "R5",
+          "description": "Retains both records and their different implications.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-06",
+      "primary_rules": [
+        "R6",
+        "R8"
+      ],
+      "acceptable_phase": [
+        3
+      ],
+      "supported_requirements": [
+        "Common classification and metadata standards are used by multiple actors for a key domain.",
+        "Implementation is uneven and not systematically monitored."
+      ],
+      "unsupported_requirements": [
+        "Wide consistent adoption across most actors and datasets."
+      ],
+      "must_retain": [
+        "E0003"
+      ],
+      "required_reasoning": [
+        "Exclude E0002 from substantive support despite matching metadata."
+      ],
+      "failure_behaviours": [
+        "Use server capacity as proof of common standards.",
+        "Assign Phase 4 despite limited domain and uneven adoption."
+      ],
+      "checks": [
+        {
+          "check_id": "CAL-06-01",
+          "rule": "R1",
+          "description": "Phase score equals 3.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-06-02",
+          "rule": "R6",
+          "description": "Does not use E0002 as maturity support.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-06-03",
+          "rule": "R5",
+          "description": "Retains E0003.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-06-04",
+          "rule": "R8",
+          "description": "Names wide and consistent adoption as missing for Phase 4.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-07",
+      "primary_rules": [
+        "R6",
+        "R8"
+      ],
+      "acceptable_phase": [
+        3
+      ],
+      "supported_requirements": [
+        "Rural and urban stakeholders across the country make data connections.",
+        "An operating feedback mechanism exists."
+      ],
+      "unsupported_requirements": [
+        "Active community involvement throughout the full data cycle.",
+        "Phase 5 inclusion of all named vulnerable groups."
+      ],
+      "must_retain": [],
+      "required_reasoning": [
+        "Use substantively relevant evidence despite mismatching retrieval metadata."
+      ],
+      "failure_behaviours": [
+        "Exclude the evidence because metadata points elsewhere.",
+        "Infer full-cycle involvement from feedback on dissemination."
+      ],
+      "checks": [
+        {
+          "check_id": "CAL-07-01",
+          "rule": "R1",
+          "description": "Phase score equals 3.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-07-02",
+          "rule": "R6",
+          "description": "Uses E0001 and E0002 based on content despite metadata.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-07-03",
+          "rule": "R8",
+          "description": "Identifies full-data-cycle involvement as missing for Phase 4.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-08",
+      "primary_rules": [
+        "R7",
+        "R8"
+      ],
+      "acceptable_phase": [
+        3
+      ],
+      "supported_requirements": [
+        "A modest formal allocation supports a coordinating unit and information-sharing procedures.",
+        "A separate allocation funds database-management training for technical staff."
+      ],
+      "unsupported_requirements": [
+        "Investment in secure technical and legal infrastructure.",
+        "Systematic investment in trained staff."
+      ],
+      "must_retain": [
+        "E0003"
+      ],
+      "required_reasoning": [
+        "Combine E0001 and E0002 as complementary support for Phase 3."
+      ],
+      "failure_behaviours": [
+        "Reject Phase 3 because no single source proves both allocations.",
+        "Combine the records into claims of Phase 4 investment."
+      ],
+      "checks": [
+        {
+          "check_id": "CAL-08-01",
+          "rule": "R1",
+          "description": "Phase score equals 3.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-08-02",
+          "rule": "R7",
+          "description": "Uses E0001 and E0002 jointly with each contribution stated.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-08-03",
+          "rule": "R5",
+          "description": "Retains E0003.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-08-04",
+          "rule": "R8",
+          "description": "Names secure infrastructure and systematic staff investment as Phase 4 gaps.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-09",
+      "primary_rules": [
+        "R1",
+        "R6"
+      ],
+      "acceptable_phase": [
+        2
+      ],
+      "supported_requirements": [
+        "National access commonly occurs by request through static reports with inconsistent metadata."
+      ],
+      "unsupported_requirements": [
+        "National systematic cataloguing and standardized reusable formats.",
+        "Interoperable open systems with monitoring."
+      ],
+      "must_retain": [
+        "E0002"
+      ],
+      "required_reasoning": [
+        "Keep the local portal bounded to one municipality."
+      ],
+      "failure_behaviours": [
+        "Generalize the local portal to national or ecosystem-wide Phase 3/4 maturity."
+      ],
+      "checks": [
+        {
+          "check_id": "CAL-09-01",
+          "rule": "R1",
+          "description": "Phase score equals 2.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-09-02",
+          "rule": "R6",
+          "description": "Preserves the municipal scope of E0001.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-09-03",
+          "rule": "R5",
+          "description": "Uses E0002 to characterize national practice.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-09-04",
+          "rule": "R8",
+          "description": "Names national systematic cataloguing and reusable access as missing.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-10",
+      "primary_rules": [
+        "R5",
+        "R6"
+      ],
+      "acceptable_phase": [
+        3
+      ],
+      "supported_requirements": [
+        "Standard validation procedures are routinely applied to key datasets with authoritative reference sources.",
+        "Implementation varies across regional offices."
+      ],
+      "unsupported_requirements": [
+        "Systematic triangulation using multiple independent or authoritative sources.",
+        "Routine documented discrepancy resolution."
+      ],
+      "must_retain": [
+        "E0002"
+      ],
+      "required_reasoning": [
+        "Give more weight to the specific independent review and manual than the generic brochure, based on substance and authority."
+      ],
+      "failure_behaviours": [
+        "Assign Phase 4 or 5 from the brochure's word 'accurate'.",
+        "Ignore regional inconsistency."
+      ],
+      "checks": [
+        {
+          "check_id": "CAL-10-01",
+          "rule": "R1",
+          "description": "Phase score equals 3.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-10-02",
+          "rule": "R5",
+          "description": "Explains evidential weight using specificity, authority, and recency.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-10-03",
+          "rule": "R6",
+          "description": "Does not treat the brochure as proof of a validation method.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-10-04",
+          "rule": "R8",
+          "description": "Names systematic triangulation and discrepancy resolution as Phase 4 gaps.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-11",
+      "primary_rules": [
+        "R2",
+        "R8"
+      ],
+      "acceptable_phase": [
+        3
+      ],
+      "supported_requirements": [
+        "A formal strategy covers data sharing, interoperability, standards, management, cataloguing, and institutional arrangements.",
+        "The strategy is not regularly reviewed."
+      ],
+      "unsupported_requirements": [
+        "Regular review and updating.",
+        "An operational catalogue."
+      ],
+      "must_retain": [
+        "E0003"
+      ],
+      "required_reasoning": [
+        "Credit Phase 3's formal-policy requirement even though one planned mechanism is unimplemented.",
+        "Do not claim implementation from adoption."
+      ],
+      "failure_behaviours": [
+        "Reduce the score below Phase 3 solely because the catalogue is not operational.",
+        "Assign Phase 4 despite absent review."
+      ],
+      "checks": [
+        {
+          "check_id": "CAL-11-01",
+          "rule": "R1",
+          "description": "Phase score equals 3.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-11-02",
+          "rule": "R2",
+          "description": "Separates policy existence from catalogue implementation.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-11-03",
+          "rule": "R5",
+          "description": "Retains E0003 without letting it negate the formal-policy criterion.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-11-04",
+          "rule": "R8",
+          "description": "Identifies regular review and updating as Phase 4 gaps.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "case_id": "CAL-12",
+      "primary_rules": [
+        "R1",
+        "R3",
+        "R8"
+      ],
+      "acceptable_phase": [
+        2,
+        3
+      ],
+      "supported_requirements": [
+        "Key actors are identified.",
+        "Roles are not always defined through official/legal mechanisms."
+      ],
+      "unsupported_requirements": [
+        "A fully endorsed and operationalized institutional framework.",
+        "Dynamic system-wide collaborative innovation."
+      ],
+      "must_retain": [
+        "E0003"
+      ],
+      "required_reasoning": [
+        "Acknowledge that the framework gives substantively identical Phase 2 and Phase 3 descriptions.",
+        "Use documentary-gap language for Phase 4 operationalization."
+      ],
+      "failure_behaviours": [
+        "Invent a substantive distinction between Phases 2 and 3.",
+        "Assign Phase 4.",
+        "Claim operationalization does not exist in reality."
+      ],
+      "checks": [
+        {
+          "check_id": "CAL-12-01",
+          "rule": "R1",
+          "description": "Phase score is 2 or 3 under the prespecified ambiguity.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-12-02",
+          "rule": "R1",
+          "description": "Explicitly acknowledges identical Phase 2/3 substantive wording.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-12-03",
+          "rule": "R3",
+          "description": "Describes Phase 4 operationalization as not demonstrated, not factually nonexistent.",
+          "critical": true
+        },
+        {
+          "check_id": "CAL-12-04",
+          "rule": "R8",
+          "description": "Identifies endorsement plus operationalization as the Phase 4 boundary.",
+          "critical": true
+        }
+      ]
+    }
+  ]
+}

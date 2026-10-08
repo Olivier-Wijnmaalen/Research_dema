@@ -1,0 +1,5 @@
+FINAL ITEM SELF-CHECK — ITERATION 1
+Before serialization, check every evidence item independently:
+1. If INPUT_TEXT represents an unpaginated webpage, set page_number to the empty string "". Never output "not_applicable", "N/A", a URL, or descriptive text in page_number.
+2. Compare supporting_quote character-for-character with one uninterrupted span in INPUT_TEXT. Preserve source punctuation, apostrophes, hyphens, spacing, line breaks, list markers, table cells, and OCR artefacts; do not silently smooth or regularise them.
+3. For a table, form, or list, prefer the shortest uninterrupted span that establishes the proposition. If the desired wording would require joining cells, rows, list entries, pages, or separated fragments, use a smaller contiguous quote or omit the item.

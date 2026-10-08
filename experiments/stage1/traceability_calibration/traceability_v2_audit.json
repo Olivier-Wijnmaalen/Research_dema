@@ -1,0 +1,21 @@
+{
+  "version": "V2",
+  "parent": "V1",
+  "parent_sha256": "67916b96031e7426ada126bc4d83caee638352fefbc22f5d41f0b492a55f9fa6",
+  "sha256": "f3251ac014719470930bf29843e9d9b0131981a444ba24d48c03fd5a93d13af5",
+  "v1_observed": {
+    "total_rows": 433,
+    "status_counts": {
+      "PASS_EXACT": 388,
+      "PASS_NORMALIZED": 2,
+      "REPAIR_REQUIRED": 4,
+      "FAIL": 39
+    },
+    "strict_pass_rate_percent": 89.607,
+    "accepted_pass_rate_percent": 90.069,
+    "traceable_rate_percent": 90.993,
+    "chunks_with_nonaccepted_rows": 15
+  },
+  "mutation": "Quote-first extraction before provenance, interpretation, and JSON structuring",
+  "rationale": "V1 reduced failures, but reconstruction and stitching remained dominant. V2 reduces simultaneous extraction/interpretation demands and prevents claims from being drafted before their source span."
+}

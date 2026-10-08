@@ -1,0 +1,21 @@
+{
+  "country": "Orinth",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "This assessment reviews the maturity of Orinth's disaster data ecosystem regarding the presence of a dedicated budget for information sharing, technical staff, and training, as defined by DEMA Indicator C.2.2. The evidence bank contains two items: one documenting the absence of budget lines for a coordinating unit or database-management training in the 2026 national budget, and another confirming that the Emergency Data Directorate had no training funds in 2025, resulting in cancelled secure-data courses. No evidence was identified of any financial incentives, budget allocations, or systematic investment in technical staff or training for secure data handling. The assessment finds that Orinth does not meet the criteria for Phase 2 or higher, as there is no demonstrated presence of even sporadic or event-based financial incentives or training funds. The principal gap is the absence of documentary proof of any budget allocation or incentive mechanism for disaster data sharing or technical capacity building.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.2.2",
+      "indicator_name": "Dedicated budget",
+      "phase_score": 1,
+      "matched_phase_requirement": "Little to no (financial) incentives in place to stimulate the sharing and exchange of risk and/or impact data. There are insufficient funds available for technical staff and/or trainings on (secure) data handling",
+      "score_reasoning": "The evidence bank for Orinth provides two items directly relevant to the assessment of a dedicated budget for disaster data ecosystem activities. First, the reviewed 2026 budget volume contains no identifiable line for a data coordinating unit or database-management training, indicating a documentary gap in budget allocation for these functions (E0001). Second, the Auditor-General explicitly states that the Emergency Data Directorate had no training funds in fiscal year 2025 and cancelled all planned secure-data courses, demonstrating the absence of financial support for technical staff training in secure data handling (E0002). These findings establish that, for at least two consecutive fiscal years, there is no evidence of financial incentives, budget allocations, or systematic investment in technical staff or training for secure data handling. This directly matches the Phase 1 requirement: 'Little to no (financial) incentives in place to stimulate the sharing and exchange of risk and/or impact data. There are insufficient funds available for technical staff and/or trainings on (secure) data handling.' The evidence exceeds Phase 1 only in that it documents explicit absence, but does not reach Phase 2, which requires some (even sporadic or event-based) financial incentives or training funds. No evidence was identified of any financial incentives, budget allocations, or training funds for disaster data sharing or technical capacity building. Therefore, the assessment cannot support a higher phase. The principal strength is the explicit confirmation of absence; the principal weakness is the lack of evidence for any positive budgetary action.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002"
+      ],
+      "contrary_or_limiting_evidence": [],
+      "contrary_or_limiting_reasoning": "No evidence item directly contradicts the score. The main limitation is that the reviewed budget volume and Auditor-General's report do not cover every possible government budget or fiscal year, but no evidence was identified of any financial incentives or budget allocations for disaster data sharing or technical staff training.",
+      "next_phase_gap": "To reach Phase 2, evidence is required of some financial incentives or funds for training, even if sporadic or event-based. This could include documentary proof of budget allocations, financial incentives, or training funds for disaster data sharing or technical staff training, in any government unit or fiscal year. No such evidence was identified in the supplied evidence bank."
+    }
+  ]
+}

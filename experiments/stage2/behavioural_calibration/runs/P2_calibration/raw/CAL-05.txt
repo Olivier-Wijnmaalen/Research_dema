@@ -1,0 +1,18 @@
+{
+  "country": "Orinth",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment of Indicator C.2.2 (Dedicated budget) for Orinth reveals a lack of documentary evidence for any systematic or even sporadic financial incentives, budget allocations, or training funds related to risk and disaster data sharing, technical staff, or secure data handling. The strongest evidence directly demonstrates the absence of budget lines and cancelled training plans for relevant government units, with no evidence of positive budgetary action. No evidence supports higher phases, and the evidence does not establish the existence of any financial incentives or allocations, resulting in a provisional score of Phase 1.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.2.2",
+      "indicator_name": "Dedicated budget",
+      "phase_score": 1,
+      "matched_phase_requirement": "Little to no (financial) incentives in place to stimulate the sharing and exchange of risk and/or impact data. There are insufficient funds available for technical staff and/or trainings on (secure) data handling",
+      "score_reasoning": "The evidence for Orinth’s dedicated budget for risk and disaster data ecosystem activities is limited and negative. The reviewed 2026 budget volume contains no identifiable line for a data coordinating unit or database-management training, indicating a documentary gap for any budget allocation to these functions (E0001). This silence does not prove that no allocation exists elsewhere, but it fails to demonstrate any positive budgetary action. Furthermore, the Auditor-General explicitly states that the Emergency Data Directorate had no training funds in fiscal year 2025 and cancelled all planned secure-data courses, directly proving the absence of financial support for technical staff training in a named government unit and year (E0002). No evidence item supports the existence of sporadic or event-based financial incentives, nor any allocation for technical staff or training, as required for Phase 2. The evidence thus fully supports the Phase 1 requirement: 'Little to no (financial) incentives in place to stimulate the sharing and exchange of risk and/or impact data. There are insufficient funds available for technical staff and/or trainings on (secure) data handling.' The assessment exceeds Phase 1 only if evidence of sporadic or event-based incentives or training funds were present, which is not the case. The principal strength is the explicit negative finding for a named unit and year; the principal weakness is the documentary gap for other possible allocations. The score is limited by the absence of evidence for any positive budgetary action.",
+      "evidence_supporting_score": ["E0001", "E0002"],
+      "contrary_or_limiting_evidence": [],
+      "contrary_or_limiting_reasoning": "No evidence item directly contradicts the score. The main limitation is that the reviewed budget volume and Auditor-General’s report do not cover all possible government allocations, so the absence of evidence is not proof of universal absence. However, the evidence does not demonstrate any positive budgetary action or financial incentives.",
+      "next_phase_gap": "To support Phase 2, evidence is required of sporadic or event-based financial incentives or training funds for risk and disaster data sharing, technical staff, or secure data handling. This could include documentary proof of budget allocations, training expenditures, or incentive schemes, even if not systematic. No such evidence was identified in the supplied evidence bank."
+    }
+  ]
+}

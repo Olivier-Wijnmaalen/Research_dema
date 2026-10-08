@@ -1,0 +1,33 @@
+{
+  "country": "Dameris",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "For Dameris, the evidence demonstrates robust, nationwide community engagement throughout the disaster data cycle, including collection, analysis, dissemination, and feedback. Community monitors operate in every province (E0001), district analysis sessions include community delegates (E0002), and community radio groups and village committees co-design warning messages and provide feedback (E0003). However, participation records do not document the involvement of persons with disabilities, minority groups, migrants, refugees, elder and youth, vulnerable groups, or gender-diverse populations (E0004). Therefore, while community engagement is active and covers the full data cycle, there is no evidence of systematic inclusion of diverse and vulnerable groups as required for Phase 5. The highest fully supported phase is Phase 4: 'Local communities are actively involved throughout the data cycle, to ensure they understand the importance of risk and impact data for DRR and EW and become part of the ecosystem.'",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.3.1",
+      "indicator_name": "Community engagement (including local, vulnerable, and diverse populations)",
+      "phase_score": 4,
+      "matched_phase_requirement": "Local communities are actively involved throughout the data cycle, to ensure they understand the importance of risk and impact data for DRR and EW and become part of the ecosystem.",
+      "score_reasoning": "The evidence for Dameris demonstrates that local communities are actively involved throughout the disaster data cycle. Community monitors in every province collect rainfall and impact observations using agreed forms, establishing nationwide community participation in data collection (E0001). District analysis sessions include community delegates who interpret observations with technical officers and approve corrections, evidencing community involvement in data analysis and validation (E0002). Community radio groups and village committees co-design and disseminate warning messages, and submit feedback through monthly forums, showing active engagement in dissemination and feedback processes (E0003). These practices are documented as national in scope and involve both rural and urban communities, fulfilling the requirement that local communities are actively involved throughout the data cycle and become part of the ecosystem. This exceeds Phase 3, which only requires stakeholders from rural and urban communities to make data connections and the establishment of feedback mechanisms. However, participation records do not identify or document the involvement of persons with disabilities, minority groups, migrants, refugees, elder and youth, vulnerable groups, or gender-diverse populations (E0004). Therefore, there is no evidence that engagement and feedback mechanisms actively involve these specific groups, which is required for Phase 5. The principal strength is the institutionalized, nationwide community engagement across all stages of the data cycle. The main weakness is the lack of documentary evidence for the inclusion of diverse and vulnerable populations. The score is limited by the absence of explicit records or mechanisms for engaging these groups.",
+      "evidence_supporting_score": ["E0001", "E0002", "E0003"],
+      "contrary_or_limiting_evidence": ["E0004"],
+      "contrary_or_limiting_reasoning": "E0004 establishes that participation records do not identify disability, migrant, refugee, minority, age, or gender-diverse groups separately. This means there is no documentary support for the specific inclusion of these groups required for Phase 5. The evidence does not contradict community engagement, but limits the score to Phase 4 by demonstrating an evidence gap for diverse and vulnerable group participation.",
+      "next_phase_gap": "To support Phase 5, evidence is required that engagement and feedback mechanisms actively involve persons with disabilities, minority groups, migrants and refugees, elder and youth, vulnerable groups, and gender-diverse populations. This could include participation records, documented outreach, or feedback mechanisms specifically targeting or including these groups. No such evidence was identified in the supplied documents.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Local communities are actively involved throughout the data cycle (collection, analysis, dissemination, feedback).",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0001", "E0002", "E0003"],
+          "explanation": "E0001 documents community monitors collecting data nationwide. E0002 shows community delegates involved in analysis and validation. E0003 demonstrates community groups co-designing, disseminating warning messages, and submitting feedback. Together, these cover all stages of the data cycle and show active involvement."
+        },
+        {
+          "requirement": "Local communities understand the importance of risk and impact data for DRR and EW and become part of the ecosystem.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0003"],
+          "explanation": "E0003 shows community radio groups and village committees co-designing warning messages and participating in monthly feedback forums, indicating understanding and integration into the ecosystem."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

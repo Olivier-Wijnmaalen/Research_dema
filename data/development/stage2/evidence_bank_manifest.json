@@ -1,0 +1,13 @@
+{
+  "source_run": "C:\\Users\\olivi\\OneDrive\\Documenten\\OPENAI_AZURE_V1\\output\\v4-indicator-defined-framework-all-chunks",
+  "raw_candidate_rows": 428,
+  "accepted_rows": 401,
+  "deduplicated_scoring_rows": 401,
+  "chunk_count": 30,
+  "chunk_manifest_sha256": "9928F3CD64773B6AFE64F591C80DD411CE492EABC50A9FA91CB22BD13338EB55",
+  "source_bank_sha256": "E007600B85C375277D77900B6B200621233ACA47FCF191371780109963FA5DDF",
+  "accepted_statuses": [
+    "PASS_EXACT",
+    "PASS_NORMALIZED"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "country": "Umberia",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment of Indicator B.1.1 (Data accessibility) for Umberia reveals a fragmented landscape. While Northbank municipality demonstrates advanced accessibility features, including a portal with reusable geospatial formats, complete metadata, and user support, this is limited to one of 64 municipalities and lacks national integration or monitoring. At the national level, data accessibility is characterized by manual, slow processes, with static PDF summaries sent by email upon request and inconsistent metadata. No evidence supports systematic cataloguing, defined platforms, or routine provision of metadata at the national scale. The evidence does not demonstrate ecosystem-wide accessibility, standardized formats, or predictable access processes. Therefore, the highest fully supported phase is Phase 2, reflecting basic but limited accessibility, with substantial gaps in discoverability, metadata consistency, and platform integration.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.1.1",
+      "indicator_name": "Data accessibility",
+      "phase_score": 2,
+      "matched_phase_requirement": "Some data are accessible upon request, typically after events or reporting deadlines. Basic dissemination channels exist, but discoverability remains limited. Metadata is partial or inconsistent. Access procedures are manual and slow. Applicable fees or access conditions may exist but are not consistently documented or communicated. While digital records may exist, data are frequently disseminated as static reports (PDF), summary tables, paper records, or other formats (such as printed map instead of GIS file) that limit direct reuse.",
+      "score_reasoning": "The evidence for Umberia demonstrates that, at the national level, data accessibility is primarily reactive and manual. National agencies send static PDF summaries by email after a written request, with metadata fields described as inconsistent (E0002). This directly matches the Phase 2 requirement: 'Some data are accessible upon request... Basic dissemination channels exist, but discoverability remains limited. Metadata is partial or inconsistent. Access procedures are manual and slow.' The process is not automated, and the formats (PDF) limit direct reuse, further supporting the Phase 2 description. While Northbank municipality operates a portal with reusable geospatial formats, complete metadata, and a help desk (E0001), this is explicitly limited to one of 64 municipalities and lacks national integration or monitoring. The evidence does not demonstrate systematic cataloguing, defined platforms, or routine metadata provision at the national scale, which are required for Phase 3. The presence of advanced features in a single municipality does not constitute ecosystem-wide maturity and cannot elevate the score beyond Phase 2 under the highest-fully-supported-phase rule. The evidence exceeds Phase 1, as some data are accessible upon request and basic dissemination channels exist, but it does not fully satisfy Phase 3, which requires systematic cataloguing, defined platforms, standardized formats, and routine metadata provision across the ecosystem.",
+      "evidence_supporting_score": [
+        "E0002",
+        "E0001"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0001"
+      ],
+      "contrary_or_limiting_reasoning": "E0001 demonstrates advanced accessibility in Northbank municipality, but its limitation to one of 64 municipalities and lack of national integration or monitoring prevents it from supporting a higher phase. The evidence does not contradict the national-level assessment but highlights the lack of ecosystem-wide maturity.",
+      "next_phase_gap": "To achieve Phase 3, evidence is required for systematic cataloguing and accessibility through defined platforms or repositories at the national level, common use of standardized digital formats, routine provision of metadata, and documented, predictable user access processes. No evidence was identified for these elements across Umberia’s ecosystem."
+    }
+  ]
+}

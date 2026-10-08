@@ -1,0 +1,45 @@
+{
+  "run": "P3_calibration",
+  "checks_passed": 45,
+  "checks_total": 45,
+  "rule_adherence_rate": 1.0,
+  "complete_cases_passed": 12,
+  "cases_total": 12,
+  "complete_case_pass_rate": 1.0,
+  "by_rule": {
+    "R1": {
+      "passed": 13,
+      "total": 13
+    },
+    "R2": {
+      "passed": 4,
+      "total": 4
+    },
+    "R3": {
+      "passed": 3,
+      "total": 3
+    },
+    "R4": {
+      "passed": 1,
+      "total": 1
+    },
+    "R5": {
+      "passed": 8,
+      "total": 8
+    },
+    "R6": {
+      "passed": 4,
+      "total": 4
+    },
+    "R7": {
+      "passed": 1,
+      "total": 1
+    },
+    "R8": {
+      "passed": 11,
+      "total": 11
+    }
+  },
+  "qualitative_finding": "All prespecified checks passed, but CAL-09's new requirement matrix marked an optional 'fees may exist' clause NOT_DEMONSTRATED while still assigning the phase. This post-key internal-consistency defect triggered P4 and is reported outside the prespecified denominator.",
+  "score_sheet_sha256": "E05555A6807424B920F960343CE2E8CDDE553A4009798404A647C56153292A68"
+}

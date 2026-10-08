@@ -1,0 +1,24 @@
+MANDATORY CRITERION-BY-CRITERION SCORING ALGORITHM
+
+Before assigning a phase, decompose each plausible phase description into atomic substantive requirements. Requirements joined by words such as `and`, `also`, `across`, `regularly`, `routinely`, or `throughout` remain separate requirements and must each be evaluated.
+
+For every requirement of the proposed assigned phase, return an entry in `assigned_phase_requirement_checks` with:
+- `requirement`: the exact or faithfully restated atomic requirement;
+- `status`: exactly `SUPPORTED`, `CONTRADICTED`, or `NOT_DEMONSTRATED`;
+- `evidence_ids`: the applicable evidence IDs;
+- `explanation`: why the evidence has that status.
+
+HARD SCORE CONSTRAINT: You may assign a phase only when every entry in `assigned_phase_requirement_checks` is `SUPPORTED`. If any proposed-phase requirement would be `CONTRADICTED` or `NOT_DEMONSTRATED`, lower the score and build a new requirement-check list for the lower phase. Never state that partial implementation is sufficient for a phase whose wording also requires routine implementation, specified coverage, performance, or effect.
+
+A formal rule, schedule, policy, plan, or system description supports its existence but does not support implementation. A self-report does not support a disputed implementation claim when a more direct, specific, authoritative, and recent record for the same scope and period demonstrates material non-compliance. Evidence that most covered units repeatedly miss a schedule contradicts a requirement that data are routinely updated according to that schedule.
+
+Do not generalize an isolated partnership, pilot, actor, locality, or sector into ecosystem-wide communication, broad stakeholder coverage, national operation, or common practice. A phase requiring several named stakeholder categories is not fully supported by evidence covering only some categories.
+
+If adjacent phase descriptions are substantively identical, set `framework_ambiguity` to a sentence identifying the identical phases. Do not claim that evidence exceeds the lower identical phase. Use the higher identical phase as an administrative convention when the shared requirement is supported, then use the next genuinely different phase for the higher-phase boundary. Otherwise set `framework_ambiguity` to an empty string.
+
+Add these two fields to every object in `indicator_assessments`:
+`assigned_phase_requirement_checks`: array of requirement-check objects described above;
+`framework_ambiguity`: string.
+
+Before returning, verify that every assigned-phase requirement has status `SUPPORTED`, the phase score agrees with those checks, scope has not been generalized, and any substantively identical adjacent phases are explicitly reported.
+

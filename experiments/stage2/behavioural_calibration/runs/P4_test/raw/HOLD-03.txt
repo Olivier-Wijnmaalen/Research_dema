@@ -1,0 +1,33 @@
+{
+  "country": "Coravel",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "This assessment reviews the maturity of data quality: accuracy (Indicator B.1.3a) in Coravel, using three evidence items. The evidence includes a formal manual describing routine validation procedures (E0001), an independent audit documenting actual practice (E0002), and staff logs showing reactive checks (E0003). The audit and logs demonstrate that validation is not systematic or routine, but occurs only after concerns are raised. The manual establishes the existence of procedures, but the audit directly contradicts their implementation. No evidence supports routine or systematic validation, nor the use of multiple sources or automated processes. The highest fully supported phase is Phase 2, as basic checks are made reactively, but validation remains inconsistent and unsystematic. The principal gap for Phase 3 is the absence of demonstrated routine validation using predefined methods and authoritative sources. The main limitation is the lack of evidence for systematic, proactive, or ecosystem-wide validation practices.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.1.3a",
+      "indicator_name": "Data quality: accuracy",
+      "phase_score": 2,
+      "matched_phase_requirement": "Some efforts are made to verify data, typically when concerns arise or when information is questioned. Basic checks against reports or alternative sources occur, but validation remains inconsistent and unsystematic.",
+      "score_reasoning": "The evidence for Coravel’s data quality: accuracy demonstrates a reactive approach to validation. The 2023 internal manual claims that all key datasets should undergo routine validation against authoritative registers (E0001), which would support Phase 3 if implemented. However, the 2026 independent audit directly contradicts this, finding that checks occurred only after users reported suspected errors and that no sampled dataset had been routinely checked against a register (E0002). This audit is both more recent and authoritative regarding actual practice, and thus takes precedence over the manual. Staff logs further corroborate this, showing five checks initiated after complaints during 2026 (E0003). These logs confirm that verification is triggered by concerns, not as part of a routine process. Together, E0002 and E0003 fully support Phase 2: some efforts are made to verify data, typically when concerns arise, and basic checks occur, but validation is inconsistent and unsystematic. The evidence exceeds Phase 1, as there is proof of verification efforts and error detection, but does not reach Phase 3, which requires routine validation using predefined methods and authoritative sources. No evidence demonstrates systematic, routine, or ecosystem-wide validation, nor the use of multiple sources or automated processes. The principal strength is the presence of basic reactive checks; the main weakness is the lack of routine, systematic validation. The score is limited by the direct contradiction between formal procedures and actual practice, as established by the audit.",
+      "evidence_supporting_score": ["E0002", "E0003"],
+      "contrary_or_limiting_evidence": ["E0001"],
+      "contrary_or_limiting_reasoning": "E0001 describes a formal manual mandating routine validation, but E0002 (an independent audit) demonstrates that these procedures are not implemented in practice. The audit is more recent and authoritative regarding actual operations, and thus overrides the manual’s claim. The manual supports the existence of procedures but not their implementation.",
+      "next_phase_gap": "To reach Phase 3, evidence is required that standard procedures for verification and validation are routinely applied to key datasets using predefined methods and authoritative reference sources. This would need to be demonstrated by records of routine checks, not just reactive ones, and confirmation that the procedures described in the manual are actually implemented.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Some efforts are made to verify data, typically when concerns arise or when information is questioned.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002", "E0003"],
+          "explanation": "E0002 shows checks occurred only after users reported suspected errors, and E0003 documents five checks initiated after complaints, confirming verification occurs when concerns arise."
+        },
+        {
+          "requirement": "Basic checks against reports or alternative sources occur, but validation remains inconsistent and unsystematic.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002", "E0003"],
+          "explanation": "E0002 and E0003 demonstrate that basic checks are made, but only reactively and not as part of a systematic process, confirming inconsistency and unsystematic validation."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

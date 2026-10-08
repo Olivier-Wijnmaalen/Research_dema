@@ -1,0 +1,23 @@
+{
+  "country": "Virelia",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "For indicator B.1.3a (Data quality: accuracy), the evidence demonstrates that Virelia has established standard procedures for verifying and validating disaster-related data, routinely applying these to key datasets using authoritative reference sources. However, implementation is uneven across regional offices, and there is no evidence of systematic triangulation, routine discrepancy resolution, or highly standardized and automated validation processes. The highest fully supported phase is Phase 3 (Managed and defined).",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.1.3a",
+      "indicator_name": "Data quality: accuracy",
+      "phase_score": 3,
+      "matched_phase_requirement": "Standard procedures exist to verify and validate data. Validation is routinely applied to key datasets using predefined methods and authoritative reference sources, although implementation may vary across actors and datasets.",
+      "score_reasoning": "The evidence from the 2026 independent technical review (E0002) directly establishes that predefined validation procedures are routinely used for all five key datasets, referencing authoritative registries. This is further supported by the 2026 validation manual, which specifies checks against the civil registry and geocoded asset register (E0003). These sources demonstrate the existence of standard procedures and routine application to key datasets, satisfying the Phase 3 requirement. The technical review also notes that two regional offices applied these procedures inconsistently, which aligns with the framework's allowance for uneven implementation across actors and datasets at Phase 3. The agency brochure's self-assertion of accuracy (E0001) is not sufficient for higher phases, as it lacks methodological detail and does not demonstrate implementation. The evidence exceeds Phase 2, which only requires basic, inconsistent checks, by showing formalized, routine validation with authoritative sources. However, the evidence does not fully support Phase 4, which requires systematic assessment through structured validation and triangulation using multiple independent or authoritative sources, as well as routine discrepancy investigation and resolution. The technical review (E0002) explicitly states that systematic triangulation and routine discrepancy resolution are not demonstrated. No evidence was identified for highly standardized, automated validation, continuous monitoring, or regular expert review required for Phase 5. The principal strength is the existence and routine use of standard validation procedures for key datasets; the main weakness is uneven implementation and lack of evidence for systematic triangulation and discrepancy resolution.",
+      "evidence_supporting_score": [
+        "E0002",
+        "E0003"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0002"
+      ],
+      "contrary_or_limiting_reasoning": "E0002 notes that two regional offices applied validation procedures inconsistently, limiting ecosystem-wide implementation. It also states that systematic triangulation and routine discrepancy resolution are not demonstrated, preventing support for Phase 4 or higher.",
+      "next_phase_gap": "Evidence is required for systematic assessment of data accuracy through structured validation and triangulation using multiple independent or authoritative sources, routine investigation and resolution of discrepancies through documented procedures, and ecosystem-wide consistent implementation. No evidence was identified for these elements in the supplied documents."
+    }
+  ]
+}

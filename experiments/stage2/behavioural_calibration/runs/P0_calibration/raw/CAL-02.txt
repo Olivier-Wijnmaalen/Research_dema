@@ -1,0 +1,18 @@
+{
+  "country": "Norwyn",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "This assessment reviews Norwyn’s technical infrastructure and operational readiness for AI-enabled data workflows (Indicator B.2.3) using two evidence items. The evidence demonstrates that current workflows are manual, fragmented, and rely on disconnected files and email transfers, with no operational AI-enabled systems. While there is a formal intention to procure an integrated cloud platform in the future, no evidence supports current digitization, technical integration, or routine AI use. Therefore, the highest fully supported phase is Phase 1, with clear gaps in technical foundations, digitization, and operational readiness for AI workflows.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.2.3",
+      "indicator_name": "Technical infrastructure and operational readiness for AI-enabled data workflows",
+      "phase_score": 1,
+      "matched_phase_requirement": "Data workflows are largely manual and rely on disconnected files, spreadsheets, or standalone applications. Technical systems are insufficient to support AI-enabled workflows, and digital data are often not available in formats that can be readily used by AI tools. Reliable connectivity, computing resources, or access to AI platforms may be limited.",
+      "score_reasoning": "The evidence demonstrates that Norwyn’s current disaster-related data workflows are manual and fragmented. Evidence E0002 states that offices transfer spreadsheets by email and analysts manually re-enter records, directly confirming that workflows rely on disconnected files and manual processes rather than integrated systems (E0002). This matches the Phase 1 requirement: 'Data workflows are largely manual and rely on disconnected files, spreadsheets, or standalone applications.' There is no evidence of digitized, structured workflows, nor of technical systems supporting AI-enabled operations. Evidence E0001 establishes that the Cabinet has approved the Norwyn AI Readiness Roadmap, which includes a plan to procure an integrated cloud platform in 2027 (E0001). However, this only demonstrates a formal intention for future procurement and does not show current deployment, operation, or use of AI-enabled workflows. The evidence does not support Phase 2, which requires some technical foundations for AI-enabled workflows, partial digitization, and experimental AI use. No evidence was identified of digital systems, cloud-based AI tools, or partially digitized workflows. The assessment exceeds the ad hoc threshold of Phase 1 only because it documents the current manual, fragmented state, but does not reach Phase 2 due to the absence of demonstrated technical foundations or operational AI use. The principal diagnostic issue is the lack of any evidence for current digitization or technical integration, with only a future plan documented.",
+      "evidence_supporting_score": ["E0002", "E0001"],
+      "contrary_or_limiting_evidence": [],
+      "contrary_or_limiting_reasoning": "No evidence directly contradicts the Phase 1 score. The principal limitation is the absence of any evidence demonstrating current digitization, technical integration, or operational AI-enabled workflows. The future procurement plan (E0001) does not constitute current operational readiness.",
+      "next_phase_gap": "To reach Phase 2, evidence is required of existing technical foundations for AI-enabled workflows, such as digital systems, cloud-based AI tools, or partially digitized workflows. No evidence was identified of operational digital platforms, AI tool access, or experimental AI use in current disaster data workflows."
+    }
+  ]
+}

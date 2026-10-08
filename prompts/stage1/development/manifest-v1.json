@@ -1,0 +1,11 @@
+{
+  "prompt_name": "dema-lenient-calibration/evidence-extraction",
+  "version": 1,
+  "prompt_file": "prompts\\dema-lenient-calibration\\evidence-extraction-v1-baseline.txt",
+  "sha256": "08e557eca5d79ffc677fcf66302f02fb47bf98e2f3d5f127df6bb39e1fb0447b",
+  "langfuse_labels": [
+    "development",
+    "baseline-v1",
+    "latest"
+  ]
+}

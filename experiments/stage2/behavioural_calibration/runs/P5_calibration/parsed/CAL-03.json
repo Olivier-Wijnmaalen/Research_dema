@@ -1,0 +1,63 @@
+{
+  "country": "East Verdan",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "This assessment covers only Indicator A.2.1 (Human capacity building & retention across actors in relation to data and AI) for East Verdan. The evidence demonstrates a single, sporadic national-level training event (a two-day spreadsheet course for national emergency staff in March 2026) delivered by the East Verdan Data Office. No evidence was identified of regular, institutionalized, or multi-level capacity-building programmes, career incentives, or retention measures. The available documentation is consistent across three sources, all referencing the same event, with no indication of broader or sustained capacity-building activities. As such, the evidence supports Phase 2 (Recognized but reactive), as there is proof of an initiated but sporadic national training effort, but not of regular, multi-level, or institutionalized capacity building, nor of career incentives or retention strategies.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "A.2.1",
+      "indicator_name": "Human capacity building & retention across actors (in relation to data and AI)",
+      "phase_score": 2,
+      "matched_phase_requirement": "Capacity-building efforts are initiated, but often sporadically, to improve data skills often first at the national level. They are not yet implemented across national, regional, and local levels of all relevant organizations. Basic training efforts are initiated, often sporadically, to improve data skills among government staff and local officers. Therefore, digital skills remain low across the ecosystem, and retention of trained personnel is a challenge.",
+      "score_reasoning": "The evidence for East Verdan demonstrates that the East Verdan Data Office delivered a single, two-day spreadsheet course for national emergency staff in March 2026 (E0001). This is corroborated by a ministry newsletter (E0002) and a partner bulletin (E0003), both of which repeat the announcement of the same event. All three sources refer to the same training, and no additional or independent capacity-building activities are documented. The evidence directly supports the Phase 2 requirement that capacity-building efforts are initiated, but often sporadically, to improve data skills, first at the national level. There is no indication of regular or institutionalized training, nor of any extension to regional or local levels, as would be required for Phase 3 or higher. There is also no evidence of career incentives for data specialists, retention measures, or the presence of advanced data skills beyond this isolated event. The evidence exceeds Phase 1, which requires few to no training or capacity-building efforts, as at least one national-level training was delivered. However, it does not meet Phase 3, which requires regular capacity-building programs, career incentives, and evidence that some actors can transform and analyze data. The principal strength is the documented initiation of a training event at the national level. The principal weakness is the lack of evidence for regularity, institutionalization, or broader geographic and organizational coverage. No evidence was identified of follow-up support, user guides, technology provision, or collaboration to strengthen data capabilities, which are required for higher phases.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002",
+        "E0003"
+      ],
+      "contrary_or_limiting_evidence": [],
+      "contrary_or_limiting_reasoning": "No evidence directly contradicts the existence of the single training event. However, all cited sources refer to the same event, and no evidence was identified of additional or regular capacity-building activities, subnational coverage, or retention measures. The absence of such evidence is a documentary gap, not a demonstrated absence.",
+      "next_phase_gap": "To reach Phase 3, evidence is required of regular capacity-building programs offered by government and key organizations, the provision of career incentives for data specialists in the NDRMA or national lead/coordinator entity, and demonstration that some actors in the ecosystem can transform and analyze data. No such evidence was identified in the supplied documents.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Capacity-building efforts are initiated, but often sporadically, to improve data skills often first at the national level.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001",
+            "E0002",
+            "E0003"
+          ],
+          "explanation": "The East Verdan Data Office delivered a single, two-day spreadsheet course for national emergency staff in March 2026, as documented in E0001 and repeated in E0002 and E0003. This demonstrates that capacity-building efforts have been initiated, but only sporadically and at the national level."
+        },
+        {
+          "requirement": "They are not yet implemented across national, regional, and local levels of all relevant organizations.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001",
+            "E0002",
+            "E0003"
+          ],
+          "explanation": "All evidence refers to a single national-level training event, with no mention of regional or local implementation or coverage across all relevant organizations. This supports the requirement that capacity-building is not yet implemented across all levels."
+        },
+        {
+          "requirement": "Basic training efforts are initiated, often sporadically, to improve data skills among government staff and local officers.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001",
+            "E0002",
+            "E0003"
+          ],
+          "explanation": "The documented two-day spreadsheet course for national emergency staff constitutes a basic, sporadic training effort aimed at improving data skills among government staff."
+        },
+        {
+          "requirement": "Therefore, digital skills remain low across the ecosystem, and retention of trained personnel is a challenge.",
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "E0001"
+          ],
+          "explanation": "The evidence notes no regular programme, career incentive, retention measure, or subnational coverage (E0001), supporting the conclusion that digital skills remain low and retention is a challenge."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

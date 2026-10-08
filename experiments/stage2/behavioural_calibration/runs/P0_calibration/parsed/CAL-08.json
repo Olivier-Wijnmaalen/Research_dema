@@ -1,0 +1,23 @@
+{
+  "country": "Tavira",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment of Tavira’s dedicated budget for disaster-related data ecosystem activities demonstrates clear evidence of formal, recurring budget allocations for both a coordinating unit and technical staff training. However, there is no evidence of investment in secure technical or legal infrastructure, nor systematic recruitment and retention of well-trained staff, which are required for higher maturity phases. The score is provisionally set at Phase 3, managed and defined, as all criteria for this phase are fully supported by the evidence, while explicit limitations prevent advancement to Phase 4.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.2.2",
+      "indicator_name": "Dedicated budget",
+      "phase_score": 3,
+      "matched_phase_requirement": "Government policy formally starts allocating modest budgets to develop information sharing within the ecosystem and establishing standardized processes. Budget for a coordinating unit and trainings in database management for technical support staff is allocated.",
+      "score_reasoning": "The evidence demonstrates that Tavira has reached the 'Managed and defined' phase for the Dedicated budget indicator. The 2026 Appropriations Act allocates a modest recurring budget line to the National Data Coordination Unit specifically for information-sharing procedures, directly supporting the requirement for a formal budget allocation to develop information sharing within the ecosystem (E0001). Additionally, the Ministry of Finance training annex provides funds for quarterly database-management training for technical support staff, fulfilling the criterion for allocated training budget for technical staff (E0002). These allocations are recurring and formalized, indicating a shift from sporadic or event-based funding (Phase 2) to a managed, policy-driven approach (Phase 3). The evidence exceeds Phase 2, which only requires sporadic or event-based financial incentives and training funds, by demonstrating regular, institutionalized budget allocations for both a coordinating unit and technical staff training. However, the evidence also explicitly states that the allocations do not fund secure infrastructure or systematic recruitment and retention of trained staff (E0003). This limitation prevents advancement to Phase 4, which requires systematic investment in secure technical and legal infrastructures and well-trained staff. No evidence was identified of government investment in secure infrastructure or systematic staff recruitment and retention. The principal strength is the clear, recurring budget for coordination and training; the principal weakness is the absence of investment in infrastructure and staff retention, which is explicitly documented.",
+      "evidence_supporting_score": [
+        "E0001",
+        "E0002"
+      ],
+      "contrary_or_limiting_evidence": [
+        "E0003"
+      ],
+      "contrary_or_limiting_reasoning": "E0003 directly states that the current allocations do not fund secure infrastructure or systematic recruitment and retention of trained staff, which are required for Phase 4. This is a documented limitation, not merely an evidence gap.",
+      "next_phase_gap": "To reach Phase 4, evidence is required of government investment in secure technical and legal infrastructures to ensure accessibility and safety of risk and disaster data, as well as systematic investment in well-trained staff for high-quality data availability. No evidence of such investments or systematic recruitment and retention was identified in the supplied documents."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "country": "Tavira",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "For Tavira, the evidence demonstrates that a modest recurring budget is allocated to the National Data Coordination Unit for information-sharing procedures, and funds are provided for quarterly database-management training for technical support staff. However, there is explicit evidence that these allocations do not extend to secure technical infrastructure or systematic investment in well-trained staff, which are required for higher maturity phases. No evidence supports more advanced or comprehensive budgetary practices. Therefore, the assessment provisionally assigns Phase 3 (Managed and defined) for Indicator C.2.2 — Dedicated budget.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.2.2",
+      "indicator_name": "Dedicated budget",
+      "phase_score": 3,
+      "matched_phase_requirement": "Government policy formally starts allocating modest budgets to develop information sharing within the ecosystem and establishing standardized processes. Budget for a coordinating unit and trainings in database management for technical support staff is allocated.",
+      "score_reasoning": "The evidence for Tavira demonstrates that the government has formally allocated a modest recurring budget to the National Data Coordination Unit for information-sharing procedures, as established by the 2026 Appropriations Act (E0001). This directly supports the requirement for a government policy that allocates modest budgets to develop information sharing within the ecosystem and establishes standardized processes. Additionally, the Ministry of Finance training annex provides funds for quarterly database-management training for technical support staff (E0002), which satisfies the requirement for budget allocation for a coordinating unit and training in database management for technical support staff. These two elements together fully support the Phase 3 criterion, which requires both formal budget allocation for information sharing and training. The evidence exceeds Phase 2, which only requires sporadic or event-based financial incentives and training funds, by demonstrating recurring and formalized allocations. However, the evidence also includes a direct limitation: the allocations do not fund secure infrastructure or systematic recruitment and retention of trained staff (E0003). This limitation prevents advancement to Phase 4, which requires systematic investment in secure technical and legal infrastructures and well-trained staff. No evidence was identified for comprehensive or consistent investment in secure infrastructure or staff retention, nor for the higher-level requirements of Phase 5. The principal strength is the formalization and recurrence of budget allocations for coordination and training. The principal weakness is the absence of systematic investment in secure infrastructure and staff, as explicitly documented. This assessment is provisional and should be validated by experts with access to broader budgetary and implementation records.",
+      "evidence_supporting_score": ["E0001", "E0002"],
+      "contrary_or_limiting_evidence": ["E0003"],
+      "contrary_or_limiting_reasoning": "E0003 explicitly states that the allocations do not fund secure infrastructure or systematic recruitment and retention of trained staff, which are required for Phase 4 and above. This limitation prevents scoring above Phase 3.",
+      "next_phase_gap": "To achieve Phase 4, evidence is required that the government invests in secure technical and legal infrastructures to ensure accessibility and safety of risk and disaster data, and systematically invests in well-trained staff to ensure availability of high-quality risk and disaster data. No evidence of such systematic investment or infrastructure funding was identified.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Government policy formally starts allocating modest budgets to develop information sharing within the ecosystem and establishing standardized processes.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0001"],
+          "explanation": "E0001 documents a modest recurring budget allocation to the National Data Coordination Unit for information-sharing procedures, directly supporting this requirement."
+        },
+        {
+          "requirement": "Budget for a coordinating unit and trainings in database management for technical support staff is allocated.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002"],
+          "explanation": "E0002 documents funds allocated for quarterly database-management training for technical support staff, supporting this requirement."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

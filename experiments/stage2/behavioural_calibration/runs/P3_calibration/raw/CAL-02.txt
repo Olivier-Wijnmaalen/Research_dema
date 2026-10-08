@@ -1,0 +1,39 @@
+{
+  "country": "Norwyn",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment of Norwyn's technical infrastructure and operational readiness for AI-enabled data workflows (Indicator B.2.3) reveals that the ecosystem remains at an ad hoc, incomplete stage. The evidence demonstrates that data workflows are largely manual, fragmented, and reliant on disconnected files and email transfers, with no operational technical systems supporting AI-enabled workflows. While there is a formal intention to procure an integrated cloud platform in the future, there is no evidence of current digitization, reliable connectivity, or operational AI platforms. No evidence supports partial digitization, experimental AI use, or standardized technical approaches. Therefore, the highest fully supported phase is Phase 1, with clear gaps in implementation and operational readiness for higher phases.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "B.2.3",
+      "indicator_name": "Technical infrastructure and operational readiness for AI-enabled data workflows",
+      "phase_score": 1,
+      "matched_phase_requirement": "Data workflows are largely manual and rely on disconnected files, spreadsheets, or standalone applications. Technical systems are insufficient to support AI-enabled workflows, and digital data are often not available in formats that can be readily used by AI tools. Reliable connectivity, computing resources, or access to AI platforms may be limited.",
+      "score_reasoning": "The evidence for Norwyn’s technical infrastructure and operational readiness for AI-enabled data workflows demonstrates that the ecosystem is at an incomplete, ad hoc stage. The current workflow review (E0002) establishes that offices transfer spreadsheets by email and analysts manually re-enter records, indicating that data workflows are fragmented and largely manual. There is no mention of digitized workflows, structured databases, or technical systems supporting AI-enabled operations. This directly matches the Phase 1 requirement that workflows rely on disconnected files and manual processes, and that technical systems are insufficient for AI-enabled workflows. The Cabinet’s approval of the Norwyn AI Readiness Roadmap (E0001) signals a formal intention to procure an integrated cloud platform in 2027, but this is a future plan and does not demonstrate current procurement, deployment, or operational use of technical systems for AI workflows. No evidence was identified of organizations using digital systems, cloud-based AI tools, or partially digitized workflows, which would be required for Phase 2. There is also no evidence of reliable connectivity, computing resources, or access to AI platforms. The evidence thus exceeds the threshold for Phase 1, as it documents manual, fragmented workflows, but does not reach Phase 2, which requires some technical foundations and experimental AI use. The principal weakness is the absence of any demonstrated digitization or operational technical systems for AI workflows. The next phase gap is the lack of evidence showing partial digitization, use of digital systems, or experimental AI applications. No evidence was identified for technical approaches, platforms, or operational readiness beyond manual processes.",
+      "evidence_supporting_score": ["E0002"],
+      "contrary_or_limiting_evidence": ["E0001"],
+      "contrary_or_limiting_reasoning": "E0001 documents a formal intention to procure an integrated cloud platform in the future, but does not demonstrate current procurement, deployment, or operation. It does not contradict the score, but limits the assessment to current capabilities.",
+      "next_phase_gap": "Evidence of organizations using digital systems, cloud-based AI tools, or partially digitized workflows; demonstration of technical foundations for AI-enabled workflows; operational use of AI tools in data processes.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Data workflows are largely manual and rely on disconnected files, spreadsheets, or standalone applications.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002"],
+          "explanation": "E0002 documents that offices transfer spreadsheets by email and analysts manually re-enter records, demonstrating manual and fragmented workflows."
+        },
+        {
+          "requirement": "Technical systems are insufficient to support AI-enabled workflows, and digital data are often not available in formats that can be readily used by AI tools.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002"],
+          "explanation": "E0002 shows that data workflows are manual and fragmented, with no evidence of technical systems supporting AI-enabled workflows or digital data in AI-ready formats."
+        },
+        {
+          "requirement": "Reliable connectivity, computing resources, or access to AI platforms may be limited.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002"],
+          "explanation": "E0002 does not mention any reliable connectivity, computing resources, or access to AI platforms, supporting the requirement that these may be limited."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

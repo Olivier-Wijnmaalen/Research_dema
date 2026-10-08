@@ -1,0 +1,102 @@
+{
+  "baseline_yield": 435,
+  "minimum_eligible_yield": 392,
+  "tie_rule": "Differences below 1 percentage point are ties; prefer strict exact rate, then earlier prompt.",
+  "highest_primary_rate": 98.08,
+  "versions_in_tie_set": [
+    3,
+    5,
+    6
+  ],
+  "selected_langfuse_version": 6,
+  "selection_reason": "Version 6 is within 0.88 percentage points of the highest traceability rate and has the highest strict exact rate in the tie set.",
+  "post_selection_ais": {
+    "rows": 451,
+    "counts": {
+      "PARTIALLY_ATTRIBUTABLE": 152,
+      "FULLY_ATTRIBUTABLE": 291,
+      "NOT_ATTRIBUTABLE": 8
+    },
+    "used_for_prompt_selection": false
+  },
+  "versions": [
+    {
+      "langfuse_version": 1,
+      "iteration": 0,
+      "generated_items": 435,
+      "schema_valid_items": 426,
+      "item_schema_compliance_percent": 97.93,
+      "traceable_items": 418,
+      "lenient_traceability_percent": 96.09,
+      "strict_exact_percent": 94.71,
+      "technical_failures": 17,
+      "parse_failures_after_permitted_retry": 0,
+      "eligible": false
+    },
+    {
+      "langfuse_version": 2,
+      "iteration": 1,
+      "generated_items": 404,
+      "schema_valid_items": 404,
+      "item_schema_compliance_percent": 100.0,
+      "traceable_items": 380,
+      "lenient_traceability_percent": 94.06,
+      "strict_exact_percent": 92.33,
+      "technical_failures": 24,
+      "parse_failures_after_permitted_retry": 0,
+      "eligible": true
+    },
+    {
+      "langfuse_version": 3,
+      "iteration": 2,
+      "generated_items": 413,
+      "schema_valid_items": 413,
+      "item_schema_compliance_percent": 100.0,
+      "traceable_items": 402,
+      "lenient_traceability_percent": 97.34,
+      "strict_exact_percent": 95.88,
+      "technical_failures": 11,
+      "parse_failures_after_permitted_retry": 0,
+      "eligible": true
+    },
+    {
+      "langfuse_version": 4,
+      "iteration": 3,
+      "generated_items": 438,
+      "schema_valid_items": 438,
+      "item_schema_compliance_percent": 100.0,
+      "traceable_items": 423,
+      "lenient_traceability_percent": 96.58,
+      "strict_exact_percent": 96.12,
+      "technical_failures": 15,
+      "parse_failures_after_permitted_retry": 0,
+      "eligible": true
+    },
+    {
+      "langfuse_version": 5,
+      "iteration": 4,
+      "generated_items": 416,
+      "schema_valid_items": 416,
+      "item_schema_compliance_percent": 100.0,
+      "traceable_items": 408,
+      "lenient_traceability_percent": 98.08,
+      "strict_exact_percent": 96.15,
+      "technical_failures": 8,
+      "parse_failures_after_permitted_retry": 0,
+      "eligible": true
+    },
+    {
+      "langfuse_version": 6,
+      "iteration": 5,
+      "generated_items": 464,
+      "schema_valid_items": 464,
+      "item_schema_compliance_percent": 100.0,
+      "traceable_items": 451,
+      "lenient_traceability_percent": 97.2,
+      "strict_exact_percent": 96.34,
+      "technical_failures": 13,
+      "parse_failures_after_permitted_retry": 0,
+      "eligible": true
+    }
+  ]
+}

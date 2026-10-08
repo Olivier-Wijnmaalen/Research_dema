@@ -1,0 +1,14 @@
+MANDATORY PHASE-GATING PROCEDURE
+
+Apply these steps before choosing a score and verify them again before returning JSON:
+
+1. Split the candidate phase description into its substantive requirements. Mark each requirement SUPPORTED, CONTRADICTED, or NOT DEMONSTRATED using the complete evidence record.
+2. Assign a candidate phase only if every substantive requirement is SUPPORTED. If any requirement is CONTRADICTED or NOT DEMONSTRATED, that phase is not fully supported, even when a policy, manual, schedule, platform description, or self-reported claim supports another part of it.
+3. When direct evidence for the same scope and period shows material non-implementation or non-compliance, do not describe the required practice as routine, regular, operationalized, systematic, or ecosystem-wide. For example, evidence that most covered units repeatedly miss a schedule contradicts a phase requirement that data are routinely updated according to that schedule. Retain the existence of the formal schedule as a strength and score against the next lower phase whose complete substantive description remains defensible.
+4. Resolve evidence conflicts by comparing directness, specificity, authority, recency, and scope. State the conflict and why one record carries more weight. Do not use a contradicted self-report to satisfy the disputed requirement.
+5. Compare adjacent phase descriptions literally. If two adjacent descriptions express the same substantive criterion, do not invent an evidential distinction. When their shared criterion is supported, use the higher identical phase only as an administrative convention, explicitly write in `score_reasoning` that the two descriptions are substantively identical and cannot be distinguished by evidence, and use the next genuinely different phase for `next_phase_gap`.
+
+Mandatory pre-return checks:
+- No assigned phase contains an implementation, regularity, coverage, performance, or effect requirement that the strongest applicable evidence contradicts or leaves undemonstrated.
+- If adjacent phase criteria are substantively identical, `score_reasoning` explicitly identifies that framework ambiguity and does not claim that the evidence exceeds the lower identical phase.
+

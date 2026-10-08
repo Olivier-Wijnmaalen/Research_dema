@@ -1,0 +1,33 @@
+{
+  "country": "Lydora",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "The assessment of Indicator C.3.2 (Communication, Inter-agency collaboration & partnerships) for Lydora finds that while there is some evidence of short-term, project-based partnerships and limited formal collaboration between select actors, there is no demonstration of ecosystem-wide, regular, or strategic partnerships led by the national authority. Communication and collaboration remain largely ad hoc or project-driven, with only isolated formal arrangements that do not extend to the national level or include the full range of key stakeholder groups. The evidence does not support higher phases that require broad, regular, and institutionalized collaboration or strategic partnerships coordinated by the national authority. The assessment identifies a clear documentary gap for regular, national-level coordination mechanisms and strategic partnerships, resulting in a provisional score of Phase 2 (Recognized but reactive).",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.3.2",
+      "indicator_name": "Communication, Inter-agency collaboration & partnerships",
+      "phase_score": 2,
+      "matched_phase_requirement": "Data users and producers are not well networked and there is limited inter-agency collaboration, it only occurs on demand or during a project.",
+      "score_reasoning": "The evidence for Lydora demonstrates that inter-agency collaboration and communication are limited and primarily occur in response to specific projects or demands. The Lydora Risk Office and provincial data units exchange files only when a flood response project requests them, indicating that collaboration is project-bound and not part of a routine, ecosystem-wide process (E0001). This supports the Phase 2 requirement that collaboration is limited and occurs on demand or during a project. Additionally, there is evidence of a formal, short-term partnership between one university laboratory and one software company, which included a data-sharing protocol for a coastal pilot (E0002). However, this partnership is geographically limited, short in duration, and does not involve the national coordinator, so it cannot be generalized as evidence of broader or more institutionalized collaboration. Critically, the partnership register, current to June 2026, shows no evidence of regular ecosystem-wide coordination meetings or strategic partnerships led by the national authority (E0003). This directly contradicts the requirements for Phase 3 and above, which require the national NDRMA or an intermediary to establish official partnerships with academia, non-governmental, and private sector organizations, and for Phase 4 and 5, to facilitate regular, strategic, and institutionalized collaboration across the ecosystem. The evidence thus exceeds Phase 1, which would require a complete absence of official partnerships and only personal, informal communication, but does not reach Phase 3, as there is no demonstration of the national authority's active role in establishing partnerships or regular communication across the ecosystem. The principal strength is the existence of at least one formal, if limited, partnership; the principal weakness is the lack of national-level, regular, or strategic collaboration mechanisms. The main uncertainty is whether additional partnerships or coordination mechanisms exist but are undocumented in the supplied evidence.",
+      "evidence_supporting_score": ["E0001", "E0002"],
+      "contrary_or_limiting_evidence": ["E0003"],
+      "contrary_or_limiting_reasoning": "E0003, the partnership register, directly demonstrates the absence of regular, ecosystem-wide coordination meetings or strategic partnerships led by the national authority, which is a requirement for Phase 3 and above. This evidence is authoritative, current, and specific, and therefore limits the score to Phase 2.",
+      "next_phase_gap": "Documentary evidence is required of the national NDRMA or an intermediary establishing official (even short-term) partnerships with academia, non-governmental, and private sector organizations, or of regular communication and coordination mechanisms that extend beyond project-based or isolated partnerships. Evidence of national-level, routine, and strategic collaboration is needed to support Phase 3.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Data users and producers are not well networked.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0001"],
+          "explanation": "E0001 shows that data exchange between the Lydora Risk Office and provincial data units occurs only when a project requests it, indicating that users and producers are not well networked outside of project demands."
+        },
+        {
+          "requirement": "There is limited inter-agency collaboration, it only occurs on demand or during a project.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0001", "E0002"],
+          "explanation": "E0001 demonstrates that collaboration is project-bound and not routine. E0002 provides an example of a formal, short-term partnership for a specific pilot, further supporting that collaboration is limited and event-driven."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

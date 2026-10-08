@@ -1,0 +1,12 @@
+## Exact traceability errors in the non-development evaluation set
+
+| Evidence item | Source location | Exact traceability error |
+|---|---|---|
+| `006_chunk_001_pages_001-001::E003` | Source 006, page 1 | The generated quotation omitted the two Markdown emphasis markers surrounding the embedded agrometeorological quotation. The source contains `« *il est prévu … fin de la saison* »`, whereas the evidence record contains `« il est prévu … fin de la saison »`. The words were otherwise reproduced from the source. |
+| `007_chunk_001_pages_001-001::E003` | Source 007, page 1 | The generated quotation omitted the opening and closing Markdown emphasis markers. The source contains `*« L'objectif est … producteurs de données »* , explique`, whereas the evidence record contains `« L'objectif est … producteurs de données » , explique`. |
+| `015_chunk_005_pages_041-050::E014` | Source 015, page 48 | The evidence record added a leading bullet marker. The source passage begins `Mettre en place les règlements…`; the generated quotation begins `- Mettre en place les règlements…`. |
+| `029_chunk_002_pages_011-020::E006` | Source 029, pages 13–14 | The record concatenated a sentence across a page boundary. Between `au niveau` and `régional`, the source chunk contains footnote 6, the `Page 14` heading and the page-metadata marker. The generated quotation removed this intervening material and joined the two page fragments. Its recorded page number was only 14 although the quotation began on page 13. |
+| `029_chunk_002_pages_011-020::E014` | Source 029, pages 15–16 | The record concatenated text across a page boundary. Between `plusieurs sensibilisations ont` and `été faites`, the chunk contains footnote 7, the `Page 16` heading and the page-metadata marker. These elements were omitted from the generated quotation. Its recorded page number was only 16 although the quotation began on page 15. |
+| `029_chunk_003_pages_021-030::E012` | Source 029, pages 28–29 | The record concatenated text across a page boundary. Between `environ six` and `milliards9 de FCFA`, the chunk contains the `Page 29` heading and page-metadata marker. The generated quotation removed this intervening material. Its recorded page number was only 29 although the quotation began on page 28. |
+
+All six records satisfied the requested schema. They failed only the exact-contiguous-quotation criterion. The first three were formatting-marker errors; the last three were non-contiguous cross-page quotations with incomplete page provenance.

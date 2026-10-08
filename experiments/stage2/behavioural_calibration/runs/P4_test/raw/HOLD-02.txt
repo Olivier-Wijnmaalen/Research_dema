@@ -1,0 +1,39 @@
+{
+  "country": "Brinora",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "Brinora demonstrates fragmented strategic recognition of risk data, interoperability, and common standards as national priorities through its Disaster Policy. However, there is no evidence of a comprehensive data ecosystem strategy or formal data strategy document. The available evidence confirms that strategic priorities such as data sharing and standards are acknowledged, but implementation remains fragmented and there is no indication of a regularly updated or comprehensive strategy. The evidence does not support higher phases, as there is no formal strategy, no institutional arrangements for ecosystem development, and no demonstration of regular review or alignment with broader frameworks. The score is provisionally set at Phase 2, 'Recognized but reactive', as the evidence supports strategic recognition but not formalization or systematic implementation.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "C.2.1",
+      "indicator_name": "Data strategy, including the use of common data standards Data ecosystem strategy and vision",
+      "phase_score": 2,
+      "matched_phase_requirement": "While there is no specific data strategy, the importance of risk and impact data collection and the use of common data standards is recognized in a strategic or policy document created by the government or adopted from an international or regional organization. While there is no comprehensive data ecosystem strategy, the importance of data for decision-making, risk and impact analysis, and ecosystem coordination is recognized in one or more policy or strategy documents. Strategic priorities such as data sharing, interoperability, or the use of common standards are acknowledged but remain fragmented.",
+      "score_reasoning": "The evidence from Brinora's Disaster Policy (E0001) establishes that risk data, interoperability, and common standards are recognized as national priorities, but explicitly states that this is not a comprehensive data strategy. This recognition is repeated in a ministry newsletter (E0002), which also announces the intention to draft a comprehensive strategy in the future, but does not demonstrate adoption or implementation. A donor brief (E0003) further reproduces this announcement, but again only confirms future intention and not current practice. The evidence supports the Phase 2 requirement that the importance of risk and impact data collection and common standards is recognized in a policy document, but it also confirms that strategic priorities remain fragmented and there is no comprehensive data ecosystem strategy. There is no evidence of a formal strategy or policy framework outlining objectives, priorities, or institutional arrangements for strengthening the data ecosystem, as required for Phase 3. The evidence exceeds Phase 1, which would require no recognition or reference to data or standards, but does not reach Phase 3, as there is no formal strategy, no centralization of cataloguing or storage, and no demonstration of regular review or updating. The principal strength is the explicit recognition of data and standards in national policy, but the main weakness is the absence of a formal, comprehensive, or regularly updated strategy. No evidence was identified for a dedicated government unit, regular review, or alignment with broader frameworks, which are required for higher phases.",
+      "evidence_supporting_score": ["E0001", "E0002", "E0003"],
+      "contrary_or_limiting_evidence": [],
+      "contrary_or_limiting_reasoning": "No evidence directly contradicts the score, but all evidence items confirm the absence of a comprehensive or formal data strategy and only demonstrate fragmented recognition. The newsletter and donor brief (E0002, E0003) reinforce the limitation by announcing future intentions rather than current implementation.",
+      "next_phase_gap": "To reach Phase 3, evidence is required of a formal data strategy or policy framework outlining objectives, priorities, and institutional arrangements for strengthening the data ecosystem, including areas such as data sharing, interoperability, standards, and data management. The strategy must be adopted and operational, not merely planned or recognized in fragmented policy statements. No such document or institutional arrangement was identified in the supplied evidence.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "The importance of risk and impact data collection and the use of common data standards is recognized in a strategic or policy document created by the government or adopted from an international or regional organization.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0001"],
+          "explanation": "Brinora's Disaster Policy recognizes risk data, interoperability, and common standards as national priorities, satisfying the requirement for strategic recognition."
+        },
+        {
+          "requirement": "While there is no comprehensive data ecosystem strategy, the importance of data for decision-making, risk and impact analysis, and ecosystem coordination is recognized in one or more policy or strategy documents.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0001", "E0002"],
+          "explanation": "The Disaster Policy and ministry newsletter confirm recognition of data priorities but explicitly state the absence of a comprehensive strategy."
+        },
+        {
+          "requirement": "Strategic priorities such as data sharing, interoperability, or the use of common standards are acknowledged but remain fragmented.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0001", "E0002", "E0003"],
+          "explanation": "All evidence items confirm that strategic priorities are acknowledged but not formalized or systematically implemented."
+        }
+      ],
+      "framework_ambiguity": ""
+    }
+  ]
+}

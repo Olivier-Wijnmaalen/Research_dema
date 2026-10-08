@@ -1,0 +1,33 @@
+{
+  "country": "Zafran",
+  "framework_version": "current DEMA maturity framework supplied in this prompt",
+  "assessment_summary": "For Indicator A.1.1 (Roles are known & identified, for all actors), the evidence demonstrates that Zafran has identified key actors in the disaster data ecosystem, including government ministries, relief organizations, universities, and telecommunications firms, as maintained by the Zafran Disaster Secretariat (E0001). The customary tasks of these actors are described, but a legal review found that several agencies' data roles are not defined in laws or official mandates (E0002). There is no evidence of a fully endorsed and operationalized institutional framework (E0003). Therefore, the highest fully supported phase is Phase 3, as all requirements for this phase are met, but not those for Phase 4 or above.",
+  "indicator_assessments": [
+    {
+      "indicator_code": "A.1.1",
+      "indicator_name": "Roles are known & identified, for all actors",
+      "phase_score": 3,
+      "matched_phase_requirement": "The key actors in the ecosystem have been identified by e.g. the NDRMA, but the roles of key government agencies and organizations are not always defined through official/legal mechanisms",
+      "score_reasoning": "The Zafran Disaster Secretariat maintains an endorsed list that identifies key actors in the disaster data ecosystem, including ministries, relief organizations, universities, and telecommunications firms (E0001). This demonstrates that the ecosystem’s principal actors are known and identified at the national level. The list also describes the customary tasks of these actors, indicating some level of role awareness. However, a legal review found that several agencies' data roles are not defined in laws or official mandates (E0002), meaning that while roles are described, they are not always defined through official or legal mechanisms. This directly matches the Phase 3 requirement, which stipulates that key actors are identified but roles are not always defined through official/legal mechanisms. There is no evidence that a fully endorsed and operationalized institutional framework exists in practice (E0003), which is a mandatory requirement for Phase 4. The evidence thus exceeds Phase 2, where only identification of key actors is required without any role definition, but does not reach Phase 4, which requires both full endorsement and operationalization of the institutional framework. The principal strength is the existence of a national, endorsed list and some role description; the principal limitation is the lack of legal definition and operationalization of roles.",
+      "evidence_supporting_score": ["E0001", "E0002"],
+      "contrary_or_limiting_evidence": ["E0003"],
+      "contrary_or_limiting_reasoning": "E0003 explicitly states that no reviewed record demonstrates a fully endorsed and operationalized institutional framework, which is required for Phase 4. This is a documentary evidence gap, not proof of real-world absence, but it precludes scoring above Phase 3.",
+      "next_phase_gap": "Documentary evidence of a fully endorsed and operationalized institutional framework that defines the roles and responsibilities of all actors in the ecosystem, demonstrating that formal governance is also the real governance in practice.",
+      "assigned_phase_requirement_checks": [
+        {
+          "requirement": "Key actors in the ecosystem have been identified by e.g. the NDRMA.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0001"],
+          "explanation": "The Zafran Disaster Secretariat maintains an endorsed list identifying ministries, relief organisations, universities, and telecommunications firms active in the data ecosystem, demonstrating identification of key actors."
+        },
+        {
+          "requirement": "The roles of key government agencies and organizations are not always defined through official/legal mechanisms.",
+          "status": "SUPPORTED",
+          "evidence_ids": ["E0002"],
+          "explanation": "The list describes customary tasks, but the legal review found that several agencies' data roles are not defined in laws or official mandates, directly supporting this requirement."
+        }
+      ],
+      "framework_ambiguity": "Phases 2 and 3 are substantively identical in their requirements for this indicator. Both require identification of key actors but note that roles are not always defined through official/legal mechanisms. As per the scoring algorithm, the higher of the identical phases (Phase 3) is used as an administrative convention."
+    }
+  ]
+}

@@ -30,11 +30,12 @@ The canonical recorded run is `dema-20260917T132056Z`. It used `gpt-4.1-students
 
 ## Start here
 
-1. Read [docs/research_workflow.md](docs/research_workflow.md) and [docs/data_split_and_leakage_controls.md](docs/data_split_and_leakage_controls.md).
-2. Inspect [outputs/canonical_final/manifest.json](outputs/canonical_final/manifest.json) and `final_score.validated.json`.
-3. Inspect the exact production prompt snapshots in `prompts/stage1/frozen/` and `prompts/stage2/frozen/`.
-4. Review traceability and sensitivity findings in `evaluation/` and `reports/`.
-5. Use [docs/artifact_register.csv](docs/artifact_register.csv) to trace retained artifacts to their original workspace.
+1. Use [FINAL_TRUTH_TABLE.md](FINAL_TRUTH_TABLE.md) as the numerical authority for Chapters 6–9.
+2. Read [docs/research_workflow.md](docs/research_workflow.md) and [docs/data_split_and_leakage_controls.md](docs/data_split_and_leakage_controls.md).
+3. Inspect [outputs/canonical_final/manifest.json](outputs/canonical_final/manifest.json) and `final_score.validated.json`.
+4. Inspect the exact production prompt snapshots in `prompts/stage1/frozen/` and `prompts/stage2/frozen/`.
+5. Review traceability and sensitivity findings in `evaluation/` and `reports/`.
+6. Use [docs/artifact_register.csv](docs/artifact_register.csv) to trace retained artifacts to their original workspace.
 
 ## Repository map
 

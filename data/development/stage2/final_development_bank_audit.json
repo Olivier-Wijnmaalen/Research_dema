@@ -1,0 +1,22 @@
+{
+  "dataset_name": "evidence_bank_v4_indicator_defined_for_maturity_scoring",
+  "created_at_utc": "2026-09-02T11:01:06.864119+00:00",
+  "generated": 428,
+  "technical_status_counts": {
+    "PASS_EXACT": 395,
+    "FAIL": 20,
+    "REPAIR_REQUIRED": 7,
+    "PASS_NORMALIZED": 6
+  },
+  "ais_status_counts": {
+    "PARTIALLY_ATTRIBUTABLE": 211,
+    "FULLY_ATTRIBUTABLE": 204,
+    "NOT_ATTRIBUTABLE": 13
+  },
+  "excluded_by_technical_count": 27,
+  "excluded_by_ais_after_technical_count": 11,
+  "retained_for_maturity_scoring": 390,
+  "maturity_input_sha256": "94a062f211ce77dcea686bff849ceee25c082380246c48b2acb9ae63d4aafd59",
+  "full_ais_results_file": "C:\\Users\\olivi\\OneDrive\\Documenten\\OPENAI_AZURE_V1\\output\\v4-indicator-defined-framework-all-chunks\\ais-validation-results.json",
+  "chunk_13_salvage_audit": "C:\\Users\\olivi\\OneDrive\\Documenten\\OPENAI_AZURE_V1\\output\\v4-indicator-defined-framework-all-chunks\\chunk-013.truncation-salvage.json"
+}

@@ -1,0 +1,133 @@
+{
+  "indicator": {
+    "indicator_code": "A.1.2",
+    "indicator_name": "Roles are known & identified, for the coordinator"
+  },
+  "design": "All five non-development records rated strong and assigned by Stage 1 to A.1 Roles; treatment adds five A.1.2 controls.",
+  "control_free": {
+    "indicator_code": "A.1.2",
+    "indicator_name": "Roles are known & identified, for the coordinator",
+    "phase_score": 2,
+    "matched_phase_requirement": "A coordinator or national lead stimulates informally data producers to share data and data users to make their data needs clear. Yet there are not yet institutional arrangements in place to support this strategy. Coordinating body (usually in the form of the ministry or national DRM autority) organises activities to promote the exchange and improvement of data.",
+    "score_reasoning": "The evidence demonstrates that several coordinating actors are recognized in Togo’s disaster data ecosystem. The Agence Nationale de la Météorologie (ANAMET) is identified as the national provider of meteorological and climate data, producing and disseminating information to decision-makers and the population at the start of each rainy season (EV-0001). A newly validated national document maps actors involved in meteorological data collection and dissemination, with ANAMET as the technical authority, alongside ASECNA, ITRA, CTOP, ICAT, and the maritime prefecture (EV-0004). The post-catastrophe evaluation mission was coordinated by the Agence Nationale de la Protection Civile (ANPC) in close collaboration with key sectoral actors, demonstrating coordination in disaster assessment (EV-0007). WANEP-TOGO and the ECOWAS Early Warning Directorate are also identified as actors with defined coordination roles in early warning and data collection (EV-0008). The identification of national experts with specialized roles in risk and disaster management further supports the presence of coordination in specific projects (EV-0009). However, the evidence does not establish formal institutional arrangements for ecosystem-wide coordination, nor does it demonstrate routine incentivization of participation or comprehensive coverage of all relevant ministries and important data producers. Coordination is evident but remains largely informal and event-driven, without proof of formalized, ecosystem-wide arrangements or incentives. This exceeds Phase 1, which requires no coordinating actor or organized activities, but does not fully satisfy Phase 3, which requires a formal intermediary role, incentivized participation, and coverage of all relevant ministries and important data producers. The principal strength is the identification of multiple coordinating actors and their roles; the principal weakness is the lack of evidence for formal institutional arrangements and routine incentivization.",
+    "evidence_supporting_score": [
+      "EV-0001",
+      "EV-0004",
+      "EV-0007",
+      "EV-0008",
+      "EV-0009"
+    ],
+    "contrary_or_limiting_evidence": [],
+    "contrary_or_limiting_reasoning": "No evidence directly contradicts the score, but the evidence is limited in that it does not demonstrate formal institutional arrangements, routine incentivization, or comprehensive coverage of all relevant ministries and important data producers. These elements were not identified in the supplied evidence.",
+    "next_phase_gap": "To support Phase 3, evidence is required of a coordinator or national lead taking a formal intermediary role to increase data exchange, organizing activities to promote exchange and improvement of data, and incentivizing participation to ensure the presence of all relevant ministries and important data producers. Proof would include documentation of formal institutional arrangements, routine incentivization mechanisms, and comprehensive coverage of ecosystem actors.",
+    "assigned_phase_requirement_checks": [
+      {
+        "requirement": "A coordinator or national lead stimulates informally data producers to share data and data users to make their data needs clear.",
+        "status": "SUPPORTED",
+        "evidence_ids": [
+          "EV-0001",
+          "EV-0004",
+          "EV-0007",
+          "EV-0008",
+          "EV-0009"
+        ],
+        "explanation": "ANAMET, ANPC, WANEP-TOGO, ECOWAS Early Warning Directorate, and sectoral actors are identified as coordinators or leads, stimulating data sharing and clarifying data needs in various contexts."
+      },
+      {
+        "requirement": "There are not yet institutional arrangements in place to support this strategy.",
+        "status": "SUPPORTED",
+        "evidence_ids": [
+          "EV-0001",
+          "EV-0004",
+          "EV-0007",
+          "EV-0008",
+          "EV-0009"
+        ],
+        "explanation": "The evidence describes coordination and mapping of actors but does not establish formal institutional arrangements, supporting the requirement that arrangements are not yet in place."
+      },
+      {
+        "requirement": "Coordinating body (usually in the form of the ministry or national DRM authority) organises activities to promote the exchange and improvement of data.",
+        "status": "SUPPORTED",
+        "evidence_ids": [
+          "EV-0001",
+          "EV-0004",
+          "EV-0007",
+          "EV-0008",
+          "EV-0009"
+        ],
+        "explanation": "ANAMET and ANPC are described as organizing activities for data production, dissemination, and post-catastrophe evaluation, supporting the requirement for organizing activities to promote exchange and improvement of data."
+      }
+    ],
+    "framework_ambiguity": ""
+  },
+  "five_controls": {
+    "indicator_code": "A.1.2",
+    "indicator_name": "Roles are known & identified, for the coordinator",
+    "phase_score": 2,
+    "matched_phase_requirement": "A coordinator or national lead stimulates informally data producers to share data and data users to make their data needs clear. Yet there are not yet institutional arrangements in place to support this strategy. Coordinating body (usually in the form of the ministry or national DRM autority) organises activities to promote the exchange and improvement of data.",
+    "score_reasoning": "The evidence establishes that ANAMET (Agence Nationale de la Météorologie) is recognized as a national provider of meteorological and climate data, producing and disseminating information to decision-makers and the public at the start of each rainy season (EV-0001). A newly validated national document maps actors involved in meteorological data collection and dissemination, with ANAMET as the technical authority and other entities such as ASECNA, ITRA, CTOP, ICAT, and the maritime prefecture identified as producers (EV-0004). ANPC (Agence Nationale de la Protection Civile) is documented as coordinating post-catastrophe evaluation missions in collaboration with sectoral actors (EV-0007), and a roster of national experts with specialized roles is provided (EV-0009). The ECOWAS Early Warning Directorate and WANEP-TOGO are also identified as actors with defined roles in the ecosystem (EV-0008). These records show that key actors and coordinators are identified and that informal coordination and collaboration occur, particularly in response to events. However, none of the evidence demonstrates formal institutional arrangements, regular or incentivized activities to promote data exchange, or government incentives for broad participation. No evidence supports managed, formal, or incentivized coordination, nor does it demonstrate operationalization or ecosystem-wide coverage. Several items (EV-0002, EV-0003, EV-0006, EV-0010, EV-0005) reference topic exposure, agenda items, or glossary mentions but do not document implementation, institutionalization, or outcomes. Therefore, the highest fully supported phase is Phase 2 (Recognized but reactive), as the coordinator is identified and stimulates informal data sharing, but institutional arrangements and regular activities are not demonstrated.",
+    "evidence_supporting_score": [
+      "EV-0001",
+      "EV-0004",
+      "EV-0007",
+      "EV-0008",
+      "EV-0009"
+    ],
+    "contrary_or_limiting_evidence": [
+      "EV-0002",
+      "EV-0003",
+      "EV-0006",
+      "EV-0010",
+      "EV-0005"
+    ],
+    "contrary_or_limiting_reasoning": "EV-0002, EV-0003, EV-0006, EV-0010, and EV-0005 reference topic exposure, agenda items, or glossary mentions but do not document implementation, institutionalization, or outcomes. No evidence demonstrates formal institutional arrangements, regular activities, or government incentives for broad participation. No evidence supports managed, formal, or incentivized coordination, nor does it demonstrate operationalization or ecosystem-wide coverage.",
+    "next_phase_gap": "To reach Phase 3, evidence is required that the coordinator or national lead takes a formal role as an intermediary to increase data exchange, organizes activities to promote exchange and improvement of data, and that participation in these activities is incentivized by the government to ensure the presence of all relevant ministries and important data producers. Concrete proof would include official mandates, records of regular and incentivized activities, and evidence of broad stakeholder participation.",
+    "assigned_phase_requirement_checks": [
+      {
+        "requirement": "A coordinator or national lead stimulates informally data producers to share data and data users to make their data needs clear.",
+        "status": "SUPPORTED",
+        "evidence_ids": [
+          "EV-0001",
+          "EV-0004",
+          "EV-0007",
+          "EV-0008",
+          "EV-0009"
+        ],
+        "explanation": "ANAMET and ANPC are identified as coordinators who stimulate informal data sharing and collaboration among producers and users, as evidenced by their roles in data dissemination and post-catastrophe evaluation missions."
+      },
+      {
+        "requirement": "There are not yet institutional arrangements in place to support this strategy.",
+        "status": "SUPPORTED",
+        "evidence_ids": [
+          "EV-0001",
+          "EV-0004",
+          "EV-0007",
+          "EV-0008",
+          "EV-0009"
+        ],
+        "explanation": "No evidence demonstrates formal institutional arrangements, regular activities, or government incentives for broad participation, confirming the absence of institutional arrangements."
+      },
+      {
+        "requirement": "Coordinating body (usually in the form of the ministry or national DRM authority) organises activities to promote the exchange and improvement of data.",
+        "status": "SUPPORTED",
+        "evidence_ids": [
+          "EV-0007",
+          "EV-0009"
+        ],
+        "explanation": "ANPC is documented as coordinating post-catastrophe evaluation missions and organizing activities with sectoral actors, supporting the requirement for organizing activities to promote data exchange."
+      }
+    ],
+    "framework_ambiguity": ""
+  },
+  "effect": {
+    "phase_change": 0,
+    "controls_used_positively": [],
+    "controls_used_as_limiting": [
+      "EV-0002",
+      "EV-0003",
+      "EV-0005",
+      "EV-0006",
+      "EV-0010"
+    ]
+  }
+}

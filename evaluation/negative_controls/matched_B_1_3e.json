@@ -1,0 +1,197 @@
+{
+  "indicator": {
+    "indicator_code": "B.1.3e",
+    "indicator_name": "Data quality: validity"
+  },
+  "frozen_prompt": {
+    "name": "dema-stage2-final-strategy-20260916-p5",
+    "version": 1,
+    "sha256_crlf": "a3734a364931d5aaa90188c82eee400b0812023a5d4dcb14da70d917067669af"
+  },
+  "temperature": 0,
+  "control_free": {
+    "indicator_code": "B.1.3e",
+    "indicator_name": "Data quality: validity",
+    "phase_score": 2,
+    "matched_phase_requirement": "Some definitions, classifications, or methodological guidance exist, but they are applied inconsistently. Organizations make limited use of recognized frameworks or standards, and adherence is not routinely verified across datasets or actors.",
+    "score_reasoning": "The evidence demonstrates that Togo has a national law regulating the collection, processing, and protection of personal data (Loi n° 2019-014) (EV-0052), which establishes general requirements for data processing and protection. However, this law does not specify definitions, classifications, or calculation rules for disaster-risk-relevant datasets, nor does it provide methodological guidance for data validity. The post-catastrophe evaluation reports (EV-0147, EV-0149, EV-0154, EV-0161, EV-0171, EV-0175, EV-0194) present quantitative and disaggregated data for three prefectures, including breakdowns by sector, hazard, and population group. These reports show that some methodological guidance may exist at the project level, as evidenced by the use of harmonized questionnaires and digital tools (EV-0193), but there is no proof that definitions, classifications, or calculation rules are documented or applied consistently across actors or datasets. The evidence does not demonstrate the use of recognized frameworks or standards for data validity, nor does it show routine verification of adherence. No evidence was identified for ecosystem-wide documentation or implementation of validity standards. Therefore, the maturity for data quality: validity is assessed at Phase 2, as some guidance and definitions may exist at the project level, but implementation is inconsistent and not ecosystem-wide. The evidence exceeds Phase 1, which would require ad hoc definitions and no evidence of guidance, but does not meet Phase 3, which requires documented definitions, classifications, methodologies, and calculation rules for key datasets and processes, with routine encouragement of adherence.",
+    "evidence_supporting_score": [
+      "EV-0052",
+      "EV-0147",
+      "EV-0149",
+      "EV-0154",
+      "EV-0161",
+      "EV-0171",
+      "EV-0175",
+      "EV-0193",
+      "EV-0194"
+    ],
+    "contrary_or_limiting_evidence": [
+      "EV-0193"
+    ],
+    "contrary_or_limiting_reasoning": "EV-0193 establishes that a harmonized questionnaire was developed for the post-catastrophe evaluation, but it does not demonstrate ecosystem-wide adoption or consistent application of definitions, classifications, or calculation rules. No evidence was identified for national or ecosystem-wide documentation or implementation of validity standards. The available evidence is limited to three prefectures and specific project contexts, with no proof of routine verification or encouragement of adherence to agreed concepts and methods.",
+    "next_phase_gap": "To achieve Phase 3, evidence is required that definitions, classifications, methodologies, and calculation rules are documented for key datasets and processes, and that standard approaches are increasingly applied across actors, with routine encouragement of adherence. Concrete proof would include national or sectoral documentation of validity standards, methodological guidance, and evidence of implementation and verification across the ecosystem.",
+    "assigned_phase_requirement_checks": [
+      {
+        "requirement": "Some definitions, classifications, or methodological guidance exist.",
+        "status": "SUPPORTED",
+        "evidence_ids": [
+          "EV-0193"
+        ],
+        "explanation": "EV-0193 shows that a harmonized questionnaire was developed for the post-catastrophe evaluation, indicating some methodological guidance exists at the project level."
+      },
+      {
+        "requirement": "They are applied inconsistently.",
+        "status": "SUPPORTED",
+        "evidence_ids": [
+          "EV-0147",
+          "EV-0149",
+          "EV-0154",
+          "EV-0161",
+          "EV-0171",
+          "EV-0175",
+          "EV-0194"
+        ],
+        "explanation": "The post-catastrophe evaluation reports present quantitative and disaggregated data for three prefectures, but do not demonstrate consistent application of definitions, classifications, or calculation rules across actors or datasets."
+      },
+      {
+        "requirement": "Organizations make limited use of recognized frameworks or standards.",
+        "status": "SUPPORTED",
+        "evidence_ids": [
+          "EV-0052"
+        ],
+        "explanation": "EV-0052 establishes a general legal framework for personal data protection, but does not demonstrate the use of recognized frameworks or standards for disaster-risk-relevant data validity."
+      },
+      {
+        "requirement": "Adherence is not routinely verified across datasets or actors.",
+        "status": "SUPPORTED",
+        "evidence_ids": [],
+        "explanation": "No evidence was identified for routine verification of adherence to definitions, classifications, or calculation rules across datasets or actors."
+      }
+    ],
+    "framework_ambiguity": ""
+  },
+  "five_controls": {
+    "indicator_code": "B.1.3e",
+    "indicator_name": "Data quality: validity",
+    "phase_score": 1,
+    "matched_phase_requirement": "Data are collected and reported using ad hoc definitions, classifications, concepts, or methodologies. Similar variables may be interpreted differently across datasets and actors, and there is little evidence that data adhere to recognized frameworks, standards, or calculation rules.",
+    "score_reasoning": "The evidence for Togo’s disaster-risk-relevant data ecosystem shows that data are collected and reported for multiple sectors (housing, agriculture, livestock, education, health, water/sanitation, transport) in three prefectures affected by the 2022 hazards (EV-0154, EV-0036, EV-0033, EV-0171, EV-0156, EV-0194, EV-0083, EV-0017, EV-0018, EV-0035, EV-0082, EV-0085, EV-0096, EV-0196, EV-0147, EV-0149, EV-0114, EV-0119, EV-0197). The data are presented in tables and summary reports, but there is no explicit documentation of definitions, classifications, methodologies, or calculation rules for these datasets. The harmonized questionnaire and use of KoboCollect (EV-0193, EV-0132) indicate some project-level tool standardization, but do not establish ecosystem-wide standards or documented methodologies. No evidence supports the existence of recognized frameworks, standards, or calculation rules for data validity, nor is there proof of routine encouragement of adherence to agreed concepts and methods. The evidence is limited to ad hoc, event-driven data collection and reporting, with no systematic documentation or validation of data validity. No evidence supports the higher phase requirements of documented definitions, methodologies, or standard approaches. Therefore, the assessment finds that only Phase 1 (Incomplete, ad hoc) is fully supported, as data are collected and reported using ad hoc methods, and similar variables may be interpreted differently across datasets and actors. The principal weakness is the absence of documentary proof for standardization, validation, or adherence to recognized frameworks.",
+    "evidence_supporting_score": [
+      "EV-0154",
+      "EV-0036",
+      "EV-0033",
+      "EV-0171",
+      "EV-0156",
+      "EV-0194",
+      "EV-0083",
+      "EV-0017",
+      "EV-0018",
+      "EV-0035",
+      "EV-0082",
+      "EV-0085",
+      "EV-0096",
+      "EV-0196",
+      "EV-0147",
+      "EV-0149",
+      "EV-0114",
+      "EV-0119",
+      "EV-0197",
+      "EV-0193",
+      "EV-0132"
+    ],
+    "contrary_or_limiting_evidence": [
+      "EV-0159",
+      "EV-0121",
+      "EV-0126",
+      "EV-0027",
+      "EV-0130"
+    ],
+    "contrary_or_limiting_reasoning": "EV-0159, EV-0121, EV-0126, and EV-0027 document only agenda mentions, glossary entries, or introductory presentations of 'Data quality: validity', without evidence of implementation, practice, or institutionalization. EV-0130 is a generic international reference with no relevance to Togo. These records limit the scope by showing that the topic is recognized but not operationalized, and do not contradict the ad hoc status. No evidence was identified for documented definitions, methodologies, or calculation rules, nor for ecosystem-wide standards or validation.",
+    "next_phase_gap": "To reach Phase 2, evidence is required of some definitions, classifications, or methodological guidance being applied, even if inconsistently, and limited use of recognized frameworks or standards. Specifically, documentary proof of definitions, classifications, or methodological guidance for at least some datasets, and evidence of their application, is needed. No such proof was identified in the supplied evidence.",
+    "assigned_phase_requirement_checks": [
+      {
+        "requirement": "Data are collected and reported using ad hoc definitions, classifications, concepts, or methodologies.",
+        "status": "SUPPORTED",
+        "evidence_ids": [
+          "EV-0154",
+          "EV-0036",
+          "EV-0033",
+          "EV-0171",
+          "EV-0156",
+          "EV-0194",
+          "EV-0083",
+          "EV-0017",
+          "EV-0018",
+          "EV-0035",
+          "EV-0082",
+          "EV-0085",
+          "EV-0096",
+          "EV-0196",
+          "EV-0147",
+          "EV-0149",
+          "EV-0114",
+          "EV-0119",
+          "EV-0197",
+          "EV-0193",
+          "EV-0132"
+        ],
+        "explanation": "Data are collected and reported for multiple sectors and hazards in three prefectures, but there is no evidence of documented definitions, classifications, concepts, or methodologies. The data are presented in tables and summary reports, indicating ad hoc collection and reporting."
+      },
+      {
+        "requirement": "Similar variables may be interpreted differently across datasets and actors.",
+        "status": "SUPPORTED",
+        "evidence_ids": [
+          "EV-0154",
+          "EV-0036",
+          "EV-0033",
+          "EV-0171",
+          "EV-0156",
+          "EV-0194",
+          "EV-0083",
+          "EV-0017",
+          "EV-0018",
+          "EV-0035",
+          "EV-0082",
+          "EV-0085",
+          "EV-0096",
+          "EV-0196",
+          "EV-0147",
+          "EV-0149",
+          "EV-0114",
+          "EV-0119",
+          "EV-0197",
+          "EV-0193",
+          "EV-0132"
+        ],
+        "explanation": "The evidence shows data collection and reporting for similar variables (e.g., damages, losses, affected persons) across different sectors and prefectures, but there is no evidence of standardization or harmonization, allowing for potential differences in interpretation."
+      },
+      {
+        "requirement": "There is little evidence that data adhere to recognized frameworks, standards, or calculation rules.",
+        "status": "SUPPORTED",
+        "evidence_ids": [
+          "EV-0159",
+          "EV-0121",
+          "EV-0126",
+          "EV-0027",
+          "EV-0130"
+        ],
+        "explanation": "Records document only agenda mentions, glossary entries, or introductory presentations of 'Data quality: validity', without evidence of implementation, practice, or institutionalization. No evidence was identified for adherence to recognized frameworks, standards, or calculation rules."
+      }
+    ],
+    "framework_ambiguity": ""
+  },
+  "effect": {
+    "phase_change": -1,
+    "controls_used_positively": [],
+    "controls_used_as_limiting": [
+      "EV-0027",
+      "EV-0121",
+      "EV-0126",
+      "EV-0130",
+      "EV-0159"
+    ],
+    "positive_control_count": 0,
+    "limiting_control_count": 5
+  }
+}

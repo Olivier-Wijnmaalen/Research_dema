@@ -1,0 +1,863 @@
+{
+  "run_id": "dema-negative-source-20260917T162228Z",
+  "status": "complete",
+  "started_at": "2026-09-17T16:22:29.672942+00:00",
+  "experiment": "60 strong evaluation records plus 155 synthetic low-quality controls",
+  "input_bank": "C:\\Users\\olivi\\OneDrive\\Documenten\\full_assesmnet_line\\dema_run\\negative_source_test\\nondevelopment_evidence_bank_60_strong_plus_controls_blinded.json",
+  "input_bank_sha256": "27e1cda7031d238725d6ae0b1e983a2ed2d08d6c2a1755658f7057e5bed8c8a5",
+  "evidence_count": 215,
+  "indicator_count": 31,
+  "model": "gpt-4.1-students",
+  "temperature": 0,
+  "stage2_prompt": {
+    "name": "dema-stage2-final-strategy-20260916-p5",
+    "version": 1,
+    "crlf_sha256": "a3734a364931d5aaa90188c82eee400b0812023a5d4dcb14da70d917067669af"
+  },
+  "calls": [
+    {
+      "batch": 1,
+      "scope": [
+        "A.1.1",
+        "A.1.2",
+        "A.1.3",
+        "A.1.4"
+      ],
+      "response_id": "resp_0402ad639a48d210006aac13c5dbe08195aa6683de9096158d",
+      "usage": {
+        "input": 71881,
+        "output": 2953,
+        "total": 74834
+      },
+      "elapsed_seconds": 30.592
+    },
+    {
+      "batch": 2,
+      "scope": [
+        "A.2.1",
+        "A.2.2"
+      ],
+      "response_id": "resp_04e362abf7ed71f5006aac13e2bf4c8193967a0b4117ff8d25",
+      "usage": {
+        "input": 71822,
+        "output": 2176,
+        "total": 73998
+      },
+      "elapsed_seconds": 21.229
+    },
+    {
+      "batch": 3,
+      "scope": [
+        "A.2.3",
+        "A.2.4"
+      ],
+      "response_id": "resp_03e163da1ac46db3006aac13f85e4081959db8d4f846a95771",
+      "usage": {
+        "input": 71808,
+        "output": 1787,
+        "total": 73595
+      },
+      "elapsed_seconds": 21.976
+    },
+    {
+      "batch": 4,
+      "scope": [
+        "B.1.1",
+        "B.1.2"
+      ],
+      "response_id": "resp_0e857bf802460601006aac140dfc9481948526489c6554e67e",
+      "usage": {
+        "input": 71803,
+        "output": 2539,
+        "total": 74342
+      },
+      "elapsed_seconds": 23.057
+    },
+    {
+      "batch": 5,
+      "scope": [
+        "B.1.3a",
+        "B.1.3b"
+      ],
+      "response_id": "resp_0888d8b9200b6348006aac142504208194b7f1ea979568984b",
+      "usage": {
+        "input_tokens": 71809,
+        "input_tokens_details": {
+          "cached_tokens": 13312,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 2503,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 74312
+      },
+      "elapsed_seconds": 0,
+      "reused_completed_response": true
+    },
+    {
+      "batch": 6,
+      "scope": [
+        "B.1.3c",
+        "B.1.3d"
+      ],
+      "response_id": "resp_04471bccc8450914006aae736dd470819483a7ddb43b450f80",
+      "usage": {
+        "input": 71810,
+        "output": 1636,
+        "total": 73446
+      },
+      "elapsed_seconds": 12.83
+    },
+    {
+      "batch": 7,
+      "scope": [
+        "B.1.3e",
+        "B.1.3f"
+      ],
+      "response_id": "resp_0180cb0f45d58f5c006aae737868788197ad5dd97ea2b4b3a9",
+      "usage": {
+        "input": 71810,
+        "output": 1832,
+        "total": 73642
+      },
+      "elapsed_seconds": 12.535
+    },
+    {
+      "batch": 8,
+      "scope": [
+        "B.2.1",
+        "B.2.2"
+      ],
+      "response_id": "resp_0d7d782c608bdb72006aae7384f33081938449fedcda665b36",
+      "usage": {
+        "input": 71810,
+        "output": 2006,
+        "total": 73816
+      },
+      "elapsed_seconds": 14.178
+    },
+    {
+      "batch": 9,
+      "scope": [
+        "B.2.3",
+        "B.3.1"
+      ],
+      "response_id": "resp_0419f2dcadeee56b006aae739327d881968e51d6dfb87209bf",
+      "usage": {
+        "input": 71813,
+        "output": 1904,
+        "total": 73717
+      },
+      "elapsed_seconds": 12.952
+    },
+    {
+      "batch": 10,
+      "scope": [
+        "B.3.2"
+      ],
+      "response_id": "resp_0e377ffab3a53179006aae73a01c2c8193b91dc46d1e2f0a78",
+      "usage": {
+        "input": 71779,
+        "output": 2172,
+        "total": 73951
+      },
+      "elapsed_seconds": 12.26
+    },
+    {
+      "batch": 11,
+      "scope": [
+        "C.1.1",
+        "C.1.2"
+      ],
+      "response_id": "resp_08732358be4761da006aae73ac65a48196a3220b6024b39677",
+      "usage": {
+        "input": 71809,
+        "output": 1626,
+        "total": 73435
+      },
+      "elapsed_seconds": 10.815
+    },
+    {
+      "batch": 12,
+      "scope": [
+        "C.1.3",
+        "C.1.4"
+      ],
+      "response_id": "resp_0013f5c106b84f0a006aae73b750a48190a794eb188dda20da",
+      "usage": {
+        "input": 71805,
+        "output": 1711,
+        "total": 73516
+      },
+      "elapsed_seconds": 12.523
+    },
+    {
+      "batch": 13,
+      "scope": [
+        "C.1.5",
+        "C.2.1"
+      ],
+      "response_id": "resp_082e4dfb15b5db33006aae73f28404819698c9ac528dd8100d",
+      "usage": {
+        "input": 71857,
+        "output": 2127,
+        "total": 73984
+      },
+      "elapsed_seconds": 14.593
+    },
+    {
+      "batch": 14,
+      "scope": [
+        "C.2.2",
+        "C.2.3"
+      ],
+      "response_id": "resp_03c1daff2b4bdc33006aae73ffd0588194aa537d80519e1e73",
+      "usage": {
+        "input": 71854,
+        "output": 1754,
+        "total": 73608
+      },
+      "elapsed_seconds": 10.798
+    },
+    {
+      "batch": 15,
+      "scope": [
+        "C.3.1",
+        "C.3.2"
+      ],
+      "response_id": "resp_0d26cec9cda0b120006aae740a9a1c819388c72982a84a5554",
+      "usage": {
+        "input": 71860,
+        "output": 1718,
+        "total": 73578
+      },
+      "elapsed_seconds": 11.28
+    },
+    {
+      "batch": 16,
+      "scope": [
+        "A.1.3"
+      ],
+      "response_id": "resp_08077c18fd659875006aae7415e4448190aca35caa000e43e3",
+      "usage": {
+        "input": 71782,
+        "output": 950,
+        "total": 72732
+      },
+      "elapsed_seconds": 7.418
+    }
+  ],
+  "batches_completed": 16,
+  "completed_at": "2026-09-19T11:38:05.363389+00:00",
+  "validation_warnings": [
+    "batch 1: A.1.2: score_reasoning has 149 words (expected 180-350)",
+    "batch 1: A.1.4: score_reasoning has 174 words (expected 180-350)",
+    "batch 13: C.2.1: score_reasoning has 176 words (expected 180-350)"
+  ],
+  "results": {
+    "bank_records": 215,
+    "genuine_records_available": 60,
+    "synthetic_controls_available": 155,
+    "unique_controls_used": 105,
+    "control_citation_rate_pct": 67.7,
+    "controls_used_as_supporting": 41,
+    "controls_used_as_limiting": 69,
+    "contaminated_indicators": 27,
+    "indicator_contamination_rate_pct": 87.1,
+    "unique_genuine_records_used": 52,
+    "phase_changed_indicators": 28,
+    "phase_instability_rate_pct": 90.3,
+    "indicator_results": [
+      {
+        "indicator_code": "A.1.1",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [
+          "EV-0108",
+          "EV-0157",
+          "EV-0170",
+          "EV-0187"
+        ],
+        "genuine_used_ids": [
+          "EV-0010",
+          "EV-0105",
+          "EV-0204"
+        ]
+      },
+      {
+        "indicator_code": "A.1.2",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [
+          "EV-0031",
+          "EV-0061"
+        ],
+        "control_limiting_ids": [
+          "EV-0067",
+          "EV-0162",
+          "EV-0164"
+        ],
+        "genuine_used_ids": [
+          "EV-0048"
+        ]
+      },
+      {
+        "indicator_code": "A.1.3",
+        "baseline_phase": 2,
+        "experimental_phase": 1,
+        "phase_delta": -1,
+        "control_supporting_ids": [
+          "EV-0058",
+          "EV-0160"
+        ],
+        "control_limiting_ids": [],
+        "genuine_used_ids": [
+          "EV-0144"
+        ]
+      },
+      {
+        "indicator_code": "A.1.4",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [
+          "EV-0012",
+          "EV-0215"
+        ],
+        "control_limiting_ids": [
+          "EV-0092",
+          "EV-0110",
+          "EV-0139"
+        ],
+        "genuine_used_ids": [
+          "EV-0105",
+          "EV-0193"
+        ]
+      },
+      {
+        "indicator_code": "A.2.1",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [],
+        "genuine_used_ids": [
+          "EV-0055",
+          "EV-0132",
+          "EV-0172",
+          "EV-0201",
+          "EV-0214"
+        ]
+      },
+      {
+        "indicator_code": "A.2.2",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [],
+        "genuine_used_ids": [
+          "EV-0132",
+          "EV-0166",
+          "EV-0193",
+          "EV-0201",
+          "EV-0212"
+        ]
+      },
+      {
+        "indicator_code": "A.2.3",
+        "baseline_phase": 1,
+        "experimental_phase": 1,
+        "phase_delta": 0,
+        "control_supporting_ids": [
+          "EV-0084",
+          "EV-0117",
+          "EV-0209"
+        ],
+        "control_limiting_ids": [],
+        "genuine_used_ids": []
+      },
+      {
+        "indicator_code": "A.2.4",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [
+          "EV-0087",
+          "EV-0088"
+        ],
+        "control_limiting_ids": [],
+        "genuine_used_ids": []
+      },
+      {
+        "indicator_code": "B.1.1",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [],
+        "genuine_used_ids": [
+          "EV-0035",
+          "EV-0085",
+          "EV-0114",
+          "EV-0119",
+          "EV-0120",
+          "EV-0147",
+          "EV-0149",
+          "EV-0197"
+        ]
+      },
+      {
+        "indicator_code": "B.1.2",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [],
+        "genuine_used_ids": [
+          "EV-0035",
+          "EV-0085",
+          "EV-0103",
+          "EV-0114",
+          "EV-0119",
+          "EV-0120",
+          "EV-0147",
+          "EV-0149",
+          "EV-0197"
+        ]
+      },
+      {
+        "indicator_code": "B.1.3a",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [
+          "EV-0079",
+          "EV-0104",
+          "EV-0135",
+          "EV-0210"
+        ],
+        "genuine_used_ids": [
+          "EV-0035",
+          "EV-0036",
+          "EV-0077",
+          "EV-0080",
+          "EV-0085",
+          "EV-0089",
+          "EV-0114",
+          "EV-0119",
+          "EV-0124",
+          "EV-0132",
+          "EV-0149",
+          "EV-0156",
+          "EV-0171",
+          "EV-0175",
+          "EV-0193",
+          "EV-0194",
+          "EV-0196",
+          "EV-0197",
+          "EV-0212"
+        ]
+      },
+      {
+        "indicator_code": "B.1.3b",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [
+          "EV-0003",
+          "EV-0020",
+          "EV-0113",
+          "EV-0129",
+          "EV-0133"
+        ],
+        "genuine_used_ids": [
+          "EV-0035",
+          "EV-0036",
+          "EV-0077",
+          "EV-0080",
+          "EV-0085",
+          "EV-0089",
+          "EV-0114",
+          "EV-0119",
+          "EV-0124",
+          "EV-0132",
+          "EV-0149",
+          "EV-0156",
+          "EV-0171",
+          "EV-0175",
+          "EV-0193",
+          "EV-0194",
+          "EV-0196",
+          "EV-0197",
+          "EV-0212"
+        ]
+      },
+      {
+        "indicator_code": "B.1.3c",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [
+          "EV-0023",
+          "EV-0028",
+          "EV-0122"
+        ],
+        "control_limiting_ids": [],
+        "genuine_used_ids": []
+      },
+      {
+        "indicator_code": "B.1.3d",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [
+          "EV-0072",
+          "EV-0116",
+          "EV-0177"
+        ],
+        "control_limiting_ids": [],
+        "genuine_used_ids": []
+      },
+      {
+        "indicator_code": "B.1.3e",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [
+          "EV-0027",
+          "EV-0126",
+          "EV-0159"
+        ],
+        "control_limiting_ids": [
+          "EV-0027",
+          "EV-0126",
+          "EV-0159"
+        ],
+        "genuine_used_ids": [
+          "EV-0124",
+          "EV-0149",
+          "EV-0193",
+          "EV-0212"
+        ]
+      },
+      {
+        "indicator_code": "B.1.3f",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [
+          "EV-0001",
+          "EV-0011",
+          "EV-0131"
+        ],
+        "genuine_used_ids": [
+          "EV-0026",
+          "EV-0106",
+          "EV-0132",
+          "EV-0154",
+          "EV-0161",
+          "EV-0193"
+        ]
+      },
+      {
+        "indicator_code": "B.2.1",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [
+          "EV-0071",
+          "EV-0200"
+        ],
+        "control_limiting_ids": [
+          "EV-0005",
+          "EV-0181"
+        ],
+        "genuine_used_ids": [
+          "EV-0064",
+          "EV-0193",
+          "EV-0212"
+        ]
+      },
+      {
+        "indicator_code": "B.2.2",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [
+          "EV-0046",
+          "EV-0074"
+        ],
+        "control_limiting_ids": [
+          "EV-0040",
+          "EV-0143"
+        ],
+        "genuine_used_ids": [
+          "EV-0193"
+        ]
+      },
+      {
+        "indicator_code": "B.2.3",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [
+          "EV-0016",
+          "EV-0029",
+          "EV-0168",
+          "EV-0199"
+        ],
+        "genuine_used_ids": [
+          "EV-0064",
+          "EV-0193",
+          "EV-0212"
+        ]
+      },
+      {
+        "indicator_code": "B.3.1",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [
+          "EV-0211"
+        ],
+        "control_limiting_ids": [
+          "EV-0057",
+          "EV-0093",
+          "EV-0213"
+        ],
+        "genuine_used_ids": []
+      },
+      {
+        "indicator_code": "B.3.2",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [
+          "EV-0027",
+          "EV-0028",
+          "EV-0029",
+          "EV-0031",
+          "EV-0177"
+        ],
+        "control_limiting_ids": [
+          "EV-0006",
+          "EV-0062",
+          "EV-0101",
+          "EV-0155",
+          "EV-0207"
+        ],
+        "genuine_used_ids": [
+          "EV-0024",
+          "EV-0026",
+          "EV-0033",
+          "EV-0035",
+          "EV-0036",
+          "EV-0080",
+          "EV-0082",
+          "EV-0083",
+          "EV-0085",
+          "EV-0096",
+          "EV-0106",
+          "EV-0114",
+          "EV-0119",
+          "EV-0124",
+          "EV-0149",
+          "EV-0154",
+          "EV-0156",
+          "EV-0161",
+          "EV-0171",
+          "EV-0175",
+          "EV-0194",
+          "EV-0196",
+          "EV-0197"
+        ]
+      },
+      {
+        "indicator_code": "C.1.1",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [
+          "EV-0169"
+        ],
+        "control_limiting_ids": [
+          "EV-0070",
+          "EV-0081",
+          "EV-0137",
+          "EV-0205"
+        ],
+        "genuine_used_ids": []
+      },
+      {
+        "indicator_code": "C.1.2",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [
+          "EV-0190"
+        ],
+        "control_limiting_ids": [
+          "EV-0066",
+          "EV-0088",
+          "EV-0153",
+          "EV-0167"
+        ],
+        "genuine_used_ids": [
+          "EV-0052",
+          "EV-0150",
+          "EV-0180",
+          "EV-0191"
+        ]
+      },
+      {
+        "indicator_code": "C.1.3",
+        "baseline_phase": 1,
+        "experimental_phase": 1,
+        "phase_delta": 0,
+        "control_supporting_ids": [
+          "EV-0002",
+          "EV-0183"
+        ],
+        "control_limiting_ids": [
+          "EV-0022",
+          "EV-0050"
+        ],
+        "genuine_used_ids": []
+      },
+      {
+        "indicator_code": "C.1.4",
+        "baseline_phase": 1,
+        "experimental_phase": 1,
+        "phase_delta": 0,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [
+          "EV-0037",
+          "EV-0044",
+          "EV-0145",
+          "EV-0174"
+        ],
+        "genuine_used_ids": [
+          "EV-0007",
+          "EV-0019",
+          "EV-0052"
+        ]
+      },
+      {
+        "indicator_code": "C.1.5",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [
+          "EV-0038",
+          "EV-0090",
+          "EV-0112",
+          "EV-0151"
+        ],
+        "genuine_used_ids": [
+          "EV-0007",
+          "EV-0019",
+          "EV-0047",
+          "EV-0052",
+          "EV-0076",
+          "EV-0150",
+          "EV-0180",
+          "EV-0191"
+        ]
+      },
+      {
+        "indicator_code": "C.2.1",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [
+          "EV-0009",
+          "EV-0025",
+          "EV-0095",
+          "EV-0123"
+        ],
+        "control_limiting_ids": [],
+        "genuine_used_ids": [
+          "EV-0136"
+        ]
+      },
+      {
+        "indicator_code": "C.2.2",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [
+          "EV-0013",
+          "EV-0099",
+          "EV-0146"
+        ],
+        "control_limiting_ids": [],
+        "genuine_used_ids": [
+          "EV-0166"
+        ]
+      },
+      {
+        "indicator_code": "C.2.3",
+        "baseline_phase": 3,
+        "experimental_phase": 1,
+        "phase_delta": -2,
+        "control_supporting_ids": [
+          "EV-0054",
+          "EV-0141",
+          "EV-0173",
+          "EV-0179"
+        ],
+        "control_limiting_ids": [],
+        "genuine_used_ids": []
+      },
+      {
+        "indicator_code": "C.3.1",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [
+          "EV-0015",
+          "EV-0021",
+          "EV-0109",
+          "EV-0151",
+          "EV-0159",
+          "EV-0185",
+          "EV-0208"
+        ],
+        "genuine_used_ids": [
+          "EV-0055",
+          "EV-0144",
+          "EV-0150"
+        ]
+      },
+      {
+        "indicator_code": "C.3.2",
+        "baseline_phase": 3,
+        "experimental_phase": 2,
+        "phase_delta": -1,
+        "control_supporting_ids": [],
+        "control_limiting_ids": [
+          "EV-0056",
+          "EV-0075",
+          "EV-0091",
+          "EV-0107",
+          "EV-0186"
+        ],
+        "genuine_used_ids": [
+          "EV-0144",
+          "EV-0195"
+        ]
+      }
+    ]
+  }
+}

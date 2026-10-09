@@ -6,6 +6,8 @@ Eight sources were marked as development sources in `data/provenance/corpus_inde
 
 The final Stage 1 run processed 30 held-out chunks from 14 non-development sources: `005`, `006`, `007`, `008`, `011`, `015`, `019`, `020`, `022`, `023`, `024`, `026`, `028`, and `029`. The final assessment then scored the combined development-plus-held-out evidence bank.
 
+The final 622-record scoring bank is composite, not the output of one homogeneous 22-source extraction run. Its 390 development records came from the earlier indicator-defined-framework extraction and filtering workflow; its 232 held-out records came from frozen lenient Stage 1 V6. See `../FINAL_TRUTH_TABLE.md` for the authoritative denominators.
+
 ## Controls retained in the repository
 
 - Development and final-assessment inputs are in separate directories.

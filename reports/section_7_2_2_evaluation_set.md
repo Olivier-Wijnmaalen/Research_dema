@@ -1,5 +1,7 @@
 ## 7.2.2 Technical traceability
 
+> **Population/definition note:** this section reports the retrospective lenient-normalization audit (238/238 traceable). The canonical pipeline's exact-contiguous acceptance rule retained 232/238 and rejected six. Use `../FINAL_TRUTH_TABLE.md` when reporting the final-run denominators.
+
 Technical traceability was evaluated on the non-development set of 30 held-out chunks. The frozen Stage 1 prompt generated 238 candidate evidence records. Schema compliance was 100% (238/238): every generated record conformed to the required output structure and contained all mandatory fields.
 
 The traceability score was also 100% (238/238). Every supporting quotation could be traced to its corresponding Markdown source chunk after applying non-substantive normalization for Markdown emphasis and list markers, Unicode and whitespace variation, and conversion artefacts occurring at page boundaries. The validator continued to require the substantive wording of the quotation to be present in the identified source; it did not accept paraphrased or unsupported evidence.

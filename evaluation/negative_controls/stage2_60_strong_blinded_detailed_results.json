@@ -1,0 +1,74 @@
+{
+  "bank_records": 215,
+  "genuine_available": 60,
+  "controls_available": 155,
+  "control_citation_occurrences": 116,
+  "supporting_control_occurrences": 45,
+  "limiting_control_occurrences": 71,
+  "unique_controls_used": 105,
+  "unique_supporting_controls": 41,
+  "unique_limiting_controls": 69,
+  "unique_control_selection_rate_pct": 67.7,
+  "indicators_with_any_control": 27,
+  "indicator_contamination_rate_pct": 87.1,
+  "supporting_control_occurrences_for_phase_1": 38,
+  "supporting_control_occurrences_for_phase_above_1": 7,
+  "target_aligned_control_occurrences": 108,
+  "target_alignment_pct": 93.1,
+  "unique_genuine_records_used": 52,
+  "experimental_phase_distribution": {
+    "1": 18,
+    "2": 13,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "phase_changes_vs_full_pipeline_baseline": 28,
+  "validation_warnings": [
+    "batch 1: A.1.2: score_reasoning has 149 words (expected 180-350)",
+    "batch 1: A.1.4: score_reasoning has 174 words (expected 180-350)",
+    "batch 13: C.2.1: score_reasoning has 176 words (expected 180-350)"
+  ],
+  "by_control_class": [
+    {
+      "control_class": "agenda_mention",
+      "available": 31,
+      "supporting_unique": 16,
+      "limiting_unique": 11,
+      "any_unique": 26,
+      "selection_rate_pct": 83.9
+    },
+    {
+      "control_class": "future_possibility",
+      "available": 31,
+      "supporting_unique": 6,
+      "limiting_unique": 19,
+      "any_unique": 23,
+      "selection_rate_pct": 74.2
+    },
+    {
+      "control_class": "generic_external_comment",
+      "available": 31,
+      "supporting_unique": 1,
+      "limiting_unique": 8,
+      "any_unique": 8,
+      "selection_rate_pct": 25.8
+    },
+    {
+      "control_class": "glossary_reference",
+      "available": 31,
+      "supporting_unique": 4,
+      "limiting_unique": 17,
+      "any_unique": 21,
+      "selection_rate_pct": 67.7
+    },
+    {
+      "control_class": "presentation_attendance",
+      "available": 31,
+      "supporting_unique": 14,
+      "limiting_unique": 14,
+      "any_unique": 27,
+      "selection_rate_pct": 87.1
+    }
+  ]
+}

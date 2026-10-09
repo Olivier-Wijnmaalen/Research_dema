@@ -17,6 +17,7 @@ class FinalTruthTests(unittest.TestCase):
         development = read_json(
             "data/development/stage2/final_development_bank_audit.json"
         )
+        stage2_development = read_json("experiments/stage2/bank_manifest.json")
 
         self.assertEqual(manifest["run_id"], "dema-20260917T132056Z")
         self.assertEqual(manifest["held_out_chunk_count"], 30)
@@ -35,6 +36,12 @@ class FinalTruthTests(unittest.TestCase):
         self.assertEqual(development["ais_status_counts"]["PARTIALLY_ATTRIBUTABLE"], 211)
         self.assertEqual(development["ais_status_counts"]["NOT_ATTRIBUTABLE"], 13)
         self.assertEqual(development["retained_for_maturity_scoring"], 390)
+        self.assertEqual(stage2_development["source_rows"], 390)
+        self.assertEqual(stage2_development["prepared_rows"], 389)
+        self.assertEqual(
+            stage2_development["source_bank_sha256"].lower(),
+            "94a062f211ce77dcea686bff849ceee25c082380246c48b2acb9ae63d4aafd59",
+        )
 
     def test_frozen_prompt_identities(self):
         manifest = read_json("outputs/canonical_final/manifest.json")
@@ -100,6 +107,7 @@ class FinalTruthTests(unittest.TestCase):
             "**232/238**",
             "**Not evaluated / no authoritative AIS outcome retained**",
             "**666 = 428 + 238**",
+            "The frozen Stage 1 development output was therefore used to develop Stage 2.",
         ):
             self.assertIn(statement, table)
 

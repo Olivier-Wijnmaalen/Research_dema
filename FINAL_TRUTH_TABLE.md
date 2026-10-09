@@ -10,6 +10,24 @@
 
 > **The central distinction:** the final bank is a composite, not one homogeneous 22-source Stage 1 run. It contains **390 development records + 232 held-out records**.
 
+## Research sequence
+
+```text
+Stage 1 development on 8 sources / 30 chunks
+  -> frozen 390-record Stage 1 development bank
+  -> fixed source input for Stage 2 prompt development and calibration
+     (389 records after Stage 2 calibration preparation)
+  -> frozen Stage 2 P5 prompt
+
+Frozen Stage 1 V6 on 14 held-out sources / 30 chunks
+  -> 232 strictly accepted held-out records
+  -> merge with the original 390-record development bank
+  -> 622-record final bank
+  -> final 31-indicator Stage 2 run
+```
+
+The frozen Stage 1 development output was therefore used to develop Stage 2. The held-out Stage 1 evidence was added only after prompt development for the complete final assessment.
+
 ## Three populations
 
 ### 1. Development and calibration
@@ -90,6 +108,16 @@ This bank came from the separate `dema-extraction-v4-indicator-defined-framework
 Two of the 13 not-attributable records had already failed technical validation. The attribution filter therefore removed 11 additional technically accepted records.
 
 **Final development retention: 390/428 (91.1%).** The 38 exclusions comprise 25 technical-only, 11 attribution-only, and 2 failing both.
+
+### How the Stage 1 output fed Stage 2 development
+
+| Step | Records |
+|---|---:|
+| Frozen Stage 1 development bank | **390** |
+| Source records recorded in the Stage 2 calibration manifest | **390** |
+| Records after Stage 2 calibration preparation | **389** |
+
+The bank hash recorded by the Stage 2 calibration manifest is `94a062f211ce77dcea686bff849ceee25c082380246c48b2acb9ae63d4aafd59`. This establishes the direct provenance link from frozen Stage 1 output to Stage 2 prompt development. The one-record preparation difference belongs to Stage 2 calibration preprocessing; it does not change the 390-record development component later merged into the 622-record final bank.
 
 ### Held-out Stage 1 evaluation
 
@@ -205,6 +233,7 @@ In all three matched tests, selected controls were used as limiting rather than 
 - [ ] Use **238/238** only for the retrospective lenient audit.
 - [ ] Do not report held-out attribution; it was not evaluated.
 - [ ] Describe the final bank as **390 development + 232 held-out**.
+- [ ] State that the frozen Stage 1 development bank was the fixed input for Stage 2 prompt development.
 - [ ] Do not attribute the stress-test phase shifts solely to controls.
 - [ ] Use the validated JSON and the 31 scores above for final maturity claims.
 

@@ -33,15 +33,15 @@ SUBDIMENSIONS = [
 ]
 
 QUESTIONS = [
-    ("Q1", "Evidence relevance"),
-    ("Q2", "Evidence sufficiency"),
-    ("Q3", "Evidence specificity"),
-    ("Q4", "Faithfulness / proportionality"),
-    ("Q5", "Criterion alignment"),
-    ("Q6", "Justification specificity"),
-    ("Q7", "Practical usefulness"),
-    ("Q8", "Diagnostic value"),
-    ("Q9", "Phase defensibility"),
+    ("Q1", "Relevance"),
+    ("Q2", "Sufficiency"),
+    ("Q3", "Evidence\nspecificity"),
+    ("Q4", "Faithfulness &\nproportionality"),
+    ("Q5", "Criterion\nalignment"),
+    ("Q6", "Justification\nspecificity"),
+    ("Q7", "Practical\nusefulness"),
+    ("Q8", "Diagnostic\nvalue"),
+    ("Q9", "Phase\ndefensibility"),
 ]
 
 LIKERT = {
@@ -92,7 +92,7 @@ def main() -> None:
     norm = BoundaryNorm([0.5, 1.5, 2.5, 3.5, 4.5, 5.5], cmap.N)
 
     plt.rcParams.update({"font.family": "DejaVu Sans"})
-    fig, ax = plt.subplots(figsize=(11.2, 7.2), dpi=240)
+    fig, ax = plt.subplots(figsize=(11.2, 6.25), dpi=240)
     fig.patch.set_facecolor("white")
 
     fig.text(
@@ -115,10 +115,12 @@ def main() -> None:
 
     ax.imshow(ratings, cmap=cmap, norm=norm, aspect="auto")
 
-    ax.set_xticks(range(9), labels=[code for code, _ in QUESTIONS])
+    ax.set_xticks(
+        range(9), labels=[f"{code}\n{label}" for code, label in QUESTIONS]
+    )
     ax.set_yticks(range(8), labels=SUBDIMENSIONS)
     ax.tick_params(axis="x", top=True, bottom=False, labeltop=True, labelbottom=False,
-                   length=0, pad=12, labelsize=10)
+                   length=0, pad=10, labelsize=8.2)
     ax.tick_params(axis="y", length=0, pad=11, labelsize=10)
 
     # White separators make every response readable at Word-page size.
@@ -129,25 +131,8 @@ def main() -> None:
     for spine in ax.spines.values():
         spine.set_visible(False)
 
-    abbreviations = {1: "SD", 2: "D", 3: "N", 4: "A", 5: "SA"}
-    for row in range(ratings.shape[0]):
-        for column in range(ratings.shape[1]):
-            value = int(ratings[row, column])
-            text_colour = "white" if value in (1, 5) else NAVY
-            ax.text(
-                column,
-                row,
-                f"{value}\n{abbreviations[value]}",
-                ha="center",
-                va="center",
-                fontsize=9.2,
-                fontweight="bold",
-                color=text_colour,
-                linespacing=0.9,
-            )
-
-    # Compact construct labels above the column labels.
-    group_y = -1.20
+    # Strong construct labels above the descriptive column headings.
+    group_y = -2.48
     groups = [
         (-0.45, 2.45, "EVIDENCE PACKAGE"),
         (2.55, 7.45, "JUSTIFICATION"),
@@ -156,10 +141,10 @@ def main() -> None:
     for left, right, label in groups:
         ax.add_patch(
             Rectangle(
-                (left, group_y - 0.16),
+                (left, group_y - 0.22),
                 right - left,
-                0.32,
-                facecolor="#EAF2F5",
+                0.44,
+                facecolor=LLM_BLUE,
                 edgecolor="none",
                 clip_on=False,
             )
@@ -170,20 +155,11 @@ def main() -> None:
             label,
             ha="center",
             va="center",
-            fontsize=7.5,
+            fontsize=8.0,
             fontweight="bold",
-            color=LLM_BLUE,
+            color="white",
             clip_on=False,
         )
-
-    # Question key beneath the heatmap, split into two compact columns.
-    key_left = [f"{code}  {label}" for code, label in QUESTIONS[:5]]
-    key_right = [f"{code}  {label}" for code, label in QUESTIONS[5:]]
-    fig.text(0.055, 0.205, "Question key", fontsize=10, fontweight="bold", color=NAVY)
-    fig.text(0.055, 0.180, "\n".join(key_left), fontsize=8.4, color="#314852",
-             va="top", linespacing=1.42)
-    fig.text(0.50, 0.180, "\n".join(key_right), fontsize=8.4, color="#314852",
-             va="top", linespacing=1.42)
 
     legend_labels = [
         "1  Strongly disagree",
@@ -200,7 +176,7 @@ def main() -> None:
         legend_handles,
         legend_labels,
         loc="lower center",
-        bbox_to_anchor=(0.5, 0.055),
+        bbox_to_anchor=(0.5, 0.070),
         ncol=5,
         frameon=False,
         fontsize=8.2,
@@ -209,14 +185,14 @@ def main() -> None:
     )
     fig.text(
         0.055,
-        0.018,
+        0.024,
         "Note. The Excel export contains one completed response. Rows follow the eight DEMA subdimensions in framework order; "
         "the export itself does not retain Microsoft Forms section titles.",
         fontsize=7.5,
         color=MUTED,
     )
 
-    plt.subplots_adjust(left=0.275, right=0.965, top=0.77, bottom=0.29)
+    plt.subplots_adjust(left=0.275, right=0.965, top=0.68, bottom=0.16)
     fig.savefig(OUTPUT_PATH, facecolor="white", bbox_inches="tight", pad_inches=0.12)
     plt.close(fig)
     print(OUTPUT_PATH)

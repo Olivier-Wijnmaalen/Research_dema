@@ -1,0 +1,13 @@
+SAMPLE INPUT FORMAT
+
+example_chunk.md demonstrates the minimum shape expected for a prepared
+Markdown processing unit. It is documentation only, not a research source or a
+no-cost test fixture.
+
+The current pipeline accepts a directory and recursively processes every .md
+file in it. Stable source metadata and page markers should be preserved from
+the external conversion workflow. A canonical processing unit represents up to
+approximately ten pages.
+
+The external PDF/web acquisition and Docling conversion implementation is not
+included in this repository.

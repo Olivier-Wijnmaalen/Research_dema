@@ -1,5 +1,8 @@
+# Current pipeline runtime
 langfuse>=4.9.0
-matplotlib>=3.9.0
 openai>=2.41.0
-python-docx>=1.1.2
 python-dotenv>=1.2.2
+
+# Retained research figures and report-generation scripts
+matplotlib>=3.9.0
+python-docx>=1.1.2

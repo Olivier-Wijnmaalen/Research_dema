@@ -6,6 +6,7 @@
 - `final_assessment/base_evidence_bank.json`: frozen 390-record development bank supplied at the final pipeline boundary.
 - `final_assessment/source_archive/`: internal audit copies of the 22 source documents.
 - `provenance/`: corpus index and acquisition/conversion/validation manifests.
+- `sample_input/`: documentation-only example of the prepared Markdown format.
 
 The long original directory name for development source `027` exceeded common Windows/Git path limits after consolidation. Its six chunks were copied byte-for-byte into `development/stage1/027/` and assigned short sequential filenames; the source identity remains `027` and the original names remain available in the source workspace.
 

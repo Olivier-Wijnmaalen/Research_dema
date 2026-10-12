@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
+import tempfile
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -12,7 +14,7 @@ from openpyxl import load_workbook
 
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT_PATH = ROOT / "outputs" / "Expert evaluation of LLM-assisted DEMA assessments(1-1).xlsx"
+INPUT_PATH = ROOT / "evaluation" / "expert_review" / "expert_evaluation_responses.xlsx"
 OUTPUT_PATH = ROOT / "figures" / "expert_ratings_across_eight_subdimensions.png"
 
 NAVY = "#123B52"
@@ -193,8 +195,25 @@ def main() -> None:
     )
 
     plt.subplots_adjust(left=0.275, right=0.965, top=0.68, bottom=0.16)
-    fig.savefig(OUTPUT_PATH, facecolor="white", bbox_inches="tight", pad_inches=0.12)
-    plt.close(fig)
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+        dir=OUTPUT_PATH.parent,
+        prefix=OUTPUT_PATH.stem + ".",
+        suffix=".png",
+        delete=False,
+    ) as handle:
+        temporary_output = Path(handle.name)
+    try:
+        fig.savefig(
+            temporary_output,
+            facecolor="white",
+            bbox_inches="tight",
+            pad_inches=0.12,
+        )
+        os.replace(temporary_output, OUTPUT_PATH)
+    finally:
+        temporary_output.unlink(missing_ok=True)
+        plt.close(fig)
     print(OUTPUT_PATH)
 
 
